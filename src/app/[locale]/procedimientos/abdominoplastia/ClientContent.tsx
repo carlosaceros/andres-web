@@ -240,8 +240,8 @@ export default function ClientContent() {
                     if (fallback) (fallback as HTMLElement).style.display = 'flex';
                   }}
                 >
-                  {/*<source src="/images/videos/Abdominoplástia.mp4" type="video/mp4" />*/}
-                  <source src="/images/videos/Abdominoplastia.webm" type="video/webm" />
+                  {/*<source src="https://media.drandrespereznieto.com/images/videos/Abdominoplástia.mp4" type="video/mp4" />*/}
+                  <source src="https://media.drandrespereznieto.com/images/videos/Abdominoplastia.webm" type="video/webm" />
                   Tu navegador no soporta el elemento video.
                 </video>
 

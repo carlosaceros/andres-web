@@ -210,8 +210,8 @@ export default function ClientContent() {
                   controls
                   preload="metadata"
                 >
-                  {/*<source src="/images/videos/ELEVACION DEL LABIO - LIP LIFT.mp4" type="video/mp4" />*/}
-                  <source src="/images/videos/elevacion-labio-lip-lift.webm" type="video/webm" />
+                  {/*<source src="https://media.drandrespereznieto.com/images/videos/ELEVACION DEL LABIO - LIP LIFT.mp4" type="video/mp4" />*/}
+                  <source src="https://media.drandrespereznieto.com/images/videos/elevacion-labio-lip-lift.webm" type="video/webm" />
                   <div className="absolute inset-0 flex items-center justify-center" style={{ backgroundColor: '#1d3c5d' }}>
                     <div className="text-center text-white">
                       <div className="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-6">

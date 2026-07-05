@@ -16,8 +16,8 @@ export default function LiftingHamacaPage() {
   const procedureImages = [
     // 1-Sandra Ibañez
     {
-      before: "/images/lifting-hamaca/galeria/SandraIbanezFrenteAntes.webp",
-      after: "/images/lifting-hamaca/galeria/SandraIbanezFrenteDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/SandraIbanezFrenteAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/SandraIbanezFrenteDespues.webp",
       view: "Paciente 1 - Frontal",
       patient: "Paciente 1",
       description: (
@@ -33,8 +33,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/SandrabanezCuelloAntes.webp",
-      after: "/images/lifting-hamaca/galeria/SandraIbanezCuelloDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/SandrabanezCuelloAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/SandraIbanezCuelloDespues.webp",
       view: "Paciente 1 - Perfil",
       patient: "Paciente 1",
       description: (
@@ -50,8 +50,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/SandraIbanezLadoAntes.webp",
-      after: "/images/lifting-hamaca/galeria/SandraIbanezLadoDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/SandraIbanezLadoAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/SandraIbanezLadoDespues.webp",
       view: "Paciente 1 - Perfil",
       patient: "Paciente 1",
       description: (
@@ -68,8 +68,8 @@ export default function LiftingHamacaPage() {
     },
     // 2-Eva
     {
-      before: "/images/lifting-hamaca/galeria/eva1a.webp",
-      after: "/images/lifting-hamaca/galeria/eva1b.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/eva1a.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/eva1b.webp",
       view: "Paciente 2 - Frontal",
       patient: "Paciente 2",
       description: (
@@ -85,8 +85,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/Eva2a.webp",
-      after: "/images/lifting-hamaca/galeria/eva2b.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/Eva2a.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/eva2b.webp",
       view: "Paciente 2 - Perfil",
       patient: "Paciente 2",
       description: (
@@ -102,8 +102,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/Eva3a.webp",
-      after: "/images/lifting-hamaca/galeria/Eva3b.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/Eva3a.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/Eva3b.webp",
       view: "Paciente 2 - Frontal",
       patient: "Paciente 2",
       description: (
@@ -119,8 +119,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/eva4a.webp",
-      after: "/images/lifting-hamaca/galeria/Eva4b.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/eva4a.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/Eva4b.webp",
       view: "Paciente 2 - Perfil",
       patient: "Paciente 2",
       description: (
@@ -137,8 +137,8 @@ export default function LiftingHamacaPage() {
     },
     // 3-Sandra Navarro
     {
-      before: "/images/lifting-hamaca/galeria/SandraNFrenteAntes.webp",
-      after: "/images/lifting-hamaca/galeria/SandraNFrenteDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/SandraNFrenteAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/SandraNFrenteDespues.webp",
       view: "Paciente 3 - Frontal",
       patient: "Paciente 3",
       description: (
@@ -154,8 +154,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/SandraNLadoAntes.webp",
-      after: "/images/lifting-hamaca/galeria/SandraNLadoDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/SandraNLadoAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/SandraNLadoDespues.webp",
       view: "Paciente 3 - Perfil",
       patient: "Paciente 3",
       description: (
@@ -171,8 +171,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/SandraNLateralAntes.webp",
-      after: "/images/lifting-hamaca/galeria/SandraNLateralDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/SandraNLateralAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/SandraNLateralDespues.webp",
       view: "Paciente 3 - Perfil",
       patient: "Paciente 3",
       description: (
@@ -188,8 +188,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/SandraNCuelloAntes.webp",
-      after: "/images/lifting-hamaca/galeria/SandraNCuelloDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/SandraNCuelloAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/SandraNCuelloDespues.webp",
       view: "Paciente 3 - Perfil",
       patient: "Paciente 3",
       description: (
@@ -205,8 +205,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/SandraNOjosAntes.webp",
-      after: "/images/lifting-hamaca/galeria/SandraNOjosDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/SandraNOjosAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/SandraNOjosDespues.webp",
       view: "Paciente 3 - Perfil",
       patient: "Paciente 3",
       description: (
@@ -224,8 +224,8 @@ export default function LiftingHamacaPage() {
     // 4-Aponte
 
     {
-      before: "/images/lifting-hamaca/galeria/AponteFrenteAntes.webp",
-      after: "/images/lifting-hamaca/galeria/AponteFrenteDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/AponteFrenteAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/AponteFrenteDespues.webp",
       view: "Paciente 4 - Perfil",
       patient: "Paciente 4",
       description: (
@@ -241,8 +241,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/AponteCuelloAntes.webp",
-      after: "/images/lifting-hamaca/galeria/AponteCuelloDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/AponteCuelloAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/AponteCuelloDespues.webp",
       view: "Paciente 4- Perfil",
       patient: "Paciente 4",
       description: (
@@ -258,8 +258,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/AponteLadoAntes.webp",
-      after: "/images/lifting-hamaca/galeria/AponteLadoDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/AponteLadoAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/AponteLadoDespues.webp",
       view: "Paciente 4 - Perfil",
       patient: "Paciente 4",
       description: (
@@ -276,8 +276,8 @@ export default function LiftingHamacaPage() {
     },
     // 5-Aura
     {
-      before: "/images/lifting-hamaca/galeria/AuraFrenteAntes.webp",
-      after: "/images/lifting-hamaca/galeria/AuraFrenteDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/AuraFrenteAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/AuraFrenteDespues.webp",
       view: "Paciente 5 - Frontal",
       patient: "Paciente 5",
       description: (
@@ -294,8 +294,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/AuraLadoAntes.webp",
-      after: "/images/lifting-hamaca/galeria/AuraLadoDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/AuraLadoAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/AuraLadoDespues.webp",
       view: "Paciente 5 - Perfil",
       patient: "Paciente 5",
       description: (
@@ -312,8 +312,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/AuraLateralAntes.webp",
-      after: "/images/lifting-hamaca/galeria/AuraLateralDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/AuraLateralAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/AuraLateralDespues.webp",
       view: "Paciente 5 - Detalle",
       patient: "Paciente 5",
       description: (
@@ -330,8 +330,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/AuraCuelloAntes.webp",
-      after: "/images/lifting-hamaca/galeria/AuraCuelloDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/AuraCuelloAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/AuraCuelloDespues.webp",
       view: "Paciente 5 - Detalle",
       patient: "Paciente 5",
       description: (
@@ -348,8 +348,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/AuraLipAntes.webp",
-      after: "/images/lifting-hamaca/galeria/AuraLipDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/AuraLipAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/AuraLipDespues.webp",
       view: "Paciente 5 - Detalle",
       patient: "Paciente 5",
       description: (
@@ -367,8 +367,8 @@ export default function LiftingHamacaPage() {
     },
     // 6-Martha Marin
     {
-      before: "/images/lifting-hamaca/galeria/MarthaMarinFrenteAntes.webp",
-      after: "/images/lifting-hamaca/galeria/MarthaMarinFrenteDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/MarthaMarinFrenteAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/MarthaMarinFrenteDespues.webp",
       view: "Paciente 6 - Frontal",
       patient: "Paciente 6",
       description: (
@@ -384,8 +384,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/MarthaMarinLadoAntes.webp",
-      after: "/images/lifting-hamaca/galeria/MarthaMarinLadoDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/MarthaMarinLadoAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/MarthaMarinLadoDespues.webp",
       view: "Paciente 6 - Frontal",
       patient: "Paciente 6",
       description: (
@@ -401,8 +401,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/MarthaMarinAntes.webp",
-      after: "/images/lifting-hamaca/galeria/MarthaMarinDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/MarthaMarinAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/MarthaMarinDespues.webp",
       view: "Paciente 6 - Frontal",
       patient: "Paciente 6",
       description: (
@@ -418,8 +418,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/MarthaMarinCuelloAntes.webp",
-      after: "/images/lifting-hamaca/galeria/MarthaMarinCuelloDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/MarthaMarinCuelloAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/MarthaMarinCuelloDespues.webp",
       view: "Paciente 6 - Frontal",
       patient: "Paciente 6",
       description: (
@@ -436,8 +436,8 @@ export default function LiftingHamacaPage() {
     },
     // 7-Carolina Lucena
     {
-      before: "/images/lifting-hamaca/galeria/LucenaFrenteAntes.webp",
-      after: "/images/lifting-hamaca/galeria/LucenaFrenteDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/LucenaFrenteAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/LucenaFrenteDespues.webp",
       view: "Paciente 7 - Frontal",
       patient: "Paciente 7",
       description: (
@@ -453,8 +453,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/LucenaAntes.webp",
-      after: "/images/lifting-hamaca/galeria/LucenaDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/LucenaAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/LucenaDespues.webp",
       view: "Paciente 7 - Frontal",
       patient: "Paciente 7",
       description: (
@@ -470,8 +470,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/LucenaCuelloAntes.webp",
-      after: "/images/lifting-hamaca/galeria/LucenaCeulloDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/LucenaCuelloAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/LucenaCeulloDespues.webp",
       view: "Paciente 7 - Frontal",
       patient: "Paciente 7",
       description: (
@@ -488,8 +488,8 @@ export default function LiftingHamacaPage() {
     },
     // 8-Adriana Bermudez
     {
-      before: "/images/lifting-hamaca/galeria/AdrianaBermuudezFrenteAntes.webp",
-      after: "/images/lifting-hamaca/galeria/AdrianaBermudezFrenteDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/AdrianaBermuudezFrenteAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/AdrianaBermudezFrenteDespues.webp",
       view: "Paciente 8 - Frontal",
       patient: "Paciente 8",
       description: (
@@ -505,8 +505,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/AdrianaBermudezLadoAntes.webp",
-      after: "/images/lifting-hamaca/galeria/AdrianaBermudezLadoDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/AdrianaBermudezLadoAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/AdrianaBermudezLadoDespues.webp",
       view: "Paciente 8 - Frontal",
       patient: "Paciente 8",
       description: (
@@ -522,8 +522,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/AdrianaBermudezAntes.webp",
-      after: "/images/lifting-hamaca/galeria/AdrianaBermudezDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/AdrianaBermudezAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/AdrianaBermudezDespues.webp",
       view: "Paciente 8 - Frontal",
       patient: "Paciente 8",
       description: (
@@ -539,8 +539,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/AdrianaBermudezCuelloAntes.webp",
-      after: "/images/lifting-hamaca/galeria/AdrianaBermudezCuelloDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/AdrianaBermudezCuelloAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/AdrianaBermudezCuelloDespues.webp",
       view: "Paciente 8 - Frontal",
       patient: "Paciente 8",
       description: (
@@ -557,8 +557,8 @@ export default function LiftingHamacaPage() {
     },
     // 9-Castaneda
     {
-      before: "/images/lifting-hamaca/galeria/CastanedaFrenteAntes.webp",
-      after: "/images/lifting-hamaca/galeria/CastanedaFrenteDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/CastanedaFrenteAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/CastanedaFrenteDespues.webp",
       view: "Paciente 9 - Frontal",
       patient: "Paciente 9",
       description: (
@@ -574,8 +574,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/CastanedaLadoAntes.webp",
-      after: "/images/lifting-hamaca/galeria/CastanedaLadoDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/CastanedaLadoAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/CastanedaLadoDespues.webp",
       view: "Paciente 9 - Frontal",
       patient: "Paciente 9",
       description: (
@@ -591,8 +591,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/CastanedaLateralAntes.webp",
-      after: "/images/lifting-hamaca/galeria/CastanedaLateralDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/CastanedaLateralAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/CastanedaLateralDespues.webp",
       view: "Paciente 9 - Frontal",
       patient: "Paciente 9",
       description: (
@@ -608,8 +608,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/CastanedaCuelloAntes.webp",
-      after: "/images/lifting-hamaca/galeria/CastanedaCuelloDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/CastanedaCuelloAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/CastanedaCuelloDespues.webp",
       view: "Paciente 9 - Frontal",
       patient: "Paciente 9",
       description: (
@@ -626,8 +626,8 @@ export default function LiftingHamacaPage() {
     },
     // 10-Ivette
     {
-      before: "/images/lifting-hamaca/galeria/IvetteFrenteAntes.webp",
-      after: "/images/lifting-hamaca/galeria/IvetteFrenteDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/IvetteFrenteAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/IvetteFrenteDespues.webp",
       view: "Paciente 10 - Frontal",
       patient: "Paciente 10",
       description: (
@@ -642,8 +642,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/IvetteLadoAntes.webp",
-      after: "/images/lifting-hamaca/galeria/IvetteLadoDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/IvetteLadoAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/IvetteLadoDespues.webp",
       view: "Paciente 10 - Frontal",
       patient: "Paciente 10",
       description: (
@@ -658,8 +658,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/IvetteAntes.webp",
-      after: "/images/lifting-hamaca/galeria/IvetteDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/IvetteAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/IvetteDespues.webp",
       view: "Paciente 10 - Frontal",
       patient: "Paciente 10",
       description: (
@@ -675,8 +675,8 @@ export default function LiftingHamacaPage() {
     },
     // 11-Leonor
     {
-      before: "/images/lifting-hamaca/galeria/LeonorFrenteAntes.webp",
-      after: "/images/lifting-hamaca/galeria/LeonorFrenteDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/LeonorFrenteAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/LeonorFrenteDespues.webp",
       view: "Paciente 11 - Frontal",
       patient: "Paciente 11",
       description: (
@@ -693,8 +693,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/LeonorLadoAntes.webp",
-      after: "/images/lifting-hamaca/galeria/LeonorLadoDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/LeonorLadoAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/LeonorLadoDespues.webp",
       view: "Paciente 11 - Lateral",
       patient: "Paciente 11",
       description: (
@@ -711,8 +711,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/LeonorAntes.webp",
-      after: "/images/lifting-hamaca/galeria/LeonorDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/LeonorAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/LeonorDespues.webp",
       view: "Paciente 11 - Frontal",
       patient: "Paciente 11",
       description: (
@@ -730,8 +730,8 @@ export default function LiftingHamacaPage() {
     },
     // 12-Beatriz Gonzalez
     {
-      before: "/images/lifting-hamaca/galeria/BeatrizGFrenteAntes.webp",
-      after: "/images/lifting-hamaca/galeria/BeatrizGFrenteDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/BeatrizGFrenteAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/BeatrizGFrenteDespues.webp",
       view: "Paciente 12 - Frontal",
       patient: "Paciente 12",
       description: (
@@ -747,8 +747,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/BeatrizGLadoAntes.webp",
-      after: "/images/lifting-hamaca/galeria/BeatrizGLadoDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/BeatrizGLadoAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/BeatrizGLadoDespues.webp",
       view: "Paciente 12 - Lateral",
       patient: "Paciente 12",
       description: (
@@ -765,8 +765,8 @@ export default function LiftingHamacaPage() {
     },
 
     {
-      before: "/images/lifting-hamaca/galeria/BeatrizGCuelloAntes.webp",
-      after: "/images/lifting-hamaca/galeria/BeatrizGCuelloDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/BeatrizGCuelloAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/BeatrizGCuelloDespues.webp",
       view: "Paciente 12 - Lateral",
       patient: "Paciente 12",
       description: (
@@ -784,8 +784,8 @@ export default function LiftingHamacaPage() {
 
     // 13-Maria Helena
     {
-      before: "/images/lifting-hamaca/galeria/MariaHelenaFrenteAntes.webp",
-      after: "/images/lifting-hamaca/galeria/MariaHelenaFrenteDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/MariaHelenaFrenteAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/MariaHelenaFrenteDespues.webp",
       view: "Paciente 13 - Frontal",
       patient: "Paciente 13",
       description: (
@@ -801,8 +801,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/MariaHelenaAntes.webp",
-      after: "/images/lifting-hamaca/galeria/MariaHelenaDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/MariaHelenaAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/MariaHelenaDespues.webp",
       view: "Paciente 13 - Lateral",
       patient: "Paciente 13",
       description: (
@@ -818,8 +818,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/MariaHelenaCuelloAntes.webp",
-      after: "/images/lifting-hamaca/galeria/MariaHelenaCuelloDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/MariaHelenaCuelloAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/MariaHelenaCuelloDespues.webp",
       view: "Paciente 13 - Frontal",
       patient: "Paciente 13",
       description: (
@@ -836,8 +836,8 @@ export default function LiftingHamacaPage() {
     },
     // 14-Harold
     {
-      before: "/images/lifting-hamaca/galeria/HaroldFrenteAntes.webp",
-      after: "/images/lifting-hamaca/galeria/HaroldFrenteDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/HaroldFrenteAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/HaroldFrenteDespues.webp",
       view: "Paciente 14",
       patient: "paciente 14",
       description: (
@@ -853,8 +853,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/HaroldLadoAntes.webp",
-      after: "/images/lifting-hamaca/galeria/HaroldLadoDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/HaroldLadoAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/HaroldLadoDespues.webp",
       view: "Paciente 14 - Lateral",
       patient: "paciente 14",
       description: (
@@ -870,8 +870,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/HaroldLateralAntes.webp",
-      after: "/images/lifting-hamaca/galeria/HaroldLateralDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/HaroldLateralAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/HaroldLateralDespues.webp",
       view: "Paciente 14 - Lateral",
       patient: "paciente 14",
       description: (
@@ -887,8 +887,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/HaroldCuelloAntes.webp",
-      after: "/images/lifting-hamaca/galeria/HaroldCuelloDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/HaroldCuelloAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/HaroldCuelloDespues.webp",
       view: "paciente 14 - Frontal",
       patient: "paciente 14",
       description: (
@@ -905,8 +905,8 @@ export default function LiftingHamacaPage() {
     },
     // 15-Adriana Pilar
     {
-      before: "/images/lifting-hamaca/galeria/AdrianaPilarFrenteAntes.webp",
-      after: "/images/lifting-hamaca/galeria/AdrianaPilarFrenteDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/AdrianaPilarFrenteAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/AdrianaPilarFrenteDespues.webp",
       view: "paciente 15 - Frontal",
       patient: "paciente 15",
       description: (
@@ -922,8 +922,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/AdrianaPilarLadoAntes.webp",
-      after: "/images/lifting-hamaca/galeria/AdrianaPilarLadoDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/AdrianaPilarLadoAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/AdrianaPilarLadoDespues.webp",
       view: "paciente 15 - Lateral",
       patient: "paciente 15",
       description: (
@@ -939,8 +939,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/AdrianaPilarLateralAntes.webp",
-      after: "/images/lifting-hamaca/galeria/AdrianaPilarLateralDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/AdrianaPilarLateralAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/AdrianaPilarLateralDespues.webp",
       view: "paciente 15 - Lateral",
       patient: "paciente 15",
       description: (
@@ -956,8 +956,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/AdrianaPilarCuelloAntes.webp",
-      after: "/images/lifting-hamaca/galeria/AdrianaPilarCuelloDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/AdrianaPilarCuelloAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/AdrianaPilarCuelloDespues.webp",
       view: "paciente 15 - Frontal",
       patient: "paciente 15",
       description: (
@@ -974,8 +974,8 @@ export default function LiftingHamacaPage() {
     },
     // 16-Laura
     {
-      before: "/images/lifting-hamaca/galeria/LauraFrenteAntes.webp",
-      after: "/images/lifting-hamaca/galeria/LauraFrenteDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/LauraFrenteAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/LauraFrenteDespues.webp",
       view: "paciente 16- Frontal",
       patient: "paciente 16",
       description: (
@@ -991,8 +991,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/LauraLadoAntes.webp",
-      after: "/images/lifting-hamaca/galeria/LauraLadoDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/LauraLadoAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/LauraLadoDespues.webp",
       view: "paciente 16 - Lateral",
       patient: "paciente 16",
       description: (
@@ -1008,8 +1008,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/LauraLateralDespues.webp",
-      after: "/images/lifting-hamaca/galeria/LauraLateralDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/LauraLateralDespues.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/LauraLateralDespues.webp",
       view: "paciente 16 - Frontal",
       patient: "paciente 16",
       description: (
@@ -1025,8 +1025,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/LauraCuelloAntes.webp",
-      after: "/images/lifting-hamaca/galeria/LauraCuelloDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/LauraCuelloAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/LauraCuelloDespues.webp",
       view: "paciente 16 - Lateral",
       patient: "paciente 16",
       description: (
@@ -1044,8 +1044,8 @@ export default function LiftingHamacaPage() {
 
     // 17-Fanny Rubiela
     {
-      before: "/images/lifting-hamaca/galeria/FannyRubielaFrenteAntes.webp",
-      after: "/images/lifting-hamaca/galeria/FannyRubielaFrenteDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/FannyRubielaFrenteAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/FannyRubielaFrenteDespues.webp",
       view: "paciente 17 - Frontal",
       patient: "paciente 17",
       description: (
@@ -1061,8 +1061,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/FannyRubielaLadoAntes.webp",
-      after: "/images/lifting-hamaca/galeria/FannyRubielaLadoDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/FannyRubielaLadoAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/FannyRubielaLadoDespues.webp",
       view: "paciente 17  - Lateral",
       patient: "paciente 17",
       description: (
@@ -1078,8 +1078,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/FannyRubiela Antes.webp",
-      after: "/images/lifting-hamaca/galeria/FannyRubielaDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/FannyRubiela Antes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/FannyRubielaDespues.webp",
       view: "paciente 17- Frontal",
       patient: "paciente 17",
       description: (
@@ -1095,8 +1095,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/FannyRubielaCuelloAntes.webp",
-      after: "/images/lifting-hamaca/galeria/FannyRubielaCuelloDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/FannyRubielaCuelloAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/FannyRubielaCuelloDespues.webp",
       view: "paciente 17 - Frontal",
       patient: "paciente 17",
       description: (
@@ -1113,8 +1113,8 @@ export default function LiftingHamacaPage() {
     },
     // 18-Liliana
     {
-      before: "/images/lifting-hamaca/galeria/LilianaFrenteAntes.webp",
-      after: "/images/lifting-hamaca/galeria/LilianaFrenteDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/LilianaFrenteAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/LilianaFrenteDespues.webp",
       view: "paciente 18 - Frontal",
       patient: "paciente 18",
       description: (
@@ -1129,8 +1129,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/LilianaLadoAntes.webp",
-      after: "/images/lifting-hamaca/galeria/LilianaLadoDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/LilianaLadoAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/LilianaLadoDespues.webp",
       view: "paciente 18 - Lateral",
       patient: "paciente 18",
       description: (
@@ -1145,8 +1145,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/LilianaAntes.webp",
-      after: "/images/lifting-hamaca/galeria/LilianaDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/LilianaAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/LilianaDespues.webp",
       view: "paciente 18 - Frontal",
       patient: "paciente 18",
       description: (
@@ -1161,8 +1161,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/LilianaOjosAntes.webp",
-      after: "/images/lifting-hamaca/galeria/LilianaOjosDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/LilianaOjosAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/LilianaOjosDespues.webp",
       view: "paciente 18 - Lateral",
       patient: "paciente 18",
       description: (
@@ -1177,8 +1177,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/LilianaCuelloAntes.webp",
-      after: "/images/lifting-hamaca/galeria/LilianaCuelloDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/LilianaCuelloAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/LilianaCuelloDespues.webp",
       view: "paciente 18 - Frontal",
       patient: "paciente 18",
       description: (
@@ -1193,8 +1193,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/LilianaRetratoAntes.webp",
-      after: "/images/lifting-hamaca/galeria/LilianaRestratoDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/LilianaRetratoAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/LilianaRestratoDespues.webp",
       view: "paciente 18 - Frontal",
       patient: "paciente 18",
       description: (
@@ -1210,8 +1210,8 @@ export default function LiftingHamacaPage() {
     },
     // 19-BAHDRA
     {
-      before: "/images/lifting-hamaca/galeria/BahdraFrenteAntes.webp",
-      after: "/images/lifting-hamaca/galeria/BahdraFrenteDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/BahdraFrenteAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/BahdraFrenteDespues.webp",
       view: "paciente 19 - Frontal",
       patient: "paciente 19",
       description: (
@@ -1227,8 +1227,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/BahdraLadoAntes.webp",
-      after: "/images/lifting-hamaca/galeria/BahdraLadoDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/BahdraLadoAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/BahdraLadoDespues.webp",
       view: "paciente 19 - Frontal",
       patient: "paciente 19",
       description: (
@@ -1244,8 +1244,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/BahdraAntes.webp",
-      after: "/images/lifting-hamaca/galeria/BahdraDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/BahdraAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/BahdraDespues.webp",
       view: "paciente 19 - Frontal",
       patient: "paciente 19",
       description: (
@@ -1262,8 +1262,8 @@ export default function LiftingHamacaPage() {
     },
     // 20-Claudia
     {
-      before: "/images/lifting-hamaca/galeria/ClaudiaFrenteAntes.webp",
-      after: "/images/lifting-hamaca/galeria/ClaudiaFrenteDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/ClaudiaFrenteAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/ClaudiaFrenteDespues.webp",
       view: "paciente 20 - Frontal",
       patient: "paciente 20",
       description: (
@@ -1280,8 +1280,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/ClaudiaLado2Antes.webp",
-      after: "/images/lifting-hamaca/galeria/ClaudiaLado2Despues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/ClaudiaLado2Antes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/ClaudiaLado2Despues.webp",
       view: "paciente 20 - Frontal",
       patient: "paciente 20",
       description: (
@@ -1298,8 +1298,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/ClaudiaLadoAntes.webp",
-      after: "/images/lifting-hamaca/galeria/ClaudiaLadoDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/ClaudiaLadoAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/ClaudiaLadoDespues.webp",
       view: "paciente 20 - Frontal",
       patient: "paciente 20",
       description: (
@@ -1317,8 +1317,8 @@ export default function LiftingHamacaPage() {
     },
     // 21-Lucy
     {
-      before: "/images/lifting-hamaca/galeria/LucyFrenteAntes.webp",
-      after: "/images/lifting-hamaca/galeria/LucyFrenteDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/LucyFrenteAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/LucyFrenteDespues.webp",
       view: "paciente 21 - Frontal",
       patient: "paciente 21",
       description: (
@@ -1334,8 +1334,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/LucyLadoAntes.webp",
-      after: "/images/lifting-hamaca/galeria/LucyLadoDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/LucyLadoAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/LucyLadoDespues.webp",
       view: "paciente 21 - Lateral",
       patient: "paciente 21",
       description: (
@@ -1352,8 +1352,8 @@ export default function LiftingHamacaPage() {
     },
 
     {
-      before: "/images/lifting-hamaca/galeria/LucyLateralAntes.webp",
-      after: "/images/lifting-hamaca/galeria/LucyLateralDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/LucyLateralAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/LucyLateralDespues.webp",
       view: "paciente 21 - Lateral",
       patient: "paciente 21",
       description: (
@@ -1370,8 +1370,8 @@ export default function LiftingHamacaPage() {
     },
 
     {
-      before: "/images/lifting-hamaca/galeria/LucyCuelloAntes.webp",
-      after: "/images/lifting-hamaca/galeria/LucyCuelloDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/LucyCuelloAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/LucyCuelloDespues.webp",
       view: "paciente 21 - Frontal",
       patient: "paciente 21",
       description: (
@@ -1390,8 +1390,8 @@ export default function LiftingHamacaPage() {
 
     // 22-Luz
     {
-      before: "/images/lifting-hamaca/galeria/LuzFrenteAntes.webp",
-      after: "/images/lifting-hamaca/galeria/LuzFrenteDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/LuzFrenteAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/LuzFrenteDespues.webp",
       view: "paciente 22 - Frontal",
       patient: "paciente 22",
       description: (
@@ -1408,8 +1408,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/Luz ladoderechoAntes.webp",
-      after: "/images/lifting-hamaca/galeria/LuzladoderechoDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/Luz ladoderechoAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/LuzladoderechoDespues.webp",
       view: "paciente 22 - Frontal",
       patient: "paciente 22",
       description: (
@@ -1426,8 +1426,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/LuzAntes.webp",
-      after: "/images/lifting-hamaca/galeria/LuzDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/LuzAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/LuzDespues.webp",
       view: "paciente 22 - Frontal",
       patient: "paciente 22",
       description: (
@@ -1445,8 +1445,8 @@ export default function LiftingHamacaPage() {
     },
     // 23-Beatriz
     {
-      before: "/images/lifting-hamaca/galeria/BeatrizFrenteAntes.webp",
-      after: "/images/lifting-hamaca/galeria/BeatrizFrenteDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/BeatrizFrenteAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/BeatrizFrenteDespues.webp",
       view: "paciente 23 - Frontal",
       patient: "paciente 23",
       description: (
@@ -1461,8 +1461,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/BetarizLadoAntes.webp",
-      after: "/images/lifting-hamaca/galeria/BeatrizLadoDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/BetarizLadoAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/BeatrizLadoDespues.webp",
       view: "paciente 23 - Lateral",
       patient: "paciente 23",
       description: (
@@ -1479,8 +1479,8 @@ export default function LiftingHamacaPage() {
     // 24-Martha Garcia
 
     {
-      before: "/images/lifting-hamaca/galeria/MarthaFrenteAntes.webp",
-      after: "/images/lifting-hamaca/galeria/MarthaFrenteDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/MarthaFrenteAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/MarthaFrenteDespues.webp",
       view: "paciente 24 - Frontal",
       patient: "paciente 24",
       description: (
@@ -1496,8 +1496,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/MarthaLadoAntes.webp",
-      after: "/images/lifting-hamaca/galeria/MarthaLadoDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/MarthaLadoAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/MarthaLadoDespues.webp",
       view: "paciente 24 - Lateral",
       patient: "paciente 24",
       description: (
@@ -1513,8 +1513,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/MarthaLateralAntes.webp",
-      after: "/images/lifting-hamaca/galeria/MarthaLateralDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/MarthaLateralAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/MarthaLateralDespues.webp",
       view: "paciente 24 - Lateral",
       patient: "paciente 24",
       description: (
@@ -1531,8 +1531,8 @@ export default function LiftingHamacaPage() {
     },
     // 25-Myriam
     {
-      before: "/images/lifting-hamaca/galeria/MyriamFrenteAntes.webp",
-      after: "/images/lifting-hamaca/galeria/MyriamFrenteDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/MyriamFrenteAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/MyriamFrenteDespues.webp",
       view: "paciente 25 - Frontal",
       patient: "paciente 25",
       description: (
@@ -1548,8 +1548,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/MyriamAntes.webp",
-      after: "/images/lifting-hamaca/galeria/MyriamDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/MyriamAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/MyriamDespues.webp",
       view: "paciente 25 - Frontal",
       patient: "paciente 25",
       description: (
@@ -1566,8 +1566,8 @@ export default function LiftingHamacaPage() {
     },
     // 26-Marcela Molina
     {
-      before: "/images/lifting-hamaca/galeria/MarcelaFrenteAntes.webp",
-      after: "/images/lifting-hamaca/galeria/MarcelaFrenteDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/MarcelaFrenteAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/MarcelaFrenteDespues.webp",
       view: "paciente 26 - Frontal",
       patient: "paciente 26",
       description: (
@@ -1583,8 +1583,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/MarcelaladoAntes.webp",
-      after: "/images/lifting-hamaca/galeria/MarcelaladoDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/MarcelaladoAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/MarcelaladoDespues.webp",
       view: "paciente 26 - Lateral",
       patient: "paciente 26",
       description: (
@@ -1600,8 +1600,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/MarcelaOjosAntes.webp",
-      after: "/images/lifting-hamaca/galeria/MarcelaOjosDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/MarcelaOjosAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/MarcelaOjosDespues.webp",
       view: "paciente 26 - Frontal",
       patient: "paciente 26",
       description: (
@@ -1617,8 +1617,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/MarcelaCuelloAntes.webp",
-      after: "/images/lifting-hamaca/galeria/MarcelaCuelloDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/MarcelaCuelloAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/MarcelaCuelloDespues.webp",
       view: "paciente 26 - Frontal",
       patient: "paciente 26",
       description: (
@@ -1635,8 +1635,8 @@ export default function LiftingHamacaPage() {
     },
     // 27-Maria Fernanda
     {
-      before: "/images/lifting-hamaca/galeria/MariaFFrenteAntes.webp",
-      after: "/images/lifting-hamaca/galeria/MariaFFrenteDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/MariaFFrenteAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/MariaFFrenteDespues.webp",
       view: "paciente 27 - Frontal",
       patient: "paciente 27",
       description: (
@@ -1652,8 +1652,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/MariaFLadoAntes.webp",
-      after: "/images/lifting-hamaca/galeria/MariaFLadoDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/MariaFLadoAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/MariaFLadoDespues.webp",
       view: "paciente 27 - Lateral",
       patient: "paciente 27",
       description: (
@@ -1669,8 +1669,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/MariaFLateralAntes.webp",
-      after: "/images/lifting-hamaca/galeria/MariaFLateralDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/MariaFLateralAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/MariaFLateralDespues.webp",
       view: "paciente 27 - Lateral",
       patient: "paciente 27",
       description: (
@@ -1688,8 +1688,8 @@ export default function LiftingHamacaPage() {
 
     // 28-Nelly 2
     {
-      before: "/images/lifting-hamaca/galeria/NellyFrenteAntes.webp",
-      after: "/images/lifting-hamaca/galeria/NellyFrenteDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/NellyFrenteAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/NellyFrenteDespues.webp",
       view: "paciente 28 - Frontal",
       patient: "paciente 28",
       description: (
@@ -1705,8 +1705,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/NellyOjosAntes.webp",
-      after: "/images/lifting-hamaca/galeria/NellyOjosDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/NellyOjosAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/NellyOjosDespues.webp",
       view: "paciente 28- Frontal",
       patient: "paciente 28",
       description: (
@@ -1722,8 +1722,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/NellyCuelloAntes.webp",
-      after: "/images/lifting-hamaca/galeria/NellyCuelloDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/NellyCuelloAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/NellyCuelloDespues.webp",
       view: "paciente 28 - Frontal",
       patient: "paciente 28",
       description: (
@@ -1740,8 +1740,8 @@ export default function LiftingHamacaPage() {
     },
     // 29-Miryam
     {
-      before: "/images/lifting-hamaca/galeria/MiryamFrenteAntes.webp",
-      after: "/images/lifting-hamaca/galeria/MiryamFrenteDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/MiryamFrenteAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/MiryamFrenteDespues.webp",
       view: "paciente 29 - Frontal",
       patient: "paciente 29",
       description: (
@@ -1758,8 +1758,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/MiryamLadoAntes.webp",
-      after: "/images/lifting-hamaca/galeria/MiryamLadoDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/MiryamLadoAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/MiryamLadoDespues.webp",
       view: "paciente 29  - Frontal",
       patient: "paciente 29 ",
       description: (
@@ -1776,8 +1776,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/MiryamAntes.webp",
-      after: "/images/lifting-hamaca/galeria/MiryamDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/MiryamAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/MiryamDespues.webp",
       view: "paciente 29 - Frontal",
       patient: "paciente 29",
       description: (
@@ -1794,8 +1794,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/MiryamOjosAntes.webp",
-      after: "/images/lifting-hamaca/galeria/MiryamOjosDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/MiryamOjosAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/MiryamOjosDespues.webp",
       view: "paciente 29 - Frontal",
       patient: "paciente 29",
       description: (
@@ -1815,8 +1815,8 @@ export default function LiftingHamacaPage() {
 
     // 30-Nubia
     {
-      before: "/images/lifting-hamaca/galeria/Nubia3FrenteAntes.webp",
-      after: "/images/lifting-hamaca/galeria/Nubia3FrenteDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/Nubia3FrenteAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/Nubia3FrenteDespues.webp",
       view: "paciente 30 - Frontal",
       patient: "paciente 30",
       description: (
@@ -1831,8 +1831,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/Nubia3LadoAntes.webp",
-      after: "/images/lifting-hamaca/galeria/Nubia3LadoDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/Nubia3LadoAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/Nubia3LadoDespues.webp",
       view: "paciente 30 - Frontal",
       patient: "paciente 30",
       description: (
@@ -1847,8 +1847,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/NubiaAntes.webp",
-      after: "/images/lifting-hamaca/galeria/NubiaDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/NubiaAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/NubiaDespues.webp",
       view: "paciente 30 - Frontal",
       patient: "paciente 30",
       description: (
@@ -1864,8 +1864,8 @@ export default function LiftingHamacaPage() {
     },
     // 31-Paciente 31
     {
-      before: "/images/lifting-hamaca/galeria/31FrenteAntes.webp",
-      after: "/images/lifting-hamaca/galeria/31FrenteDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/31FrenteAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/31FrenteDespues.webp",
       view: "Paciente 31 - Frontal",
       patient: "Paciente 31",
       description: (
@@ -1880,8 +1880,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/31ladoAntes.webp",
-      after: "/images/lifting-hamaca/galeria/312LadoDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/31ladoAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/312LadoDespues.webp",
       view: "Paciente 31 - Lateral",
       patient: "Paciente 31",
       description: (
@@ -1897,8 +1897,8 @@ export default function LiftingHamacaPage() {
     },
     // 32-Monica Velasquez
     {
-      before: "/images/lifting-hamaca/galeria/MonicaVFrenteAntes.webp",
-      after: "/images/lifting-hamaca/galeria/MonicaVFrenteDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/MonicaVFrenteAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/MonicaVFrenteDespues.webp",
       view: "Paciente 32- Frontal",
       patient: "Paciente 32",
       description: (
@@ -1915,8 +1915,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/MonicaVLadoAntes.webp",
-      after: "/images/lifting-hamaca/galeria/MonicaVLadoDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/MonicaVLadoAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/MonicaVLadoDespues.webp",
       view: "Paciente 32 - Lateral",
       patient: "Paciente 32",
       description: (
@@ -1933,8 +1933,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/MonicaVLateralAntes.webp",
-      after: "/images/lifting-hamaca/galeria/MonicaVLateralDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/MonicaVLateralAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/MonicaVLateralDespues.webp",
       view: "Paciente 32 - Lateral",
       patient: "Paciente 32",
       description: (
@@ -1951,8 +1951,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/MonicaVCuelloAntes.webp",
-      after: "/images/lifting-hamaca/galeria/MonicaVCuelloDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/MonicaVCuelloAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/MonicaVCuelloDespues.webp",
       view: "Paciente 32- Frontal",
       patient: "Paciente 32",
       description: (
@@ -1970,8 +1970,8 @@ export default function LiftingHamacaPage() {
     },
     // 33-NElly
     {
-      before: "/images/lifting-hamaca/galeria/Nelly2FrenteAntes.webp",
-      after: "/images/lifting-hamaca/galeria/Nelly2FrenteDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/Nelly2FrenteAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/Nelly2FrenteDespues.webp",
       view: "Paciente 33- Frontal",
       patient: "Paciente 33",
       description: (
@@ -1986,8 +1986,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/nelly2LadoAntes.webp",
-      after: "/images/lifting-hamaca/galeria/nel2-LadoDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/nelly2LadoAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/nel2-LadoDespues.webp",
       view: "Paciente 33 - Lateral",
       patient: "Paciente 33",
       description: (
@@ -2002,8 +2002,8 @@ export default function LiftingHamacaPage() {
       )
     },
     {
-      before: "/images/lifting-hamaca/galeria/Nelly2CuelloAntes.webp",
-      after: "/images/lifting-hamaca/galeria/Nelly2CuelloDespues.webp",
+      before: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/Nelly2CuelloAntes.webp",
+      after: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/Nelly2CuelloDespues.webp",
       view: "Paciente 33 - Frontal",
       patient: "Paciente 33",
       description: (

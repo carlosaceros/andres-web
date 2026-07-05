@@ -65,7 +65,7 @@ const TestimonialsSection = () => {
       title: '',
       subtitle: '',
       thumbnail: '/images/testimono1home.webp',
-      videoUrl: '/images/videos/testimonio1.webm',
+      videoUrl: 'https://media.drandrespereznieto.com/images/videos/testimonio1.webm',
       duration: '3:42',
       procedure: 'Lifting Facial en Hamaca',
       featured: true
@@ -75,7 +75,7 @@ const TestimonialsSection = () => {
       title: '',
       subtitle: '',
       thumbnail: '/images/testimono2home.webp',
-      videoUrl: '/images/videos/MiriamFilmVideo.webm',
+      videoUrl: 'https://media.drandrespereznieto.com/images/videos/MiriamFilmVideo.webm',
       duration: '2:18',
       procedure: 'Lifting Facial en Hamaca',
       featured: false
@@ -85,7 +85,7 @@ const TestimonialsSection = () => {
       title: '',
       subtitle: '',
       thumbnail: '/images/testimono3home.webp',
-      videoUrl: '/images/videos/VideoMarlenyCatherineEE.webm',
+      videoUrl: 'https://media.drandrespereznieto.com/images/videos/VideoMarlenyCatherineEE.webm',
       duration: '4:15',
       procedure: 'Lifting Facial en Hamaca',
       featured: true

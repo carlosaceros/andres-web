@@ -132,7 +132,7 @@ export default function BlefaroplastiaClientContent() {
                 poster="/images/blefaroplastia/imgvideo1.webp"
                 controls
               >
-                <source src="/images/videos/cirugia-parpados.webm" type="video/webm" />
+                <source src="https://media.drandrespereznieto.com/images/videos/cirugia-parpados.webm" type="video/webm" />
                 {t('video_unsupported')}
               </video>
             </div>
@@ -142,7 +142,7 @@ export default function BlefaroplastiaClientContent() {
                 poster="/images/blefaroplastia/video2.webp"
                 controls
               >
-                <source src="/images/videos/Como-realizo-blefaroplastia.webm" type="video/webm" />
+                <source src="https://media.drandrespereznieto.com/images/videos/Como-realizo-blefaroplastia.webm" type="video/webm" />
                 {t('video_unsupported')}
               </video>
             </div>
@@ -182,7 +182,7 @@ export default function BlefaroplastiaClientContent() {
                 poster="/images/blefaroplastia/cortina.webp"
                 controls
               >
-                <source src="/images/videos/Efecto-cortina-efecto-ojera.webm" type="video/webm" />
+                <source src="https://media.drandrespereznieto.com/images/videos/Efecto-cortina-efecto-ojera.webm" type="video/webm" />
                 {t('video_unsupported')}
               </video>
             </div>
@@ -205,7 +205,7 @@ export default function BlefaroplastiaClientContent() {
                 poster="/images/blefaroplastia/fat-sliding.webp"
                 controls
               >
-                <source src="/images/videos/Blepharoplasty-Fat Slide.webm" type="video/webm" />
+                <source src="https://media.drandrespereznieto.com/images/videos/Blepharoplasty-Fat Slide.webm" type="video/webm" />
                 {t('video_unsupported')}
               </video>
             </div>
@@ -277,7 +277,7 @@ export default function BlefaroplastiaClientContent() {
                 poster="/images/blefaroplastia/testimonio1a.webp"
                 controls
               >
-                <source src="/images/videos/Blefaroplastia-resultados.webm" type="video/webm" />
+                <source src="https://media.drandrespereznieto.com/images/videos/Blefaroplastia-resultados.webm" type="video/webm" />
                 {t('video_unsupported')}
               </video>
             </div>
@@ -287,7 +287,7 @@ export default function BlefaroplastiaClientContent() {
                 poster="/images/blefaroplastia/testimonio1.webp"
                 controls
               >
-                <source src="/images/videos/Blefaroplastialipofillingfacialcelulasmadre.webm" type="video/webm" />
+                <source src="https://media.drandrespereznieto.com/images/videos/Blefaroplastialipofillingfacialcelulasmadre.webm" type="video/webm" />
                 {t('video_unsupported')}
               </video>
             </div>

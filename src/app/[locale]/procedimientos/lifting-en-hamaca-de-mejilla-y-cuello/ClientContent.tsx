@@ -63,12 +63,12 @@ export default function ClientContent() {
               <div className="relative rounded-lg overflow-hidden aspect-video w-full" style={{ backgroundColor: '#1d3c5d' }}>
                 <video
                   className="w-full h-full object-cover"
-                  poster="/images/videos/hamaca cuello/hamaca.webp"
+                  poster="https://media.drandrespereznieto.com/images/videos/hamaca cuello/hamaca.webp"
                   controls
                   preload="metadata"
                 >
-                  {/*<source src="/images/videos/hamaca cuello/Hammock Effect.mp4" type="video/mp4" />*/}
-                  <source src="/images/videos/hamaca cuello/Hammock-Effect.webm" type="video/webm" />
+                  {/*<source src="https://media.drandrespereznieto.com/images/videos/hamaca cuello/Hammock Effect.mp4" type="video/mp4" />*/}
+                  <source src="https://media.drandrespereznieto.com/images/videos/hamaca cuello/Hammock-Effect.webm" type="video/webm" />
                   <div className="absolute inset-0 flex items-center justify-center" style={{ backgroundColor: '#1d3c5d' }}>
                     <div className="text-center text-white">
                       <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -88,10 +88,10 @@ export default function ClientContent() {
           {/* Galería de resultados con 4 imágenes */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {[
-              { src: "/images/videos/hamaca cuello/img1.webp", label: "Antes", procedure: "Lifting en hamaca" },
-              { src: "/images/videos/hamaca cuello/img2.webp", label: "Después", procedure: "Lifting en hamaca" },
-              { src: "/images/videos/hamaca cuello/img3.webp", label: "Antes", procedure: "Lifting en hamaca" },
-              { src: "/images/videos/hamaca cuello/img4.webp", label: "Después", procedure: "Lifting en hamaca" }
+              { src: "https://media.drandrespereznieto.com/images/videos/hamaca cuello/img1.webp", label: "Antes", procedure: "Lifting en hamaca" },
+              { src: "https://media.drandrespereznieto.com/images/videos/hamaca cuello/img2.webp", label: "Después", procedure: "Lifting en hamaca" },
+              { src: "https://media.drandrespereznieto.com/images/videos/hamaca cuello/img3.webp", label: "Antes", procedure: "Lifting en hamaca" },
+              { src: "https://media.drandrespereznieto.com/images/videos/hamaca cuello/img4.webp", label: "Después", procedure: "Lifting en hamaca" }
             ].map((item, index) => (
               <div key={index} className="relative group">
                 <div className="aspect-[4/6] bg-gray-200 rounded-lg overflow-hidden">
@@ -202,7 +202,7 @@ export default function ClientContent() {
                       controls
                       preload="metadata"
                     >
-                      <source src="/images/videos/Miniliftingdeepplane.webm" type="video/webm" />
+                      <source src="https://media.drandrespereznieto.com/images/videos/Miniliftingdeepplane.webm" type="video/webm" />
 
                       <div className="absolute inset-0 flex items-center justify-center" style={{ backgroundColor: '#1d3c5d' }}>
                         <div className="text-center text-white">
@@ -254,7 +254,7 @@ export default function ClientContent() {
                       controls
                       preload="metadata"
                     >
-                      <source src="/images/videos/Liftingextendidodeepplane.webm" type="video/webm" />
+                      <source src="https://media.drandrespereznieto.com/images/videos/Liftingextendidodeepplane.webm" type="video/webm" />
                       <div className="absolute inset-0 flex items-center justify-center" style={{ backgroundColor: '#1d3c5d' }}>
                         <div className="text-center text-white">
                           <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -339,11 +339,11 @@ export default function ClientContent() {
             <div className="relative rounded-lg overflow-hidden aspect-video max-w-3xl mx-auto w-full" style={{ backgroundColor: '#1d3c5d' }}>
               <video
                 className="w-full h-full object-cover"
-                poster="/images/videos/hamaca cuello/lifting-facial.webp"
+                poster="https://media.drandrespereznieto.com/images/videos/hamaca cuello/lifting-facial.webp"
                 controls
                 preload="metadata"
               >
-                <source src="/images/videos/hamaca cuello/animacion-lifting-hamaca.webm" type="video/mp4" />
+                <source src="https://media.drandrespereznieto.com/images/videos/hamaca cuello/animacion-lifting-hamaca.webm" type="video/mp4" />
                 <div className="absolute inset-0 flex items-center justify-center" style={{ backgroundColor: '#1d3c5d' }}>
                   <div className="text-center text-white">
                     <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -381,12 +381,12 @@ export default function ClientContent() {
                 <div className="relative rounded-lg overflow-hidden" style={{ aspectRatio: '9/16', backgroundColor: '#1d3c5d' }}>
                   <video
                     className="w-full h-full object-cover"
-                    poster="/images/lifting-hamaca/vertical.webp"
+                    poster="https://media.drandrespereznieto.com/images/lifting-hamaca/vertical.webp"
                     controls
                     preload="metadata"
                   >
-                    {/* <source src="/images/videos/hamaca cuello/4- VIDEO INCISIONES IMPERCEPTIBLES.mp4" type="video/mp4" />*/}
-                    <source src="/images/videos/hamaca cuello/video-incisiones-imperceptibles.webm" type="video/webm" />
+                    {/* <source src="https://media.drandrespereznieto.com/images/videos/hamaca cuello/4- VIDEO INCISIONES IMPERCEPTIBLES.mp4" type="video/mp4" />*/}
+                    <source src="https://media.drandrespereznieto.com/images/videos/hamaca cuello/video-incisiones-imperceptibles.webm" type="video/webm" />
                     <div className="absolute inset-0 flex items-center justify-center" style={{ backgroundColor: '#1d3c5d' }}>
                       <div className="text-center text-white">
                         <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -416,10 +416,10 @@ export default function ClientContent() {
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-8">
             {[
-              { src: "/images/lifting-hamaca/img5.webp", label: "Antes", procedure: "Lifting en hamaca" },
-              { src: "/images/lifting-hamaca/img6.webp", label: "Después", procedure: "Lifting en hamaca" },
-              { src: "/images/lifting-hamaca/img7.webp", label: "Antes", procedure: "Lifting en hamaca" },
-              { src: "/images/lifting-hamaca/img8.webp", label: "Después", procedure: "Lifting en hamaca" }
+              { src: "https://media.drandrespereznieto.com/images/lifting-hamaca/img5.webp", label: "Antes", procedure: "Lifting en hamaca" },
+              { src: "https://media.drandrespereznieto.com/images/lifting-hamaca/img6.webp", label: "Después", procedure: "Lifting en hamaca" },
+              { src: "https://media.drandrespereznieto.com/images/lifting-hamaca/img7.webp", label: "Antes", procedure: "Lifting en hamaca" },
+              { src: "https://media.drandrespereznieto.com/images/lifting-hamaca/img8.webp", label: "Después", procedure: "Lifting en hamaca" }
             ].map((item, index) => (
               <div key={index} className="relative group">
                 <div className="aspect-[4/6] bg-gray-200 rounded-lg overflow-hidden">
@@ -486,7 +486,7 @@ export default function ClientContent() {
             <div className="relative rounded-lg overflow-hidden aspect-video bg-white shadow-lg max-w-3xl w-full">
               <video
                 className="w-full h-full object-cover"
-                poster="/images/videos/hamaca cuello/testimonio.webp"
+                poster="https://media.drandrespereznieto.com/images/videos/hamaca cuello/testimonio.webp"
                 controls
                 preload="metadata"
                 onError={(e: React.SyntheticEvent<HTMLVideoElement>) => {
@@ -495,8 +495,8 @@ export default function ClientContent() {
                   if (fallback) (fallback as HTMLElement).style.display = 'flex';
                 }}
               >
-                {/*<source src="/images/videos/hamaca cuello/TESTIMONIAL María Helena.mp4" type="video/mp4" />*/}
-                <source src="/images/videos/hamaca cuello/testimonio-Maria-Helena.webm" type="video/webm" />
+                {/*<source src="https://media.drandrespereznieto.com/images/videos/hamaca cuello/TESTIMONIAL María Helena.mp4" type="video/mp4" />*/}
+                <source src="https://media.drandrespereznieto.com/images/videos/hamaca cuello/testimonio-Maria-Helena.webm" type="video/webm" />
                 Tu navegador no soporta el elemento video.
               </video>
 

@@ -78,7 +78,7 @@ export default function ClientContent() {
                     controls
                     poster="/images/cejas/img-video.webp"
                   >
-                    <source src="/images/videos/Elevación-Cola-Cejas.webm" type="video/webm" />
+                    <source src="https://media.drandrespereznieto.com/images/videos/Elevación-Cola-Cejas.webm" type="video/webm" />
                     Tu navegador no soporta el elemento de video.
                   </video>
                 </div>

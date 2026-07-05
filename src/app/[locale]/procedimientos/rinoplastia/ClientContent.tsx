@@ -71,8 +71,8 @@ export default function ClientContent() {
                     if (fallback) (fallback as HTMLElement).style.display = 'flex';
                   }}
                 >
-                  {/*<source src="/images/videos/Rinoplastia.mp4" type="video/mp4" />*/}
-                  <source src="/images/videos/Rinoplastia.webm" type="video/webm" />
+                  {/*<source src="https://media.drandrespereznieto.com/images/videos/Rinoplastia.mp4" type="video/mp4" />*/}
+                  <source src="https://media.drandrespereznieto.com/images/videos/Rinoplastia.webm" type="video/webm" />
                   <div className="absolute inset-0 flex items-center justify-center" style={{ backgroundColor: '#1d3c5d' }}>
                     <div className="text-center text-white">
                       <div className="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-6">
@@ -187,8 +187,8 @@ export default function ClientContent() {
                   if (fallback) (fallback as HTMLElement).style.display = 'flex';
                 }}
               >
-                {/*<source src="/images/videos/1-RINOPLASTIA ABIERTA DE PRESERVACION.mp4" type="video/mp4" />*/}
-                <source src="/images/videos/rinoplastia-abierta-preservacion.webm" type="video/webm" />
+                {/*<source src="https://media.drandrespereznieto.com/images/videos/1-RINOPLASTIA ABIERTA DE PRESERVACION.mp4" type="video/mp4" />*/}
+                <source src="https://media.drandrespereznieto.com/images/videos/rinoplastia-abierta-preservacion.webm" type="video/webm" />
                 <div className="absolute inset-0 flex items-center justify-center" style={{ backgroundColor: '#1d3c5d' }}>
                   <div className="text-center text-white">
                     <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -217,8 +217,8 @@ export default function ClientContent() {
                   if (fallback) (fallback as HTMLElement).style.display = 'flex';
                 }}
               >
-                {/*<source src="/images/videos/2- RINOPLASTIA ABIERTA DE PRESERVACION.mp4" type="video/mp4" />*/}
-                <source src="/images/videos/rinoplastia-abierta-preservacion-2.webm" type="video/webm" />
+                {/*<source src="https://media.drandrespereznieto.com/images/videos/2- RINOPLASTIA ABIERTA DE PRESERVACION.mp4" type="video/mp4" />*/}
+                <source src="https://media.drandrespereznieto.com/images/videos/rinoplastia-abierta-preservacion-2.webm" type="video/webm" />
                 <div className="absolute inset-0 flex items-center justify-center" style={{ backgroundColor: '#1d3c5d' }}>
                   <div className="text-center text-white">
                     <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -389,8 +389,8 @@ export default function ClientContent() {
                     if (fallback) (fallback as HTMLElement).style.display = 'flex';
                   }}
                 >
-                  {/*<source src="/images/videos/historia-resultado-Rinoplastia.mp4" type="video/mp4" />*/}
-                  <source src="/images/videos/historia-resultado-Rinoplastia.webm" type="video/webm" />
+                  {/*<source src="https://media.drandrespereznieto.com/images/videos/historia-resultado-Rinoplastia.mp4" type="video/mp4" />*/}
+                  <source src="https://media.drandrespereznieto.com/images/videos/historia-resultado-Rinoplastia.webm" type="video/webm" />
                   Tu navegador no soporta el elemento video.
                 </video>
 
@@ -418,8 +418,8 @@ export default function ClientContent() {
                     if (fallback) (fallback as HTMLElement).style.display = 'flex';
                   }}
                 >
-                  {/*<source src="/images/videos/TESTIMONIAL RINOPLASTIA2.mp4" type="video/mp4" />*/}
-                  <source src="/images/videos/testimonial-rinoplastia2.webm" type="video/webm" />
+                  {/*<source src="https://media.drandrespereznieto.com/images/videos/TESTIMONIAL RINOPLASTIA2.mp4" type="video/mp4" />*/}
+                  <source src="https://media.drandrespereznieto.com/images/videos/testimonial-rinoplastia2.webm" type="video/webm" />
                   Tu navegador no soporta el elemento video.
                 </video>
 

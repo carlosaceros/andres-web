@@ -22,36 +22,36 @@ export default function ClientContent() {
   }));
 
   const gallery1 = [
-    { src: "/images/lifting-hamaca/Nelly-Lado-Antes.webp", label: t_testimonials('before_label'), procedure: t('gallery_procedure') },
-    { src: "/images/lifting-hamaca/Nelly-Lado-despues.webp", label: t_testimonials('after_label'), procedure: t('gallery_procedure') },
-    { src: "/images/lifting-hamaca/Nelly-frente-Antes.webp", label: t_testimonials('before_label'), procedure: t('gallery_procedure') },
-    { src: "/images/lifting-hamaca/Nelly-fente-despues.webp", label: t_testimonials('after_label'), procedure: t('gallery_procedure') }
+    { src: "https://media.drandrespereznieto.com/images/lifting-hamaca/Nelly-Lado-Antes.webp", label: t_testimonials('before_label'), procedure: t('gallery_procedure') },
+    { src: "https://media.drandrespereznieto.com/images/lifting-hamaca/Nelly-Lado-despues.webp", label: t_testimonials('after_label'), procedure: t('gallery_procedure') },
+    { src: "https://media.drandrespereznieto.com/images/lifting-hamaca/Nelly-frente-Antes.webp", label: t_testimonials('before_label'), procedure: t('gallery_procedure') },
+    { src: "https://media.drandrespereznieto.com/images/lifting-hamaca/Nelly-fente-despues.webp", label: t_testimonials('after_label'), procedure: t('gallery_procedure') }
   ];
 
   const causes = ['c1', 'c2', 'c3'];
 
   const gallery2 = [
-    { src: "/images/lifting-hamaca/img1.webp", label: t_testimonials('before_label'), procedure: t('gallery_procedure') },
-    { src: "/images/lifting-hamaca/img2.webp", label: t_testimonials('after_label'), procedure: t('gallery_procedure') },
-    { src: "/images/lifting-hamaca/img3.webp", label: t_testimonials('before_label'), procedure: t('gallery_procedure') },
-    { src: "/images/lifting-hamaca/img4.webp", label: t_testimonials('after_label'), procedure: t('gallery_procedure') }
+    { src: "https://media.drandrespereznieto.com/images/lifting-hamaca/img1.webp", label: t_testimonials('before_label'), procedure: t('gallery_procedure') },
+    { src: "https://media.drandrespereznieto.com/images/lifting-hamaca/img2.webp", label: t_testimonials('after_label'), procedure: t('gallery_procedure') },
+    { src: "https://media.drandrespereznieto.com/images/lifting-hamaca/img3.webp", label: t_testimonials('before_label'), procedure: t('gallery_procedure') },
+    { src: "https://media.drandrespereznieto.com/images/lifting-hamaca/img4.webp", label: t_testimonials('after_label'), procedure: t('gallery_procedure') }
   ];
 
   const procedures = ['p1', 'p2', 'p3', 'p4'];
   const procedureImages = [
-    { src: "/images/lifting-hamaca/otras/1a.webp", label: t_testimonials('before_label') },
-    { src: "/images/lifting-hamaca/otras/1b.webp", label: t_testimonials('after_label') },
-    { src: "/images/lifting-hamaca/otras/2a.webp", label: t_testimonials('before_label') },
-    { src: "/images/lifting-hamaca/otras/2b.webp", label: t_testimonials('after_label') },
-    { src: "/images/lifting-hamaca/otras/3a.webp", label: t_testimonials('before_label') },
-    { src: "/images/lifting-hamaca/otras/3b.webp", label: t_testimonials('after_label') },
-    { src: "/images/lifting-hamaca/otras/4a.webp", label: t_testimonials('before_label') },
-    { src: "/images/lifting-hamaca/otras/4b.webp", label: t_testimonials('after_label') }
+    { src: "https://media.drandrespereznieto.com/images/lifting-hamaca/otras/1a.webp", label: t_testimonials('before_label') },
+    { src: "https://media.drandrespereznieto.com/images/lifting-hamaca/otras/1b.webp", label: t_testimonials('after_label') },
+    { src: "https://media.drandrespereznieto.com/images/lifting-hamaca/otras/2a.webp", label: t_testimonials('before_label') },
+    { src: "https://media.drandrespereznieto.com/images/lifting-hamaca/otras/2b.webp", label: t_testimonials('after_label') },
+    { src: "https://media.drandrespereznieto.com/images/lifting-hamaca/otras/3a.webp", label: t_testimonials('before_label') },
+    { src: "https://media.drandrespereznieto.com/images/lifting-hamaca/otras/3b.webp", label: t_testimonials('after_label') },
+    { src: "https://media.drandrespereznieto.com/images/lifting-hamaca/otras/4a.webp", label: t_testimonials('before_label') },
+    { src: "https://media.drandrespereznieto.com/images/lifting-hamaca/otras/4b.webp", label: t_testimonials('after_label') }
   ];
 
   const gallery3 = [
-    { src: "/images/lifting-hamaca/antes.webp", label: t_testimonials('before_label'), procedure: t('gallery_procedure') },
-    { src: "/images/lifting-hamaca/despues.webp", label: t_testimonials('after_label'), procedure: t('gallery_procedure') }
+    { src: "https://media.drandrespereznieto.com/images/lifting-hamaca/antes.webp", label: t_testimonials('before_label'), procedure: t('gallery_procedure') },
+    { src: "https://media.drandrespereznieto.com/images/lifting-hamaca/despues.webp", label: t_testimonials('after_label'), procedure: t('gallery_procedure') }
   ];
 
   const gallery4 = [
@@ -60,10 +60,10 @@ export default function ClientContent() {
   ];
 
   const gallery5 = [
-    { src: "/images/lifting-hamaca/LuzAntes.webp", label: t_testimonials('before_label'), procedure: t('gallery_procedure') },
-    { src: "/images/lifting-hamaca/LuzDespues.webp", label: t_testimonials('after_label'), procedure: t('gallery_procedure') },
-    { src: "/images/lifting-hamaca/hamaca1.webp", label: t_testimonials('before_label'), procedure: t('gallery_procedure') },
-    { src: "/images/lifting-hamaca/hamaca.webp", label: t_testimonials('after_label'), procedure: t('gallery_procedure') }
+    { src: "https://media.drandrespereznieto.com/images/lifting-hamaca/LuzAntes.webp", label: t_testimonials('before_label'), procedure: t('gallery_procedure') },
+    { src: "https://media.drandrespereznieto.com/images/lifting-hamaca/LuzDespues.webp", label: t_testimonials('after_label'), procedure: t('gallery_procedure') },
+    { src: "https://media.drandrespereznieto.com/images/lifting-hamaca/hamaca1.webp", label: t_testimonials('before_label'), procedure: t('gallery_procedure') },
+    { src: "https://media.drandrespereznieto.com/images/lifting-hamaca/hamaca.webp", label: t_testimonials('after_label'), procedure: t('gallery_procedure') }
   ];
 
   return (
@@ -159,8 +159,8 @@ export default function ClientContent() {
                     controls
                     preload="metadata"
                   >
-                    {/*<source src="/images/videos/EFECTO HAMACA MEJILLAS Y CUELLO.mp4" type="video/mp4" />*/}
-                    <source src="/images/videos/efecto-hamaca-mejillas-cuello.webm" type="video/webm" />
+                    {/*<source src="https://media.drandrespereznieto.com/images/videos/EFECTO HAMACA MEJILLAS Y CUELLO.mp4" type="video/mp4" />*/}
+                    <source src="https://media.drandrespereznieto.com/images/videos/efecto-hamaca-mejillas-cuello.webm" type="video/webm" />
                     {/* Fallback responsive */}
                     <div className="absolute inset-0 flex items-center justify-center" style={{ backgroundColor: '#1d3c5d' }}>
                       <div className="text-center text-white">
@@ -269,15 +269,15 @@ export default function ClientContent() {
               <video
                 className="w-full h-full object-cover"
                 controls
-                poster="/images/lifting-hamaca/deep-plane.webp"
+                poster="https://media.drandrespereznieto.com/images/lifting-hamaca/deep-plane.webp"
                 onError={(e: React.SyntheticEvent<HTMLVideoElement>) => {
                   e.currentTarget.style.display = 'none';
                   const fallback = e.currentTarget.nextElementSibling;
                   if (fallback) (fallback as HTMLElement).style.display = 'flex';
                 }}
               >
-                {/*<source src="/images/videos/Video Lifting Deep.mp4" type="video/mp4" />*/}
-                <source src="/images/lifting-hamaca/Video-Lifting-Deep.webm" type="video/webm" />
+                {/*<source src="https://media.drandrespereznieto.com/images/videos/Video Lifting Deep.mp4" type="video/mp4" />*/}
+                <source src="https://media.drandrespereznieto.com/images/lifting-hamaca/Video-Lifting-Deep.webm" type="video/webm" />
                 {t('video2_unsupported')}
               </video>
 
@@ -621,7 +621,7 @@ export default function ClientContent() {
             <div className="relative rounded-lg overflow-hidden aspect-video bg-white shadow-lg max-w-2xl w-full">
               <video
                 className="w-full h-full object-cover"
-                poster="/images/lifting-hamaca/testimoni1.webp"
+                poster="https://media.drandrespereznieto.com/images/lifting-hamaca/testimoni1.webp"
                 controls
                 preload="metadata"
                 onError={(e: React.SyntheticEvent<HTMLVideoElement>) => {
@@ -630,8 +630,8 @@ export default function ClientContent() {
                   if (fallback) (fallback as HTMLElement).style.display = 'flex';
                 }}
               >
-                {/*<source src="/images/videos/Testimonial Ivette - Lifting Facial en Hamaca.mp4" type="video/mp4" />*/}
-                <source src="/images/videos/Testimonial-Ivette-Lifting-Facial-Hamaca.webm" type="video/webm" />
+                {/*<source src="https://media.drandrespereznieto.com/images/videos/Testimonial Ivette - Lifting Facial en Hamaca.mp4" type="video/mp4" />*/}
+                <source src="https://media.drandrespereznieto.com/images/videos/Testimonial-Ivette-Lifting-Facial-Hamaca.webm" type="video/webm" />
                 {t('video3_unsupported')}
               </video>
 
@@ -696,12 +696,12 @@ export default function ClientContent() {
                 <div className="relative rounded-lg overflow-hidden bg-gray-800" style={{ aspectRatio: '9/16' }}>
                   <video
                     className="w-full h-full object-cover"
-                    poster="/images/lifting-hamaca/montaña.webp"
+                    poster="https://media.drandrespereznieto.com/images/lifting-hamaca/montaña.webp"
                     controls
                     preload="metadata"
                   >
-                    {/*<source src="/images/videos/Montana-Rusa-Proceso-Inflamatorio.mp4" type="video/mp4" />*/}
-                    <source src="/images/lifting-hamaca/MontanaRusaProcesoInflamatorio.webm" type="video/webm" />
+                    {/*<source src="https://media.drandrespereznieto.com/images/videos/Montana-Rusa-Proceso-Inflamatorio.mp4" type="video/mp4" />*/}
+                    <source src="https://media.drandrespereznieto.com/images/lifting-hamaca/MontanaRusaProcesoInflamatorio.webm" type="video/webm" />
                     <div className="absolute inset-0 flex items-center justify-center" style={{ backgroundColor: '#1d3c5d' }}>
                       <div className="text-center text-white">
                         <div className="w-12 h-12 md:w-16 md:h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-3 md:mb-4">

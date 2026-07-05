@@ -32,8 +32,8 @@ const VideoBanner = () => {
           }}
         >
           {/* Múltiples formatos para mejor compatibilidad */}
-          <source src="/images/videos/edificio.webm" type="video/webm" />
-          {/*<source src="/images/videos/edificio.mp4" type="video/mp4" />*/}
+          <source src="https://media.drandrespereznieto.com/images/videos/edificio.webm" type="video/webm" />
+          {/*<source src="https://media.drandrespereznieto.com/images/videos/edificio.mp4" type="video/mp4" />*/}
           Tu navegador no soporta el elemento video.
         </video>
 

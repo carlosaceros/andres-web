@@ -23,7 +23,7 @@ export default function ClientContent() {
       <section className="relative h-[600px]">
         <div className="absolute inset-0">
           <Image
-            src="/images/videos/Banner-Mamoplastia-reduccion.webp"
+            src="https://media.drandrespereznieto.com/images/videos/Banner-Mamoplastia-reduccion.webp"
             alt={t('title')}
             fill
             className="object-cover"
@@ -172,8 +172,8 @@ export default function ClientContent() {
                       if (fallback) (fallback as HTMLElement).style.display = 'flex';
                     }}
                   >
-                    {/*<source src="/images/videos/Mamoplástia de Reducción.mp4" type="video/mp4" />*/}
-                    <source src="/images/videos/Mamoplastia-Reduccion.webm" type="video/webm" />
+                    {/*<source src="https://media.drandrespereznieto.com/images/videos/Mamoplástia de Reducción.mp4" type="video/mp4" />*/}
+                    <source src="https://media.drandrespereznieto.com/images/videos/Mamoplastia-Reduccion.webm" type="video/webm" />
                     Tu navegador no soporta el elemento video.
                   </video>
 

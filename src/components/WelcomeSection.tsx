@@ -152,8 +152,8 @@ export default function WelcomeSection() {
                 preload="metadata"
                 poster="/images/img-bienvenida.webp"
               >
-                {/*<source src="/images/videos/Bienvenida.mp4" type="video/mp4" />*/}
-                <source src="/images/videos/Bienvenida.webm" type="video/webm" />
+                {/*<source src="https://media.drandrespereznieto.com/images/videos/Bienvenida.mp4" type="video/mp4" />*/}
+                <source src="https://media.drandrespereznieto.com/images/videos/Bienvenida.webm" type="video/webm" />
                 {t('video_unsupported')}
               </video>
 

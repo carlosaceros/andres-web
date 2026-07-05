@@ -29,7 +29,7 @@ export default function ProcedimientosFacialesClientContent() {
             title: t('lifting_hamaca_title'),
             description: t('lifting_hamaca_desc'),
             casos: 34,
-            image: "/images/lifting-hamaca/galeria/fotoiniciogaleria.webp",
+            image: "https://media.drandrespereznieto.com/images/lifting-hamaca/galeria/fotoiniciogaleria.webp",
             href: `/${locale}/galeria/procedimientos-faciales/lifting-hamaca`
         },
         {

@@ -91,8 +91,8 @@ export default function ClientContent() {
                     if (fallback) (fallback as HTMLElement).style.display = 'flex';
                   }}
                 >
-                  {/*<source src="/images/videos/Lipofilling Subtitulado en inglés - Detalles de la técnica LIPOFILLING DE CÉLULAS MADRE.mp4" type="video/mp4" />*/}
-                  <source src="/images/videos/lipofillingdetallestecnicacelulasmadre.webm" type="video/webm" />
+                  {/*<source src="https://media.drandrespereznieto.com/images/videos/Lipofilling Subtitulado en inglés - Detalles de la técnica LIPOFILLING DE CÉLULAS MADRE.mp4" type="video/mp4" />*/}
+                  <source src="https://media.drandrespereznieto.com/images/videos/lipofillingdetallestecnicacelulasmadre.webm" type="video/webm" />
                   Tu navegador no soporta el elemento video.
                 </video>
 
@@ -517,8 +517,8 @@ export default function ClientContent() {
                   if (fallback) (fallback as HTMLElement).style.display = 'flex';
                 }}
               >
-                {/*<source src="/images/videos/Lipofilling facial con células madre.mp4" type="video/mp4" />*/}
-                <source src="/images/videos/video-lipofilling-facial-celulas-madre.webm" type="video/webm" />
+                {/*<source src="https://media.drandrespereznieto.com/images/videos/Lipofilling facial con células madre.mp4" type="video/mp4" />*/}
+                <source src="https://media.drandrespereznieto.com/images/videos/video-lipofilling-facial-celulas-madre.webm" type="video/webm" />
                 Tu navegador no soporta el elemento video.
               </video>
 

@@ -30,93 +30,93 @@ export default function ClientContent() {
   const liftingVideosLocales = [
     {
       id: 'v1',
-      path: '/images/videos/vertical/OlgaUrdaneta.webm',
+      path: 'https://media.drandrespereznieto.com/images/videos/vertical/OlgaUrdaneta.webm',
       orientacion: 'vertical',
-      poster: '/images/videos/vertical/tes1.webp'
+      poster: 'https://media.drandrespereznieto.com/images/videos/vertical/tes1.webp'
     },
     {
       id: 'v2',
-      path: '/images/videos/vertical/tes2.webm',
+      path: 'https://media.drandrespereznieto.com/images/videos/vertical/tes2.webm',
       orientacion: 'vertical',
-      poster: '/images/videos/vertical/tes2.webp'
+      poster: 'https://media.drandrespereznieto.com/images/videos/vertical/tes2.webp'
     },
     {
       id: 'v3',
-      path: '/images/videos/vertical/tes3.webm',
+      path: 'https://media.drandrespereznieto.com/images/videos/vertical/tes3.webm',
       orientacion: 'vertical',
-      poster: '/images/videos/vertical/tes3.webp'
+      poster: 'https://media.drandrespereznieto.com/images/videos/vertical/tes3.webp'
     },
     {
       id: 'v4',
-      path: '/images/videos/vertical/tes4.webm',
+      path: 'https://media.drandrespereznieto.com/images/videos/vertical/tes4.webm',
       orientacion: 'vertical',
-      poster: '/images/videos/vertical/tes4.webp'
+      poster: 'https://media.drandrespereznieto.com/images/videos/vertical/tes4.webp'
     },
     {
       id: 'v5',
-      path: '/images/videos/vertical/tes5.webm',
+      path: 'https://media.drandrespereznieto.com/images/videos/vertical/tes5.webm',
       orientacion: 'vertical',
-      poster: '/images/videos/vertical/tes5.webp'
+      poster: 'https://media.drandrespereznieto.com/images/videos/vertical/tes5.webp'
     },
     {
       id: 'v6',
-      path: '/images/videos/vertical/tes7.webm',
+      path: 'https://media.drandrespereznieto.com/images/videos/vertical/tes7.webm',
       orientacion: 'vertical',
-      poster: '/images/videos/vertical/tes7.webp'
+      poster: 'https://media.drandrespereznieto.com/images/videos/vertical/tes7.webp'
     },
     {
       id: 'v7',
-      path: '/images/videos/vertical/tes8.webm',
+      path: 'https://media.drandrespereznieto.com/images/videos/vertical/tes8.webm',
       orientacion: 'vertical',
-      poster: '/images/videos/vertical/tes8.webp'
+      poster: 'https://media.drandrespereznieto.com/images/videos/vertical/tes8.webp'
     },
     {
       id: 'v8',
-      path: '/images/videos/horinzontales/MiriamFilmVideo.webm',
+      path: 'https://media.drandrespereznieto.com/images/videos/horinzontales/MiriamFilmVideo.webm',
       orientacion: 'horizontal',
-      poster: '/images/videos/horinzontales/testimono2home.webp'
+      poster: 'https://media.drandrespereznieto.com/images/videos/horinzontales/testimono2home.webp'
     },
     {
       id: 'v9',
-      path: '/images/videos/horinzontales/tes9.webm',
+      path: 'https://media.drandrespereznieto.com/images/videos/horinzontales/tes9.webm',
       orientacion: 'horizontal',
-      poster: '/images/videos/horinzontales/tes9.webp'
+      poster: 'https://media.drandrespereznieto.com/images/videos/horinzontales/tes9.webp'
     },
     {
       id: 'v10',
-      path: '/images/videos/horinzontales/tes11.webm',
+      path: 'https://media.drandrespereznieto.com/images/videos/horinzontales/tes11.webm',
       orientacion: 'horizontal',
-      poster: '/images/videos/horinzontales/tes11.webp'
+      poster: 'https://media.drandrespereznieto.com/images/videos/horinzontales/tes11.webp'
     },
     {
       id: 'v11',
-      path: '/images/videos/horinzontales/tes12.webm',
+      path: 'https://media.drandrespereznieto.com/images/videos/horinzontales/tes12.webm',
       orientacion: 'horizontal',
-      poster: '/images/videos/horinzontales/testimoni1.webp'
+      poster: 'https://media.drandrespereznieto.com/images/videos/horinzontales/testimoni1.webp'
     },
     {
       id: 'v12',
-      path: '/images/videos/horinzontales/tes14.webm',
+      path: 'https://media.drandrespereznieto.com/images/videos/horinzontales/tes14.webm',
       orientacion: 'horizontal',
-      poster: '/images/videos/horinzontales/tes14.webp'
+      poster: 'https://media.drandrespereznieto.com/images/videos/horinzontales/tes14.webp'
     },
     {
       id: 'v13',
-      path: '/images/videos/horinzontales/tes10.webm',
+      path: 'https://media.drandrespereznieto.com/images/videos/horinzontales/tes10.webm',
       orientacion: 'horizontal',
-      poster: '/images/videos/horinzontales/tes10.webp'
+      poster: 'https://media.drandrespereznieto.com/images/videos/horinzontales/tes10.webp'
     },
     {
       id: 'v14',
-      path: '/images/videos/horinzontales/testimonioMariaHelena.webm',
+      path: 'https://media.drandrespereznieto.com/images/videos/horinzontales/testimonioMariaHelena.webm',
       orientacion: 'horizontal',
-      poster: '/images/videos/horinzontales/testimonio.webp'
+      poster: 'https://media.drandrespereznieto.com/images/videos/horinzontales/testimonio.webp'
     },
     {
       id: 'v15',
-      path: '/images/videos/horinzontales/VideoMarlenyCatherineEE.webm',
+      path: 'https://media.drandrespereznieto.com/images/videos/horinzontales/VideoMarlenyCatherineEE.webm',
       orientacion: 'horizontal',
-      poster: '/images/videos/horinzontales/testimono3home.webp'
+      poster: 'https://media.drandrespereznieto.com/images/videos/horinzontales/testimono3home.webp'
     }
   ]
 

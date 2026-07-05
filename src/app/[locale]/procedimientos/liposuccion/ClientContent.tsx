@@ -134,8 +134,8 @@ export default function ClientContent() {
                       if (fallback) (fallback as HTMLElement).style.display = 'flex';
                     }}
                   >
-                    {/*<source src="/images/videos/Liposucción Tradicional.mp4" type="video/mp4" />*/}
-                    <source src="/images/videos/Liposuccion-Tradicional.webm" type="video/webm" />
+                    {/*<source src="https://media.drandrespereznieto.com/images/videos/Liposucción Tradicional.mp4" type="video/mp4" />*/}
+                    <source src="https://media.drandrespereznieto.com/images/videos/Liposuccion-Tradicional.webm" type="video/webm" />
                     Tu navegador no soporta el elemento video.
                   </video>
 
@@ -180,8 +180,8 @@ export default function ClientContent() {
                       if (fallback) (fallback as HTMLElement).style.display = 'flex';
                     }}
                   >
-                    {/*<source src="/images/videos/Lipólisis Vaser.mp4" type="video/mp4" />*/}
-                    <source src="/images/videos/Lipolisis-Vaser.webm" type="video/webm" />
+                    {/*<source src="https://media.drandrespereznieto.com/images/videos/Lipólisis Vaser.mp4" type="video/mp4" />*/}
+                    <source src="https://media.drandrespereznieto.com/images/videos/Lipolisis-Vaser.webm" type="video/webm" />
                     Tu navegador no soporta el elemento video.
                   </video>
 
