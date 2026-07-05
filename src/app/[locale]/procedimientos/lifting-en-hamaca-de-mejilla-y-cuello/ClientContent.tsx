@@ -199,7 +199,7 @@ export default function ClientContent() {
           <div className="grid lg:grid-cols-2 gap-16 items-center w-full">
             <div className="space-y-6">
               <h1 className="font-prototype font-normal text-5xl lg:text-6xl mb-8" style={{ color: '#1d3c5d' }}>
-                {t('title')}
+                {t('title')} {locale === 'es' ? 'en Bogotá' : 'in Bogota'}
               </h1>
               <div className="w-72 h-1 mb-8" style={{ backgroundColor: '#1d3c5d' }}></div>
 

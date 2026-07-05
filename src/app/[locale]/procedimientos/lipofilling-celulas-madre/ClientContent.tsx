@@ -109,7 +109,7 @@ export default function ClientContent() {
                   {t('title_part1')}
                 </h1>
                 <h2 className="font-prototype font-normal text-3xl md:text-4xl lg:text-5xl mb-4 md:mb-6" style={{ color: '#1d3c5d' }}>
-                  {t('title_part2')}
+                  {t('title_part2')} {locale === 'es' ? 'en Bogotá' : 'in Bogota'}
                 </h2>
                 <div className="w-48 md:w-60 h-1 mb-6 md:mb-8" style={{ backgroundColor: '#1d3c5d' }}></div>
               </div>

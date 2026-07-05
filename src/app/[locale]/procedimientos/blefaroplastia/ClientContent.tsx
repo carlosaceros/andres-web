@@ -63,7 +63,7 @@ export default function ClientContent() {
             <div className="space-y-8">
               <div>
                 <h1 className="font-prototype text-4xl lg:text-5xl font-normal mb-4" style={{ color: '#1d3c5d' }}>
-                  {t('title')}
+                  {t('title')} {locale === 'es' ? 'en Bogotá' : 'in Bogota'}
                 </h1>
                 <div className="w-72 h-1 mb-6" style={{ backgroundColor: '#1d3c5d' }}></div>
                 <h2 className="font-sansation text-xl lg:text-2xl mb-8 font-bold" style={{ color: '#1d3c5d' }}>
@@ -233,18 +233,24 @@ export default function ClientContent() {
             </h3>
             <div className="grid lg:grid-cols-3 gap-8">
               <div className="p-8 rounded-lg flex items-center justify-center" style={{ backgroundColor: '#babdb3', minHeight: '350px', maxWidth: '280px', margin: '0 auto' }}>
-                <p className="font-sansation font-normal leading-relaxed text-center" style={{ color: '#1d3c5d' }}>
-                  {t('why_different_c1')}
+                <p className="font-sansation font-normal leading-relaxed text-center font-bold" style={{ color: '#1d3c5d' }}>
+                  {activeLocale === 'es' 
+                    ? '✓ No hunde la cuenca del ojo, preservando el volumen y la juventud de tu mirada.' 
+                    : '✓ Does not hollow the eye socket, preserving youthful volume and expression.'}
                 </p>
               </div>
               <div className="p-8 rounded-lg flex items-center justify-center" style={{ backgroundColor: '#babdb3', minHeight: '350px', maxWidth: '280px', margin: '0 auto' }}>
-                <p className="font-sansation font-normal leading-relaxed text-center" style={{ color: '#1d3c5d' }}>
-                  {t('why_different_c2')}
+                <p className="font-sansation font-normal leading-relaxed text-center font-bold" style={{ color: '#1d3c5d' }}>
+                  {activeLocale === 'es' 
+                    ? '✓ Camufla el color oscuro y pigmentado de la ojera al rellenar el surco de la lágrima.' 
+                    : '✓ Camouflages the dark, pigmented circle color by anatomically filling the tear trough.'}
                 </p>
               </div>
               <div className="p-8 rounded-lg flex items-center justify-center" style={{ backgroundColor: '#babdb3', minHeight: '350px', maxWidth: '280px', margin: '0 auto' }}>
-                <p className="font-sansation font-normal leading-relaxed text-center" style={{ color: '#1d3c5d' }}>
-                  {t('why_different_c3')}
+                <p className="font-sansation font-normal leading-relaxed text-center font-bold" style={{ color: '#1d3c5d' }}>
+                  {activeLocale === 'es' 
+                    ? '✓ Resultados naturales, estables y sumamente duraderos a largo plazo.' 
+                    : '✓ Guarantees natural, stable, and highly long-lasting results in the long run.'}
                 </p>
               </div>
             </div>

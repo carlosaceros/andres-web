@@ -101,7 +101,7 @@ export default function ClientContent() {
             <div className="space-y-4 sm:space-y-6 md:space-y-8">
               <div className="mb-6 sm:mb-10 md:mb-14 lg:mb-12 mt-6 sm:mt-10 md:mt-14 lg:mt-12">
                 <h1 className="font-prototype text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-normal mb-3 sm:mb-4 md:mb-5 lg:mb-4 leading-tight" style={{ color: '#1d3c5d' }}>
-                  {t('title')}
+                  {t('title')} {locale === 'es' ? 'en Bogotá' : 'in Bogota'}
                 </h1>
                 <div className="w-16 sm:w-24 md:w-40 lg:w-48 xl:w-73 h-1 mb-4 sm:mb-6 md:mb-7 lg:mb-8" style={{ backgroundColor: '#1d3c5d' }}></div>
                 <h2 className="font-sansation text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl mb-4 sm:mb-6 md:mb-7 lg:mb-8 font-medium leading-tight max-w-4xl" style={{ color: '#1d3c5d' }}>

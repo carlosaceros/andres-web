@@ -241,7 +241,7 @@ export default function ClientContent() {
             {/* Contenido de texto - Responsive */}
             <div className="space-y-6 md:space-y-8">
               <h1 className="font-prototype font-normal text-2xl md:text-3xl lg:text-4xl xl:text-5xl mb-6 md:mb-8" style={{ color: '#1d3c5d' }}>
-                {t('title')}
+                {t('title')} {locale === 'es' ? 'en Bogotá' : 'in Bogota'}
               </h1>
               <div className="space-y-4 md:space-y-6 text-sm md:text-base lg:text-lg leading-relaxed font-sansation font-normal" style={{ color: '#1d3c5d' }}>
                 <p>{t('p1')}</p>
