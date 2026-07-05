@@ -61,13 +61,13 @@ export default function ClientContent() {
           <div className="text-center mb-16">
             <div className="w-full max-w-3xl mx-auto">
               <div className="relative rounded-lg overflow-hidden aspect-video w-full" style={{ backgroundColor: '#1d3c5d' }}>
-                <video
+                <video playsInline
                   className="w-full h-full object-cover"
                   poster="https://media.drandrespereznieto.com/images/videos/hamaca cuello/hamaca.webp"
                   controls
                   preload="metadata"
                 >
-                  {/*<source src="https://media.drandrespereznieto.com/images/videos/hamaca cuello/Hammock Effect.mp4" type="video/mp4" />*/}
+                  <source src="https://media.drandrespereznieto.com/images/videos/hamaca cuello/Hammock Effect.mp4" type="video/mp4" />
                   <source src="https://media.drandrespereznieto.com/images/videos/hamaca cuello/Hammock-Effect.webm" type="video/webm" />
                   <div className="absolute inset-0 flex items-center justify-center" style={{ backgroundColor: '#1d3c5d' }}>
                     <div className="text-center text-white">
@@ -196,7 +196,7 @@ export default function ClientContent() {
               <div className="flex justify-center mb-6">
                 <div className="w-full max-w-xs">
                   <div className="relative rounded-lg overflow-hidden" style={{ aspectRatio: '9/16', backgroundColor: '#1d3c5d' }}>
-                    <video
+                    <video playsInline
                       className="w-full h-full object-cover"
                       poster=""
                       controls
@@ -248,7 +248,7 @@ export default function ClientContent() {
               <div className="flex justify-center mb-6">
                 <div className="w-full max-w-xs">
                   <div className="relative rounded-lg overflow-hidden" style={{ aspectRatio: '9/16', backgroundColor: '#1d3c5d' }}>
-                    <video
+                    <video playsInline
                       className="w-full h-full object-cover"
                       poster=""
                       controls
@@ -337,7 +337,7 @@ export default function ClientContent() {
         <div className="max-w-7xl mx-auto px-4 text-center">
           <div className="inline-block w-full">
             <div className="relative rounded-lg overflow-hidden aspect-video max-w-3xl mx-auto w-full" style={{ backgroundColor: '#1d3c5d' }}>
-              <video
+              <video playsInline
                 className="w-full h-full object-cover"
                 poster="https://media.drandrespereznieto.com/images/videos/hamaca cuello/lifting-facial.webp"
                 controls
@@ -379,13 +379,13 @@ export default function ClientContent() {
             <div className="flex justify-center">
               <div className="w-full max-w-md">
                 <div className="relative rounded-lg overflow-hidden" style={{ aspectRatio: '9/16', backgroundColor: '#1d3c5d' }}>
-                  <video
+                  <video playsInline
                     className="w-full h-full object-cover"
                     poster="https://media.drandrespereznieto.com/images/lifting-hamaca/vertical.webp"
                     controls
                     preload="metadata"
                   >
-                    {/* <source src="https://media.drandrespereznieto.com/images/videos/hamaca cuello/4- VIDEO INCISIONES IMPERCEPTIBLES.mp4" type="video/mp4" />*/}
+                    <source src="https://media.drandrespereznieto.com/images/videos/hamaca cuello/4- VIDEO INCISIONES IMPERCEPTIBLES.mp4" type="video/mp4" />
                     <source src="https://media.drandrespereznieto.com/images/videos/hamaca cuello/video-incisiones-imperceptibles.webm" type="video/webm" />
                     <div className="absolute inset-0 flex items-center justify-center" style={{ backgroundColor: '#1d3c5d' }}>
                       <div className="text-center text-white">
@@ -484,7 +484,7 @@ export default function ClientContent() {
 
           <div className="flex justify-center mb-12">
             <div className="relative rounded-lg overflow-hidden aspect-video bg-white shadow-lg max-w-3xl w-full">
-              <video
+              <video playsInline
                 className="w-full h-full object-cover"
                 poster="https://media.drandrespereznieto.com/images/videos/hamaca cuello/testimonio.webp"
                 controls
@@ -495,7 +495,7 @@ export default function ClientContent() {
                   if (fallback) (fallback as HTMLElement).style.display = 'flex';
                 }}
               >
-                {/*<source src="https://media.drandrespereznieto.com/images/videos/hamaca cuello/TESTIMONIAL María Helena.mp4" type="video/mp4" />*/}
+                <source src="https://media.drandrespereznieto.com/images/videos/hamaca cuello/TESTIMONIAL María Helena.mp4" type="video/mp4" />
                 <source src="https://media.drandrespereznieto.com/images/videos/hamaca cuello/testimonio-Maria-Helena.webm" type="video/webm" />
                 Tu navegador no soporta el elemento video.
               </video>

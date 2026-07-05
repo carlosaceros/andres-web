@@ -29,7 +29,7 @@ const TestimonialsSection = () => {
   const t = useTranslations('testimonials_section');
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
-  const [selectedVideo, setSelectedVideo] = useState<VideoTestimonial | null>(null);
+  const [selectedVideo, setSelectedVideo] = useState<video playsInlineTestimonial | null>(null);
   const [isVideoPlaying, setIsVideoPlaying] = useState(false);
   const [isMuted, setIsMuted] = useState(false);
   const [currentVideoTime, setCurrentVideoTime] = useState(0);
@@ -377,7 +377,7 @@ const TestimonialsSection = () => {
             {videoTestimonials.map((video) => (
               <div key={video.id} className="group">
                 <div className="relative aspect-video overflow-hidden rounded-lg bg-black shadow-lg hover:shadow-xl transition-all duration-300">
-                  <video
+                  <video playsInline
                     className="w-full h-full object-cover"
                     controls
                     preload="metadata"
@@ -479,7 +479,7 @@ const TestimonialsSection = () => {
               </div>
 
               {/* Video */}
-              <video
+              <video playsInline
                 ref={videoRef}
                 className="w-full h-auto max-h-full object-contain"
                 preload="metadata"

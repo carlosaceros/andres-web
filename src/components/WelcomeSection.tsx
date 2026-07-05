@@ -142,7 +142,7 @@ export default function WelcomeSection() {
           <div className="relative max-w-2xl lg:max-w-3xl">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               {/* Video Element */}
-              <video
+              <video playsInline
                 ref={videoRef}
                 className="w-full h-auto max-h-[450px] lg:max-h-[600px]"
                 onPlay={() => setIsPlaying(true)}
@@ -152,7 +152,7 @@ export default function WelcomeSection() {
                 preload="metadata"
                 poster="/images/img-bienvenida.webp"
               >
-                {/*<source src="https://media.drandrespereznieto.com/images/videos/Bienvenida.mp4" type="video/mp4" />*/}
+                <source src="https://media.drandrespereznieto.com/images/videos/Bienvenida.mp4" type="video/mp4" />
                 <source src="https://media.drandrespereznieto.com/images/videos/Bienvenida.webm" type="video/webm" />
                 {t('video_unsupported')}
               </video>

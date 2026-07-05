@@ -73,7 +73,7 @@ export default function ClientContent() {
               </div>
               <div className="lg:col-span-1 flex justify-center order-first lg:order-last">
                 <div className="w-full max-w-sm sm:max-w-md lg:w-80">
-                  <video
+                  <video playsInline
                     className="w-full h-auto object-cover rounded-lg shadow-lg"
                     controls
                     poster="/images/cejas/img-video.webp"

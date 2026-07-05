@@ -37,7 +37,7 @@ export default async function VideosPage({ params }: { params: Promise<{ locale:
     <div className="min-h-screen bg-gray-50 flex flex-col justify-between">
       <Header />
       <main className="flex-grow">
-        <VideosClientContent locale={locale} />
+        <video playsInlinesClientContent locale={locale} />
       </main>
       <Footer />
     </div>

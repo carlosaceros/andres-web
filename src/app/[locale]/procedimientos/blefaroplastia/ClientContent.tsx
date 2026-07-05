@@ -97,7 +97,7 @@ export default function ClientContent() {
             </div>
             <div className="grid lg:grid-cols-2 gap-8">
               <div className="relative rounded-lg overflow-hidden aspect-video">
-                <video
+                <video playsInline
                   className="w-full h-full object-cover"
                   poster="/images/blefaroplastia/imgvideo1.webp"
                   controls
@@ -107,7 +107,7 @@ export default function ClientContent() {
                 </video>
               </div>
               <div className="relative rounded-lg overflow-hidden aspect-video">
-                <video
+                <video playsInline
                   className="w-full h-full object-cover"
                   poster="/images/blefaroplastia/video2.webp"
                   controls
@@ -149,7 +149,7 @@ export default function ClientContent() {
                 </p>
               </div>
               <div className="relative rounded-lg overflow-hidden aspect-video">
-                <video
+                <video playsInline
                   className="w-full h-full object-cover"
                   poster="/images/blefaroplastia/cortina.webp"
                   controls
@@ -176,7 +176,7 @@ export default function ClientContent() {
             </div>
             <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
               <div className="relative rounded-lg overflow-hidden aspect-video">
-                <video
+                <video playsInline
                   className="w-full h-full object-cover"
                   poster="/images/blefaroplastia/fat-sliding.webp"
                   controls
@@ -269,7 +269,7 @@ export default function ClientContent() {
             <div className="w-49 h-1 mb-12" style={{ backgroundColor: '#1d3c5d' }}></div>
             <div className="grid lg:grid-cols-2 gap-8 mb-12">
               <div className="relative rounded-lg overflow-hidden aspect-video bg-white shadow-lg">
-                <video
+                <video playsInline
                   className="w-full h-full object-cover"
                   poster="/images/blefaroplastia/testimonio1a.webp"
                   controls
@@ -279,7 +279,7 @@ export default function ClientContent() {
                 </video>
               </div>
               <div className="relative rounded-lg overflow-hidden aspect-video bg-white shadow-lg">
-                <video
+                <video playsInline
                   className="w-full h-full object-cover"
                   poster="/images/blefaroplastia/testimonio1.webp"
                   controls

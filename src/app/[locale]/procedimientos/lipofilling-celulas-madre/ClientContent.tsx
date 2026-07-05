@@ -81,7 +81,7 @@ export default function ClientContent() {
             {/* Video Responsive */}
             <div className="flex justify-center">
               <div className="relative rounded-lg overflow-hidden aspect-video w-full max-w-2xl">
-                <video
+                <video playsInline
                   className="w-full h-full object-cover"
                   poster=""
                   controls
@@ -91,7 +91,7 @@ export default function ClientContent() {
                     if (fallback) (fallback as HTMLElement).style.display = 'flex';
                   }}
                 >
-                  {/*<source src="https://media.drandrespereznieto.com/images/videos/Lipofilling Subtitulado en inglés - Detalles de la técnica LIPOFILLING DE CÉLULAS MADRE.mp4" type="video/mp4" />*/}
+                  <source src="https://media.drandrespereznieto.com/images/videos/Lipofilling Subtitulado en inglés - Detalles de la técnica LIPOFILLING DE CÉLULAS MADRE.mp4" type="video/mp4" />
                   <source src="https://media.drandrespereznieto.com/images/videos/lipofillingdetallestecnicacelulasmadre.webm" type="video/webm" />
                   Tu navegador no soporta el elemento video.
                 </video>
@@ -507,7 +507,7 @@ export default function ClientContent() {
           {/* Video testimonio - Responsive */}
           <div className="flex justify-center mb-8 md:mb-12">
             <div className="relative rounded-lg overflow-hidden aspect-video w-full max-w-2xl">
-              <video
+              <video playsInline
                 className="w-full h-full object-cover"
                 poster="/images/testimonio-lipo.webp"
                 controls
@@ -517,7 +517,7 @@ export default function ClientContent() {
                   if (fallback) (fallback as HTMLElement).style.display = 'flex';
                 }}
               >
-                {/*<source src="https://media.drandrespereznieto.com/images/videos/Lipofilling facial con células madre.mp4" type="video/mp4" />*/}
+                <source src="https://media.drandrespereznieto.com/images/videos/Lipofilling facial con células madre.mp4" type="video/mp4" />
                 <source src="https://media.drandrespereznieto.com/images/videos/video-lipofilling-facial-celulas-madre.webm" type="video/webm" />
                 Tu navegador no soporta el elemento video.
               </video>

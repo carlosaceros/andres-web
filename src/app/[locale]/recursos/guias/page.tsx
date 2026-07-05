@@ -175,12 +175,12 @@ export default async function GuiasPrePostPage({ params }: { params: Promise<{ l
                 </div>
                 {/* VIDEO 1: La montaña rusa de la recuperación */}
                 <div className="aspect-[9/16] rounded-lg overflow-hidden shadow-xl bg-gray-900">
-                  <video
+                  <video playsInline
                     className="w-full h-full object-cover"
                     controls
                     poster="https://media.drandrespereznieto.com/images/videos/montana.webp"
                   >
-                    {/*<source src="https://media.drandrespereznieto.com/images/videos/Montana-Rusa-Proceso-Inflamatorio.mp4" type="video/mp4" />*/}
+                    <source src="https://media.drandrespereznieto.com/images/videos/Montana-Rusa-Proceso-Inflamatorio.mp4" type="video/mp4" />
                     <source src="https://media.drandrespereznieto.com/images/videos/MontanaRusaProcesoInflamatorio.webm" type="video/webm" />
                     Tu navegador no soporta la reproducción de video.
                   </video>
@@ -199,12 +199,12 @@ export default async function GuiasPrePostPage({ params }: { params: Promise<{ l
                 </div>
                 {/* VIDEO 2: Recomendaciones Preoperatorias */}
                 <div className="order-1 lg:order-2 aspect-video rounded-lg overflow-hidden shadow-xl bg-gray-900">
-                  <video
+                  <video playsInline
                     className="w-full h-full object-cover"
                     controls
                     poster="/images/recomentaciones.webp"
                   >
-                    {/*<source src="https://media.drandrespereznieto.com/images/videos/Recomendaciones Preoperatorias.mp4" type="video/mp4" />*/}
+                    <source src="https://media.drandrespereznieto.com/images/videos/Recomendaciones Preoperatorias.mp4" type="video/mp4" />
                     <source src="https://media.drandrespereznieto.com/images/videos/Recomendaciones-Preoperatorias.webm" type="video/webm" />
                     Tu navegador no soporta la reproducción de video.
                   </video>
@@ -309,12 +309,12 @@ export default async function GuiasPrePostPage({ params }: { params: Promise<{ l
                     {t('video_lifting_title')}
                   </h3>
                   <div className="aspect-video rounded-lg overflow-hidden shadow-xl bg-gray-900">
-                    <video
+                    <video playsInline
                       className="w-full h-full object-cover"
                       controls
                       poster="/images/video1.webp"
                     >
-                      {/*<source src="https://media.drandrespereznieto.com/images/videos/guias/Recomendaciones Post Lifting Baja.mp4" type="video/mp4" />*/}
+                      <source src="https://media.drandrespereznieto.com/images/videos/guias/Recomendaciones Post Lifting Baja.mp4" type="video/mp4" />
                       <source src="https://media.drandrespereznieto.com/images/videos/Recomendaciones-Post-Lifting-Baja.webm" type="video/webm" />
                       Tu navegador no soporta la reproducción de video.
                     </video>
@@ -327,12 +327,12 @@ export default async function GuiasPrePostPage({ params }: { params: Promise<{ l
                     {t('video_blefaro_title')}
                   </h3>
                   <div className="aspect-video rounded-lg overflow-hidden shadow-xl bg-gray-900">
-                    <video
+                    <video playsInline
                       className="w-full h-full object-cover"
                       controls
                       poster="https://media.drandrespereznieto.com/images/videos/guias/video2.webp"
                     >
-                      {/*<source src="https://media.drandrespereznieto.com/images/videos/guias/Recomendaciones Post Blefaro Español.mp4" type="video/mp4" />*/}
+                      <source src="https://media.drandrespereznieto.com/images/videos/guias/Recomendaciones Post Blefaro Español.mp4" type="video/mp4" />
                       <source src="https://media.drandrespereznieto.com/images/videos/RecomendacionesPostBlefaroEspanol.webm" type="video/webm" />
                       Tu navegador no soporta la reproducción de video.
                     </video>
@@ -345,12 +345,12 @@ export default async function GuiasPrePostPage({ params }: { params: Promise<{ l
                     {t('video_rino_title')}
                   </h3>
                   <div className="aspect-video rounded-lg overflow-hidden shadow-xl bg-gray-900">
-                    <video
+                    <video playsInline
                       className="w-full h-full object-cover"
                       controls
                       poster="https://media.drandrespereznieto.com/images/videos/guias/vide-3.webp"
                     >
-                      {/*<source src="https://media.drandrespereznieto.com/images/videos/guias/Recuperación Rino_ ESP_Whatsaap.mp4" type="video/mp4" />*/}
+                      <source src="https://media.drandrespereznieto.com/images/videos/guias/Recuperación Rino_ ESP_Whatsaap.mp4" type="video/mp4" />
                       <source src="https://media.drandrespereznieto.com/images/videos/Recuperacion-Rino-ESP.webm" type="video/webm" />
                       Tu navegador no soporta la reproducción de video.
                     </video>

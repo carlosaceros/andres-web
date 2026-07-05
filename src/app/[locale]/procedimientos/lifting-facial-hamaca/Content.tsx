@@ -153,13 +153,13 @@ export default function ClientContent() {
             <div className="flex justify-center order-first md:order-last">
               <div className="w-full max-w-sm md:max-w-lg">
                 <div className="relative rounded-lg overflow-hidden aspect-video bg-gray-800">
-                  <video
+                  <video playsInline
                     className="w-full h-full object-cover"
                     poster=""
                     controls
                     preload="metadata"
                   >
-                    {/*<source src="https://media.drandrespereznieto.com/images/videos/EFECTO HAMACA MEJILLAS Y CUELLO.mp4" type="video/mp4" />*/}
+                    <source src="https://media.drandrespereznieto.com/images/videos/EFECTO HAMACA MEJILLAS Y CUELLO.mp4" type="video/mp4" />
                     <source src="https://media.drandrespereznieto.com/images/videos/efecto-hamaca-mejillas-cuello.webm" type="video/webm" />
                     {/* Fallback responsive */}
                     <div className="absolute inset-0 flex items-center justify-center" style={{ backgroundColor: '#1d3c5d' }}>
@@ -266,7 +266,7 @@ export default function ClientContent() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
             <div className="relative aspect-video rounded-lg overflow-hidden bg-gray-900 order-2 md:order-1">
-              <video
+              <video playsInline
                 className="w-full h-full object-cover"
                 controls
                 poster="https://media.drandrespereznieto.com/images/lifting-hamaca/deep-plane.webp"
@@ -276,7 +276,7 @@ export default function ClientContent() {
                   if (fallback) (fallback as HTMLElement).style.display = 'flex';
                 }}
               >
-                {/*<source src="https://media.drandrespereznieto.com/images/videos/Video Lifting Deep.mp4" type="video/mp4" />*/}
+                <source src="https://media.drandrespereznieto.com/images/videos/Video Lifting Deep.mp4" type="video/mp4" />
                 <source src="https://media.drandrespereznieto.com/images/lifting-hamaca/Video-Lifting-Deep.webm" type="video/webm" />
                 {t('video2_unsupported')}
               </video>
@@ -619,7 +619,7 @@ export default function ClientContent() {
           <div className="flex justify-center gap-6 md:gap-8 mb-8 md:mb-12">
 
             <div className="relative rounded-lg overflow-hidden aspect-video bg-white shadow-lg max-w-2xl w-full">
-              <video
+              <video playsInline
                 className="w-full h-full object-cover"
                 poster="https://media.drandrespereznieto.com/images/lifting-hamaca/testimoni1.webp"
                 controls
@@ -630,7 +630,7 @@ export default function ClientContent() {
                   if (fallback) (fallback as HTMLElement).style.display = 'flex';
                 }}
               >
-                {/*<source src="https://media.drandrespereznieto.com/images/videos/Testimonial Ivette - Lifting Facial en Hamaca.mp4" type="video/mp4" />*/}
+                <source src="https://media.drandrespereznieto.com/images/videos/Testimonial Ivette - Lifting Facial en Hamaca.mp4" type="video/mp4" />
                 <source src="https://media.drandrespereznieto.com/images/videos/Testimonial-Ivette-Lifting-Facial-Hamaca.webm" type="video/webm" />
                 {t('video3_unsupported')}
               </video>
@@ -694,13 +694,13 @@ export default function ClientContent() {
             <div className="flex justify-center">
               <div className="w-full max-w-xs md:max-w-sm">
                 <div className="relative rounded-lg overflow-hidden bg-gray-800" style={{ aspectRatio: '9/16' }}>
-                  <video
+                  <video playsInline
                     className="w-full h-full object-cover"
                     poster="https://media.drandrespereznieto.com/images/lifting-hamaca/montaña.webp"
                     controls
                     preload="metadata"
                   >
-                    {/*<source src="https://media.drandrespereznieto.com/images/videos/Montana-Rusa-Proceso-Inflamatorio.mp4" type="video/mp4" />*/}
+                    <source src="https://media.drandrespereznieto.com/images/videos/Montana-Rusa-Proceso-Inflamatorio.mp4" type="video/mp4" />
                     <source src="https://media.drandrespereznieto.com/images/lifting-hamaca/MontanaRusaProcesoInflamatorio.webm" type="video/webm" />
                     <div className="absolute inset-0 flex items-center justify-center" style={{ backgroundColor: '#1d3c5d' }}>
                       <div className="text-center text-white">

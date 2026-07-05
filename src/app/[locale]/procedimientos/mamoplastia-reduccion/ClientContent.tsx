@@ -161,7 +161,7 @@ export default function ClientContent() {
             <div className="flex justify-center">
               <div className="w-full max-w-lg">
                 <div className="relative rounded-lg overflow-hidden aspect-video" style={{ backgroundColor: '#1d3c5d' }}>
-                  <video
+                  <video playsInline
                     className="w-full h-full object-cover"
                     poster=""
                     controls
@@ -172,7 +172,7 @@ export default function ClientContent() {
                       if (fallback) (fallback as HTMLElement).style.display = 'flex';
                     }}
                   >
-                    {/*<source src="https://media.drandrespereznieto.com/images/videos/Mamoplástia de Reducción.mp4" type="video/mp4" />*/}
+                    <source src="https://media.drandrespereznieto.com/images/videos/Mamoplástia de Reducción.mp4" type="video/mp4" />
                     <source src="https://media.drandrespereznieto.com/images/videos/Mamoplastia-Reduccion.webm" type="video/webm" />
                     Tu navegador no soporta el elemento video.
                   </video>

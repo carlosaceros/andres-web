@@ -107,13 +107,13 @@ export default function ClientContent() {
           <div className="flex justify-center">
             <div className="w-full max-w-2xl">
               <div className="relative rounded-lg overflow-hidden aspect-video" style={{ backgroundColor: '#1d3c5d' }}>
-                <video
+                <video playsInline
                   className="w-full h-full object-cover"
                   poster=""
                   controls
                   preload="metadata"
                 >
-                  {/*} <source src="https://media.drandrespereznieto.com/images/videos/Mamoplástia de Aumento.mp4" type="video/mp4" />*/}
+                  <source src="https://media.drandrespereznieto.com/images/videos/Mamoplástia de Aumento.mp4" type="video/mp4" />
                   <source src="https://media.drandrespereznieto.com/images/videos/Mamoplastia-Aumento.webm" type="video/webm" />
                   <div className="absolute inset-0 flex items-center justify-center" style={{ backgroundColor: '#1d3c5d' }}>
                     <div className="text-center text-white">

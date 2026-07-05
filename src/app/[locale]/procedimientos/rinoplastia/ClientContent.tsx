@@ -60,7 +60,7 @@ export default function ClientContent() {
           <div className="flex justify-center">
             <div className="w-full max-w-3xl">
               <div className="relative rounded-lg overflow-hidden aspect-video" style={{ backgroundColor: '#1d3c5d' }}>
-                <video
+                <video playsInline
                   className="w-full h-full object-cover"
                   poster=""
                   controls
@@ -71,7 +71,7 @@ export default function ClientContent() {
                     if (fallback) (fallback as HTMLElement).style.display = 'flex';
                   }}
                 >
-                  {/*<source src="https://media.drandrespereznieto.com/images/videos/Rinoplastia.mp4" type="video/mp4" />*/}
+                  <source src="https://media.drandrespereznieto.com/images/videos/Rinoplastia.mp4" type="video/mp4" />
                   <source src="https://media.drandrespereznieto.com/images/videos/Rinoplastia.webm" type="video/webm" />
                   <div className="absolute inset-0 flex items-center justify-center" style={{ backgroundColor: '#1d3c5d' }}>
                     <div className="text-center text-white">
@@ -176,7 +176,7 @@ export default function ClientContent() {
           <div className="grid lg:grid-cols-2 gap-8">
             {/* Video 1 */}
             <div className="relative rounded-lg overflow-hidden aspect-video" style={{ backgroundColor: '#1d3c5d' }}>
-              <video
+              <video playsInline
                 className="w-full h-full object-cover"
                 poster=""
                 controls
@@ -187,7 +187,7 @@ export default function ClientContent() {
                   if (fallback) (fallback as HTMLElement).style.display = 'flex';
                 }}
               >
-                {/*<source src="https://media.drandrespereznieto.com/images/videos/1-RINOPLASTIA ABIERTA DE PRESERVACION.mp4" type="video/mp4" />*/}
+                <source src="https://media.drandrespereznieto.com/images/videos/1-RINOPLASTIA ABIERTA DE PRESERVACION.mp4" type="video/mp4" />
                 <source src="https://media.drandrespereznieto.com/images/videos/rinoplastia-abierta-preservacion.webm" type="video/webm" />
                 <div className="absolute inset-0 flex items-center justify-center" style={{ backgroundColor: '#1d3c5d' }}>
                   <div className="text-center text-white">
@@ -206,7 +206,7 @@ export default function ClientContent() {
 
             {/* Video 2 */}
             <div className="relative rounded-lg overflow-hidden aspect-video" style={{ backgroundColor: '#1d3c5d' }}>
-              <video
+              <video playsInline
                 className="w-full h-full object-cover"
                 poster=""
                 controls
@@ -217,7 +217,7 @@ export default function ClientContent() {
                   if (fallback) (fallback as HTMLElement).style.display = 'flex';
                 }}
               >
-                {/*<source src="https://media.drandrespereznieto.com/images/videos/2- RINOPLASTIA ABIERTA DE PRESERVACION.mp4" type="video/mp4" />*/}
+                <source src="https://media.drandrespereznieto.com/images/videos/2- RINOPLASTIA ABIERTA DE PRESERVACION.mp4" type="video/mp4" />
                 <source src="https://media.drandrespereznieto.com/images/videos/rinoplastia-abierta-preservacion-2.webm" type="video/webm" />
                 <div className="absolute inset-0 flex items-center justify-center" style={{ backgroundColor: '#1d3c5d' }}>
                   <div className="text-center text-white">
@@ -378,7 +378,7 @@ export default function ClientContent() {
 
             <div className="grid lg:grid-cols-2 gap-8">
               <div className="relative rounded-lg overflow-hidden aspect-video bg-white shadow-lg">
-                <video
+                <video playsInline
                   className="w-full h-full object-cover"
                   poster="/images/rinoplastia/testimonio1.webp"
                   controls
@@ -389,7 +389,7 @@ export default function ClientContent() {
                     if (fallback) (fallback as HTMLElement).style.display = 'flex';
                   }}
                 >
-                  {/*<source src="https://media.drandrespereznieto.com/images/videos/historia-resultado-Rinoplastia.mp4" type="video/mp4" />*/}
+                  <source src="https://media.drandrespereznieto.com/images/videos/historia-resultado-Rinoplastia.mp4" type="video/mp4" />
                   <source src="https://media.drandrespereznieto.com/images/videos/historia-resultado-Rinoplastia.webm" type="video/webm" />
                   Tu navegador no soporta el elemento video.
                 </video>
@@ -407,7 +407,7 @@ export default function ClientContent() {
               </div>
 
               <div className="relative rounded-lg overflow-hidden aspect-video bg-white shadow-lg">
-                <video
+                <video playsInline
                   className="w-full h-full object-cover"
                   poster="/images/rinoplastia/testimonio2.webp"
                   controls
@@ -418,7 +418,7 @@ export default function ClientContent() {
                     if (fallback) (fallback as HTMLElement).style.display = 'flex';
                   }}
                 >
-                  {/*<source src="https://media.drandrespereznieto.com/images/videos/TESTIMONIAL RINOPLASTIA2.mp4" type="video/mp4" />*/}
+                  <source src="https://media.drandrespereznieto.com/images/videos/TESTIMONIAL RINOPLASTIA2.mp4" type="video/mp4" />
                   <source src="https://media.drandrespereznieto.com/images/videos/testimonial-rinoplastia2.webm" type="video/webm" />
                   Tu navegador no soporta el elemento video.
                 </video>

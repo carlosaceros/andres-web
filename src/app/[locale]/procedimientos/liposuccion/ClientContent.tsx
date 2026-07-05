@@ -123,7 +123,7 @@ export default function ClientContent() {
 
               <div className="rounded-lg overflow-hidden" style={{ backgroundColor: '#1d3c5d' }}>
                 <div className="relative aspect-video">
-                  <video
+                  <video playsInline
                     className="w-full h-full object-cover"
                     poster=""
                     controls
@@ -134,7 +134,7 @@ export default function ClientContent() {
                       if (fallback) (fallback as HTMLElement).style.display = 'flex';
                     }}
                   >
-                    {/*<source src="https://media.drandrespereznieto.com/images/videos/Liposucción Tradicional.mp4" type="video/mp4" />*/}
+                    <source src="https://media.drandrespereznieto.com/images/videos/Liposucción Tradicional.mp4" type="video/mp4" />
                     <source src="https://media.drandrespereznieto.com/images/videos/Liposuccion-Tradicional.webm" type="video/webm" />
                     Tu navegador no soporta el elemento video.
                   </video>
@@ -169,7 +169,7 @@ export default function ClientContent() {
 
               <div className="rounded-lg overflow-hidden" style={{ backgroundColor: '#1d3c5d' }}>
                 <div className="relative aspect-video">
-                  <video
+                  <video playsInline
                     className="w-full h-full object-cover"
                     poster="/images/todos/img-lipolisis.webp"
                     controls
@@ -180,7 +180,7 @@ export default function ClientContent() {
                       if (fallback) (fallback as HTMLElement).style.display = 'flex';
                     }}
                   >
-                    {/*<source src="https://media.drandrespereznieto.com/images/videos/Lipólisis Vaser.mp4" type="video/mp4" />*/}
+                    <source src="https://media.drandrespereznieto.com/images/videos/Lipólisis Vaser.mp4" type="video/mp4" />
                     <source src="https://media.drandrespereznieto.com/images/videos/Lipolisis-Vaser.webm" type="video/webm" />
                     Tu navegador no soporta el elemento video.
                   </video>

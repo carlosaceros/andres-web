@@ -33,7 +33,7 @@ const VideoBanner = () => {
         >
           {/* Múltiples formatos para mejor compatibilidad */}
           <source src="https://media.drandrespereznieto.com/images/videos/edificio.webm" type="video/webm" />
-          {/*<source src="https://media.drandrespereznieto.com/images/videos/edificio.mp4" type="video/mp4" />*/}
+          <source src="https://media.drandrespereznieto.com/images/videos/edificio.mp4" type="video/mp4" />
           Tu navegador no soporta el elemento video.
         </video>
 
@@ -218,7 +218,7 @@ export default function ClientContent() {
   return (
     <>
       {/* Video Banner: Instalaciones y Staff */}
-      <VideoBanner />
+      <video playsInlineBanner />
 
       {/* Sección: Consultorio */}
       <ConsultorioSection />
