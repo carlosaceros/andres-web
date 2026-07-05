@@ -30,6 +30,39 @@ export default function HeroSlider() {
       subtitle: t_home('dr_face_subtitle'),
       description: '',
       type: 'drface'
+    },
+    {
+      id: 3,
+      image: '/images/foto1.webp',
+      imageMobile: '/images/slider1movil.webp',
+      title: t_home('slide3_title'),
+      subtitle: t_home('slide3_subtitle'),
+      description: t_home('slide3_description'),
+      ctaText: t_home('slide3_cta'),
+      videoEmbedUrl: 'https://www.instagram.com/reel/DZyJAjhhwXh/embed/',
+      type: 'video'
+    },
+    {
+      id: 4,
+      image: '/images/slider2.webp',
+      imageMobile: '/images/slider2movil.webp',
+      title: t_home('slide4_title'),
+      subtitle: t_home('slide4_subtitle'),
+      description: t_home('slide4_description'),
+      ctaText: t_home('slide4_cta'),
+      videoEmbedUrl: 'https://www.instagram.com/reel/DaTuQ0RBs34/embed/',
+      type: 'video'
+    },
+    {
+      id: 5,
+      image: '/images/foto1.webp',
+      imageMobile: '/images/slider1movil.webp',
+      title: t_home('slide5_title'),
+      subtitle: t_home('slide5_subtitle'),
+      description: t_home('slide5_description'),
+      ctaText: t_home('slide5_cta'),
+      videoEmbedUrl: 'https://www.instagram.com/reel/DZGY7iHJXHm/embed/',
+      type: 'video'
     }
   ];
 
@@ -44,12 +77,14 @@ export default function HeroSlider() {
   }, []);
 
   useEffect(() => {
+    const currentType = slides[currentSlide]?.type;
+    const delay = currentType === 'video' ? 18000 : 5000;
     const timer = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % slides.length);
-    }, 5000);
+    }, delay);
 
     return () => clearInterval(timer);
-  }, []);
+  }, [currentSlide]);
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
@@ -87,12 +122,12 @@ export default function HeroSlider() {
           className="hidden md:block w-full h-full object-cover object-right"
         />
 
-        <div className="absolute inset-0 bg-black/20"></div>
+        <div className={`absolute inset-0 transition-all duration-500 ${currentSlideData.type === 'video' ? 'bg-black/55 backdrop-blur-[2px]' : 'bg-black/25'}`}></div>
       </div>
 
-      <div className="relative z-10 h-full flex items-end md:items-center">
-        <div className="container mx-auto px-6 mb-8 md:mb-0">
-          <div className="max-w-xs mx-auto md:max-w-2xl md:mx-0 text-center md:text-left">
+      <div className="relative z-10 h-full flex items-center py-16">
+        <div className="container mx-auto px-6">
+          <div className={`${currentSlideData.type === 'video' ? 'max-w-xs sm:max-w-md md:max-w-5xl mx-auto' : 'max-w-xs mx-auto md:max-w-2xl md:mx-0'} text-center md:text-left`}>
 
             {currentSlideData.type === 'normal' && (
               <>
@@ -266,7 +301,7 @@ export default function HeroSlider() {
               </>
             )}
 
-            {currentSlide === 1 && (
+            {currentSlideData.type === 'drface' && (
               <>
                 <h1 className="font-prototype text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-normal text-white leading-tight mb-3 md:mb-4">
                   {t_home('dr_face_title')}
@@ -286,6 +321,60 @@ export default function HeroSlider() {
                 </button>
               </>
             )}
+
+            {currentSlideData.type === 'video' && (
+              <div className="grid md:grid-cols-12 gap-8 md:gap-12 items-center w-full min-h-[70vh] md:min-h-0 pt-2 md:pt-0">
+                {/* Left side: Copywriting & CTA */}
+                <div className="md:col-span-7 text-center md:text-left flex flex-col justify-center">
+                  <span className="font-sansation font-bold text-xs uppercase tracking-widest text-[#babdb3] mb-3 block">
+                    {currentSlideData.subtitle}
+                  </span>
+                  <h1 className="font-prototype text-3xl md:text-4xl lg:text-5xl font-normal text-white leading-tight mb-4">
+                    {currentSlideData.title}
+                  </h1>
+                  <div className="w-20 md:w-32 h-0.5 bg-[#babdb3] mx-auto md:mx-0 mb-4"></div>
+                  <p className="font-sansation font-normal text-sm md:text-base lg:text-lg text-white/95 mb-6 leading-relaxed max-w-lg">
+                    {currentSlideData.description}
+                  </p>
+                  <div className="flex flex-col sm:flex-row gap-3 justify-center md:justify-start">
+                    <button
+                      onClick={() => window.open(`https://wa.me/573164953755?text=${encodeURIComponent(t_home('whatsapp_schedule_appointment_message'))}`, '_blank')}
+                      className="font-sansation font-bold bg-[#babdb3] hover:bg-white hover:text-black hover:scale-105 text-gray-800 px-8 py-3.5 rounded-lg transition-all duration-300 shadow-lg text-sm md:text-base flex items-center justify-center gap-2 cursor-pointer"
+                    >
+                      <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 9h12v2H6V9zm8 5H6v-2h8v2zm4-6H6V6h12v2z"/>
+                      </svg>
+                      {currentSlideData.ctaText}
+                    </button>
+                    
+                    <button
+                      onClick={() => window.location.href = `/${locale}/galeria`}
+                      className="font-sansation font-bold border-2 border-white text-white hover:bg-white hover:text-black hover:scale-105 px-8 py-3 rounded-lg transition-all duration-300 text-sm md:text-base cursor-pointer"
+                    >
+                      {t_home('gallery_btn')}
+                    </button>
+                  </div>
+                </div>
+
+                {/* Right side: Device Mockup rendering Instagram embed */}
+                <div className="md:col-span-5 flex justify-center items-center">
+                  <div className="relative w-[210px] sm:w-[240px] md:w-[260px] aspect-[9/16] rounded-[36px] p-2 bg-black/40 border border-white/20 shadow-2xl backdrop-blur-md overflow-hidden">
+                    {/* Inner Device Screen */}
+                    <div className="w-full h-full rounded-[28px] overflow-hidden bg-black relative">
+                      <iframe
+                        src={currentSlideData.videoEmbedUrl}
+                        className="w-full h-full border-none"
+                        allowTransparency={true}
+                        allow="encrypted-media"
+                        scrolling="no"
+                        frameBorder="0"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            )}
+
           </div>
         </div>
       </div>
