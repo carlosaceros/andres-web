@@ -79,7 +79,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
         })
     })
 
-    // Dynamic blog posts sitemap entries
     blogPosts.forEach((post) => {
         const route = `/blog/${post.slug}`
         sitemapEntries.push({
@@ -89,8 +88,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
             priority: 0.8,
             alternates: {
                 languages: {
-                    es: `${BASE_URL}/es${route}`,
-                    en: `${BASE_URL}/en${route}`,
+                    [post.locale]: `${BASE_URL}/${post.locale}${route}`,
                 }
             }
         })

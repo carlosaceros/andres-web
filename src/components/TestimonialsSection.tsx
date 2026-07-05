@@ -29,7 +29,7 @@ const TestimonialsSection = () => {
   const t = useTranslations('testimonials_section');
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
-  const [selectedVideo, setSelectedVideo] = useState<video playsInlineTestimonial | null>(null);
+  const [selectedVideo, setSelectedVideo] = useState<VideoTestimonial | null>(null);
   const [isVideoPlaying, setIsVideoPlaying] = useState(false);
   const [isMuted, setIsMuted] = useState(false);
   const [currentVideoTime, setCurrentVideoTime] = useState(0);

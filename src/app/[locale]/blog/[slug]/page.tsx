@@ -318,14 +318,15 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const post = getPostBySlug(slug, locale);
   if (!post) return {};
 
+  const langKey = locale === 'es' ? 'es-CO' : 'en-US';
+
   return {
     title: `${post.title} | Dr. Andrés Pérez Nieto`,
     description: post.metaDescription,
     alternates: {
       canonical: `https://www.drandrespereznieto.com/${locale}/blog/${slug}/`,
       languages: {
-        'es-CO': `https://www.drandrespereznieto.com/es/blog/${slug}/`,
-        'en-US': `https://www.drandrespereznieto.com/en/blog/${slug}/`,
+        [langKey]: `https://www.drandrespereznieto.com/${locale}/blog/${slug}/`,
         'x-default': `https://www.drandrespereznieto.com/es/blog/${slug}/`
       }
     }

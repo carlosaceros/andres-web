@@ -35,7 +35,7 @@ export default function VideosClientContent({ locale }: VideosClientContentProps
   const VIDEOS: VideoItem[] = rawVideos as VideoItem[];
 
   const [active, setActive] = useState("todos");
-  const [open, setOpen] = useState<video playsInlineItem | null>(null);
+  const [open, setOpen] = useState<VideoItem | null>(null);
   const [embedLoaded, setEmbedLoaded] = useState(false);
 
   const visible = useMemo(
