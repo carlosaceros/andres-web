@@ -1,11 +1,12 @@
 "use client";
 
 import React, { useState, useEffect, useRef } from 'react';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 
 export default function HeroSlider() {
   const t_home = useTranslations('home');
   const t_header = useTranslations('header_nav');
+  const locale = useLocale();
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isMobile, setIsMobile] = useState(false);
   const [showConsultaMenu, setShowConsultaMenu] = useState(false);
@@ -113,7 +114,7 @@ export default function HeroSlider() {
                   <button
                     className="w-14 h-14 md:w-20 md:h-20 lg:w-24 lg:h-24 rounded-lg flex flex-col items-center justify-center transition-all duration-300 group cursor-pointer hover:opacity-90"
                     style={{ backgroundColor: '#babdb3' }}
-                    onClick={() => window.location.href = '/conoce-doctor'}
+                    onClick={() => window.location.href = `/${locale}/conoce-doctor`}
                   >
                     <img
                       src="/images/iconos/doctor.png"
@@ -187,7 +188,7 @@ export default function HeroSlider() {
 
                         <button
                           onClick={() => {
-                            window.location.href = '/paciente-extranjero'
+                            window.location.href = `/${locale}/paciente-extranjero`
                             setShowConsultaMenu(false)
                           }}
                           className="w-full flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-blue-50 transition-colors text-left mt-1"
@@ -237,7 +238,7 @@ export default function HeroSlider() {
                   <button
                     className="w-14 h-14 md:w-20 md:h-20 lg:w-24 lg:h-24 rounded-lg flex flex-col items-center justify-center transition-all duration-300 group cursor-pointer hover:opacity-90"
                     style={{ backgroundColor: '#babdb3' }}
-                    onClick={() => window.location.href = '/galeria'}
+                    onClick={() => window.location.href = `/${locale}/galeria`}
                   >
                     <img
                       src="/images/iconos/imagen.png"
@@ -279,7 +280,7 @@ export default function HeroSlider() {
 
                 <button
                   className="border-2 border-white text-white font-sansation font-bold px-10 py-3 md:px-10 md:py-4 text-sm md:text-base hover:bg-white hover:text-black transition-all duration-300 mx-auto md:mx-0 block rounded-lg cursor-pointer"
-                  onClick={() => window.location.href = '/dr-face'}
+                  onClick={() => window.location.href = `/${locale}/dr-face`}
                 >
                   {t_home('meet_dr_face_btn')}
                 </button>
