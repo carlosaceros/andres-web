@@ -1,0 +1,73 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# deployment and backups
+/dist
+/images_backup
+/resultado_videoteca
+*.zip
+*.tar.gz
+*.mp4
+*.webm
+*.log
+*.pid
+package.json.bak
+
+# heavy media folders
+/public/images/videos/
+/public/images/blefaroplastia/
+/public/images/lifting-hamaca/
+/public/images/todos/Mamoplastiareduccion/
+/public/images/todos/mamaria/
+
+# heavy images
+/public/images/lovely-woman-white-dress (1).jpeg
+/public/images/LIFTING FACIAL HAMACA.jpeg
+/public/images/chica-puntos.png
+
+# config & strategies
+context.md
+estrategia-contenido-drandresperezn-v2.md
+estrategia-contenido-drandresperezn.md
+gemini.i18n-manifest.yaml
+video-hub-dr-andres.jsx
+

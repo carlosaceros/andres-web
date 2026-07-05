@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="es-CO" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+    <!-- SEO & GEO Meta Tags -->
+    <title>Blefaroplastia y Elevación de Párpados en Colombia | Dr. Andrés Pérez Nieto</title>
+    <meta name="description" content="Rejuvenece tu mirada con la cirugía de Blefaroplastia. Especialistas en técnica Fat Sliding para eliminar bolsas y ojeras sin dejar el ojo hundido.">
+    <meta name="keywords" content="blefaroplastia, elevación de párpados, cirugía de párpados Colombia, blefaroplastia superior, blefaroplastia inferior, técnica fat sliding, rejuvenecimiento de la mirada, Dr Andres Perez Nieto">
+    <meta name="author" content="Dr. Andrés Pérez Nieto">
+    <meta name="geo.region" content="CO" />
+    <meta name="geo.placename" content="Colombia" />
+    <meta name="geo.position" content="4.6985;-74.0305" />
+    <meta name="ICBM" content="4.6985, -74.0305" />
+    <link rel="canonical" href="https://www.drandrespereznieto.com/es/procedimientos/blefaroplastia/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Blefaroplastia y Rejuvenecimiento de la Mirada | Dr. Pérez Nieto" />
+    <meta property="og:description" content="Cirugía de párpados con técnica Fat Sliding. Elimina piel sobrante, bolsas y ojeras con resultados naturales." />
+    <meta property="og:image" content="https://www.drandrespereznieto.com/images/blefaroplastia/Aponte-despues.webp" />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            dark: '#0f243b', 
+                            primary: '#1d3c5d',
+                            light: '#f5f5f7', 
+                            accent: '#338dd4', 
+                            surface: 'rgba(255, 255, 255, 0.65)'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['SF Pro Display', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Montserrat', 'sans-serif'],
+                        prototype: ['Prototype', 'Michroma', 'sans-serif'],
+                        handwrite: ['Dancing Script', 'cursive'],
+                    },
+                    boxShadow: {
+                        'glow': '0 0 20px rgba(51, 141, 212, 0.3)',
+                        'soft': '0 10px 30px -10px rgba(0,0,0,0.1)',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Montserrat:wght@300;400;500;600;700&family=Dancing+Script:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Estilos Optimizados (Core Web Vitals) -->
+    <style>
+        body { 
+            font-family: 'Montserrat', sans-serif; 
+            background-color: #f5f5f7;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+        }
+        
+        h1, h2, h3 { 
+            font-family: 'Prototype', 'Michroma', sans-serif; 
+            letter-spacing: 0.02em;
+        }
+
+        /* Glassmorphism Ligero (Optimizado para móviles) */
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+        }
+
+        .glass-nav {
+            background: rgba(29, 60, 93, 0.95);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        /* Animaciones Nativas Ligeras */
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            will-change: opacity, transform;
+        }
+        
+        .reveal.reveal-active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .delay-100 { transition-delay: 100ms; }
+        .delay-200 { transition-delay: 200ms; }
+        .delay-300 { transition-delay: 300ms; }
+
+        /* Videos */
+        video {
+            border-radius: 1rem;
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        /* Background Gradient (Reemplazo del blur pesado) */
+        .bg-gradient-radial {
+            background: radial-gradient(circle at center, #1d3c5d 0%, #0f243b 100%);
+        }
+        
+        details > summary { list-style: none; }
+        details > summary::-webkit-details-marker { display: none; }
+        
+        /* Evitar texto cortado en móviles */
+        p, h1, h2, h3, h4, span {
+            word-break: break-word;
+            hyphens: auto;
+        }
+
+        /* Utilidad para scrollbar */
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: #f5f5f7; }
+        ::-webkit-scrollbar-thumb { background: #1d3c5d; border-radius: 10px; }
+    </style>
+
+    <!-- Schema Data (SEO, GEO & AEO) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "MedicalProcedure",
+          "name": "Blefaroplastia (Cirugía de Párpados)",
+          "description": "Procedimiento quirúrgico para rejuvenecer la mirada eliminando el exceso de piel en los párpados superiores y las bolsas/ojeras en los inferiores mediante técnica Fat Sliding.",
+          "procedureType": "SurgicalProcedure",
+          "bodyLocation": "Eyes",
+          "performer": {
+            "@type": "Physician",
+            "name": "Dr. Andrés Pérez Nieto",
+            "image": "https://drandrespereznieto.com/images/firma-2.png",
+            "medicalSpecialty": "PlasticSurgery",
+            "address": { "@type": "PostalAddress", "addressCountry": "CO" }
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {"@type": "Question", "name": "¿Qué es la Blefaroplastia?", "acceptedAnswer": {"@type": "Answer", "text": "La blefaroplastia es una cirugía estética que tiene como objetivo corregir el exceso de piel en los párpados y tratar las bolsas de grasa, rejuveneciendo la expresión de la mirada."}},
+            {"@type": "Question", "name": "¿Qué diferencia tiene la técnica Fat Sliding?", "acceptedAnswer": {"@type": "Answer", "text": "A diferencia de la técnica tradicional que elimina la grasa (dejando a veces el ojo hundido o cadavérico), la técnica Fat Sliding reacomoda y desliza esa grasa hacia el surco de la ojera, rellenando el hundimiento y dando un aspecto mucho más juvenil y natural."}},
+            {"@type": "Question", "name": "¿La cicatriz es visible?", "acceptedAnswer": {"@type": "Answer", "text": "Las incisiones están diseñadas para quedar ocultas. En el párpado superior se oculta en el pliegue natural del ojo, y en el inferior se realiza justo debajo de las pestañas o por dentro del párpado (transconjuntival), siendo imperceptibles tras la recuperación."}},
+            {"@type": "Question", "name": "¿Se utiliza anestesia general o local?", "acceptedAnswer": {"@type": "Answer", "text": "Puede realizarse bajo anestesia local con sedación suave o anestesia general, dependiendo del paciente y si se combina con otros procedimientos faciales."}},
+            {"@type": "Question", "name": "¿Cuánto tiempo dura la recuperación?", "acceptedAnswer": {"@type": "Answer", "text": "La recuperación inicial toma entre 7 a 10 días, tiempo durante el cual pueden presentarse hematomas o inflamación leve. Al retirar los puntos (generalmente al 5to día), el paciente puede retomar muchas de sus actividades."}}
+          ]
+        }
+      ]
+    }
+    </script>
+</head>
+<body class="antialiased selection:bg-brand-accent selection:text-white">
+
+    <!-- Navbar Native & Thumb-friendly -->
+    <div class="fixed top-4 left-0 right-0 z-50 flex justify-center px-4 w-full">
+        <nav class="glass-nav rounded-2xl md:rounded-full px-4 py-3 flex items-center justify-between transition-all w-full max-w-5xl shadow-soft">
+            <a href="https://www.drandrespereznieto.com/es/" class="flex items-center">
+                <img src="https://drandrespereznieto.com/images/firma-2.png" alt="Dr. Andrés Pérez Nieto" class="h-8 md:h-10 w-auto filter brightness-0 invert opacity-90">
+            </a>
+
+            <div class="hidden md:flex items-center space-x-1">
+                <a href="#inicio" class="px-4 py-2 text-xs font-semibold text-white/90 hover:text-white transition-colors">INICIO</a>
+                <a href="#tecnicas" class="px-4 py-2 text-xs font-semibold text-white/90 hover:text-white transition-colors">TÉCNICA</a>
+                <a href="#resultados" class="px-4 py-2 text-xs font-semibold text-white/90 hover:text-white transition-colors">RESULTADOS</a>
+                <a href="#testimonios" class="px-4 py-2 text-xs font-semibold text-white/90 hover:text-white transition-colors">TESTIMONIOS</a>
+            </div>
+
+            <div class="flex items-center gap-3">
+                <a href="https://wa.me/573164953755" class="hidden sm:flex bg-brand-accent text-white px-5 py-2 rounded-full font-bold text-xs tracking-wide items-center gap-2 hover:bg-blue-400 transition-colors">
+                    AGENDAR CITA
+                </a>
+                <button id="mobile-menu-btn" class="md:hidden text-white p-1 focus:outline-none" aria-label="Menu">
+                    <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                </button>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="fixed inset-0 z-40 bg-brand-dark/95 backdrop-blur-md hidden flex-col justify-center items-center space-y-8 opacity-0 transition-opacity duration-300">
+        <a href="#inicio" class="text-2xl font-bold text-white mobile-link">Inicio</a>
+        <a href="#tecnicas" class="text-2xl font-bold text-white mobile-link">Técnica y Videos</a>
+        <a href="#resultados" class="text-2xl font-bold text-white mobile-link">Casos de Éxito</a>
+        <a href="#testimonios" class="text-2xl font-bold text-white mobile-link">Testimonios</a>
+        <a href="#faq" class="text-2xl font-bold text-white mobile-link">Preguntas Frecuentes</a>
+        <button id="close-menu" class="absolute top-6 right-6 text-white p-2" aria-label="Cerrar"><svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg></button>
+    </div>
+
+    <main>
+        
+        <!-- HERO SECTION -->
+        <section id="inicio" class="relative min-h-[90vh] md:min-h-screen flex items-center justify-center bg-gradient-radial pt-20">
+            <!-- Background Image overlay -->
+            <div class="absolute inset-0 z-0 opacity-20 bg-[url('https://images.unsplash.com/photo-1512496015851-a1c8485208b0?auto=format&fit=crop&q=80&w=2000')] bg-cover bg-center bg-no-repeat mix-blend-overlay"></div>
+            
+            <div class="relative z-10 w-full max-w-7xl mx-auto px-4 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+                <div class="text-white pt-10 md:pt-0">
+                    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-white/20 bg-white/10 mb-6 reveal">
+                        <span class="w-2 h-2 rounded-full bg-brand-accent animate-pulse"></span>
+                        <span class="text-[10px] md:text-xs uppercase tracking-widest font-bold">Cirugía Facial</span>
+                    </div>
+
+                    <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-normal leading-tight mb-4 reveal delay-100">
+                        <span class="block text-white">Blefaroplastia</span>
+                    </h1>
+                    <h2 class="text-xl sm:text-2xl md:text-3xl text-brand-accent font-light mb-6 reveal delay-100">
+                        Rejuvenecimiento de la mirada
+                    </h2>
+
+                    <p class="text-base md:text-lg text-gray-300 font-light mb-8 max-w-lg leading-relaxed reveal delay-200">
+                        La mirada es tu punto de conexión más profundo. Una blefaroplastia bien ejecutada no solo retira el exceso de piel; devuelve la frescura, el descanso y la juventud a tu rostro, manteniendo tu esencia intacta.
+                    </p>
+
+                    <div class="flex flex-col sm:flex-row gap-4 reveal delay-200">
+                        <a href="https://wa.me/573164953755" class="bg-white text-brand-dark px-8 py-4 rounded-full font-bold text-center hover:bg-gray-100 transition-colors shadow-glow flex justify-center items-center gap-2">
+                            <span>Valoración Personalizada</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Imagen representativa -->
+                <div class="hidden lg:block relative reveal delay-200 h-full flex items-center justify-center">
+                    <div class="relative w-full aspect-[4/5] rounded-[3rem] overflow-hidden border-4 border-white/10 shadow-2xl">
+                        <img src="https://www.drandrespereznieto.com/images/blefaroplastia/Aponte-despues.webp" alt="Resultados Blefaroplastia" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-brand-dark/80 via-transparent to-transparent flex items-end p-8">
+                            <p class="text-white font-medium text-lg">Resultados naturales y armónicos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN DE VIDEO DESTACADO (Cinemática) -->
+        <section class="py-20 md:py-32 bg-brand-dark relative z-20 rounded-t-[2.5rem] md:rounded-t-[3rem] -mt-8 shadow-[0_-10px_40px_rgba(0,0,0,0.2)] overflow-hidden">
+            <!-- Glow background decorativo -->
+            <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-brand-accent/20 rounded-full blur-[100px] pointer-events-none"></div>
+
+            <div class="max-w-7xl mx-auto px-4 lg:px-8 relative z-10">
+                <div class="text-center mb-12 md:mb-16 reveal">
+                    <span class="inline-block py-1 px-4 rounded-full bg-brand-accent/20 border border-brand-accent/30 text-brand-accent text-xs md:text-sm font-bold tracking-widest uppercase mb-4">Experiencia Quirúrgica</span>
+                    <h2 class="text-3xl md:text-5xl text-white mb-6">¿Cómo realizo la Blefaroplastia?</h2>
+                    <p class="text-gray-300 max-w-3xl mx-auto text-sm md:text-base leading-relaxed">
+                        Acompáñame al quirófano. Conoce de primera mano la meticulosidad y precisión de mi técnica, diseñada para eliminar el aspecto de cansancio conservando la esencia natural de tu mirada.
+                    </p>
+                </div>
+
+                <!-- Contenedor Principal del Video Animado -->
+                <div class="reveal delay-100 max-w-5xl mx-auto relative group mb-16">
+                    <!-- Borde luminoso animado detrás del video -->
+                    <div class="absolute -inset-1 bg-gradient-to-r from-brand-accent via-blue-400 to-brand-primary rounded-[2.5rem] blur opacity-40 group-hover:opacity-75 transition duration-1000 group-hover:duration-300"></div>
+                    
+                    <div class="relative rounded-[2rem] overflow-hidden bg-black shadow-2xl border border-white/10">
+                        <video controls preload="metadata" poster="https://www.drandrespereznieto.com/images/blefaroplastia/Sonia-antes.webp" class="w-full aspect-video object-cover transition-transform duration-700 hover:scale-[1.01]">
+                            <source src="https://www.drandrespereznieto.com/images/videos/Como-realizo-blefaroplastia.webm" type="video/webm">
+                            Tu navegador no soporta el video.
+                        </video>
+                    </div>
+                </div>
+
+                <!-- Video Secundario (Consulta) -->
+                <div class="reveal delay-200 max-w-2xl mx-auto mt-12 bg-white/5 border border-white/10 rounded-3xl p-4 md:p-6 backdrop-blur-sm">
+                    <div class="flex flex-col md:flex-row items-center gap-6">
+                        <div class="w-full md:w-1/2 relative rounded-2xl overflow-hidden shadow-lg bg-black shrink-0">
+                            <video controls preload="none" poster="https://www.drandrespereznieto.com/images/blefaroplastia/Aponte-antes.webp" class="w-full aspect-video object-cover">
+                                <source src="https://www.drandrespereznieto.com/images/videos/cirugia-parpados.webm" type="video/webm">
+                            </video>
+                        </div>
+                        <div class="w-full md:w-1/2 text-left">
+                            <h3 class="text-xl md:text-2xl font-bold text-white mb-2">La Consulta Inicial</h3>
+                            <p class="text-gray-400 text-sm leading-relaxed mb-4">
+                                El éxito comienza con un análisis detallado de tu anatomía. Descubre qué evaluamos antes de planear tu procedimiento.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TÉCNICAS (Superior, Inferior, Fat Sliding) -->
+        <section id="tecnicas" class="py-20 md:py-28 bg-white relative z-20 rounded-t-[2.5rem] md:rounded-t-[3rem] -mt-8 shadow-[0_-10px_40px_rgba(0,0,0,0.1)]">
+            <div class="max-w-6xl mx-auto px-4 lg:px-8">
+                
+                <!-- Superior e Inferior -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 mb-20 items-center">
+                    <div class="space-y-10 reveal">
+                        <div>
+                            <h3 class="text-2xl md:text-3xl font-bold text-brand-primary mb-3">Blefaroplastia Superior</h3>
+                            <p class="text-gray-600 leading-relaxed border-l-4 border-brand-accent pl-4">
+                                Elimina el exceso de piel sobrante que cae sobre las pestañas, produce pesadez en los ojos y da un aspecto de tristeza constante o envejecimiento prematuro.
+                            </p>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl md:text-3xl font-bold text-brand-primary mb-3">Blefaroplastia Inferior</h3>
+                            <p class="text-gray-600 leading-relaxed border-l-4 border-brand-accent pl-4">
+                                Diseñada para eliminar las bolsas protruyentes bajo los ojos y corregir las ojeras marcadas, devolviendo una transición suave y joven entre el ojo y la mejilla.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="reveal delay-100 relative rounded-3xl overflow-hidden shadow-xl bg-brand-dark aspect-video flex items-center justify-center p-6 text-center">
+                        <div>
+                            <h4 class="text-white text-2xl font-bold mb-2 font-prototype">Efecto Camino y Ojera</h4>
+                            <p class="text-gray-400 text-sm">Tratamiento integral del contorno ocular</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fat Sliding -->
+                <div class="bg-brand-primary rounded-[2rem] md:rounded-[3rem] p-6 md:p-12 text-white relative overflow-hidden reveal">
+                    <div class="absolute top-0 right-0 w-64 h-64 bg-brand-accent rounded-full filter blur-[80px] opacity-30"></div>
+                    
+                    <div class="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                        <div>
+                            <span class="bg-brand-accent/20 text-blue-200 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider mb-4 inline-block border border-brand-accent/50">Técnica Avanzada</span>
+                            <h3 class="text-3xl md:text-4xl font-bold mb-4">Técnica Fat Sliding</h3>
+                            <p class="text-lg text-blue-100 mb-6 font-light leading-relaxed">
+                                Redefiniendo el tratamiento de bolsas.
+                            </p>
+                            <p class="text-gray-300 text-sm md:text-base leading-relaxed mb-6">
+                                A diferencia de técnicas antiguas que simplemente extirpaban la grasa (dejando a la larga un aspecto de "ojo cadavérico" o hundido), la técnica <strong>Fat Sliding</strong> consiste en preservar esa valiosa grasa y <em>deslizarla</em> hacia el surco de la lágrima.
+                            </p>
+                            
+                            <h4 class="font-bold text-white mb-4 mt-8">¿Por qué es diferente?</h4>
+                            <ul class="space-y-4">
+                                <li class="flex items-start">
+                                    <span class="text-brand-accent text-xl mr-3 mt-0.5">✓</span>
+                                    <span class="text-gray-300 text-sm md:text-base">No hunde el ojo, mantiene el volumen juvenil.</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-brand-accent text-xl mr-3 mt-0.5">✓</span>
+                                    <span class="text-gray-300 text-sm md:text-base">Camufla el color oscuro de la ojera al rellenar el surco.</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-brand-accent text-xl mr-3 mt-0.5">✓</span>
+                                    <span class="text-gray-300 text-sm md:text-base">Resultados naturales y duraderos a largo plazo.</span>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <!-- Representación visual técnica -->
+                        <div class="rounded-2xl overflow-hidden shadow-2xl border-4 border-white/10 bg-black">
+                            <img src="https://www.drandrespereznieto.com/images/blefaroplastia/Aponte-antes.webp" alt="Técnica Fat Sliding Marcación" class="w-full h-auto object-cover opacity-80" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- GALERÍA ANTES Y DESPUÉS (Mobile friendly grid) -->
+        <section id="resultados" class="py-20 md:py-28 bg-brand-light">
+            <div class="max-w-7xl mx-auto px-4 lg:px-8">
+                <div class="text-center mb-12 md:mb-16 reveal">
+                    <h2 class="text-3xl md:text-5xl text-brand-primary mb-4">Nuestros Excelentes Resultados</h2>
+                    <p class="text-gray-500 text-sm md:text-base">Desliza para ver la transformación y naturalidad en la mirada de nuestros pacientes.</p>
+                </div>
+
+                <!-- Grid responsivo: 1 columna móvil, 2 tablet, 4 escritorio -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+                    
+                    <!-- Caso 1 -->
+                    <div class="group bg-white rounded-2xl p-4 shadow-sm hover:shadow-xl transition-shadow border border-gray-100 reveal delay-100">
+                        <div class="flex justify-between text-xs font-bold text-gray-400 mb-2 uppercase tracking-wider">
+                            <span>Antes</span>
+                            <span class="text-brand-accent">Después</span>
+                        </div>
+                        <div class="grid grid-cols-2 gap-2">
+                            <img src="https://www.drandrespereznieto.com/images/blefaroplastia/Aponte-antes.webp" alt="Antes Caso 1" class="w-full h-auto rounded-lg object-cover bg-gray-100" loading="lazy">
+                            <img src="https://www.drandrespereznieto.com/images/blefaroplastia/Aponte-despues.webp" alt="Después Caso 1" class="w-full h-auto rounded-lg object-cover bg-gray-100" loading="lazy">
+                        </div>
+                    </div>
+
+                    <!-- Caso 2 -->
+                    <div class="group bg-white rounded-2xl p-4 shadow-sm hover:shadow-xl transition-shadow border border-gray-100 reveal delay-100">
+                        <div class="flex justify-between text-xs font-bold text-gray-400 mb-2 uppercase tracking-wider">
+                            <span>Antes</span>
+                            <span class="text-brand-accent">Después</span>
+                        </div>
+                        <div class="grid grid-cols-2 gap-2">
+                            <img src="https://www.drandrespereznieto.com/images/blefaroplastia/Astrid-antes.webp" alt="Antes Caso 2" class="w-full h-auto rounded-lg object-cover bg-gray-100" loading="lazy">
+                            <!-- Nota: Usando Astrid-despues como convención lógica -->
+                            <img src="https://www.drandrespereznieto.com/images/blefaroplastia/Astrid-despues.webp" onerror="this.src='https://www.drandrespereznieto.com/images/blefaroplastia/Astrid-antes.webp'; this.style.filter='grayscale(100%)'" alt="Después Caso 2" class="w-full h-auto rounded-lg object-cover bg-gray-100" loading="lazy">
+                        </div>
+                    </div>
+
+                    <!-- Caso 3 -->
+                    <div class="group bg-white rounded-2xl p-4 shadow-sm hover:shadow-xl transition-shadow border border-gray-100 reveal delay-200">
+                        <div class="flex justify-between text-xs font-bold text-gray-400 mb-2 uppercase tracking-wider">
+                            <span>Antes</span>
+                            <span class="text-brand-accent">Después</span>
+                        </div>
+                        <div class="grid grid-cols-2 gap-2">
+                            <img src="https://www.drandrespereznieto.com/images/blefaroplastia/Sonia-antes.webp" alt="Antes Caso 3" class="w-full h-auto rounded-lg object-cover bg-gray-100" loading="lazy">
+                            <img src="https://www.drandrespereznieto.com/images/blefaroplastia/sonia-despues.webp" alt="Después Caso 3" class="w-full h-auto rounded-lg object-cover bg-gray-100" loading="lazy">
+                        </div>
+                    </div>
+
+                    <!-- Caso 4 -->
+                    <div class="group bg-white rounded-2xl p-4 shadow-sm hover:shadow-xl transition-shadow border border-gray-100 reveal delay-200">
+                        <div class="flex justify-between text-xs font-bold text-gray-400 mb-2 uppercase tracking-wider">
+                            <span>Antes</span>
+                            <span class="text-brand-accent">Después</span>
+                        </div>
+                        <div class="grid grid-cols-2 gap-2">
+                            <img src="https://www.drandrespereznieto.com/images/blefaroplastia/img3.webp" alt="Antes Caso 4" class="w-full h-auto rounded-lg object-cover bg-gray-100" loading="lazy">
+                            <img src="https://www.drandrespereznieto.com/images/blefaroplastia/img4.webp" alt="Después Caso 4" class="w-full h-auto rounded-lg object-cover bg-gray-100" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center reveal">
+                    <a href="https://www.drandrespereznieto.com/es/galeria/procedimientos-faciales/blefaroplastia/" target="_blank" class="inline-flex items-center gap-2 px-8 py-3 border-2 border-brand-primary text-brand-primary rounded-full font-bold hover:bg-brand-primary hover:text-white transition-colors">
+                        Ver más en la Galería completa →
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- TESTIMONIOS (Videos) -->
+        <section id="testimonios" class="py-20 md:py-28 bg-white">
+            <div class="max-w-6xl mx-auto px-4 lg:px-8">
+                <div class="text-center mb-12 reveal">
+                    <h2 class="text-3xl md:text-5xl text-brand-primary mb-4">Testimonios</h2>
+                    <p class="text-gray-500">Escucha la experiencia directa de nuestros pacientes.</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+                    <div class="reveal delay-100">
+                        <div class="rounded-[2rem] overflow-hidden shadow-lg bg-black">
+                            <video controls preload="none" class="w-full aspect-video object-cover" poster="https://www.drandrespereznieto.com/images/blefaroplastia/Sonia-antes.webp">
+                                <source src="https://www.drandrespereznieto.com/images/videos/Blefaroplastia-resultados.webm" type="video/webm">
+                            </video>
+                        </div>
+                        <p class="text-center text-gray-600 font-medium mt-4">Resultados y Experiencia</p>
+                    </div>
+
+                    <div class="reveal delay-200">
+                        <div class="rounded-[2rem] overflow-hidden shadow-lg bg-black">
+                            <video controls preload="none" class="w-full aspect-video object-cover" poster="https://www.drandrespereznieto.com/images/blefaroplastia/img3.webp">
+                                <source src="https://www.drandrespereznieto.com/images/videos/Blefaroplastialipofillingfacialcelulasmadre.webm" type="video/webm">
+                            </video>
+                        </div>
+                        <p class="text-center text-gray-600 font-medium mt-4">Blefaroplastia + Lipofilling Celular</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ (AEO & GEO Optimization) -->
+        <section id="faq" class="py-20 md:py-28 bg-brand-light">
+            <div class="max-w-4xl mx-auto px-4 lg:px-8">
+                <div class="text-center mb-12 reveal">
+                    <h2 class="text-3xl md:text-4xl text-brand-primary mb-4">Preguntas Frecuentes</h2>
+                    <p class="text-gray-500">Respuestas claras para tu tranquilidad antes de la cirugía.</p>
+                </div>
+                
+                <div class="space-y-4 reveal" id="faq-container">
+                    <!-- Dinámico vía JS para código limpio -->
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="bg-brand-dark text-white py-16 relative overflow-hidden">
+             <!-- Simplificamos el fondo para móviles -->
+             <div class="absolute bottom-0 right-0 w-96 h-96 bg-brand-accent/10 rounded-full filter blur-[80px]"></div>
+            
+            <div class="max-w-7xl mx-auto px-4 lg:px-8 relative z-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+                <div class="col-span-1 lg:col-span-2">
+                    <img src="https://drandrespereznieto.com/images/logo-footer.png" alt="Logo Dr. Pérez Nieto" class="h-16 md:h-20 brightness-0 invert mb-6 opacity-90">
+                    <p class="text-gray-400 max-w-sm text-sm md:text-base mb-6">
+                        Arte, ciencia y experiencia al servicio de tu belleza natural. Cirugía plástica facial responsable y estética de vanguardia en Colombia.
+                    </p>
+                    <p class="text-brand-accent font-handwrite text-2xl md:text-3xl transform -rotate-2">
+                        "Todos lo notarán, pero nadie lo sabrá."
+                    </p>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold text-lg mb-6 text-white">Contacto y Ubicación</h4>
+                    <ul class="space-y-4 text-gray-400 text-sm">
+                        <li class="flex items-start gap-3">
+                            <span class="mt-1 text-brand-accent">📍</span>
+                            <span>Atención a pacientes nacionales e internacionales.<br><strong>Consultorio Principal: Bucaramanga, Colombia</strong></span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <span class="text-brand-accent">📱</span>
+                            (+57) 316 495 3755
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-bold text-lg mb-6 text-white">Redes Sociales</h4>
+                    <div class="flex gap-4">
+                        <a href="https://instagram.com/drandrespereznieto" target="_blank" class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-brand-accent transition-colors">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></path></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-white/10 mt-10 pt-6 text-center text-xs text-gray-500">
+                &copy; 2026 Dr. Andrés Pérez Nieto. Todos los derechos reservados.
+            </div>
+        </footer>
+
+        <!-- Bottom Mobile Bar & WhatsApp Floating Button -->
+        <div class="fixed bottom-0 left-0 w-full md:hidden bg-white border-t border-gray-200 z-40 px-4 py-3 flex justify-between items-center shadow-[0_-5px_15px_rgba(0,0,0,0.05)] pb-safe">
+            <span class="text-xs font-bold text-brand-primary">¿Dudas sobre tu cirugía?</span>
+            <a href="https://wa.me/573164953755" class="bg-brand-accent text-white px-5 py-2 rounded-full font-bold text-xs shadow-md">
+                Escribir ahora
+            </a>
+        </div>
+
+        <a href="https://wa.me/573164953755" class="hidden md:flex fixed bottom-6 right-6 z-50 group hover:scale-110 transition duration-300">
+             <div class="absolute inset-0 bg-green-500 rounded-full animate-ping opacity-75"></div>
+             <div class="relative bg-green-500 p-4 rounded-full shadow-lg text-white flex items-center justify-center">
+                 <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.506-.669-.514-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.015-1.04 2.479 0 1.462 1.065 2.876 1.213 3.074.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.084 1.758-.705 2.006-1.401.248-.695.248-1.29.173-1.414z"/></svg>
+             </div>
+        </a>
+
+    </main>
+
+    <script>
+        // FAQs para Schema AEO (Idioma Español enfocado a Colombia e Internacionales)
+        const faqsData = [
+            { q: "¿Qué es la Blefaroplastia o cirugía de párpados?", a: "La blefaroplastia es una cirugía estética que tiene como objetivo corregir el exceso de piel en los párpados superiores e inferiores y tratar las bolsas de grasa, rejuveneciendo la expresión de la mirada y eliminando el aspecto de cansancio." },
+            { q: "¿Qué diferencia tiene la técnica Fat Sliding?", a: "A diferencia de la técnica tradicional que elimina la grasa (dejando a veces el ojo hundido o cadavérico), la técnica Fat Sliding reacomoda y desliza esa grasa hacia el surco de la ojera, rellenando el hundimiento y dando un aspecto mucho más juvenil y natural." },
+            { q: "¿La cicatriz de la elevación de párpados es visible?", a: "Las incisiones están diseñadas para quedar ocultas. En el párpado superior se oculta en el pliegue natural del ojo, y en el inferior se realiza justo debajo de las pestañas o por dentro del párpado (transconjuntival), siendo prácticamente imperceptibles tras la recuperación." },
+            { q: "¿Se utiliza anestesia general o local?", a: "El Dr. Pérez Nieto prioriza la seguridad. Puede realizarse bajo anestesia local con sedación guiada por anestesiólogo o anestesia general, dependiendo de las necesidades del paciente y si se combina con otros procedimientos." },
+            { q: "¿Cuánto tiempo dura la recuperación de una Blefaroplastia?", a: "La recuperación inicial toma entre 7 a 10 días, tiempo en el cual pueden presentarse hematomas (morados) o inflamación. Al retirar los puntos (generalmente al 5to a 7mo día), el paciente puede retomar muchas de sus actividades cotidianas." },
+            { q: "¿Cambiará la forma de mis ojos?", a: "No, la blefaroplastia bien realizada no cambia la forma ni la expresión natural de tus ojos. Su objetivo es devolverles la frescura que tenían hace unos años, sin alterar tu esencia." },
+            { q: "¿Puedo combinar la Blefaroplastia con un Lipofilling (células madre)?", a: "Sí, es una combinación excelente (como se ve en nuestros testimonios). Extraer bolsas de los párpados y usar grasa propia purificada (Micro/NanoFat) para dar volumen a los pómulos o iluminar el rostro potencia el rejuvenecimiento facial." },
+            { q: "¿A qué edad es recomendable operarse los párpados?", a: "No hay una edad específica, ya que las bolsas de grasa o el exceso de piel pueden ser hereditarios y presentarse en personas de 30 años, o desarrollarse por el paso del tiempo en pacientes de 40 a 60 años. Lo importante es la valoración médica." },
+            { q: "¿Los resultados de la blefaroplastia son permanentes?", a: "Los resultados son de muy larga duración (generalmente más de 10 a 15 años). La piel seguirá envejeciendo naturalmente, pero las bolsas de grasa extraídas o reubicadas rara vez vuelven a formarse de la misma manera." },
+            { q: "¿Qué cuidados debo tener tras la cirugía de párpados?", a: "Se recomienda aplicar compresas frías los primeros días, dormir con la cabeza levemente elevada, evitar esfuerzos físicos pesados, no usar maquillaje en los ojos por 2 semanas y proteger estrictamente la zona del sol." }
+        ];
+
+        // Renderizado de FAQs
+        const faqContainer = document.getElementById('faq-container');
+        faqsData.forEach((faq) => {
+            const detailHtml = `
+                <details class="group bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm transition-all duration-300">
+                    <summary class="flex justify-between items-center font-medium cursor-pointer p-5 md:p-6 text-brand-primary hover:bg-gray-50">
+                        <span class="pr-6 text-sm md:text-base font-semibold leading-tight">${faq.q}</span>
+                        <span class="transition-transform duration-300 group-open:rotate-180 text-brand-accent text-lg flex-shrink-0">▼</span>
+                    </summary>
+                    <div class="text-gray-600 p-5 md:p-6 pt-0 text-sm leading-relaxed border-t border-gray-50 mt-2">
+                        ${faq.a}
+                    </div>
+                </details>
+            `;
+            faqContainer.insertAdjacentHTML('beforeend', detailHtml);
+        });
+
+        // Intersection Observer Nativo (Ligero)
+        document.addEventListener('DOMContentLoaded', () => {
+            const observerOptions = {
+                root: null,
+                rootMargin: '0px',
+                threshold: 0.1
+            };
+
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('reveal-active');
+                        observer.unobserve(entry.target); // Solo animar una vez
+                    }
+                });
+            }, observerOptions);
+
+            document.querySelectorAll('.reveal').forEach(el => {
+                observer.observe(el);
+            });
+
+            // Lógica del Menú Móvil
+            const menuBtn = document.getElementById('mobile-menu-btn');
+            const closeBtn = document.getElementById('close-menu');
+            const menu = document.getElementById('mobile-menu');
+            const links = document.querySelectorAll('.mobile-link');
+
+            const toggleMenu = (show) => {
+                if(show) {
+                    menu.classList.remove('hidden', 'flex');
+                    menu.classList.add('flex');
+                    // Pequeño delay para la transición de opacidad
+                    setTimeout(() => menu.classList.remove('opacity-0'), 10);
+                } else {
+                    menu.classList.add('opacity-0');
+                    setTimeout(() => menu.classList.add('hidden'), 300);
+                }
+            }
+
+            menuBtn.addEventListener('click', () => toggleMenu(true));
+            closeBtn.addEventListener('click', () => toggleMenu(false));
+            links.forEach(l => l.addEventListener('click', () => toggleMenu(false)));
+            
+            // Auto-cerrar detalles del acordeón (AEO)
+            const details = document.querySelectorAll('details');
+            details.forEach((targetDetail) => {
+              targetDetail.addEventListener('click', () => {
+                details.forEach((detail) => {
+                  if (detail !== targetDetail && detail.open) {
+                    detail.removeAttribute('open');
+                  }
+                });
+              });
+            });
+        });
+    </script>
+</body>
+</html>

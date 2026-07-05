@@ -1,0 +1,2081 @@
+{
+  "home": {
+    "title": "Dr. Andrés Pérez Nieto",
+    "subtitle": "International Plastic Surgeon",
+    "description": "La experiencia que hace la diferencia",
+    "knowDoctor": "Conoce al Doctor",
+    "virtualConsult": "Consulta Virtual",
+    "schedule": "Agenda Cita",
+    "gallery": "Galería",
+    "drFaceTitle": "Dr Face",
+    "drFaceSubtitle": "Considerado por sus pacientes como un artista de la cirugía facial",
+    "drFaceButton": "Conoce al Dr Face",
+    "welcome_title": "Bienvenidos",
+    "welcome_p1": "Gracias por visitar mi sitio web. Como especialista en cirugía plástica, estoy comprometido a ofrecer los más altos estándares de atención y resultados excepcionales.",
+    "welcome_p2": "Te invito a conocer más sobre mis servicios y filosofía de trabajo.",
+    "schedule_appointment": "Agenda tu cita",
+    "virtual_consultation_btn": "Consulta Virtual",
+    "video_unsupported": "Tu navegador no soporta el elemento de video.",
+    "video_description": "Conoce más sobre mi filosofía de trabajo y compromiso con la excelencia",
+    "whatsapp_message_welcome": "Hola! Me gustaría agendar una cita.",
+    "philosophy_title": "Todos lo notarán, pero nadie lo sabrá",
+    "philosophy_p1_part1": "Es un concepto que el Dr. Andrés Pérez, a través de su vasta experiencia, ha logrado incorporar en su forma de concebir y practicar el arte de la cirugía plástica. Su compromiso con cada paciente es realzar su belleza natural, preservando la esencia que los hace únicos. La experticia quirúrgica y un profundo sentido artístico se fusionan para lograr resultados que van más allá de la excelencia. Con técnicas quirúrgicas propias y tecnología de punta, estarás ",
+    "philosophy_p1_part2": "EN LAS MEJORES MANOS",
+    "philosophy_p1_part3": ".",
+    "more_information_btn": "Más información",
+    "philosophy_bg_desktop_alt": "Fondo de Filosofía Escritorio",
+    "philosophy_bg_mobile_alt": "Fondo de Filosofía Móvil",
+    "philosophy_bg_desktop_fallback": "Imagen de fondo escritorio",
+    "philosophy_bg_mobile_fallback": "Imagen de fondo móvil",
+    "treatments_main_title": "Luce tan joven como te sientes",
+    "cellular_regeneration_title": "Regeneración Celular",
+    "cellular_regeneration_alt": "Regeneración Celular - Mujer rubia",
+    "cellular_regeneration_fallback": "Imagen mujer rubia",
+    "lipofilling_subtitle": "Lipofilling con Células Madre",
+    "lipofilling_description": "La inyección con células madres obtenidas de tu propia grasa es una excelente y confiable alternativa para restaurar el volumen de tu rostro y revitalizar tu piel. La utilidad de este procedimiento se ha expandido y se lleva a cabo para rejuvenecer el dorso de las manos y reducir las arrugas en ciertas áreas del rostro.",
+    "more_info_btn": "Más Información",
+    "facial_rejuvenation_title": "Rejuvenecimiento Facial",
+    "facial_rejuvenation_alt": "Rejuvenecimiento Facial - Mujer castaña",
+    "facial_rejuvenation_fallback": "Imagen mujer castaña",
+    "hammock_facelift_subtitle": "Lifting Facial en Hamaca",
+    "hammock_facelift_description_p1": "Te brinda la posibilidad de rejuvenecer tu rostro de manera completamente natural y perdurable.",
+    "hammock_facelift_description_p2": "En esencia, es una combinación de procedimientos quirúrgicos que logran revertir los signos del envejecimiento facial, devolviendo así la frescura y lozanía que te hacen lucir joven y bella.",
+    "dr_perez_nieto": "Dr. Andrés Pérez Nieto",
+    "international_plastic_surgeon": "Cirujano Plástico Internacional",
+    "experience_makes_difference": "La experiencia que hace la diferencia.",
+    "meet_the_doctor_btn": "Conoce al Doctor",
+    "doctor_icon_alt": "Icono Doctor",
+    "virtual_consultation_btn_drface": "Consulta Virtual",
+    "virtual_consultation_icon_alt": "Icono Consulta Virtual",
+    "whatsapp_chat_title": "WhatsApp",
+    "whatsapp_chat_description": "Chat directo",
+    "website_page_title": "Página Web",
+    "more_information_description": "Más información",
+    "schedule_appointment_btn_drface": "Agenda Cita",
+    "schedule_appointment_icon_alt": "Icono Agenda Cita",
+    "gallery_btn": "Galería",
+    "gallery_icon_alt": "Icono Galería",
+    "whatsapp_virtual_consultation_message": "Hola, me interesa una consulta virtual",
+    "whatsapp_schedule_appointment_message": "Hola, me gustaría agendar una cita.",
+    "dr_face_title": "Dr Face",
+    "dr_face_subtitle": "Considerado por sus pacientes como un artista de la cirugía facial.",
+    "meet_dr_face_btn": "Conoce al Dr Face"
+  },
+  "instalaciones": {
+    "title": "Instalaciones y Staff",
+    "subtitle": "Conoce nuestras modernas instalaciones y equipo profesional",
+    "consultorio_title": "Consultorio",
+    "consultorio_p1": "El consultorio del Dr. Perez se encuentra ubicado en el edificio <strong>Santa Ana Medical Center</strong> en la ciudad de Bogotá. Esta es una de las áreas de la ciudad con mayor proyección y desarrollo en el sector médico, contando con importantes centros hospitalarios tales como la Fundación Santa Fe de Bogotá entre otros.",
+    "consultorio_p2": "Adicionalmente esta zona de la ciudad es de gran importancia turística ya que cuenta con una amplia oferta de hoteles, gran variedad de restaurantes y excelentes centros comerciales.",
+    "surgery_rooms_title": "Salas de cirugía",
+    "surgery_rooms_p1": "Los centros quirúrgicos donde el Dr. Perez lleva a cabo sus cirugías son especializados en el área de la cirugía plástica contando así con tecnología de punta y un grupo multidisciplinario de anestesiólogos y enfermeras que brindan toda la seguridad y confianza que requieren sus pacientes.",
+    "surgery_rooms_p2": "Es de resaltar que por ser centros quirúrgicos donde se realizan exclusivamente procedimientos de cirugía plástica, la exposición a infecciones adquiridas intrahospitalariamente es extremadamente baja. Adicionalmente están debidamente dotados y habilitados, cumpliendo con los protocolos internacionales.",
+    "surgery_rooms_p3": "Nos esforzamos por ofrecer a nuestros pacientes un ambiente de confort y trato personalizado que hacen la diferencia."
+  },
+  "guias": {
+    "title": "Guías pre y post operatorias",
+    "description": "Recursos educativos para tu proceso quirúrgico",
+    "intro_p1": "Para el Dr. Pérez, ayudarte a verte tan joven y bella como te sientes por dentro es más que un propósito: es nuestro mayor compromiso. Muy pronto comenzarás una experiencia transformadora, y nos sentimos profundamente honrados de acompañarte en este camino hacia una mejor versión de ti misma.",
+    "intro_p2": "Como cirujano plástico, es un privilegio haber sido elegido para llevar a cabo este procedimiento que has deseado con tanto entusiasmo. Mi compromiso —y el de todo mi equipo— es total: trabajaremos con profesionalismo, precisión y dedicación para lograr resultados armónicos y naturales. Queremos que sepas que estamos aquí para ti en todo momento... pero que nadie lo sepa. Durante cada etapa de tu tratamiento, podrás contar con nuestro acompañamiento y asesoría personalizada. Estamos aquí para ti.",
+    "general_considerations_title": "Consideraciones Generales",
+    "general_considerations_p1": "Una buena preparación es clave para alcanzar excelentes resultados y asegurar una recuperación óptima. Por eso, es fundamental que conozcas qué hacer antes de la cirugía y qué esperar después. Esto te permitirá afrontar cada fase del proceso con tranquilidad y confianza.",
+    "general_considerations_p2": "Es importante entender que cada cuerpo reacciona de forma diferente. La inflamación, la cicatrización y el ritmo de recuperación varían entre pacientes, por lo que te recomendamos no comparar tu proceso con el de otras personas. La paciencia y el seguimiento de las indicaciones médicas serán tus mejores aliados.",
+    "general_considerations_p3": "Con más de 30 años de experiencia y miles de procedimientos realizados, puedo asegurar que la gran mayoría de nuestros pacientes viven una recuperación tranquila y sin complicaciones. Esto se debe a que utilizamos técnicas quirúrgicas mínimamente invasivas, altamente predecibles y apoyadas en tecnología de última generación.",
+    "recovery_phases_title": "Fases de la Recuperación",
+    "phase_early_title": "1. Fase Temprana (0 a 14 días):",
+    "phase_early_desc": "Esta etapa comprende los primeros días tras la cirugía. Durante las primeras 48 a 72 horas, es normal presentar mayor inflamación. Sin embargo, a partir del tercer día, suele comenzar una rápida mejoría. Para la segunda semana, muchos pacientes ya se sienten listos para retomar sus actividades cotidianas y laborales, aunque el proceso de recuperación sigue en marcha. Entre los signos más comunes que pueden indicar que una persona es candidata a este procedimiento se encuentran:",
+    "phase_late_title": "2. Fase Tardía (hasta 6 meses o más):",
+    "phase_late_desc_1": "En esta fase, el cuerpo continúa cicatrizando internamente. Las cicatrices se suavizan progresivamente y los resultados finales comienzan a consolidarse. Es en este período cuando la apariencia alcanza su máxima naturalidad.",
+    "phase_late_desc_2": "Para ayudarte a visualizar este proceso, hemos creado un video que llamamos \"La montaña rusa de la recuperación\", donde te explicamos de forma clara y realista cómo evoluciona el cuerpo día a día tras la cirugía.",
+    "with_you_title": "Estamos Contigo en Cada Paso",
+    "with_you_p1": "Recuerda: la cirugía plástica es una experiencia transformadora y positiva, siempre que esté acompañada de expectativas realistas, cuidados adecuados y un equipo médico comprometido con tu bienestar.",
+    "with_you_p2": "Nos sentimos orgullosos de acompañarte en este proceso tan importante. Gracias por tu confianza.",
+    "preop_instructions_title": "Indicaciones preoperatorias",
+    "preop_instructions_p1": "Previo a cualquier tipo de procedimiento quirúrgico se deben tener en cuenta una serie de instrucciones que serán fundamentales tanto para el éxito de la cirugía y la prevención de posibles complicaciones. Por esta razón aconsejamos a nuestros pacientes seguir cuidadosamente cada una de las indicaciones que a continuación podrás encontrar en el video:",
+    "timeline_title": "Línea de tiempo pre y postoperatoria",
+    "what_to_expect_title": "¿Qué se puede esperar luego de la cirugía?",
+    "what_to_expect_p1": "Es fundamental que comprendas que, tras un procedimiento quirúrgico, pueden presentarse ciertos síntomas secundarios. La mayoría de estas manifestaciones son normales, transitorias y varían según cada paciente. Aunque las complicaciones serias son poco frecuentes, es clave estar en constante comunicación con nosotros para resolver cualquier duda que puedas tener sobre tu evolución.",
+    "what_to_expect_p2": "A continuación, te explicamos las reacciones más comunes y esperadas en el postoperatorio:",
+    "reminder_text": "<strong>Recuerda:</strong> Ante cualquier síntoma que te preocupe o si notas cambios inesperados, no dudes en comunicarte con nuestro equipo. Estamos para acompañarte en cada etapa de tu recuperación.",
+    "postop_care_title": "La Clave del Éxito: Un Buen Cuidado Postoperatorio",
+    "postop_care_p1": "El éxito de una cirugía no depende únicamente del procedimiento en sí, sino también del compromiso del paciente con su proceso de recuperación. Seguir adecuadamente las indicaciones médicas y mantener un compromiso responsable con las indicaciones de nuestro equipo, es fundamental para obtener los mejores resultados y vivir una experiencia satisfactoria.",
+    "postop_care_p2": "Por eso, hemos preparado una serie de videos educativos que cubren los cuidados postoperatorios de los procedimientos quirúrgicos que realizamos con mayor frecuencia. Estos materiales han sido diseñados cuidadosamente para que tengas acceso en cualquier momento y que te resulte fácil y accesible seguir cada una de las instrucciones que te ayuden a recuperarte de la mejor manera.",
+    "postop_care_rec_1": "Te recomendamos ver estos videos antes de tu procedimiento.",
+    "postop_care_rec_2": "Te ayudarán a entender mejor cada etapa de la recuperación y te permitirán afrontar el proceso con mayor tranquilidad y confianza.",
+    "video_lifting_title": "Cuidados postoperatorios de Lifting Facial.",
+    "video_blefaro_title": "Cuidados postoperatorios de Blefaroplastia",
+    "video_rino_title": "Cuidados postoperatorios de Rinoplastia",
+    "maintenance_title": "Mantenimiento de los Resultados Postoperatorios",
+    "maintenance_p1": "Como ocurre con muchos aspectos importantes de nuestra vida, los resultados de una cirugía estética también necesitan mantenimiento. Es vital proteger las mejoras estéticas logradas a través del tiempo.",
+    "maintenance_p2": "Un procedimiento quirúrgico puede ayudarte a rejuvenecer tu apariencia o mejorar ciertas áreas de tu cuerpo o del rostro. Sin embargo, es importante entender que el paso del tiempo continúa y que ciertos hábitos y tratamientos no quirúrgicos pueden contribuir significativamente para mantener esos resultados permanentes. Lo que se puede hacer es cuidar y potenciar esos resultados para mantenerlos en su mejor versión a través del tiempo.",
+    "maintenance_p3": "A continuación, te compartimos algunas recomendaciones para preservar los efectos de tu cirugía, tanto en procedimientos faciales como corporales:",
+    "facial_procedures_title": "Procedimientos Faciales",
+    "corporal_procedures_title": "Procedimientos Corporales",
+    "symptoms": {
+      "inflammation": {
+        "title": "Inflamación y \"morados\"",
+        "description": "Es habitual que aparezcan en los días posteriores a la cirugía. Su intensidad puede variar dependiendo del tipo de procedimiento realizado. Los morados cambiarán de color durante su proceso de resolución, pasando por tonos verdes y amarillos antes de desaparecer completamente."
+      },
+      "pain": {
+        "title": "Dolor leve a moderado",
+        "description": "Dependiendo del tipo de cirugía y de la sensibilidad individual, es posible sentir molestias o dolor leve. Éste suele ser controlable con los medicamentos indicados. Si el dolor aumenta progresivamente o se vuelve intenso, es importante contactar de inmediato al equipo médico."
+      },
+      "bleeding": {
+        "title": "Sangrado leve",
+        "description": "Un sangrado escaso a través de las incisiones o drenajes quirúrgicos puede considerarse normal en los primeros días. No obstante, si el sangrado es significativo o persistente, se debe comunicar al equipo médico de inmediato."
+      },
+      "numbness": {
+        "title": "Entumecimiento o pérdida de sensibilidad",
+        "description": "Es común sentir adormecimiento en las zonas cercanas a las incisiones. Esta sensación puede ser temporal y mejorar gradualmente, respetando el tiempo que el cuerpo necesita en semanas o meses."
+      },
+      "nausea": {
+        "title": "Náuseas o vómitos",
+        "description": "Pueden presentarse como efecto secundario de la anestesia o de algunos medicamentos utilizados durante la cirugía. Si tienes antecedentes de sensibilidad a estos fármacos, por favor, comunícalo antes del procedimiento para tomar las medidas preventivas necesarias."
+      },
+      "redness": {
+        "title": "Enrojecimiento o picazón en las heridas",
+        "description": "Durante el proceso de cicatrización, las heridas pueden cambiar de color (de rosado a rojizo) y generar algo de picazón. Tras un adecuado cuidado, normalmente mejoran rápido. Si el enrojecimiento es excesivo, hay secreción con mal olor o se presenta fiebre, se debe indicar a una cuenta inmediatamente para su uso prolongado, según el caso."
+      }
+    },
+    "maintenance": {
+      "facial": {
+        "skincare": {
+          "title": "Cuidado diario de la piel",
+          "items": [
+            "Establecimiento de una rutina de calidad médica como ácido ascórbico, vitamina C, especialmente, protector solar de amplio espectro. Sus resultados ayudan a mantener la piel saludable, firme y luminosa por más tiempo.",
+            "Tratamientos cosméticos complementarios: La aplicación de procedimientos que permitan la protección natural de colágeno en la piel: Hifu, Plasma Rico en Plaquetas, Bioestimuladores, Microneedling con plasma con en plaquetas y otros tratamientos de mantenimiento."
+          ]
+        },
+        "lipofilling": {
+          "title": "Lipofilling facial con células madre",
+          "items": [
+            "Según la experiencia del Dr. Pérez, este procedimiento cada 2 a 3 años ayuda a mantener la calidad de la piel y el volumen facial. Es una excelente estrategia para prevenir el envejecimiento prematuro y preservar los resultados de forma natural."
+          ]
+        },
+        "botox": {
+          "title": "Aplicación de toxina botulínica (Botox)",
+          "items": [
+            "Realizar esta reaplicación aproximadamente cada año ayuda a prevenir la aparición de líneas finas de expresión facial, manteniendo una apariencia joven y descansada."
+          ]
+        }
+      },
+      "corporal": {
+        "nutrition": {
+          "title": "Alimentación balanceada y personalizada",
+          "items": [
+            "Un plan nutricional que incluya alimentos nutritivos que contribuyan no solo a mantener los resultados estéticos, sino también al bienestar general."
+          ]
+        },
+        "exercise": {
+          "title": "Actividad física regular",
+          "items": [
+            "Ejercitarse de 3 a 4 veces por semana favorece el tono muscular, mejora la circulación y fortalece tu bienestar general, ayudando a mantener exitosamente los resultados de procedimientos como liposucción o cirugía abdominal."
+          ]
+        }
+      }
+    }
+  },
+  "paso_a_paso": {
+    "title": "Tus pasos hacia una experiencia inolvidable",
+    "steps": {
+      "1": "Tu Contacto",
+      "2": "Tu primera cita",
+      "3": "Tu Asistente",
+      "4": "Tu Pasaporte",
+      "5": "Tu Cirugía",
+      "6": "Tu Seguimiento",
+      "7": "Regreso a la normalidad"
+    },
+    "content": {
+      "1": {
+        "title": "Tu experiencia hace la diferencia",
+        "subtitle": "Contáctanos",
+        "p1": "Si ya tomaste la decisión o estás pensando realizarte un procedimiento para mejorar e iluminar tu apariencia no dudes en ponerte en contacto con nosotros.",
+        "p2": "Nuestro equipo está siempre listo para atenderte y contamos con diferentes opciones:",
+        "list": [
+          "<span class=\"font-sansation font-bold\">Puedes llamarnos a alguno de nuestros teléfonos:</span><br/>3164953755 – 6299551",
+          "<span class=\"font-sansation font-bold\">Contactarnos al WhatsApp:</span> +573164953755",
+          "<span class=\"font-sansation font-bold\">Llenar el formulario que encuentras en esta página web:</span><br/>https://drandrespereznieto.com/contactenos/",
+          "<span class=\"font-sansation font-bold\">Enviarnos un correo a:</span> info@drandrespereznieto.com",
+          "<span class=\"font-sansation font-bold\">Escribirnos en cualquiera de nuestras redes sociales:</span><br/>Facebook o Instagram"
+        ]
+      },
+      "2": {
+        "title": "Será un gusto poder atenderte",
+        "subtitle": "Tu primera cita",
+        "sub1_title": "Cita Presencial",
+        "sub1_text": "Para todos aquellos pacientes que pueden asistir a la cita directamente en el consultorio del Dr. Pérez.",
+        "sub2_title": "Cita Virtual",
+        "sub2_text1": "Para todos aquellos pacientes que viven fuera de Bogotá ya sea en Colombia o en el exterior. Se lleva a cabo a través de internet gracias a que contamos con modernas plataformas online para la realización de estas citas virtuales con la seguridad y privacidad necesarias.",
+        "sub2_text2": "Para la realización de la cita virtual el Dr. Pérez solicita previamente el envío de fotos y en algunos casos de video de las áreas de tu cuerpo que deseas mejorar; esto es con el propósito de poder llevar a cabo una adecuada valoración de cada caso en particular."
+      },
+      "3": {
+        "title": "Te acompañamos en cada paso de tu proceso",
+        "subtitle": "Tu asistente",
+        "p1": "Con el propósito de prestarte toda la guía y asesoría durante el proceso previo y posterior a tu cirugía, una de nuestras asistentes estará presta a brindarte toda la información concerniente a:",
+        "list": [
+          "Cuales son los requisitos previos a la realización de la cirugía",
+          "Agendamiento de la fecha y hora tanto de la cirugía como de la cita de pre-anestesia.",
+          "Las diferentes formas de pago"
+        ],
+        "p2": "Para aquellos pacientes procedentes del exterior contamos con una coordinadora bilingüe quien se pondrá en contacto directo contigo con el fin de asesorarte en todos los detalles referentes a las fechas de viaje, opciones de hospedaje y transporte entre muchas otras."
+      },
+      "4": {
+        "title": "Tu seguridad es nuestra prioridad",
+        "subtitle": "Pasaporte para tu cirugía",
+        "p1": "Para el Dr. Pérez y todo su equipo de trabajo, tu seguridad y bienestar es una de nuestras mayores prioridades, por esta razón hemos creado este pasaporte, el cual una vez hayas completado te permitirá llegar completamente preparada y de forma segura de a tu cirugía. No tienes porque preocuparte porque cada uno de los detalles de tu preparación será supervisado, y si tienes dudas o inquietudes estaremos prestos a resolverlas.",
+        "p2": "Este pasaporte para cirugía incluye el visto bueno de cada uno de los siguientes requisitos:",
+        "list": [
+          "<span class=\"font-sansation font-bold\">Laboratorios y demás exámenes paraclínicos ordenados por el Dr. Pérez.</span>",
+          "<span class=\"font-sansation font-bold\">Cita de preanestesia,</span> la cual se lleva a cabo en la clínica personalmente con uno de los anestesiólogos y se lleva a cabo de uno a dos días previos al procedimiento.",
+          "<span class=\"font-sansation font-bold\">La aprobación y firma por parte del paciente de los consentimientos informados para cada uno de los procedimientos que se vayan a realizar.</span>"
+        ]
+      },
+      "5": {
+        "title": "El día que tanto anhelabas ha llegado, nosotros lo haremos muy especial",
+        "subtitle": "Tu cirugía",
+        "p1": "Cuando llegue este día tan esperado, ya todo estará preparado por parte del equipo del Dr. Pérez, con el fin de brindarte la mejor experiencia posible.",
+        "p2": "Previo al inicio de la cirugía, el Dr. Pérez lleva a cabo varios pasos importantes:",
+        "list1": [
+          "Se toman las fotos preoperatorias, de acuerdo a los procedimientos que se vayan a realizar.",
+          "El Dr. Pérez lleva a cabo la demarcación de las incisiones que vayan a ser necesarias y de los demás detalles relevantes para la adecuada realización de la cirugía. Esto tiene como finalidad plasmar y dejar claro el planeamiento preoperatorio de cada uno de los procedimientos."
+        ],
+        "p3": "<span class=\"font-sansation font-bold\">Una vez finalizada la cirugía:</span>",
+        "list2": [
+          "El paciente permanecerá en el área de recuperación, el tiempo que sea necesario, bajo la supervisión y monitoreo permanentes del personal médico y de enfermería encargados.",
+          "Una vez se corrobore que el paciente se encuentra en óptimas condiciones, se autorizará su salida de la clínica y se le impartirán las recomendaciones necesarias para el manejo en casa."
+        ]
+      },
+      "6": {
+        "title": "Cada paso de tu recuperación será vigilado por nosotros",
+        "subtitle": "Recuperación y controles postoperatorios",
+        "p1": "Para el Dr. Pérez es igualmente importante tanto la realización de un excelente procedimiento quirúrgico, como la supervisión de un adecuado proceso postoperatorio.",
+        "p2": "Por esta razón alguien de su equipo de trabajo establecerá contacto contigo la mañana siguiente a la cirugía y por lo general se te solicita el envío de un video o de algunas fotos con el fin de evaluar tu estado y tu adecuada evolución. Dentro del equipo de trabajo del Dr. Pérez contamos con enfermeras especializadas que pueden, si estas de acuerdo, realizarte una visita o el acompañamiento domiciliarios que sean necesarios.",
+        "p3": "Dependiendo del tipo de procedimientos que se hayan realizado, se coordinarán tus controles postoperatorios con el Dr. Pérez, durante los cuales se llevará a cabo el retiro de los puntos de sutura y de los vendajes que sea necesarios, así mismo se te impartirán todas las indicaciones que garanticen una adecuada evolución.",
+        "p4": "Consciente de que uno de los temores más frecuentes de los pacientes previo a un procedimiento quirúrgico son el dolor y la inflamación postoperatoria, el Dr Pérez ha trabajado durante años en todas aquellas alternativas que permitan recuperaciones más suaves y con procesos inflamatorios muy mínimos. Por esta razón ha implementado diferentes alternativas terapéuticas de medicina natural para tu preparación pre-operatoria, además de contar con técnicas de cirugía a traumáticas y mínimamente invasivas."
+      },
+      "7": {
+        "title": "Disfruta de un cambio natural y hecho a tu medida",
+        "subtitle": "Regreso a la normalidad",
+        "p1": "Uno de los aspectos que mayor satisfacción genera en los pacientes del Dr. Pérez es la posibilidad de poder regresar a sus actividades normales de forma más temprana y segura.Esto se debe a todas las medidas que él lleva a cabo tanto en tu preparación previa como dentro de tu cirugía, destinadas a disminuir al máximo el proceso inflamatorio postoperatorio.",
+        "p2": "Durante tu proceso de recuperación y de acuerdo a la evolución que presentes se te irá dando toda la información que te deje saber cuáles actividades podrás ir retomando sin poner en riesgo tu recuperación. Es importante que entiendas que los resultados de tu cirugía se irán haciendo evidentes de forma progresiva en la medida que el proceso inflamatorio vaya desapareciendo y esto es diferente para cada tipo de procedimiento."
+      }
+    },
+    "nav": {
+      "prev": "← Anterior",
+      "next": "Siguiente →"
+    }
+  },
+  "nav": {
+    "home": "Inicio",
+    "procedures": "Procedimientos",
+    "gallery": "Galería",
+    "testimonials": "Testimonios",
+    "contact": "Contacto"
+  },
+  "procedures": {
+    "facial": "Procedimientos Faciales",
+    "body": "Procedimientos Corporales",
+    "rhinoplasty": "Rinoplastia",
+    "blepharoplasty": "Blefaroplastia",
+    "facelift": "Lifting Facial en Hamaca",
+    "lipofilling": "Lipofilling Facial con Células Madre"
+  },
+  "header_nav": {
+    "home": "INICIO",
+    "dr_perez": "DR. PÉREZ",
+    "meet_the_doctor": "CONOCE AL DR. PÉREZ",
+    "facilities_and_staff": "INSTALACIONES Y STAFF",
+    "procedures": "PROCEDIMIENTOS",
+    "facials": "FACIALES",
+    "eyebrow_lift": "ELEVACIÓN COLA DE CEJAS",
+    "blepharoplasty": "BLEFAROPLASTIA",
+    "cheek_and_neck_hammock_lift": "LIFTING HAMACA DE MEJILLAS Y CUELLO",
+    "facial_hammock_lift": "LIFTING HAMACA FACIAL EN HAMACA",
+    "lipofilling_stem_cells": "LIPOFILLING CON CÉLULAS MADRE",
+    "lip_lift": "LIP LIFT ELEVACIÓN DEL LABIO",
+    "rhinoplasty": "RINOPLASTIA",
+    "mentoplasty": "MENTOPLASTIA",
+    "otoplasty": "OTOPLASTIA",
+    "bichectomy": "BICHECTOMÍA",
+    "body_procedures": "CORPORALES",
+    "breasts": "SENOS",
+    "breast_augmentation": "MAMOPLASTIA DE AUMENTO",
+    "breast_reduction": "MAMOPLASTIA DE REDUCCIÓN",
+    "breast_explantation": "EXPLANTACIÓN MAMARIA",
+    "mastopexy": "PEXIA - ELEVACIÓN MAMARIA",
+    "body_subcategory": "CORPORAL",
+    "abdominoplasty_hd": "ABDOMINOPLASTIA HD",
+    "liposuction": "LIPOSUCCIÓN",
+    "non_surgical": "NO QUIRÚRGICOS",
+    "botox": "BOTOX",
+    "hyaluronic_acid": "ÁCIDO HIALURÓNICO",
+    "gallery": "GALERÍA",
+    "before_after_photos": "FOTOS PRE-POS",
+    "testimonials": "TESTIMONIOS",
+    "foreign_patients": "PACIENTES EXTRANJEROS",
+    "foreigners": "EXTRANJEROS",
+    "virtual_consultation": "CITA VIRTUAL",
+    "blog": "BLOG",
+    "resources": "RECURSOS",
+    "your_step_by_step": "TU PASO A PASO",
+    "guides": "GUÍAS PRE Y POSTOPERATORIAS",
+    "videoteca": "VIDEOTECA",
+    "need_help": "¿Necesitas ayuda?",
+    "contact_us": "Contáctanos",
+    "explore_details": "Explorar más detalles",
+    "menu": "Menú",
+    "doctor_name": "Dr. Andrés Pérez Nieto",
+    "specialty_description": "Cirugía Plástica Especializada",
+    "whatsapp_message": "Hola! Me gustaría solicitar información sobre los procedimientos.",
+    "my_techniques": "MIS TÉCNICAS"
+  },
+  "footer": {
+    "contact_us_title": "CONTÁCTANOS:",
+    "whatsapp_title": "WhatsApp",
+    "facebook_title": "Facebook",
+    "instagram_title": "Instagram",
+    "email_title": "Email",
+    "call_title": "Llamar",
+    "location_title": "Ubicación",
+    "youtube_title": "YouTube",
+    "address": "Calle 119 # 7 – 14 Bogotá, Colombia",
+    "copyright": "Copyright 2025 Andrés Pérez Nieto | Todos los derechos reservados.",
+    "floating_button_tooltip": "Llama o escribe por WhatsApp",
+    "floating_button_tooltip_short": "Contáctanos"
+  },
+  "accreditations": {
+    "main_title": "Acreditaciones",
+    "isaps_name": "ISAPS",
+    "isaps_full_name": "Sociedad Internacional de Cirugía Plástica Estética",
+    "asps_name": "ASPS",
+    "asps_full_name": "Sociedad Americana de Cirujanos Plásticos",
+    "sccp_name": "SCCP",
+    "sccp_full_name": "Sociedad Colombiana de Cirugía Plástica",
+    "filacp_name": "FILACP",
+    "filacp_full_name": "Federación Ibero Latinoamericana de Cirugía Plástica"
+  },
+  "four_cards_section": {
+    "card1_title": "Dr. Face",
+    "card1_description": "Reconocido así por sus pacientes y colegas, debido a su experticia y talento en cirugía facial.",
+    "card2_title": "Innovación",
+    "card2_description": "Es el creador de la técnica de lifting facial en hamaca para rejuvenecimiento facial.",
+    "card3_title": "Experiencia",
+    "card3_description": "30 años como cirujano plástico y miles de procedimientos realizados, lo que hacen un referente en especial de la cirugía facial",
+    "card4_title": "Trayectoria Internacional",
+    "card4_description": "Permanentemente es visitado por pacientes de múltiples países del mundo."
+  },
+  "results_gallery": {
+    "main_title_p1": "Más de 5k",
+    "main_title_p2": "Resultados naturales",
+    "sandra_name": "Sandra",
+    "sandra_procedure": "Rinoplastia",
+    "sandra_description": "Refinamiento nasal que logró una armonía perfecta con sus facciones naturales, manteniendo su esencia única.",
+    "nubia_name": "Nubia",
+    "nubia_procedure": "Lifting Facial",
+    "nubia_description": "Rejuvenecimiento facial integral que devolvió la firmeza y luminosidad natural de su piel.",
+    "angelica_name": "Angelica",
+    "angelica_procedure": "Botox y Rellenos",
+    "angelica_description": "Tratamiento combinado que suavizó las líneas de expresión y restauró el volumen facial de manera natural.",
+    "liliana_name": "Liliana",
+    "liliana_procedure": "Blefaroplastia",
+    "liliana_description": "Rejuvenecimiento de párpados que eliminó el exceso de piel, logrando una mirada más joven y descansada.",
+    "result_of_patient": "Resultado de {patientName}",
+    "photo_of_patient": "Foto de {patientName}",
+    "view_result_btn": "Ver resultado",
+    "view_gallery_btn": "Ver galería de resultados",
+    "modal_title": "Resultado de {patientName}",
+    "before_label": "Antes",
+    "after_label": "Después",
+    "before_alt": "Antes - {patientName}",
+    "after_alt": "Después - {patientName}",
+    "before_photo_fallback": "Foto ANTES",
+    "after_photo_fallback": "Foto DESPUÉS",
+    "go_to_procedure_gallery_btn": "Ir a galería del procedimiento"
+  },
+  "surgical_procedures": {
+    "title_part1": "Procedimientos",
+    "title_part2": "Quirúrgicos",
+    "description_p1": "El Dr. Pérez combina precisión y arte para lograr resultados que no solo se ven increíbles, sino que también se sienten aún mejor.",
+    "description_p2": "Explora y conoce de primera mano las técnicas avanzadas y soluciones médicas que él ha desarrollado para ofrecer resultados excepcionales.",
+    "main_title_p1": "Procedimientos",
+    "main_title_p2": "Quirúrgicos",
+    "subtitle": "Descubre el arte detrás de los<br />resultados armónicos y naturales.",
+    "p1_part1": "El Dr. Pérez combina precisión y arte para lograr<br />",
+    "p1_part2": "resultados que no solo se ven increíbles, sino que<br />",
+    "p1_part3": "también se sienten aún mejor.",
+    "p2_part1": "Explora y conoce de primera mano las técnicas<br />",
+    "p2_part2": "avanzadas y soluciones médicas que él ha desarrollado<br />",
+    "p2_part3": "para ofrecer resultados excepcionales.",
+    "mobile_hint": "*Toca los puntos en la imagen para conocer más detalles.",
+    "desktop_hint": "*Conoce más pasando el cursor sobre los puntos de la imagen.",
+    "image_alt": "Procedimientos Quirúrgicos",
+    "more_information_btn": "Más información",
+    "blepharoplasty_title": "Blefaroplastia",
+    "blepharoplasty_description": "La cirugía de Blefaroplastia la realiza con tecnología láser o de radiofrecuencia permitiendo así una mínima inflamación postoperatoria y por ende un proceso de recuperación más corto.",
+    "eyebrow_lift_title": "Elevación Cola de Cejas",
+    "eyebrow_lift_description": "Las cejas al igual que otras áreas del rostro presentan con el proceso normal de envejecimiento un descenso gradual que cambia su apariencia y posición normales.",
+    "elevacion_cola_cejas": {
+      "faqs": {
+        "q1": {
+          "question": "¿Cuánto tiempo dura el procedimiento?",
+          "answer": "El procedimiento suele durar entre 1 y 2 horas, dependiendo de la técnica utilizada."
+        },
+        "q2": {
+          "question": "¿Es doloroso?",
+          "answer": "Se realiza bajo sedación o anestesia, por lo que no es doloroso durante la cirugía. Las molestias postoperatorias son manejables con medicación."
+        },
+        "q3": {
+          "question": "¿Cuándo veré los resultados?",
+          "answer": "Los resultados son visibles de inmediato, aunque la inflamación disminuirá progresivamente en las semanas siguientes."
+        },
+        "q4": {
+          "question": "¿Deja cicatrices visibles?",
+          "answer": "Las incisiones se realizan en zonas ocultas, como el cuero cabelludo, para minimizar la visibilidad de las cicatrices."
+        }
+      }
+    },
+    "otoplasty_title": "Otoplastia",
+    "otoplasty_description": "La Otoplastia es un procedimiento quirúrgico mediante el cual se puede corregir ciertas alteraciones en la forma y el tamaño de las orejas.",
+    "rhinoplasty_title": "Rinoplastia",
+    "rhinoplasty_description": "Una excelente cirugía de nariz no es aquella que genera un cambio dramático en la apariencia y que no guarda un equilibrio estético con el resto del rostro.",
+    "bichectomy_title": "Bichectomía",
+    "bichectomy_description": "La Bichectomía es un procedimiento quirúrgico que permite la extracción de las bolsas de Bichat con el propósito de lograr rostros más delgados.",
+    "lip_lift_title": "Elevación del Labio",
+    "lip_lift_description": "Consiste en la inyección de células grasas madre purificadas, dentro del espesor de los labios.",
+    "facelift_title": "Lifting en Hamaca de Mejillas y Cuello",
+    "facelift_description": "La estructura de los tejidos blandos de las mejillas y el cuello tiene una distribución que simula a una hamaca.",
+    "lipofilling_title": "Lipofilling de Células Madre",
+    "lipofilling_description": "Al referirse a células madre, hoy en día es factible obtener células madre a partir de la grasa de nuestro propio cuerpo.",
+    "mentoplasty_title": "Mentoplastia",
+    "mentoplasty_description": "Con alguna frecuencia el Dr. Pérez atiende pacientes que presentan mentones pequeños y retraídos."
+  },
+  "structured_data": {
+    "physician_name": "Dr. Andrés Pérez Nieto",
+    "physician_image": "https://drandrespereznieto.com/images/dr-perez.webp",
+    "physician_telephone": "+573164953755",
+    "street_address": "Edificio Santa Ana Medical Center, Cl. 119 #7-14, Consultorio 814",
+    "address_locality": "Bogotá",
+    "address_region": "Cundinamarca",
+    "address_country": "CO",
+    "postal_code": "110121",
+    "neighborhood": "Usaquén",
+    "geo_latitude": "4.6946",
+    "geo_longitude": "-74.0324",
+    "medical_specialty_plastic": "Cirugía Plástica",
+    "medical_specialty_cosmetic": "Cirugía Estética",
+    "organization_name": "Dr. Andrés Pérez Nieto - Cirugía Plástica en Bogotá",
+    "organization_description": "Clínica de cirugía plástica y estética en Bogotá, Colombia. Especialistas en lifting facial Deep Plane, rinoplastia, blefaroplastia y procedimientos corporales. Más de 30 años de experiencia.",
+    "facebook_url": "https://www.facebook.com/drandresperezcirujano",
+    "instagram_url": "https://www.instagram.com/drandresperezcirujano/",
+    "youtube_url": "https://www.youtube.com/@dr.andresperez"
+  },
+  "botox": {
+    "meta_title": "Botox en Bogotá | Rejuvenecimiento Facial sin Cirugía",
+    "meta_description": "Tratamiento de Botox para eliminar arrugas y líneas de expresión. Resultados naturales y seguros. Agenda tu cita con el Dr. Andrés Pérez.",
+    "title": "Botox",
+    "main_description_1": "Desde su aprobación por la FDA en 2002, el Botox® se ha convertido en uno de los tratamientos estéticos más solicitados a nivel mundial. Su capacidad para",
+    "main_description_highlight": "atenuar las líneas de expresión de manera rápida, segura y sin necesidad de cirugía",
+    "main_description_2": "ha revolucionado el campo de la medicina estética.",
+    "main_description_3": "El Dr. Pérez cuenta con amplia experiencia en la aplicación de Botox® enfocándose en lograr resultados naturales, armónicos y adaptados a las características faciales de cada paciente.",
+    "what_is_it_title": "¿Qué es el Botox y cómo funciona?",
+    "what_is_it_p1": "El Botox® es una proteína purificada derivada de la toxina botulínica tipo A. Su aplicación en dosis mínimas directamente sobre determinados músculos faciales provoca una relajación temporal y controlada, disminuyendo la contracción excesiva que causa arrugas y líneas de expresión.",
+    "application_areas_title": "Principales áreas de aplicación:",
+    "application_zones": {
+      "forehead": "Frente",
+      "forehead_desc": "(líneas horizontales)",
+      "glabellar": "Entrecejo",
+      "glabellar_desc": "(líneas glabelares o \"líneas de enojo\")",
+      "crows_feet": "Patas de gallina",
+      "crows_feet_desc": "(líneas alrededor de los ojos)",
+      "perioral": "Líneas peribucales",
+      "perioral_desc": "(código de barras)",
+      "neck": "Cuello",
+      "neck_desc": "(bandas platismales)",
+      "brow_lift": "Elevación sutil de cejas o comisuras labiales",
+      "brow_lift_desc": "(mirada más abierta)"
+    },
+    "result_description": "El resultado es un rostro con una apariencia más descansada, fresca y rejuvenecida, sin perder la expresión natural.",
+    "medical_uses_title": "Otros usos médicos del Botox",
+    "medical_uses_p1": "Además de su uso estético, el Botox también se utiliza en tratamientos clínicos para mejorar diversas condiciones:",
+    "medical_uses": {
+      "migraine": "Migraña crónica:",
+      "migraine_desc": "disminuye la frecuencia e intensidad de los episodios.",
+      "hyperhidrosis": "Hiperhidrosis (sudoración excesiva):",
+      "hyperhidrosis_desc": "reduce la producción de sudor en axilas, palmas y plantas.",
+      "bruxism": "Bruxismo y dolor mandibular:",
+      "bruxism_desc": "al relajar los músculos maseteros.",
+      "blepharospasm": "Blefaroespasmo:",
+      "blepharospasm_desc": "espasmos involuntarios de los párpados.",
+      "facial_asymmetry": "Asimetrías faciales postparálisis:",
+      "facial_asymmetry_desc": "mejora el equilibrio estético muscular."
+    },
+    "technique_title": "Técnica de aplicación del Dr. Pérez",
+    "technique_p1": "El Dr. Pérez realiza una evaluación facial minuciosa previa a cada aplicación para identificar los músculos responsables de las líneas de expresión y definir los puntos exactos de inyección.",
+    "technique_features_title": "Características de su técnica:",
+    "technique_features": {
+      "needles": "Utiliza agujas ultrafinas para minimizar molestias y evitar hematomas.",
+      "anesthesia": "Anestesia localizada mediante frío para mayor confort del paciente",
+      "natural_effect": "Aplica el producto en puntos estratégicos, logrando un efecto natural y expresivo, sin \"rostros congelados\".",
+      "custom_dose": "Ajusta la dosis y técnica según la anatomía y necesidades individuales del paciente."
+    },
+    "duration_title": "¿Cuánto dura el efecto del Botox?",
+    "duration_p1": "El efecto del Botox no es inmediato. Comienza a notarse entre el 3° y 5° día posterior a la aplicación, alcanzando su máximo efecto en aproximadamente 7 a 10 días.",
+    "duration_result": "Duración del resultado:",
+    "duration_result_time": "En promedio, entre 4 y 6 meses.",
+    "duration_varies_p1": "La duración puede variar dependiendo de:",
+    "duration_factors": {
+      "metabolism": "El metabolismo del paciente",
+      "technique": "La técnica y dosis utilizadas",
+      "quality": "La calidad del producto",
+      "frequency": "La frecuencia de tratamientos anteriores"
+    },
+    "duration_recommendation": "Para mantener los resultados, se recomienda repetir el tratamiento 2 veces al año.",
+    "side_effects_title": "¿Existen efectos secundarios?",
+    "side_effects_p1": "El Botox es un tratamiento seguro cuando es aplicado por un profesional con experiencia y conocimiento profundo de la anatomía facial.",
+    "side_effects": {
+      "discomfort": "Mínimo malestar durante la aplicación",
+      "discomfort_desc": "Sensación similar a un pinchazo ligero",
+      "redness": "Posible enrojecimiento temporal",
+      "redness_desc": "Desaparece en pocas horas",
+      "swelling": "Ligera inflamación",
+      "swelling_desc": "Muy temporal y localizada",
+      "downtime": "Sin tiempo de incapacidad",
+      "downtime_desc": "Retorno inmediato a actividades"
+    },
+    "side_effects_recommendation": "Por eso, el Dr. Pérez insiste en la importancia de que este tratamiento sea realizado exclusivamente por un médico certificado y capacitado.",
+    "faq_title": "Preguntas frecuentes",
+    "faqs": {
+      "q1": {
+        "question": "¿El Botox cambia mi expresión facial?",
+        "answer": "No, si es aplicado correctamente. El objetivo es suavizar las líneas sin alterar tu naturalidad ni tu capacidad de expresión. El Dr. Pérez prioriza resultados sutiles y elegantes."
+      },
+      "q2": {
+        "question": "¿Desde qué edad se puede aplicar?",
+        "answer": "No hay una edad específica. Generalmente se comienza entre los 25 y 35 años, ya sea como prevención o tratamiento de arrugas dinámicas ya visibles."
+      },
+      "q3": {
+        "question": "¿Cuánto dura la sesión?",
+        "answer": "El procedimiento dura entre 15 y 30 minutos, y no requiere tiempo de recuperación. Puedes retomar tus actividades inmediatamente."
+      },
+      "q4": {
+        "question": "¿Se puede combinar con otros tratamientos?",
+        "answer": "Sí. El Botox puede combinarse con otros procedimientos como rellenos faciales (ácido hialurónico), peeling químico, láser facial o bioestimuladores de colágeno para potenciar los resultados del rejuvenecimiento."
+      }
+    }
+  },
+  "dr_face": {
+    "title": "Dr Face",
+    "subtitle": "Considerado por sus pacientes como un artista de la cirugía facial.",
+    "section1_title": "Ilumina y expresa tu belleza natural",
+    "section1_p1": "El Dr. <strong>Perez</strong> ha logrado perfeccionar el arte de lograr resultados completamente naturales brindando a sus pacientes la oportunidad de alcanzar sus expectativas y lucir tan jóvenes y frescos como se sienten.",
+    "section1_p2": "Definitivamente un NO rotundo a los rostros que lucen tensos e inexpresivos, a las narices &quot;raspingadas&quot; y en general a todos aquellos resultados que no mantienen y exaltan la esencia y belleza inherentes a cada persona, sino que por el contrario la distorsionan.",
+    "section1_p3": "El Dr. <strong>Perez</strong> cree firmemente que realizando técnicas quirúrgicas lo suficientemente precisas y delicadas se pueden lograr cambios sutiles que hagan una gran diferencia. Así mismo entiende que los mejores resultados se obtienen al priorizar las expectativas y necesidades de cada paciente y simultáneamente hacer uso de técnicas.",
+    "mission_title": "Nuestra Misión",
+    "mission_p1": "Una de las prioridades del Dr. Pérez es restaurar el autoestima, la belleza y la frescura de cada uno de sus pacientes a través de lograr sus objetivos estéticos. Por esta razón siempre dedica el tiempo que sea necesario para escuchar todos sus deseos y expectativas al tiempo que les plantea soluciones que sean realistas.",
+    "commitment_title": "Nuestro compromiso",
+    "commitment_subtitle": "Contigo y con tus resultados",
+    "commitment_intro": "Con el fin de alcanzar dichos objetivos el Dr. Perez ha establecido una serie de compromisos con sus pacientes:",
+    "commitments": {
+      "c1": "Lograr el mejor resultado estético manteniendo la naturalidad y la esencia propias.",
+      "c2": "Brindar diferentes opciones que le permitan a cada paciente escoger la que más se adapte a sus necesidades.",
+      "c3": "Hacer uso de técnicas quirúrgicas seguras y de avanzada, apoyadas con tecnología de punta.",
+      "c4": "Ofrecer información clara y precisa acerca de cada uno de los procedimientos que se planean llevar a cabo.",
+      "c5": "Mantener todo el cuidado posible y la supervisión permanentes durante cada una de las fases tanto pre como postoperatorias."
+    },
+    "planning_title": "Un planeamiento hecho a tu medida",
+    "planning_p1": "El Dr. Perez cuenta con una amplia gama de procedimientos y de técnicas quirúrgicas que pone al servicio de sus pacientes con el fin de lograr el mejor resultado posible colmando por completo las expectativas y deseos de cada uno de ellos. Son cuatro los pilares sobre los que fundamenta su práctica quirúrgica:",
+    "pillars": {
+      "security_title": "Seguridad",
+      "security_alt": "Icono Seguridad",
+      "security_desc": "Es una de nuestras mayores prioridades, por ello el Dr. Pérez conta com um equipo multidisciplinario de anestesiólogos y enfermeras de gran experiencia que estará supervisando cada etapa de tu experiencia tanto antes como después de tu cirugía.",
+      "natural_results_title": "Resultados naturales",
+      "natural_results_alt": "Icono Resultados Naturales",
+      "natural_results_desc": "Esta es una de las razones por cuales el Dr. Pérez se ha consolidado como uno de los grandes referentes en cirugía facial y es consultado por pacientes de múltiples países del mundo.",
+      "lasting_changes_title": "Cambios perdurables",
+      "lasting_changes_alt": "Icono Cambios Perdurables",
+      "lasting_changes_desc": "Nuestro objetivo es lograr resultados que se mantengan a lo largo del tiempo, razón por la cual el Dr. Pérez realiza técnicas quirúrgicas en las cuales se llevan a cabo tanto la movilización como el anclaje a puntos fijos de aquellos tejidos que se encuentran descendidos.",
+      "support_title": "Acompañamiento",
+      "support_alt": "Icono Acompañamiento",
+      "support_desc": "No hay de que preocuparse porque durante todo tu proceso tanto previo como posterior a tu cirugía estarás bajo la supervisión tanto del Dr Pérez como de su staff de trabajo, con el fin de brindarte una experiencia segura y muy placentera."
+    }
+  },
+  "blefaroplastia": {
+    "meta_title": "Blefaroplastia en Bogotá | Cirugía de Párpados | Dr. Andrés Pérez",
+    "meta_description": "Rejuvenece tu mirada con la Blefaroplastia. Elimina bolsas y exceso de piel en los párpados. Resultados naturales con el Dr. Andrés Pérez.",
+    "title": "Blefaroplastia",
+    "subtitle": "Rejuvenecimiento de la mirada",
+    "p1": "La mirada refleja nuestras emociones, personalidad y vitalidad. Por eso, el Dr. Pérez pone a disposición de cada paciente toda su experiencia, técnica y sensibilidad estética, con el objetivo de recuperar la frescura, juventud y naturalidad en la expresión de los párpados.",
+    "p2": "A través de un enfoque personalizado y una valoración integral del área periorbitaria, el Dr. Pérez logra resultados que no solo rejuvenecen la mirada, sino que también preservan la identidad y esencia del rostro.",
+    "gallery_before": "Antes",
+    "gallery_after": "Después",
+    "gallery_procedure": "Blefaroplastia",
+    "rejuvenation_title": "Rejuvenecimiento de la mirada",
+    "rejuvenation_p1": "El Lifting Facial en Hamaca es una técnica quirúrgica segura, efectiva y respaldada por resultados que reflejan belleza, naturalidad y permanencia en el tiempo.",
+    "rejuvenation_p2": "El éxito de esta técnica quirúrgica radica en la visión integral y personalizada del Dr. Andrés Pérez. Durante la consulta de valoración, el Dr. Pérez diseña un plan quirúrgico único para cada paciente, abordando de manera precisa las tres causas principales del envejecimiento facial: la flacidez de los tejidos, la pérdida de volumen y los cambios en la calidad de la piel.",
+    "video_unsupported": "Tu navegador no soporta el elemento video.",
+    "superior_bleph_title": "Blefaroplastia Superior",
+    "superior_bleph_subtitle": "Efecto cortina: cómo devolverle frescura a tu mirada",
+    "superior_bleph_p1": "...",
+    "inferior_bleph_title": "Blefaroplastia Inferior",
+    "inferior_bleph_subtitle": "Efecto ojera: solución avanzada con resultados naturales",
+    "inferior_bleph_p1": "...",
+    "fat_sliding_title": "Técnica Fat Sliding:",
+    "fat_sliding_subtitle": "Redefiniendo el tratamiento de ojeras",
+    "fat_sliding_p1": "...",
+    "why_different_title": "¿Por qué es diferente?",
+    "why_different_c1": "...",
+    "why_different_c2": "...",
+    "why_different_c3": "...",
+    "results_title": "Nuestros excelentes resultados",
+    "view_more_cases": "Ver más casos de Blefaroplastia",
+    "testimonials_title": "Testimonios",
+    "view_more_button": "Ver más",
+    "faq_title": "Preguntas frecuentes",
+    "faqs": {
+      "q1": {
+        "question": "Anestesia",
+        "answer": "Por lo general el procedimiento se lleva a cabo bajo anestesia local y sedación endovenosa. El tiempo quirúrgico aproximadamente es de una hora y media."
+      },
+      "q2": {
+        "question": "¿Qué esperar después de la cirugía?",
+        "answer": "Durante los primeros dos días es normal presentar una inflamación moderada en los párpados. Esta disminuye progresivamente y, en la mayoría de los casos, a partir del cuarto día ya es poco notoria. Los puntos de sutura se retiran entre el día 5 y 6 postoperatorio. Una vez las heridas se encuentren completamente cicatrizadas, el Dr. Pérez indicará el uso de una crema cicatrizante especializada para optimizar la recuperación y mejorar el resultado estético."
+      },
+      "q3": {
+        "question": "¿Es normal tener visión borrosa?",
+        "answer": "Sí, en algunos casos puede presentarse una visión levemente borrosa durante los primeros días. Esto puede deberse al uso de gotas lubricantes oftálmicas o a una ligera inflamación de la conjuntiva. Es un efecto temporal que se resuelve espontáneamente sin necesidad de tratamiento adicional."
+      },
+      "q4": {
+        "question": "¿Cuándo puedo aplicar maquillaje?",
+        "answer": "El maquillaje en la zona de los ojos puede aplicarse una vez se hayan retirado los puntos de sutura, es decir, a partir del quinto día posterior a la cirugía, siempre y cuando la piel se encuentre en buen estado."
+      },
+      "q5": {
+        "question": "¿Puedo ver pantallas después de la cirugía?",
+        "answer": "Durante los primeros dos días, se recomienda evitar el uso prolongado de pantallas (computador, celular o televisión), ya que la inflamación puede generar resequedad, ardor o fatiga ocular. A partir del tercer día, es posible retomar su uso, preferiblemente en períodos cortos y con descansos frecuentes para no forzar la vista."
+      }
+    }
+  },
+  "lifting_facial_hamaca": {
+    "title": "Lifting Facial en Hamaca",
+    "p1": "El proceso de envejecimiento facial es un proceso inevitable, pero suele hacerse evidente en los momentos más cotidianos: al mirarnos al espejo, al tomarnos una foto o al interactuar con otras personas. Estos cambios, aunque naturales, pueden afectar nuestra seguridad y autoestima, al no reflejar cómo nos sentimos realmente por dentro.",
+    "p2": "Por fortuna el procedimiento de Lifting Facial en Hamaca que lleva a cabo el Dr. Pérez es la solución ideal que tú buscas.",
+    "gallery_before": "ANTES",
+    "gallery_after": "DESPUÉS",
+    "gallery_procedure": "Lifting facial en hamaca",
+    "section2_title": "Redescubre tu mejor versión con el lifting facial en hamaca",
+    "section2_p1": "El envejecimiento facial es un proceso inevitable, pero suele hacerse evidente en los momentos más cotidianos: al mirarnos al espejo, al tomarnos una foto o al interactuar con otras personas. Estos cambios, aunque naturales, pueden afectar nuestra seguridad y autoestima, al no reflejar cómo nos sentimos realmente por dentro.",
+    "section2_p2": "Consciente de esta realidad, el Dr. Andrés Pérez ha dedicado años de experiencia, estudio y perfeccionamiento a desarrollar su exclusiva técnica de Lifting Facial en Hamaca.",
+    "section2_p3": "Este procedimiento ha sido cuidadosamente diseñado para adaptarse a las particularidades de cada paciente, logrando resultados que no solo rejuvenecen el rostro, sino que lo hacen de manera sutil, armónica y duradera.",
+    "video1_title": "Efecto hamaca",
+    "video1_subtitle": "Hammock effect",
+    "section3_title": "Garantía de excelentes resultados",
+    "section3_p1": "El Lifting Facial en Hamaca es una técnica quirúrgica segura, efectiva y respaldada por resultados que reflejan belleza, naturalidad y permanencia en el tiempo.",
+    "section3_p2": "El éxito de esta técnica quirúrgica radica en la visión integral y personalizada del Dr. Andrés Pérez. Durante la consulta de valoración, el Dr. Pérez diseña un plan quirúrgico único para cada paciente, abordando de manera precisa las tres causas principales del envejecimiento facial: la flacidez de los tejidos, la pérdida de volumen y los cambios en la calidad de la piel.",
+    "causes": {
+      "c1": "Descolgamiento de los tejidos blandos",
+      "c2": "Laxitud de la piel",
+      "c3": "Perdida del volumen facial"
+    },
+    "section4_title": "Elevación de tejidos blandos",
+    "section4_p1": "Uno de los cambios más evidentes y transformadores del envejecimiento facial es el descenso progresivo de los tejidos blandos. Este desplazamiento ocurre de manera vertical, comenzando en la parte superior del rostro y avanzando hacia la zona inferior, provocando una pérdida de firmeza y definición.",
+    "section4_p2": "Cuando somos jóvenes, el contorno facial tiende a tener una forma triangular o \"triángulo invertido\", con la base más ancha en la zona superior del rostro (pómulos) y el vértice apuntando hacia el mentón.",
+    "section4_p3": "Sin embargo, con el paso del tiempo y el proceso natural de envejecimiento, los tejidos del rostro comienzan a perder colágeno, elastina y volumen. La piel se vuelve más flácida y los compartimentos grasos descienden, lo que provoca una pérdida de definición en los pómulos y una acumulación de volumen en la parte inferior del rostro, como la mandíbula y el cuello. Este cambio progresivo transforma la forma facial de un triángulo invertido a una figura más cuadrada o rectangular.",
+    "section5_title": "Lifting facial en hamaca",
+    "section5_subtitle": "\"DEEP PLANE\"",
+    "section5_p1": "El Lifting Facial Hamaca es una técnica avanzada de rejuvenecimiento desarrollada por el Dr. Andrés Pérez, que ofrece una solución innovadora y eficaz para tratar la flacidez facial. A diferencia de los métodos tradicionales que solo actúan sobre las capas superficiales, esta técnica trabaja en profundidad \"Deep Plane\" reposicionando estratégicamente los tejidos internos del rostro mediante una suspensión en forma de \"hamaca\". Esto permite elevar de manera natural las estructuras del tercio medio e inferior de la cara, logrando una restauración armónica de los contornos faciales.",
+    "section5_p2": "El resultado es un rejuvenecimiento integral, sin tensión excesiva ni pérdida de expresión, preservando la naturalidad del rostro. El Lifting Facial Hamaca está especialmente indicado para quienes buscan resultados duraderos y una apariencia revitalizada, respetando la autenticidad de sus rasgos.",
+    "video2_title": "Video Deep Plane",
+    "section6_title": "Procedimientos para un rejuvenecimiento facial integral",
+    "section6_p1": "Para revertir de manera efectiva el descolgamiento de los tejidos blandos y lograr un rejuvenecimiento facial armónico, el Dr. Andrés Pérez combina cuidadosamente distintos procedimientos quirúrgicos, seleccionados según las necesidades únicas de cada paciente.",
+    "section6_p2": "Entre los más utilizados se encuentran:",
+    "procedures": {
+      "p1": "Blefaroplastia",
+      "p2": "Elevación de cejas",
+      "p3": "Lifting Facial Hamaca mejillas y cuello",
+      "p4": "Lip Lift"
+    },
+    "section7_title": "Restaurar el volumen facial",
+    "section7_p1": "Con el paso del tiempo, el rostro pierde volumen y firmeza debido a la disminución del tejido graso facial, lo que genera una apariencia más delgada y hundida.",
+    "section7_p2": "Para revertir estos signos de envejecimiento, el Dr. Andrés Pérez realiza el Lipofilling con células madre: una técnica avanzada que extrae, purifica y transfiere grasa autóloga a las zonas que lo requieren.",
+    "section7_p3": "Este tratamiento no solo restaura el volumen de forma natural y duradera, sino que también mejora la calidad de la piel gracias a las propiedades regenerativas de las células madre.",
+    "section8_title": "Devolver la lozanía y vitalidad a la piel",
+    "section8_p1": "A medida que envejecemos, la piel del rostro experimenta cambios estructurales significativos: se adelgaza, pierde elasticidad y tonicidad, y comienza a mostrar signos visibles como la flacidez y las arrugas.",
+    "section8_p2": "Para contrarrestar estos efectos, el Dr. Andrés Pérez emplea la técnica de Nano Fat, un tratamiento avanzado que consiste en la inyección de grasa ultra purificada dentro de las capas más superficiales de la piel. Esta grasa, rica en factores regenerativos y células madre, actúa estimulando la renovación celular, mejorando visiblemente la textura, el brillo y la calidad general de la piel.",
+    "section9_vs_title1": "Lifting Facial en Hamaca",
+    "section9_vs_title2": "Estiramiento Facial",
+    "section9_title": "Naturalidad y precisión: la clave del Lifting Facial en Hamaca",
+    "section9_p1": "Muchas de las técnicas tradicionales de rejuvenecimiento facial, comúnmente conocidas como \"estiramientos faciales\", se centran únicamente en traccionar la piel en dirección horizontal, generalmente hacia las orejas. Este enfoque superficial puede generar resultados poco naturales, con rostros excesivamente tensos y sin armonía.",
+    "section9_p2": "En contraste, el Lifting Facial en Hamaca desarrollado por el Dr. Andrés Pérez evita por completo estos inconvenientes gracias a un abordaje quirúrgico mucho más profundo y anatómicamente preciso. Esta técnica se enfoca en la movilización y reposicionamiento vertical de los tejidos blandos profundos, específicamente del Sistema Músculo Aponeurótico Superficial (SMAS), que es el verdadero soporte estructural del rostro.",
+    "section9_result_title": "El resultado:",
+    "section9_result_p1": "Un procedimiento hecho a tu medida",
+    "section10_title": "Nuestros excelentes resultados",
+    "view_more_cases_btn": "Ver más casos de Lifting Hamaca",
+    "view_more_cases_btn_mobile": "Ver más casos",
+    "testimonials_title": "Testimonios",
+    "video3_title": "Testimonio Paciente 1",
+    "video1_unsupported": "Tu navegador no soporta el elemento de video.",
+    "video2_unsupported": "Tu navegador no soporta el elemento de video.",
+    "video3_unsupported": "Tu navegador no soporta el elemento de video.",
+    "video4_unsupported": "Tu navegador no soporta el elemento de video.",
+    "view_more_btn": "Ver más",
+    "recovery_title": "Tu recuperación",
+    "recovery_p1": "La recuperación tras un rejuvenecimiento facial con el Dr. Andrés Pérez se asemeja a una montaña rusa: con algunos altibajos al inicio, pero siempre avanzando hacia un gran resultado.",
+    "recovery_p2": "Gracias a sus técnicas precisas y poco traumáticas, los hematomas son poco comunes y la inflamación, aunque notable en las primeras 24 horas, comienza a disminuir de forma constante. Para el cuarto o quinto día, muchos pacientes ya retoman sus actividades cotidianas.",
+    "recovery_p3": "Durante las siguientes semanas, la inflamación residual cede progresivamente y el rostro revela una apariencia más fresca, armónica y rejuvenecida.",
+    "recovery_p4": "Aunque el trayecto tenga subidas y bajadas, el destino es un rostro naturalmente revitalizado.",
+    "video4_title": "Video",
+    "video4_subtitle": "recuperación",
+    "faq_title": "Preguntas Frecuentes",
+    "meta_title": "Lifting Facial en Hamaca en Bogotá | Deep Plane Facelift | Dr. Andrés Pérez Nieto",
+    "meta_description": "Técnica exclusiva de Lifting Facial en Hamaca (Deep Plane) en Bogotá, Colombia. Rejuvenecimiento facial natural y duradero. Dr. Andrés Pérez Nieto, +30 años de experiencia en cirugía facial.",
+    "faqs": {
+      "q1": {
+        "question": "¿Qué es el Lifting Facial en Hamaca?",
+        "answer": "Es una técnica avanzada de rejuvenecimiento facial que utiliza el método Deep Plane para lograr resultados naturales y duraderos, elevando los tejidos de manera integral."
+      },
+      "q2": {
+        "question": "¿Cuánto dura la recuperación?",
+        "answer": "La recuperación inicial es de 7-10 days, con resultados visibles inmediatos. La recuperación completa toma aproximadamente 3-4 semanas."
+      },
+      "q3": {
+        "question": "¿Los resultados son permanentes?",
+        "answer": "Los resultados duran entre 8-12 años, dependiendo de factores individuales como la edad, cuidado de la piel y estilo de vida."
+      },
+      "q4": {
+        "question": "¿Es doloroso el procedimiento?",
+        "answer": "Se realiza bajo anestesia general, por lo que no hay dolor durante el procedimiento. El postoperatorio se maneja con analgésicos efectivos."
+      },
+      "q5": {
+        "question": "¿Qué diferencia al Dr. Pérez en esta técnica?",
+        "answer": "El Dr. Pérez es especialista en la técnica Deep Plane con más de 15 años de experiencia, garantizando resultados naturales y seguros."
+      }
+    }
+  },
+  "testimonials_section": {
+    "main_title": "Testimonios",
+    "rating_label": "EXCELENTE",
+    "based_on_reviews": "A base de {count} reseñas",
+    "read_more": "Leer más",
+    "verified": "Verificado",
+    "patient_videos_title": "Videos de nuestros pacientes",
+    "view_more_testimonials": "Ver más testimonios",
+    "pagination_of": "de",
+    "testimonials": [
+      {
+        "name": "Martha Lozano",
+        "date": "2024-03-17",
+        "text": "La experiencia con el Dr. Pérez y su equipo es indescriptible porque no tengo las palabras para expresar la gran satisfacción y agradecimiento por el resultado obtenido."
+      },
+      {
+        "name": "Svetlana Lajan",
+        "date": "2024-03-15",
+        "text": "Tuve la blefaroplastia y lifting facial hace menos de 4 semanas. Todavía estoy en recuperación, pero los resultados son increíbles. El Dr. Andrés Pérez es un gran profesional."
+      },
+      {
+        "name": "Carmen Rodriguez",
+        "date": "2024-03-14",
+        "text": "Excelente profesional, muy dedicado y con resultados extraordinarios. El Dr. Pérez superó todas mis expectativas. Recomendado al 100%."
+      },
+      {
+        "name": "Ana María Silva",
+        "date": "2024-03-12",
+        "text": "Mi experiencia con el Dr. Pérez fue excepcional. Desde la primera consulta hasta el resultado final, todo fue perfecto. Muy profesional."
+      },
+      {
+        "name": "Isabella Torres",
+        "date": "2024-03-10",
+        "text": "Los resultados de mi rinoplastia superaron mis expectativas. El Dr. Pérez es un artista, logró exactamente lo que quería."
+      },
+      {
+        "name": "Lucía Mendoza",
+        "date": "2024-03-08",
+        "text": "Increíble atención desde el primer momento. El Dr. Pérez me explicó todo detalladamente y los resultados son fantásticos."
+      },
+      {
+        "name": "Patricia Gómez",
+        "date": "2024-03-05",
+        "text": "La mejor decisión que pude tomar. El Dr. Pérez y todo su equipo son excelentes. Muy recomendado para cualquier procedimiento."
+      },
+      {
+        "name": "Victoria Herrera",
+        "date": "2024-03-03",
+        "text": "Profesionalismo de primer nivel. El Dr. Pérez tiene unas manos mágicas. Estoy súper feliz con mi transformación."
+      },
+      {
+        "name": "Alejandra Ruiz",
+        "date": "2024-03-01",
+        "text": "Excelente cirujano plástico. Los resultados de mi abdominoplastia son increíbles. Totalmente recomendado."
+      },
+      {
+        "name": "Daniela Castro",
+        "date": "2024-02-28",
+        "text": "El Dr. Pérez es un profesional excepcional. Mi lifting facial quedó perfecto, se ve muy natural."
+      },
+      {
+        "name": "Sofía Vargas",
+        "date": "2024-02-26",
+        "text": "Súper contenta con los resultados de mi blefaroplastia. El Dr. Pérez es muy detallista y cuidadoso."
+      },
+      {
+        "name": "Valentina López",
+        "date": "2024-02-24",
+        "text": "Atención excepcional y resultados perfectos. El Dr. Pérez realmente sabe lo que hace. Muy agradecida."
+      },
+      {
+        "name": "Mónica Jiménez",
+        "date": "2024-02-22",
+        "text": "La experiencia completa fue excelente. Desde la consulta hasta el seguimiento postoperatorio. Muy profesional."
+      },
+      {
+        "name": "Gabriela Moreno",
+        "date": "2024-02-20",
+        "text": "Resultados increíbles en mi rinoplastia. El Dr. Pérez entendió perfectamente lo que quería."
+      },
+      {
+        "name": "Carolina Díaz",
+        "date": "2024-02-18",
+        "text": "Excelente cirujano, muy empático y profesional. Los resultados superaron mis expectativas completamente."
+      },
+      {
+        "name": "Andrea Fernández",
+        "date": "2024-02-16",
+        "text": "El Dr. Pérez es simplemente el mejor. Mi mamoplastia quedó perfecta, muy natural y bien proporcionada."
+      },
+      {
+        "name": "Natalia Romero",
+        "date": "2024-02-14",
+        "text": "Profesional de primera categoría. Todo el proceso fue excelente y los resultados son fantásticos."
+      },
+      {
+        "name": "Camila Ortega",
+        "date": "2024-02-12",
+        "text": "Súper recomendado. El Dr. Pérez me devolvió la confianza en mí misma. Excelente trabajo."
+      },
+      {
+        "name": "Paola Sánchez",
+        "date": "2024-02-10",
+        "text": "La mejor decisión que he tomado. El Dr. Pérez es un artista, los resultados son impecables."
+      },
+      {
+        "name": "Laura González",
+        "date": "2024-02-08",
+        "text": "Excelente atención y resultados perfectos. El Dr. Pérez y su equipo son extraordinarios."
+      },
+      {
+        "name": "Mariana Peña",
+        "date": "2024-02-06",
+        "text": "Increíble profesional. Los resultados de mi liposucción son exactamente lo que esperaba."
+      },
+      {
+        "name": "Juliana Ramírez",
+        "date": "2024-02-04",
+        "text": "El Dr. Pérez es excepcional. Mi experiencia fue perfecta desde el inicio hasta el final."
+      },
+      {
+        "name": "Adriana Mejía",
+        "date": "2024-02-02",
+        "text": "Súper contenta con mi gluteoplastia. El Dr. Pérez logró exactamente el resultado que quería."
+      },
+      {
+        "name": "Diana Aguilar",
+        "date": "2024-01-31",
+        "text": "Excelente cirujano plástico. Los resultados son naturales y hermosos. Muy recomendado."
+      },
+      {
+        "name": "Estefanía Cruz",
+        "date": "2024-01-29",
+        "text": "La atención del Dr. Pérez es de primera. Resultados perfectos y recuperación excelente."
+      },
+      {
+        "name": "Fernanda Vega",
+        "date": "2024-01-27",
+        "text": "Increíble experiencia. El Dr. Pérez es muy profesional y los resultados son espectaculares."
+      },
+      {
+        "name": "Helena Campos",
+        "date": "2024-01-25",
+        "text": "El mejor cirujano plástico. Mi rinoplastia quedó perfecta, exactamente como la imaginé."
+      },
+      {
+        "name": "Isabel Restrepo",
+        "date": "2024-01-23",
+        "text": "Excelente profesional y persona. Los resultados de mi abdominoplastia son increíbles."
+      },
+      {
+        "name": "Karina Molina",
+        "date": "2024-01-21",
+        "text": "Súper recomendado. El Dr. Pérez tiene mucha experiencia y los resultados lo demuestran."
+      },
+      {
+        "name": "Lorena Paredes",
+        "date": "2024-01-19",
+        "text": "La mejor experiencia. El Dr. Pérez es muy cuidadoso y detallista. Resultados perfectos."
+      },
+      {
+        "name": "Mercedes Salazar",
+        "date": "2024-01-17",
+        "text": "Excelente cirujano. Mi lifting facial se ve muy natural. Estoy súper feliz con el resultado."
+      },
+      {
+        "name": "Nicole Guerrero",
+        "date": "2024-01-15",
+        "text": "Increíble atención y resultados espectaculares. El Dr. Pérez es un verdadero profesional."
+      },
+      {
+        "name": "Olga Ramos",
+        "date": "2024-01-13",
+        "text": "La experiencia completa fue excelente. Desde la consulta hasta el seguimiento postoperatorio."
+      },
+      {
+        "name": "Rocío Medina",
+        "date": "2024-01-11",
+        "text": "El Dr. Pérez es excepcional. Los resultados de mi blefaroplastia son perfectos."
+      },
+      {
+        "name": "Sandra Delgado",
+        "date": "2024-01-09",
+        "text": "Súper contenta con mi mamoplastia. El Dr. Pérez logró exactamente lo que quería."
+      },
+      {
+        "name": "Teresa Navarro",
+        "date": "2024-01-07",
+        "text": "Excelente profesional. Los resultados son naturales y hermosos. Muy recomendado."
+      },
+      {
+        "name": "Úrsula Pineda",
+        "date": "2024-01-05",
+        "text": "La mejor decisión que pude tomar. El Dr. Pérez es un artista de la cirugía plástica."
+      },
+      {
+        "name": "Viviana Cortés",
+        "date": "2024-01-03",
+        "text": "Increíble experiencia. El Dr. Pérez es muy profesional y los resultados son espectaculares."
+      },
+      {
+        "name": "Ximena Flores",
+        "date": "2024-01-01",
+        "text": "Excelente atención y resultados perfectos. El Dr. Pérez superó mis expectativas."
+      },
+      {
+        "name": "Yolanda Serrano",
+        "date": "2023-12-30",
+        "text": "El Dr. Pérez es simplemente el mejor. Mi experiencia fue perfecta en todos los aspectos."
+      },
+      {
+        "name": "Zulema Ibarra",
+        "date": "2023-12-28",
+        "text": "Súper recomendado. Los resultados de mi liposucción son exactamente lo que esperaba."
+      },
+      {
+        "name": "Beatriz Ochoa",
+        "date": "2023-12-26",
+        "text": "Excelente cirujano plástico. Mi rinoplastia quedó perfecta, muy natural."
+      },
+      {
+        "name": "Claudia Espinoza",
+        "date": "2023-12-24",
+        "text": "La atención del Dr. Pérez es excepcional. Resultados increíbles y recuperación excelente."
+      },
+      {
+        "name": "Elena Márquez",
+        "date": "2023-12-22",
+        "text": "Increíble profesional. Los resultados de mi abdominoplastia son espectaculares."
+      },
+      {
+        "name": "Fátima Rojas",
+        "date": "2023-12-20",
+        "text": "El Dr. Pérez es un verdadero artista. Mi transformación es exactamente lo que soñé."
+      }
+    ]
+  },
+  "doctor_page": {
+    "meta_title": "Conoce al Dr. Andrés Pérez Nieto | Cirujano Plástico Facial",
+    "meta_description": "Cirujano plástico experto en rejuvenecimiento facial y cirugía estética en Colombia. Más de 30 años de experiencia y formación internacional.",
+    "title": "Dr. Andrés Pérez Nieto",
+    "subtitle": "Cirujano Plástico Internacional",
+    "passion_section_title": "Guiado por su pasión",
+    "passion_p1": "El Dr. <strong>Pérez</strong> realizó sus estudios de pregrado en medicina en la <strong>Universidad del Rosario</strong> de Bogotá. Fue allí donde despertó su incansable interés por la cirugía plástica luego de asistir como estudiante a diversos procedimientos de reconstrucción facial.",
+    "passion_p2": "Una vez finalizó sus estudios de medicina tuvo el honor de ingresar a realizar sus estudios de postgrado al prestigioso programa de cirugía plástica de la <strong>Universidad Nacional de Colombia</strong>. Fue allí donde se formó como cirujano plástico integral, tanto en el área reconstructiva como en la estética y tuvo el honor de ser elegido como jefe de residentes del servicio de cirugía plástica, por sus méritos académicos y su desempeño quirúrgico.",
+    "passion_p3": "Posteriormente viajó a los Estados Unidos donde realizó un Fellow observer en cirugía estética facial en dos de las más prestigiosas instituciones en dicho campo como son, <strong>The University of Illinois</strong> y <strong>The Manhattan Eye and Ear Hospital en New York</strong>.",
+    "passion_p4": "Hace 30 años el Dr. Pérez estableció su práctica en la ciudad de Bogotá y desde ese entonces ha mantenido un permanente deseo por innovar y actualizarse en las más avanzadas técnicas y tecnologías quirúrgicas disponibles. Esto lo ha llevado a visitar importantes centros de cirugía plástica, en diversas partes del mundo compartiendo y desarrollando muchas de sus ideas con cirujanos plásticos del más alto nivel.",
+    "education_title": "Educación y experiencia",
+    "philosophy_title": "Un profundo sentido estético y habilidades quirúrgicas innatas se fusionan en una práctica hecha a la medida de cada paciente",
+    "philosophy_p1": "Con cerca de 30 años de experiencia, el Dr. Pérez ha perfeccionado el equilibrio entre la estética y la ciencia, combinando su gran sentido artístico con habilidades quirúrgicas de alto nivel. Su pasión por el arte en todas sus expresiones le ha permitido desarrollar un enfoque único en la cirugía plástica facial, donde cada procedimiento es una obra maestra diseñada para resaltar la belleza natural de sus pacientes.",
+    "philosophy_p2": "Su compromiso con la excelencia y la armonía facial lo han convertido en un referente de",
+    "philosophy_p3": "Su campo, brindando resultados que reflejan la naturalidad, elegancia y precisión.",
+    "social_commitment_title": "Su compromiso social",
+    "social_commitment_p1": "El Dr. Pérez además de ser un reconocido cirujano plástico facial tiene un profundo compromiso con la labor social. Como miembro de la Milwaukee Medical Mission organización del Medical College of Wisconsin participa activamente en misiones quirúrgicas en Colombia donde junto a un equipo de especialistas del más alto nivel brindan cirugías plásticas reconstructivas a pacientes de escasos recursos.",
+    "social_commitment_p2": "Esta iniciativa permite a personas con malformaciones congénitas, secuelas de quemaduras y otras condiciones acceder a tratamientos quirúrgicos que mejoran significativamente su calidad de vida. Para el Dr. Pérez, la cirugía plástica no solo es un arte sino también una herramienta para devolver la confianza, la funcionalidad y la esperanza a quienes más lo necesitan."
+  },
+  "international_patients": {
+    "meta_title": "Pacientes Internacionales | Cirugía Plástica en Colombia",
+    "meta_description": "Atención integral para pacientes del extranjero: transporte, hospedaje y enfermería. Programa tu cirugía plástica en Bogotá con el Dr. Andrés Pérez.",
+    "title": "Pacientes Internacionales y de Otras Ciudades",
+    "comprehensive_care_title": "Atención Integral para Pacientes Foráneos",
+    "comprehensive_care_p1": "Un alto porcentaje de nuestros pacientes provienen del exterior o de otras ciudades de Colombia. Por ello, hemos diseñado un programa especializado y altamente organizado para ofrecerte una experiencia cómoda, segura e inolvidable durante todo tu proceso con nosotros.",
+    "comprehensive_care_p2": "Desde el primer contacto hasta tu regreso a casa, nuestro equipo te acompaña con asesoría permanente, facilitándote cada paso del camino. Incluimos servicios de:",
+    "service_accommodation": "Hospedaje",
+    "service_transport": "Transporte",
+    "service_nursing": "Atención de enfermería",
+    "service_bilingual": "Asistencia bilingüe para pacientes que no hablan español",
+    "virtual_consultation_title": "Consulta Virtual con el Dr. Andrés Pérez",
+    "virtual_consultation_desc": "Para pacientes que no residen en Bogotá, ofrecemos consultas virtuales con el Dr. Andrés Pérez. A través de una plataforma segura, podrás recibir una evaluación clara y personalizada de tu caso.",
+    "patient_role": "Paciente",
+    "doctor_role": "Dr. Pérez",
+    "step_payment": "Pago de la cita mediante: Paypal, Zelle, Nequi, Bancolombia",
+    "step_photos": "Envío de fotografías según el procedimiento.",
+    "step_data_title": "Envío de datos:",
+    "step_data_age": "Edad",
+    "step_data_procedure": "Procedimiento deseado",
+    "step_data_email": "Correo electrónico",
+    "step_review": "Revisión de las fotografías y envío de videoanálisis al correo electrónico.",
+    "step_confirmation": "Confirmación de la cita virtual.",
+    "step_budget": "Envío de presupuesto de la cirugía",
+    "step_scheduling": "Agendamiento de la cirugía.",
+    "video_process_title": "Conoce el proceso paso a paso en este video:",
+    "video_consultation_label": "Proceso de consulta",
+    "video_photos_label": "Toma de fotografías<br />Consulta virtual",
+    "after_consultation_title": "Después de tu Consulta Virtual",
+    "after_consultation_intro": "Una vez hayas definido tus procedimientos con el Dr. Pérez, recibirás:",
+    "after_consultation_list1": "• Un presupuesto detallado y opciones de forma de pago.",
+    "after_consultation_list2": "• Agendamiento conjunto de la fecha de cirugía, considerando tu disponibilidad y la del Dr. Pérez.",
+    "pre_surgical_exams_title": "Exámenes Prequirúrgicos",
+    "pre_surgical_exams_desc": "- Puedes realizarlos en tu país de origen (te enviaremos la orden) o En Bogotá, con toma domiciliaria el día posterior a tu llegada.",
+    "travel_logistics_title": "Logística de Viaje",
+    "travel_logistics_subtitle": "Nuestro equipo te ayudará con todos los detalles",
+    "logistics_transport_desc": "Transporte desde y hacia el aeropuerto, así como durante tu estadía.",
+    "logistics_accommodation_desc": "Reserva de hospedaje con opciones cuidadosamente seleccionadas.",
+    "logistics_nursing_desc": "Enfermería especializada en postoperatorio, ajustada a tus necesidades.",
+    "face_to_face_title": "Consulta Presencial con el Dr. Andrés Pérez",
+    "face_to_face_subtitle": "Generalmente se realiza el día siguiente a tu llegada a Bogotá. Durante esta cita:",
+    "face_to_face_list1": "• Ultimarás detalles de tu cirugía directamente con el Dr. Pérez.",
+    "face_to_face_list2": "• Se tomarán tus fotografías preoperatorias.",
+    "face_to_face_list3": "• Se te entregarán las recetas médicas para el postoperatorio.",
+    "face_to_face_list4": "• Recibirás las instrucciones pre y post operatorias por WhatsApp, de forma clara y accesible.",
+    "pre_anesthesia_title": "Consulta de Preanestesia",
+    "pre_anesthesia_desc": "Esta evaluación médica se lleva a cabo el día previo a la cirugía, directamente en la clínica. Uno de nuestros anestesiólogos te explicará en detalle el proceso anestésico y la preparación necesaria."
+  },
+  "mamoplastia_aumento": {
+    "meta_title": "Mamoplastia de Aumento en Bogotá | Implantes Mamarios",
+    "meta_description": "Aumenta el volumen y mejora la forma de tu busto. Cirugía de implantes mamarios segura y con resultados armónicos. Dr. Andrés Pérez.",
+    "title": "Mamoplastia de Aumento:",
+    "subtitle": "Mejora del volumen y la forma del busto",
+    "description": "La mamoplastia de aumento es uno de los procedimientos de cirugía plástica más realizados a nivel mundial. Esta indicada en mujeres que desean mejorar el tamaño, la forma y la proyección de sus senos, ya sea por razones estéticas, cambios posteriores al embarazo o condiciones anatómicas particulares.",
+    "candidates_title": "¿Quiénes suelen consultar por una mamoplastia de aumento?",
+    "candidates_group1_title": "Mujeres en sus 30s, muchas con antecedentes de embarazo y lactancia:",
+    "candidates_group1_desc": "Este es el grupo más común. Son pacientes que han experimentado una pérdida de volumen mamario, especialmente en la parte superior del busto, así como una disminución en la firmeza y tono de la piel.",
+    "candidates_group2_title": "Mujeres jóvenes, generalmente en sus 20s:",
+    "candidates_group2_desc": "Buscan un aumento de tamaño que les permita lograr un cuerpo más armónico y balanceado, mejorando su proyección corporal y confianza en sí mismas.",
+    "candidates_group3_title": "Pacientes con asimetrías o deformidades mamarias:",
+    "candidates_group3_desc": "Algunas mujeres presentan diferencias notorias entre ambos senos o deformidades congénitas. En este grupo puede corregir dichas asimetrías, brindando un resultado natural y equilibrado.",
+    "important_note_title": "Importante tener en cuenta: ¿Y si los senos están caídos?",
+    "important_note_desc": "Es fundamental aclarar que la mamoplastia de aumento no corrige por sí sola la caída o ptosis mamaria. Cuando los senos están descendidos, el procedimiento ideal es una cirugía combinada de elevación mamaria (mastopexia) con colocación de implantes, para restaurar tanto la forma como la posición del seno.",
+    "video_title": "Mamoplastia de aumento",
+    "video_subtitle": "Dr. Andrés Pérez",
+    "technique_title": "Detalles de la Técnica del Dr. Pérez",
+    "technique_desc": "El enfoque del Dr. Pérez en la mamoplastia de aumento se basa en lograr un resultado estético que no solo cumpla con las expectativas de la paciente, sino que también se vea natural y armónico con el resto del cuerpo. Cada cirugía es cuidadosamente planificada de manera individual, teniendo en cuenta múltiples factores anatómicos y personales.",
+    "planning_title": "Planificación personalizada:",
+    "planning_desc": "Durante la consulta inicial, el Dr. Pérez realiza una evaluación integral que incluye aspectos como la estatura, el ancho del tórax, la calidad de la piel y el biotipo de la paciente. Con esta información, se define de forma precisa:",
+    "planning_list": "• El volumen adecuado del implante.<br />• El tipo de implante (textura, forma, proyección).<br />• La ubicación ideal para obtener el mejor resultado estético.",
+    "incision_title": "Tipo de incisión",
+    "incision_desc": "En la mayoría de los casos, el Dr. Pérez utiliza la incisión periareolar, que se realiza discretamente alrededor de la mitad inferior de la areola. Esta ubicación permite un acceso eficaz para colocar el implante y, al mismo tiempo, una cicatriz final prácticamente imperceptible.",
+    "dual_plane_title": "Técnica Dual Plane",
+    "dual_plane_desc": "La técnica preferida por el Dr. Pérez es la Dual Plane, en la cual el implante se coloca parcialmente detrás del músculo pectoral mayor. Esta técnica ofrece múltiples ventajas:",
+    "dual_plane_list": "• Resultado con aspecto más natural.<br />• Mejor transición entre el tórax y el implante.<br />• Menor riesgo de que el implante sea visible o palpable con el paso del tiempo.<br />• Reducción del riesgo de contractura capsular.",
+    "closure_title": "Cierre quirúrgico estético",
+    "closure_desc": "Para finalizar el procedimiento, el Dr. Pérez realiza el cierre de la herida con suturas absorbibles, lo que evita la necesidad de retirar puntos posteriormente y favorece una cicatrización más estética.",
+    "results_title": "Nuestros excelentes resultados",
+    "view_more_cases": "Ver más casos de Mamoplastia de aumento",
+    "faq_title": "Preguntas frecuentes",
+    "faqs": {
+      "q1": {
+        "question": "Anestesia",
+        "answer": "La intervención se lleva a cabo bajo anestesia general y tiene una duración aproximada de 1 hora."
+      },
+      "q2": {
+        "question": "¿Qué esperar después de la cirugía?",
+        "answer": "Es normal experimentar una inflamación moderada durante la primera semana postoperatoria. Durante este período, los senos pueden parecer más grandes de lo que serán una vez que disminuya la inflamación.<br /><br />También es común experimentar una rigidez temporal en la zona del pecho, la cual mejora considerablemente con el paso de los días.<br /><br />Inicialmente, los senos se ven un poco \"separados\", pero esto cambia durante el proceso inflamatorio, pero una vez que mejora el proceso inflamatorio todo vuelve a la normalidad aproximadamente en 15 días."
+      },
+      "q3": {
+        "question": "Recomendaciones postoperatorias",
+        "answer": "• Mantener una higiene adecuada siguiendo las indicaciones del Dr. Pérez durantes las primeras días para facilitar el drenaje de la inflamación.<br />• Evitar levantar peso sobre las senos durante las primeras 10 horas que permita la reducir la inflamación.<br />• Usar la faja permanente el tiempo recomendado, tanto de día como de noche (según indicaciones del procedimiento)."
+      },
+      "q4": {
+        "question": "¿Qué tipos de implantes existen?",
+        "answer": "Los implantes silicona según el tipo de características principales:<br />• Textura de la cubierta.<br />• Perfilen (Alto perfil, moderado, de perfil bajo) la estándar depende de factores anatómicos y del cuerpo (medidas).<br />• Projección tanto depende de las medidas del tórax (ancho alto).<br />• Forma: anatómicos y redondos.<br />El Dr. Pérez le ayudará a revisar las opciones apropiadas basándose en la anatomía específica disponible que ofrecen las características más adecuadas a cada caso. También aspectos como los objetivos estéticos y las características específicas a de médicas pacientes."
+      },
+      "q5": {
+        "question": "¿Qué es la contractura capsular?",
+        "answer": "Como respuesta natural del cuerpo, una cápsula fina (membrana) se desea alrededor del implante después de su colocación. Desde tiempo después, por lo general la cápsula formada permanece flexible y suave, permitiendo el movimiento natural de los senos. En un pequeño porcentaje de pacientes, la cápsula puede endurecerse y contraerse en grados variables."
+      }
+    }
+  },
+  "rinoplastia": {
+    "title": "Rinoplastia",
+    "subtitle": "Armonía facial con resultados naturales y funcionales",
+    "description_p1": "La nariz es una de las estructuras más importantes del rostro. Su forma, proporción y posición influyen significativamente en la percepción de la armonía facial.",
+    "description_p2": "Desde su etapa de especialización en cirugía plástica, el Dr. Pérez ha desarrollado una profunda pasión por la rinoplastia. Esta vocación lo llevó a perfeccionar su técnica entrenando en Estados Unidos con dos referentes mundiales en cirugía nasal: el Dr. Eugene Tardy y el Dr. Dean Toriumi, en la Universidad de Illinois. Con más de 25 años de experiencia y más de 2,000 rinoplastias realizadas, el Dr. Pérez ha creado un enfoque quirúrgico integral, enfocado en la armonía estética, la funcionalidad y la naturalidad.",
+    "video_label": "Rinoplastia",
+    "video_sublabel": "Dr. Andrés Pérez",
+    "integral_focus_title": "Enfoque Integral",
+    "integral_focus_subtitle": "Más allá de la nariz: armonía facial completa",
+    "integral_focus_desc": "El análisis del rostro no se limita únicamente a la nariz. El Dr. Pérez realiza una evaluación facial integral que incluye áreas clave como el mentón y los labios, ya que estas zonas juegan un papel crucial en el equilibrio estético general. Esta valoración detallada permite diseñar un plan quirúrgico personalizado que potencie la armonía del rostro.",
+    "respiratory_function_title": "Función Respiratoria",
+    "respiratory_function_subtitle": "Belleza que respira salud.",
+    "respiratory_function_desc": "La principal función de la nariz es permitir el paso adecuado del aire hacia los pulmones. Muchos pacientes que consultan al Dr. Pérez presentan dificultades respiratorias causadas por desviaciones del tabique, hipertrofia de cornetes u otras alteraciones anatómicas. Su técnica quirúrgica permite no solo mejorar la estética nasal, sino también corregir estos problemas funcionales, garantizando una respiración óptima.",
+    "naturalness_title": "Naturalidad",
+    "naturalness_subtitle": "Resultados que realzan, no transforman.",
+    "naturalness_desc": "Para el Dr. Pérez, una buena rinoplastia no busca cambiar por completo la apariencia del paciente, sino realzar su belleza natural. Su objetivo es lograr un resultado armónico, equilibrado y duradero, que no deje huellas visibles ni comprometa la función nasal. Cada intervención se enfoca en resaltar las facciones con naturalidad y sin exageraciones.",
+    "technique_title": "La técnica del Dr Pérez - Rinoplastia <br /> abierta de preservación",
+    "technique_desc": "La mayoría de sus pacientes son tratados con la técnica de rinoplastia abierta de preservación, un enfoque moderno y avanzado que ofrece múltiples beneficios frente a las técnicas tradicionales",
+    "technique_list_1": "<strong>• Preservación anatómica:</strong> Se respetan las estructuras originales de la nariz, modificando su forma o posición sin eliminarlas, lo cual reduce el riesgo de complicaciones estéticas o funcionales a largo plazo.",
+    "technique_list_2": "<strong>• Visualización precisa:</strong> La técnica abierta permite una visión directa y detallada del dorso nasal, la punta, el tabique y otras estructuras internas, lo que garantiza mayor precisión quirúrgica.",
+    "technique_list_3": "<strong>• Mayor simetría y durabilidad:</strong> Los resultados son más estables y armónicos con el paso del tiempo.",
+    "technique_list_4": "<strong>• Corrección funcional completa:</strong> Esta técnica facilita el tratamiento de alteraciones respiratorias como problemas en los cornetes, desviaciones del tabique o disfunción de la válvula nasal.",
+    "technique_conclusion": "La técnica desarrollada por el Dr. Pérez se alinea con los más altos estándares internacionales de rinoplastia moderna, que priorizan la preservación estructural para obtener resultados seguros, naturales y funcionales.",
+    "video_open_rhinoplasty_label": "Rinoplastia abierta",
+    "video_preservation_label": "de preservación",
+    "candidates_title": "Candidatos ideales para Rinoplastia",
+    "candidates_intro": "Este procedimiento está indicado para:",
+    "candidate_1": "Personas que desean mejorar la forma, tamaño o proporción de su nariz para lograr una mayor armonía facial.",
+    "candidate_2": "Pacientes que presentan obstrucción nasal causada por alteraciones estructurales como desviaciones del tabique o hipertrofia de cornetes.",
+    "candidate_3": "Aquellos con secuelas funcionales o estéticas derivadas de traumatismos o cirugías previas de nariz.",
+    "results_title": "Nuestros excelentes resultados",
+    "view_more_cases": "Ver más casos de Rinoplastia",
+    "testimonials_title": "Testimonios",
+    "view_more_testimonials": "Ver más",
+    "faq_title": "Preguntas frecuentes",
+    "meta_title": "Rinoplastia en Bogotá | Cirugía de Nariz | Dr. Andrés Pérez",
+    "meta_description": "Especialista en Rinoplastia Ultrasónica y Funcional. Resultados naturales que armonizan tu rostro. Mejora tu respiración y estética nasal.",
+    "faqs": {
+      "q1": {
+        "question": "Anestesia",
+        "answer": "La rinoplastia se realiza bajo anestesia general, lo que garantiza mayor comodidad y seguridad para el paciente. La duración del procedimiento puede variar entre 1 y 3 horas, dependiendo de la complejidad del caso."
+      },
+      "q2": {
+        "question": "¿Qué debe hacer antes de la cirugía?",
+        "answer": "Tras la intervención es común presentar una inflamación que se sitúa en las mejillas y los párpados inferiores. Para atenuar la misma se aconseja: • Solo dormir con la cabeza elevada los primeros días • Usar hielo ligero de aplicación • Evitar el ejercicio pesado o exposición y 7 días del procedimiento • Ser paciente con el proceso de recuperación."
+      },
+      "q3": {
+        "question": "¿A qué edad se recomienda realizarla?",
+        "answer": "La rinoplastia puede realizarse una vez que se ha completado el desarrollo facial básico, lo cual ocurre normalmente alrededor de los 16-17 años en las mujeres y 17-18 años en los hombres. Sin embargo, no existe una edad máxima límite siempre y cuando el paciente cuente con buena salud general y expectativas realistas del procedimiento."
+      },
+      "q4": {
+        "question": "¿Cuánto dura la inflamación?",
+        "answer": "La mayor parte de la inflamación desaparece en una semana a 10 días, pero una pequeña cantidad puede persistir por meses. Esta inflamación residual es prácticamente invisible para las demás personas, pero puede ser notada por el paciente. Para facilitar el proceso de desinflamación es importante seguir cuidadosamente las instrucciones del cirujano durante el periodo postoperatorio."
+      },
+      "q5": {
+        "question": "¿En qué se diferencia la cirugía de nariz?",
+        "answer": "Cada caso es único y cada tipo de rinoplastia se puede usar diferentes tipos de procedimiento. Por ejemplo, puede realizarse una técnica abierta (incisión externa) o cerrada (incisiones internas). La elección del método depende principalmente de la anatomía nasal específica de cada paciente así como de sus objetivos estéticos."
+      },
+      "q6": {
+        "question": "¿Qué resultados puedo esperar?",
+        "answer": "Los resultados generales de la rinoplastia son permanentes y mejoran con el tiempo hasta finalizarse completamente alrededor de los 12-18 meses post-cirugía. Es importante mantener expectativas realistas ya que aunque los resultados finales de la rinoplastia son significativos, la meta es crear una nariz que se vea armónica con las facciones del rostro, creando un aspecto natural y equilibrado."
+      },
+      "q7": {
+        "question": "Recomendaciones postoperatorias",
+        "answer": "• Mantener la cabeza elevada especialmente durante los primeros días después de la cirugía. • Evitar actividades físicas intensas durante la primera semana. • Seguir estrictamente todas las indicaciones médicas para conseguir resultados óptimos. • Asistir a todas las citas de seguimiento programadas."
+      },
+      "q8": {
+        "question": "¿Qué resultados ofrece la rinoplastia completa?",
+        "answer": "En la mayoría de los casos, el Dr. Pérez realiza una Rinoplastia funcional mediante el postoperatorio, gracias al que no sólo conseguimos una estética más armónica, sino que también mejoramos la funcionalidad respiratoria, no afecta a las vías respiratorias, por el contrario, porque el procedimiento respeta la función nasal."
+      }
+    }
+  },
+  "otoplastia": {
+    "title": "Otoplastia:",
+    "subtitle": "Cirugía Estética de Orejas",
+    "description_p1": "La Otoplastia es un procedimiento quirúrgico diseñado para corregir alteraciones en la forma, tamaño o posición de las orejas, ya sean de origen congénito o adquiridas. La más común de estas alteraciones es la conocida como \"orejas en pantalla\", en la que los pabellones auriculares sobresalen más de lo habitual, generando una apariencia desproporcionada con el resto del rostro.",
+    "description_p2": "Además de la estética, la Otoplastia cumple una función emocional importante, especialmente en niños, ya que ayuda a prevenir problemas de autoestima o burlas escolares. Por esta razón, se recomienda realizarla entre los 8 y los 10 años de edad, una vez que el desarrollo auricular está prácticamente completo.",
+    "technique_title": "La técnica quirúrgica del Dr. Pérez",
+    "technique_intro": "El Dr. Pérez emplea una técnica altamente refinada, segura y efectiva, con resultados naturales y duraderos: La intervención se realiza a través de una incisión oculta en la parte posterior de la oreja, lo que asegura una cicatriz invisible.",
+    "technique_step1": "Se remodela el cartílago auricular para corregir la proyección excesiva, y se colocan suturas permanentes que acercan la oreja al cráneo, devolviéndole una posición armónica.",
+    "technique_step2": "El resultado respeta las curvaturas naturales de la oreja, por lo que el aspecto final es completamente natural y estético.",
+    "technique_step3": "El cierre se realiza con suturas absorbibles, por lo que no es necesario retirarlas.",
+    "results_title": "Nuestros excelentes resultados",
+    "view_more_cases": "Ver más casos de otoplastia",
+    "faq_title": "Preguntas frecuentes",
+    "meta_title": "Otoplastia en Bogotá | Cirugía de Orejas | Dr. Andrés Pérez",
+    "meta_description": "Corrección de orejas prominentes (en pantalla) con Otoplastia. Procedimiento seguro para niños y adultos. Mejora tu autoestima y armonía facial.",
+    "faqs": {
+      "q1": {
+        "question": "Anestesia",
+        "answer": "En pacientes menores de 12 años, se recomienda realizar la cirugía bajo anestesia general para mayor comodidad y seguridad.<br />En adolescentes y adultos, se puede realizar con anestesia local y sedación."
+      },
+      "q2": {
+        "question": "Postoperatorio y Recuperación",
+        "answer": "Después del procedimiento, se coloca un vendaje blando alrededor de la cabeza, el cual ayuda a proteger las orejas y controlar la inflamación. Este vendaje se retira entre los 2 y 3 días posteriores a la cirugía.<br /><strong>Recomendaciones postoperatorias:</strong><br />• Dormir en posición semisentada (30°) para facilitar el drenaje de la inflamación.<br />• Evitar actividades físicas de contacto durante los primeros 15 días.<br />• Seguir cuidadosamente las indicaciones del Dr. Pérez para garantizar una recuperación óptima."
+      },
+      "q3": {
+        "question": "¿Cuándo puedo retomar mis actividades?",
+        "answer": "La mayoría de los pacientes pueden volver a sus rutinas habituales a partir del tercer o cuarto día postoperatorio."
+      }
+    }
+  },
+  "mentoplastia": {
+    "title": "Mentoplastia",
+    "description": "Un contorno mandibular equilibrado es clave para un rostro estéticamente armónico, tanto en hombres como en mujeres. La mentoplastia es un procedimiento quirúrgico que permite proyectar y definir el mentón, logrando una mejora significativa no solo en el perfil facial, sino también en la apariencia del cuello.",
+    "technique_title": "La técnica del Dr. Pérez",
+    "technique_intro": "El Dr. Pérez realiza este procedimiento mediante la inserción de un implante de silastic (silicona blanda), diseñado específicamente para adaptarse a la anatomía de cada paciente. Su enfoque se basa en crear un resultado natural, seguro y duradero.",
+    "technique_step1": "<strong>Incisión externa discreta:</strong> Prefiere realizar la intervención a través de una pequeña incisión ubicada en el pliegue natural bajo el mentón, justo donde se une con el cuello. Esta ubicación permite una excelente cicatrización y minimiza riesgos de complicaciones.",
+    "technique_step2": "<strong>Implantes anatómicos personalizados:</strong> El Dr. Pérez utiliza implantes con prolongaciones laterales, lo que garantiza una integración perfecta con el contorno mandibular y evita que el implante sea visible o palpable con el tiempo.",
+    "technique_step3": "<strong>Evita la vía intraoral,</strong> ya que esta puede aumentar el riesgo de infecciones al estar en contacto con la saliva.",
+    "candidates_title": "Candidatos ideales para la Mentoplastia",
+    "candidates_desc": "La mentoplastia está indicada para pacientes que presentan un mentón pequeño o retraído, lo que puede alterar el equilibrio facial, especialmente en su relación con la nariz. Esta condición suele ser hereditaria y puede corregirse una vez finalizado el desarrollo facial, generalmente al final de la adolescencia.",
+    "results_title": "Nuestros excelentes resultados",
+    "view_more_cases": "Ver más casos de mentoplastia",
+    "view_more_cases_short": "Ver más casos",
+    "faq_title": "Preguntas Frecuentes",
+    "meta_title": "Mentoplastia en Bogotá | Cirugía de Mentón | Dr. Andrés Pérez",
+    "meta_description": "Mejora tu perfil y define tu contorno mandibular con un implante de mentón. Resultados naturales y armónicos. Agenda tu valoración.",
+    "faqs": {
+      "q1": {
+        "question": "Anestesia y Procedimientos Combinados",
+        "answer": "• Si se realiza de forma aislada, la mentoplastia puede llevarse a cabo bajo anestesia local con sedación. • Es frecuente combinarla con una rinoplastia, ya que permite lograr una mejora estética integral del perfil facial en un solo procedimiento."
+      },
+      "q2": {
+        "question": "¿Cuánto dura un implante de mentón?",
+        "answer": "Los implantes de silastic utilizados actualmente son altamente biocompatibles y estables, por lo que no requieren ser reemplazados a lo largo del tiempo, salvo en casos excepcionales."
+      },
+      "q3": {
+        "question": "¿Existen otras opciones quirúrgicas?",
+        "answer": "Sí. En pacientes con mentones extremadamente retraídos, puede ser necesario recurrir a una técnica llamada mentoplastia con avance óseo, que consiste en realizar un corte controlado del hueso (osteotomía) y avanzarlo hacia adelante, fijándolo con microplacas de titanio."
+      }
+    }
+  },
+  "bichectomia": {
+    "title": "Bichectomía <br /> Resección de Bolsas de Bichat",
+    "subtitle": "Contorno facial más definido y armónico",
+    "description_p1": "Las bolsas de Bichat son cúmulos de grasa ubicados en el interior de las mejillas que, dependiendo de su tamaño, aportan volumen a esta zona del rostro. En ciertos pacientes, este volumen puede generar un aspecto facial redondeado o poco definido.",
+    "description_p2": "La bichectomía es un procedimiento quirúrgico mínimamente invasivo que busca remover de forma selectiva parte de estas bolsas grasas para lograr un rostro más delgado, estilizado y con mayor definición en el área de los pómulos.",
+    "technique_title": "La técnica personalizada del Dr. Pérez",
+    "technique_intro": "Con más de 25 años de experiencia, el Dr. Pérez realiza esta cirugía con un enfoque conservador y altamente estético, cuidando siempre la armonía facial a largo plazo. Su técnica se caracteriza por:",
+    "technique_step1": "Realizar una pequeña incisión intraoral, es decir, dentro de la boca, lo que garantiza ausencia de cicatrices visibles.",
+    "technique_step2": "Llevar a cabo una resección parcial y controlada de las bolsas de Bichat, evitando un resultado excesivo que con el tiempo podría generar hundimientos o una apariencia envejecida.",
+    "technique_step3": "Utilizar suturas absorbibles, lo que facilita la recuperación y evita la necesidad de retirar puntos.",
+    "candidates_title": "Candidatos ideales para la bichectomía",
+    "candidates_intro": "Este procedimiento está indicado para:",
+    "candidate_1": "Pacientes con rostros redondeados o mejillas prominentes que desean una apariencia más esculpida.",
+    "candidate_2": "Personas que buscan realzar sus pómulos y perfilar su contorno facial.",
+    "candidate_3": "Mayores de 18 años, una vez finalizado el desarrollo óseo facial.",
+    "decision_title": "Una decisión basada en criterio y experiencia",
+    "decision_desc": "El Dr. Pérez destaca la importancia de una valoración profesional previa para determinar si la bichectomía realmente es necesaria. Muchos pacientes que solicitan este procedimiento sin ser candidatos ideales, por lo que una evaluación honesta y detallada es clave para obtener resultados naturales y armoniosos.",
+    "faq_title": "Preguntas frecuentes",
+    "meta_title": "Bichectomía en Bogotá | Adelgazamiento Facial | Dr. Andrés Pérez",
+    "meta_description": "Define tus pómulos y estiliza tu rostro con la Bichectomía. Procedimiento rápido, seguro y sin cicatrices visibles. Resultados naturales.",
+    "faqs": {
+      "q1": {
+        "question": "Anestesia y duración",
+        "answer": "Este procedimiento se realiza generalmente con anestesia local y sedación, y tiene una duración aproximada de 30 a 45 minutos por sesión, permitiendo una recuperación rápida y sin hospitalización."
+      },
+      "q2": {
+        "question": "Postoperatorio y recuperación",
+        "answer": "Es común presentar una inflamación moderada en las mejillas durante los primeros días, la cual disminuye progresivamente.<br /><strong>Recomendaciones del Dr. Pérez para una óptima recuperación:</strong><br />• Mantener una posición semisentada (30 grados), especialmente durante el reposo, para reducir la inflamación.<br />• Aplicar frío local en las mejillas durante las primeras 48 horas.<br />• Realizar enjuagues bucales con antiséptico durante los primeros 5 días para mantener la higiene y evitar infecciones."
+      }
+    }
+  },
+  "lifting_hamaca_mejilla_cuello": {
+    "title": "Lifting en hamaca de mejilla y cuello",
+    "subtitle": "La Hamaca Facial: Entendiendo el Envejecimiento de las Mejillas y el Cuello",
+    "description_p1": "La estructura de los tejidos blandos del rostro, especialmente en las mejillas y el cuello, puede compararse con una hamaca natural que se extiende de un lado al otro de la cara, suspendida por puntos de anclaje anatómicos. Esta \"hamaca facial\" es en términos médicos, conocemos como SMAS (sistema músculo-aponeurótico superficial) que está formado por grasa, músculos faciales y láminas fibrosas todo esto cubierto por la piel.",
+    "description_p2": "Con el paso del tiempo, este sistema de soporte facial comienza a debilitarse como parte del proceso natural de envejecimiento. La piel pierde elasticidad, los compartimentos grasos también cambian de posición y los ligamentos se relajan. Como resultado, esta hamaca empieza a ceder y a descender, provocando el descolgamiento progresivo de los tejidos.",
+    "description_p3": "Estos cambios no solo modifican la apariencia, sino también el equilibrio estético del rostro, haciendo que se pierdan los ángulos y la firmeza que caracterizan a una fisonomía joven.",
+    "description_p4": "Comprender esta dinámica anatómica es clave para ofrecer soluciones de rejuvenecimiento efectivas. Técnicas quirúrgicas avanzadas, como el Lifting Facial Hamaca de las mejillas y el cuello desarrollada por el Dr. Andrés Pérez, están diseñadas específicamente para reposicionar y retensar esta red de tejidos desde su base profunda, restaurando la tensión y la armonía facial de forma natural y duradera.",
+    "video_hammock_effect": "Efecto hamaca",
+    "technique_title": "Nuestra Técnica de Lifting en Hamaca de Mejillas y Cuello",
+    "technique_question": "¿Cuándo considerar un Lifting en Hamaca de Mejillas y Cuello?",
+    "technique_intro": "Los signos del envejecimiento facial aparecen de manera progresiva y su aparición no depende únicamente de la edad cronológica. Factores hereditarios, el estilo de vida, la exposición solar, la alimentación, el estrés y los hábitos como el tabaquismo influyen significativamente en la velocidad y la forma como el rostro envejece.",
+    "technique_desc": "El Lifting en Hamaca de Mejillas y Cuello, desarrollado por el Dr. Andrés Pérez, está especialmente indicado para pacientes que presentan alteraciones visibles en la definición del rostro y el cuello, asociadas con el descolgamiento y debilitamiento de los tejidos blandos profundos.",
+    "technique_signs": "Entre los signos más comunes que pueden indicar que una persona es candidata a este procedimiento se encuentran:",
+    "sign_1": "Perdida del contorno facial, producto del descenso de las mejillas y la pérdida de soporte en el tercio medio del rostro. Esto genera un aspecto cansado, con mayor prominencia de los surcos nasogenianos y pérdida de la contorno mandibular (comúnmente conocida como \"cachetes descolgados\").",
+    "sign_2": "Cuello con escasa definición y poca angulación, debido al exceso de piel y al descolgamiento del músculo platisma, lo cual da lugar a un perfil menos estilizado y a la formación de bandas o pliegues visibles.",
+    "versatile_technique_title": "Lifting en hamaca - una Técnica versátil",
+    "versatile_technique_p1": "Tanto el Mini Lifting en Hamaca como el Lifting en Hamaca Extendido, desarrollados por el Dr. Andrés Pérez, se basan en la reconocida técnica Deep Plane, considerada una de las más avanzadas y eficaces en la cirugía de rejuvenecimiento facial.",
+    "versatile_technique_p2": "A diferencia de los liftings convencionales que solo estiran la piel, el enfoque Deep Plane actúa sobre las capas más profundas del rostro. Reposiciona músculos y tejidos subyacentes, y libera los ligamentos que restringen su movilidad, sin generar tensión superficial, lo que permite resultados más duraderos y de apariencia completamente natural.",
+    "variant_title": "¿Qué variante es la adecuada para ti?",
+    "mini_lifting_title": "Mini Lifting en Hamaca (Deep Plane)",
+    "mini_lifting_desc": "Indicado para pacientes jóvenes o con signos leves a moderados de flacidez facial y cervical.",
+    "mini_lifting_list_1": "✓ Incisión corta, ubicada discretamente frente a las orejas.",
+    "mini_lifting_list_2": "✓ Reposicionamiento profundo de los tejidos con mínima invasión.",
+    "mini_lifting_list_3": "✓ Recuperación más rápida y cicatrices prácticamente invisibles.",
+    "mini_lifting_list_4": "✓ Ideal para quienes buscan una mejora sutil pero significativa, conservando un aspecto natural.",
+    "mini_lifting_footer": "Este procedimiento es perfecto para quienes desean prevenir un envejecimiento más avanzado o restaurar la frescura del rostro sin cambios drásticos.",
+    "extended_lifting_title": "Lifting en Hamaca Extendido (Deep Plane)",
+    "extended_lifting_desc": "Diseñado para pacientes con mayor grado de envejecimiento y flacidez marcada.",
+    "extended_lifting_list_1": "✓ Incisiones anteriores y posteriores a las orejas para un acceso más amplio.",
+    "extended_lifting_list_2": "✓ Permite una reposicionamiento completo de mejillas, mandíbula y cuello.",
+    "extended_lifting_list_3": "✓ Puede incluir una incisión submentoniana (debajo del mentón) para eliminar grasa localizada, corregir bandas musculares y redefinir el ángulo cervical.",
+    "extended_lifting_list_4": "✓ Ofrece resultados más transformadores, preservando siempre la expresión natural del rostro.",
+    "extended_lifting_footer": "Este lifting proporciona una solución integral y efectiva para quienes desean restaurar la arquitectura facial de manera profunda y armónica.",
+    "why_deep_plane_title": "¿Por qué elegir una técnica Deep Plane?",
+    "why_deep_plane_desc": "Ambas variantes ofrecen beneficios notables frente a los liftings tradicionales:",
+    "benefit_1": "Resultados duraderos y naturales",
+    "benefit_2": "Sin apariencia \"tirante\" ni rigidez facial",
+    "benefit_3": "Mantenimiento de la identidad y expresión del paciente",
+    "benefit_4": "Bajo riesgo de distorsión de los rasgos faciales",
+    "why_deep_plane_footer": "Estas técnicas representan una alternativa avanzada, segura y personalizada para quienes desean un rejuvenecimiento facial de alto nivel, con resultados visibles pero discretos.",
+    "invisible_incisions_title": "Incisiones imperceptibles",
+    "invisible_incisions_desc": "El Dr. Pérez planea y realiza las incisiones necesarias para llevar a cabo el Lifting en Hamaca, de tal forma que las camufla por completo dentro de los surcos y curvas de las orejas, haciéndolas así muy poco visibles al ojo humano. Por lo general estas incisiones son prácticamente imperceptibles luego de 2 meses.",
+    "results_title": "Nuestros excelentes resultados",
+    "view_more_results": "Ver más resultados de Lifting en Hamaca de mejillas y cuello",
+    "testimonials_title": "Testimonios",
+    "faq_title": "Preguntas frecuentes",
+    "postop_recommendations_btn": "Recomendaciones postoperatorias",
+    "meta_title": "Lifting en Hamaca de Mejilla y Cuello | Dr. Andrés Pérez",
+    "meta_description": "Técnica avanzada Deep Plane para rejuvenecimiento facial. Resultados naturales y duraderos. Recupera la definición de tu rostro y cuello.",
+    "faqs": {
+      "q1": {
+        "question": "¿Qué diferencia al Lifting en Hamaca de otras técnicas de rejuvenecimiento facial?",
+        "answer": "El Lifting en Hamaca se basa en la técnica Deep Plane, una de las más avanzadas en cirugía facial. A diferencia de los liftings tradicionales que solo estiran la piel, esta técnica actúa sobre las capas profundas, reposicionando músculos y tejidos subyacentes. Esto permite un rejuvenecimiento más completo, natural y duradero, sin generar tensión superficial ni apariencia artificial."
+      },
+      "q2": {
+        "question": "¿Cómo sé si soy candidato para el Mini Lifting o el Lifting en Hamaca Extendido?",
+        "answer": "La elección depende del grado de envejecimiento facial y la estructura individual del rostro: • El Mini Lifting en Hamaca está indicado para pacientes jóvenes o con flacidez leve a moderada. • El Lifting en Hamaca Extendido es ideal para quienes presentan signos más avanzados de envejecimiento, con descolgamiento visible en mejillas, mandíbula y cuello. El Dr. Pérez realiza una evaluación personalizada para determinar la técnica más adecuada para ti."
+      },
+      "q3": {
+        "question": "¿Qué ventajas tiene la técnica Deep Plane frente a otras técnicas?",
+        "answer": "La técnica Deep Plane ofrece múltiples beneficios frente a los métodos convencionales: • Durabilidad excepcional desde su base profunda. • Evita el efecto \"cara tirante\". • Conserva la expresión facial natural. • Brinda resultados más duraderos y armónicos. • Reduce el riesgo de distorsión de los rasgos faciales."
+      },
+      "q4": {
+        "question": "¿Dónde se hacen las incisiones y qué tan visibles son las cicatrices?",
+        "answer": "Las incisiones se colocan estratégicamente para minimizar su visibilidad: • En el Mini Lifting, se ubican en la parte anterior a las orejas. • En el Lifting Extendido, se agregan incisiones detrás de las orejas y, en algunos casos, una pequeña incisión debajo del mentón. • Estas se realizan siguiendo los pliegues naturales de la piel o las líneas del cabello, por lo que las cicatrices suelen ser muy discretas y se vuelven casi imperceptibles con el tiempo."
+      },
+      "q5": {
+        "question": "¿Cuánto tiempo duran los resultados del Lifting en Hamaca?",
+        "answer": "Gracias a la profundidad y precisión de la técnica Deep Plane, los resultados del Lifting en Hamaca pueden mantenerse entre 10 y 15 años, dependiendo de factores como: • Genética • Tipo y calidad de piel • Estilo de vida (alimentación, cuidados, exposición solar, etc.) Es una de las técnicas de rejuvenecimiento más longevas y estables en cirugía estética facial."
+      },
+      "q6": {
+        "question": "¿Qué puedo esperar después de la cirugía?",
+        "answer": "Es normal experimentar algunas molestias leves a moderadas durante los primeros días, como: • Inflamación en las áreas tratadas • Aparición de hematomas leves, especialmente en el cuello y alrededor de las incisiones • Sensación de tirantez temporal El Dr. Pérez y su equipo te proporcionarán indicaciones postoperatorias claras y personalizadas, así como seguimiento continuo para garantizar una recuperación segura, cómoda y efectiva."
+      }
+    }
+  },
+  "lip_lift": {
+    "title": "Lip Lift",
+    "subtitle": "Elevación del Labio Superior",
+    "description": "Rejuvenece tu expresión con unos labios <br className=\"hidden sm:block\" /> más armónicos y atractivos",
+    "intro_text": "Cuando se habla de rejuvenecimiento facial con frecuencia se olvidan áreas como los labios, los párpados o incluso. Sin embargo, los labios y su región perioral son elementos clave en la estética del rostro. Para el Dr. Pérez, los labios son el marco de nuestras expresiones más importantes: la sonrisa, el habla y el beso. Su trabajo se fundamenta en la búsqueda de la armonía y la naturalidad, entendiendo que cada paciente tiene características anatómicas únicas, que requieren medidas y técnicas que refinen su presencia.",
+    "why_changes_title": "¿Por qué cambia el labio con el <br /> tiempo?",
+    "why_changes_intro": "Con el paso de los años —ya sea por causas genéticas o por el envejecimiento natural— los labios sufren transformaciones visibles:",
+    "change_1": "El labio superior tiende a descender, alargando la distancia entre la base de la nariz y el borde del labio, lo que genera una apariencia envejecida y apaga la expresión facial.",
+    "change_2": "Se produce una pérdida de proyección y volumen, especialmente en el labio superior, haciendo que los labios luzcan más delgados y menos definidos.",
+    "change_3": "El labio inferior también puede perder firmeza y proyección, desequilibrando el equilibrio natural de la boca.",
+    "changes_conclusion": "Estos cambios afectan no solo la armonía de la sonrisa, sino también la percepción general de juventud y vitalidad del rostro.",
+    "technique_title": "Detalles de la Técnica del Dr. Pérez",
+    "technique_subtitle": "Precisión, naturalidad y armonía en cada procedimiento",
+    "technique_intro": "El Dr. Pérez lleva a cabo el Lip Lift con una técnica minuciosa y personalizada, diseñada para ofrecer resultados naturales y duraderos sin dejar huellas visibles.",
+    "technique_point_1": "• La intervención comienza con una incisión perfectamente ubicada en el pliegue natural entre las alas nasales y la base de la nariz, lo que permite ocultar completamente la cicatriz.",
+    "technique_point_2": "• El diseño de la resección cutánea tiene forma de un delgado \"bigote\" alargado, cuidadosamente adaptado a las proporciones de cada paciente.",
+    "technique_point_3": "• La elevación del labio se realiza de forma simétrica y precisa, garantizando un equilibrio estético perfecto con el resto del rostro.",
+    "technique_point_4": "• La cantidad de piel retirada se calcula milimétricamente, basándose en las características anatómicas de cada paciente, asegurando un resultado armónico, juvenil y natural.",
+    "lipofilling_title": "Lipofilling de Células Madre en Labios",
+    "lipofilling_subtitle_bold": "Restableciendo volumen y juventud con los recursos del propio cuerpo",
+    "lipofilling_subtitle": "Como complemento ideal al Lip Lift, el Dr. Pérez realiza de manera rutinaria un Lipofilling con células madre, una técnica avanzada que devuelve al labio su volumen natural y suaviza los signos del envejecimiento.",
+    "lipofilling_point_1": "Este procedimiento consiste en la inyección de grasa purificada rica en células madre, extraída del propio paciente, dentro del espesor de los labios.",
+    "lipofilling_point_2": "Al utilizar tejido autólogo, no existen riesgos de rechazo ni reacciones adversas.",
+    "lipofilling_point_3": "Las células madre ayudan no solo a restaurar volumen, sino también a mejorar la calidad de la piel y la hidratación natural del labio.",
+    "lipofilling_point_4": "Los resultados son más naturales y perdurables en comparación con los rellenos convencionales.",
+    "lipofilling_conclusion": "Una técnica precisa y un enfoque integral del rejuvenecimiento perioral pueden transformar la expresión del rostro. El Lip Lift, junto al lipofilling de labios, permite recuperar una apariencia más joven, fresca y equilibrada, sin perder la naturalidad",
+    "results_title": "Nuestros excelentes resultados",
+    "view_more_cases": "Ver más casos de Lip Lift",
+    "faq_title": "Preguntas frecuentes",
+    "meta_title": "Lip Lift en Bogotá | Elevación de Labios | Dr. Andrés Pérez",
+    "meta_description": "Rejuvenece tu sonrisa con un Lip Lift. Procedimiento definitivo para acortar el labio superior y aumentar el volumen. Resultados naturales.",
+    "faqs": {
+      "q1": {
+        "question": "¿En qué consiste el Lip Lift o elevación del labio?",
+        "answer": "El Lip Lift modifica la forma de los labios modificándose la forma y el labio permanentemente específicamente alargando el labio y mostrando más encía, dando menos espacio entra la base de la nariz y el borde superior del labio, generando una apariencia más juvenil."
+      },
+      "q2": {
+        "question": "¿Cuáles son los beneficios del procedimiento?",
+        "answer": "El tiempo de recuperación es corto, la mayoría de los pacientes pueden retomar sus actividades sociales normales después de 1-2 semanas. Los resultados son permanentes y muy naturales cuando se realiza un procedimiento adecuado."
+      },
+      "q3": {
+        "question": "¿Es doloroso el procedimiento?",
+        "answer": "Se realiza con anestesia local. La molestia durante el postoperatorio es mínima y las actividades básicas de la vida diaria no se ven alteradas. Se puede integrar fácilmente con analgésicos básicos si es necesario."
+      },
+      "q4": {
+        "question": "¿A partir de qué edad se puede realizar el Lip Lift?",
+        "answer": "Puede realizarse desde los 18 años en adelante. Los pacientes jóvenes con una distancia larga entre el labio superior y la base de la nariz son candidatos ideales, sin importar la edad. También los pacientes de mediana edad que han perdido volumen en los labios pueden beneficiarse del Lip."
+      },
+      "q5": {
+        "question": "¿Qué diferencia el Lip Lift de los rellenos faciales?",
+        "answer": "El Lip Lift modifica la forma y posición de labio de manera permanente, acortando la distancia entre la nariz y el labio superior. Los rellenos simplemente dan un efecto temporal y dan más volumen solamente."
+      },
+      "q6": {
+        "question": "¿Qué ventajas tiene el lipofilling con células madre frente a los rellenos comerciales?",
+        "answer": "El lipofilling ofrece un resultado más natural y duradero, al utilizar grasa del propio paciente. Además, las células madre de la grasa mejoran la calidad de la piel, proporcionando hidratación y estimulación natural para un aspecto más joven."
+      },
+      "q7": {
+        "question": "¿Cuánto tiempo duran los resultados del Lip Lift y del Lipofilling?",
+        "answer": "El Lip Lift es una modificación permanente. Los cambios de lipofilling también son permanentes, pero se puede necesitar una pequeña cantidad adicional según las primeras semanas, pero es altamente recomendable que se respeten los cambios, específicamente el al descifrar resultados en plano anterior."
+      }
+    }
+  },
+  "lipofilling_celulas_madre": {
+    "title_part1": "Lipofilling",
+    "title_part2": "de células madre",
+    "intro_p1": "Si deseas revertir los signos de envejecimiento facial, restaurando el volumen y la frescura de tu rostro, la inyección de células madre es una excelente y confiable alternativa que el Dr. Pérez pone a tu disposición.",
+    "intro_p2": "Al referirse a células madre, muchas personas pensarán de inmediato en aquellas células procedentes del cordón umbilical o de la médula ósea. Hoy en día es factible obtener células madre a partir de la grasa de nuestro propio cuerpo.",
+    "intro_p3": "Por esta razón el Dr. Pérez, ha implementado dentro de sus técnicas de rejuvenecimiento facial, el Lipofilling de células madre, procedimiento en el cual se utilizan las células madre que se han obtenido luego de ultra purificar la grasa.",
+    "intro_p4": "Para el Dr. Pérez es muy importante además de elevar y suspender los tejidos blandos faciales que se han descendido, el restablecer un adecuado volumen facial, lo cual brinda una apariencia más joven y atractiva.",
+    "video_title": "Lipofilling",
+    "video_subtitle": "Dr. Andrés Pérez",
+    "types_title_1": "Tipos de lipofilling utilizados",
+    "types_title_2": "por el Dr. Pérez",
+    "types_intro": "El injerto de grasa facial ha evolucionado significativamente gracias a técnicas avanzadas que permiten personalizar el tratamiento según las necesidades específicas de cada paciente. El Dr. Andrés Pérez emplea dos modalidades altamente especializadas: MicroFat y NanoFat, ambas obtenidas mediante procesos de ultrapurificación para garantizar seguridad, eficacia y resultados naturales.",
+    "microfat_title": "Microfat",
+    "microfat_desc": "La técnica MicroFat consiste en la inyección de grasa purificada obtenida mediante microcánulas finas.",
+    "microfat_point_1": "Está especialmente indicada para restaurar volumen en áreas del rostro que lo han perdido con el envejecimiento, como pómulos, mejillas o región mandibular.",
+    "microfat_point_2": "También se utiliza para rellenar surcos y líneas de expresión profundas, como los pliegues nasolabiales y el entrecejo.",
+    "microfat_point_3": "Proporciona una corrección duradera con una apariencia suave y natural.",
+    "nanofat_title": "Nanofat",
+    "nanofat_desc": "La técnica NanoFat permite inyectar dentro de la piel una fracción líquida de grasa rica en células madre y factores de crecimiento, con potentes efectos regenerativos.",
+    "nanofat_point_1": "Se aplica con agujas ultrafinales, permitiendo tratar zonas delicadas y superficiales.",
+    "nanofat_point_2": "Es ideal para mejorar la calidad de la piel, tratar líneas de expresión finas, cicatrices de acné y zonas con signos visibles de envejecimiento.",
+    "nanofat_point_3": "Funciona también como un revitalizante cutáneo, aportando luminosidad, elasticidad y una textura más uniforme.",
+    "types_conclusion": "Ambas técnicas pueden combinarse en un mismo procedimiento para lograr un rejuvenecimiento facial completo, tanto en volumen como en calidad de piel, con resultados naturales y duraderos.",
+    "technique_title": "Detalles de la técnica del Dr. Pérez",
+    "technique_intro": "El procedimiento de injerto de grasa facial es una técnica avanzada y natural de rejuvenecimiento que utiliza la propia grasa del paciente para restaurar volumen y mejorar la calidad de la piel. El Dr. Andrés Pérez emplea un protocolo meticuloso y altamente especializado para garantizar resultados seguros, duraderos y estéticamente armónicos. El proceso se desarrolla en tres etapas principales:",
+    "step_1_title": "1. Extracción de la grasa",
+    "step_1_desc": "La grasa se obtiene cuidadosamente de zonas donantes donde existe un excedente natural, como el abdomen o la cara interna de los muslos. Este proceso se realiza mediante microcánulas muy delgadas que permiten una recolección suave y precisa, sin causar trauma innecesario a los tejidos.",
+    "step_2_title": "2. Purificación avanzada de la grasa",
+    "step_2_desc": "Una vez extraída, la grasa se somete a un proceso riguroso de purificación para asegurar su máxima calidad y viabilidad. El Dr. Pérez aplica técnicas como la centrifugación, filtración y decantación, eliminando impurezas, exceso de líquidos y restos oleosos. Dependiendo del objetivo del tratamiento, se puede preparar MicroFat (para restaurar volumen) o NanoFat (ideal para mejorar la textura y calidad de la piel), aplicando procedimientos adicionales de emulsificación y refinamiento.",
+    "step_3_title": "3. Inyección precisa en el rostro",
+    "step_3_desc": "Finalmente, la grasa purificada se inyecta en áreas específicas del rostro previamente evaluadas, como pómulos, surcos nasogenianos, ojeras o región mandibular. Esta fase se realiza con microcánulas o agujas ultrafinas que permiten una distribución controlada y uniforme, garantizando un acabado natural y sin irregularidades. Este procedimiento no solo devuelve volumen perdido con el paso del tiempo, sino que también mejora la calidad de la piel gracias a las propiedades regenerativas de las células madre contenidas en la grasa.",
+    "candidates_title": "Candidatos para el lipofilling de células madre",
+    "candidate_1": "Aquellos pacientes que producto del proceso de envejecimiento facial han perdido volumen en algunas áreas del rostro generándoles una apariencia envejecida y poco atractiva.",
+    "candidate_2": "Algunos pacientes jóvenes generalmente entre los 20 y 40 años, pueden por razones hereditarias, presentar pérdidas de volumen en ciertas áreas específicas como el surco de las ojeras.",
+    "candidate_3": "Pacientes jóvenes que por razones estéticas desean obtener más volumen en algunas áreas del rostro tales como los pómulos, los labios o el mentón.",
+    "candidate_4": "Es una excelente opción en pacientes que presentan deformidades o pérdidas de volumen secundarias a accidentes o cirugías previas mal practicadas.",
+    "advantages_title": "Ventajas del lipofilling",
+    "advantage_1": "Este procedimiento con células grasas ultra purificadas obtenidas del mismo paciente, elimina la posibilidad de rechazo o de reacciones alérgicas que se pueden presentar con los productos sintéticos de relleno.",
+    "advantage_2": "Se puede utilizar la cantidad de células grasas que sean necesarias dependiendo de cada caso particular, debido a que se obtienen de los depósitos de grasa del mismo paciente.",
+    "advantage_3": "Debido a que con el Lipofilling se inyecta una buena cantidad de células madre, los resultados del procedimiento son más estables y perdurables que con los rellenos sintéticos.",
+    "advantage_4": "Además de aportar células grasas y células madre, el Lipofilling conlleva factores de crecimiento que son sustancias que inducen la producción de colágeno y elastina en la piel.",
+    "comparison_lipofilling_title": "Lipofilling con Células Madre",
+    "comparison_fillers_title": "Rellenos Sintéticos",
+    "comparison_vs": "VS",
+    "comparison_items": {
+      "item_1_lipo": "Grasa autóloga del paciente (natural)",
+      "item_1_criteria": "Origen del material",
+      "item_1_filler": "Sustancias sintéticas o reabsorbibles",
+      "item_2_lipo": "Sí, con alto potencial regenerativo",
+      "item_2_criteria": "Presencia de células madre",
+      "item_2_filler": "No, solo efecto de relleno",
+      "item_3_lipo": "Larga duración (varios años o permanente en algunos casos)",
+      "item_3_criteria": "Duración de los resultados",
+      "item_3_filler": "Temporal (6 a 18 meses en promedio)",
+      "item_4_lipo": "Mejora la textura, elasticidad y luminosidad",
+      "item_4_criteria": "Efecto en la calidad de la piel",
+      "item_4_filler": "Sin efecto regenerativo sobre la piel",
+      "item_5_lipo": "Rostro completo, cuello, manos, cicatrices, etc.",
+      "item_5_criteria": "Zonas tratadas",
+      "item_5_filler": "Principalmente rostro (zonas específicas)",
+      "item_6_lipo": "Muy bajo (material propio del cuerpo)",
+      "item_6_criteria": "Riesgo de rechazo",
+      "item_6_filler": "Posible inflamación o reacción a componentes sintéticos",
+      "item_7_lipo": "Más rentable, dado que no requiere aplicaciones frecuentes",
+      "item_7_criteria": "Costo a largo plazo",
+      "item_7_filler": "Costoso a largo plazo por la necesidad de múltiples sesiones",
+      "item_8_lipo": "Requiere liposucción y procedimiento en quirófano",
+      "item_8_criteria": "Técnica quirúrgica",
+      "item_8_filler": "Aplicación en consultorio, mínimamente invasiva",
+      "item_9_lipo": "Aspecto completamente natural y armonioso",
+      "item_9_criteria": "Resultado estético",
+      "item_9_filler": "Puede verse artificial en algunos casos"
+    },
+    "results_title": "Nuestros excelentes resultados",
+    "view_more_cases": "Ver más casos de Lipofilling con Células Madre",
+    "testimonials_title": "Testimonios",
+    "view_more_testimonials": "Ver más",
+    "faq_title": "Preguntas frecuentes",
+    "meta_title": "Lipofilling Facial en Bogotá | Células Madre | Dr. Andrés Pérez",
+    "meta_description": "Rejuvenece tu rostro con tu propia grasa. Lipofilling con células madre para volumen natural y mejora de la piel. Dr. Andrés Pérez.",
+    "faqs": {
+      "q1": {
+        "question": "Anestesia",
+        "answer": "Por lo general el procedimiento se lleva a cabo bajo anestesia local complementada con sedación."
+      },
+      "q2": {
+        "question": "¿Cuánto tiempo duran los resultados del injerto de grasa facial?",
+        "answer": "Los resultados del lipofilling pueden ser muy duraderos, e incluso permanentes, gracias a las técnicas avanzadas de extracción y purificación empleadas por el Dr. Andrés Pérez. La grasa transferida, rica en células madre, no solo rellena, sino que se integra y mejora progresivamente la calidad de la piel con el paso del tiempo."
+      },
+      "q3": {
+        "question": "¿Se puede repetir el procedimiento?",
+        "answer": "Sí. El procedimiento es seguro y repetible. Lo ideal es esperar al menos 12 meses para realizar una nueva sesión, ya que durante ese período las células madre ya han generado nueva microvascularización, optimizando el entorno para una nueva aplicación y potenciando los resultados globales."
+      },
+      "q4": {
+        "question": "¿Cuánto tiempo tarda en verse el resultado final?",
+        "answer": "El efecto del injerto de grasa es gradual. Si bien se nota una mejoría inicial en las primeras semanas, el resultado completo se observa en los meses siguientes, a medida que las células madre estimulan la regeneración tisular, mejoran la textura cutánea y promueven la producción de colágeno natural."
+      },
+      "q5": {
+        "question": "¿Qué áreas pueden tratarse con Lipofilling facial?",
+        "answer": "El injerto de grasa puede aplicarse en múltiples zonas del rostro: pómulos, surcos nasogenianos, ojeras, mentón, línea mandibular y labios, entre otras. Además, la versión NanoFat es ideal para mejorar líneas finas, cicatrices de acné y la calidad de la piel en general."
+      },
+      "q6": {
+        "question": "¿El lipofilling reemplaza a los rellenos sintéticos?",
+        "answer": "En muchos casos, sí. El lipofilling ofrece un resultado más natural y duradero, sin los riesgos de rechazo que pueden presentarse con sustancias sintéticas. Además, al contener células madre, aporta un beneficio regenerativo que los rellenos convencionales no ofrecen."
+      }
+    }
+  },
+  "abdominoplastia": {
+    "title": "Abdominoplastia de Alta definición",
+    "subtitle": "Remodela tu Abdomen, Recupera tu Confianza",
+    "description": "Muchas mujeres experimentan cambios notables en la forma y apariencia del abdomen debido a una variedad de factores, entre los más comunes se encuentran:",
+    "cause_1": "Embarazos y los cambios que conllevan en la piel y musculatura abdominal.",
+    "cause_2": "Cirugías abdominales previas que dejan cicatrices visibles o alteran la estética.",
+    "cause_3": "Fluctuaciones importantes de peso, que generan exceso de piel y pérdida de firmeza.",
+    "intro_p2": "A pesar de realizar dietas estrictas, rutinas de ejercicio o someterse a tratamientos estéticos no invasivos, en muchos casos no es posible recuperar la firmeza y contorno del abdomen sin recurrir a una solución quirúrgica definitiva.",
+    "candidates_title": "¿Quiénes son candidatos para una Abdominoplastia?",
+    "candidates_intro": "Muchas mujeres experimentan cambios notables en la forma y apariencia del abdomen debido a una variedad de factores, entre los más comunes se encuentran:",
+    "candidate_1_title": "Exceso de piel abdominal",
+    "candidate_1_desc": "Presencia de piel redundante, especialmente en la parte inferior del abdomen, que no mejora con dieta o ejercicio.",
+    "candidate_2_title": "Flacidez muscular",
+    "candidate_2_desc": "Debilitamiento o separación de los músculos abdominales (diástasis), que genera una apariencia abombada o falta de tono.",
+    "candidate_3_title": "Cicatrices o deformidades estéticas",
+    "candidate_3_desc": "Marcas visibles y poco estéticas producto de cesáreas, cirugías anteriores o estrías extensas que distorsionan la forma natural del abdomen.",
+    "technique_title": "Técnica HD del Dr. Pérez",
+    "technique_subtitle": "Abdominoplastia con Resultados de Alta Precisión",
+    "technique_intro": "El Dr. Pérez ha perfeccionado una técnica de Abdominoplastia de Alta Definición (HD) que supera ampliamente los resultados de la liposucción abdominal convencional, al ofrecer no solo una mejora estética en la piel, sino también una definición y contorno más especializados del abdomen y la cintura.",
+    "technique_advantages_title": "Ventajas de la Técnica HD del Dr. Pérez",
+    "advantage_1_title": "• Moldeo preciso del abdomen y la cintura",
+    "advantage_1_desc": "A diferencia de la técnica tradicional que solo elimina el exceso de piel, la Abdominoplastia HD incluye un completo lipomoldeamiento, eliminando los depósitos grasos no deseados del abdomen y los flancos. Esto permite definir mejor el contorno corporal y lograr un resultado mucho más armónico y natural.",
+    "advantage_2_title": "• Incisión tipo bikini, discreta y estética",
+    "advantage_2_desc": "Gracias a la reducción del grosor de la piel con el lipomoldeamiento, el Dr. Pérez puede ubicar la cicatriz final en una posición muy baja, justo sobre el pubis, donde queda fácilmente oculta por ropa interior o trajes de baño.",
+    "advantage_3_title": "• Planificación personalizada de la cicatriz",
+    "advantage_3_desc": "Cada incisión es cuidadosamente diseñada antes de la cirugía, considerando la anatomía y proporciones del paciente, para asegurar una cicatriz simétrica y sin exceso de piel en los laterales.",
+    "advantage_4_title": "• Ombligo natural y sin cicatrices visibles",
+    "advantage_4_desc": "Una de las grandes ventajas de la técnica del Dr. Pérez es la reconstrucción estética del ombligo. La nueva forma se diseña de manera que las cicatrices queden completamente ocultas dentro del mismo, evitando ombligos artificiales o deformes.",
+    "advantage_5_title": "• Refuerzo muscular con técnica de \"Corset abdominal\"",
+    "advantage_5_desc": "Como parte del procedimiento, el Dr. Pérez realiza una plicatura o reconstrucción de la pared muscular abdominal, uniendo los músculos rectos del abdomen que suelen estar separados por embarazos o aumento de peso. Esto no solo aplana el abdomen, sino que también ayuda a acentuar la cintura, ofreciendo una silueta más esbelta y definida.",
+    "other_techniques_title": "¿Qué otras técnicas de abdominoplastia realiza el Dr. Pérez?",
+    "other_techniques_intro": "Entendiendo que no todos los pacientes requieren el mismo tipo de procedimiento, el Dr. Pérez selecciona la técnica quirúrgica más apropiada luego de una valoración detallada, priorizando siempre la seguridad y el resultado estético personalizado.",
+    "mini_tummy_tuck_title": "Miniabdominoplastia o Minilipectomía Abdominal",
+    "mini_tummy_tuck_desc": "Indicada en pacientes que presentan un exceso moderado de piel y flacidez limitada exclusivamente a la parte inferior del abdomen.",
+    "mini_tummy_tuck_point_1": "Requiere una incisión mucho más corta que la técnica convencional.",
+    "mini_tummy_tuck_point_2": "No se realiza el reposicionamiento del ombligo, lo que reduce el tiempo de recuperación.",
+    "mini_tummy_tuck_point_3": "Ideal para personas delgadas con un pequeño \"rollito\" en el bajo vientre difícil de eliminar con dieta y ejercicio.",
+    "results_title": "Nuestros excelentes resultados",
+    "view_more_cases": "Ver más casos de abdominoplastia",
+    "faq_title": "Preguntas frecuentes",
+    "meta_title": "Abdominoplastia en Bogotá | Cirugía de Abdomen | Dr. Andrés Pérez",
+    "meta_description": "Consigue un abdomen plano y definido con la Abdominoplastia. Elimina el exceso de piel y grasa. Resultados naturales y seguros.",
+    "faqs": {
+      "q1": {
+        "question": "Anestesia",
+        "answer": "La intervención se lleva a cabo bajo anestesia general y tiene una duración aproximada de 3 horas."
+      },
+      "q2": {
+        "question": "¿Qué esperar después de la cirugía?",
+        "answer": "Es normal experimentar una inflamación moderada durante la primera semana postoperatoria. Durante este período, el abdomen puede parecer más inflamado de lo que será una vez que disminuya la inflamación."
+      },
+      "q3": {
+        "question": "Recomendaciones postoperatorias",
+        "answer": "• Mantener una higiene adecuada siguiendo las indicaciones del Dr. Pérez durantes las primeras días para facilitar el drenaje de la inflamación.<br />• Evitar levantar peso durante las primeras semanas.<br />• Usar la faja permanente el tiempo recomendado, tanto de día como de noche."
+      }
+    }
+  },
+  "acido_hialuronico": {
+    "title": "Ácido Hialurónico",
+    "intro_p1": "El Ácido Hialurónico es uno de los tratamientos más utilizados y seguros en la medicina estética moderna. Su capacidad para",
+    "intro_highlight": "hidratar, rellenar y rejuvenecer",
+    "intro_p2": "lo convierte en una herramienta altamente eficaz para restaurar la armonía facial sin necesidad de cirugía.",
+    "intro_p3": "Se trata de una sustancia que se encuentra de forma natural en el cuerpo humano, especialmente en la piel, y cuya principal función es retener agua para mantener la piel hidratada, firme y con volumen. Con el paso del tiempo, su producción disminuye, dando lugar a arrugas, pérdida de elasticidad y flacidez.",
+    "what_is_title": "¿Qué es y cómo actúa el Ácido Hialurónico?",
+    "what_is_desc": "El Ácido Hialurónico utilizado en estética es una forma biocompatible y reabsorbible, diseñada para integrarse de forma natural en los tejidos sin causar reacciones adversas.",
+    "mechanism_title": "Mecanismo de acción:",
+    "mechanism_desc": "A diferencia del Botox, que relaja los músculos, el Ácido Hialurónico actúa como un relleno dérmico, es decir, rellena las líneas, arrugas y surcos mediante la inyección directa en la piel. También se utiliza para restaurar volúmenes faciales perdidos o para realzar ciertas áreas como los labios o los pómulos.",
+    "types_title": "Tipos de Ácido Hialurónico y su uso",
+    "types_intro": "Existen diferentes formulaciones de Ácido Hialurónico, que varían en su densidad y viscosidad. Esto permite al Dr. Pérez seleccionar el tipo más adecuado dependiendo del área a tratar.",
+    "type_low_title": "Ácido Hialurónico de baja densidad:",
+    "type_low_desc": "ideal para líneas finas y contorno de labios.",
+    "type_medium_title": "Ácido Hialurónico de densidad media:",
+    "type_medium_desc": "se utiliza para surcos nasogenianos, líneas de marioneta y ojeras.",
+    "type_high_title": "Ácido Hialurónico de alta densidad:",
+    "type_high_desc": "para recuperar volumen en mejillas, pómulos, mentón o mandíbula.",
+    "zones_title": "¿En qué zonas se aplica?",
+    "zones_intro": "Las aplicaciones más comunes del Ácido Hialurónico incluyen:",
+    "zone_nasolabial": "Surcos nasogenianos",
+    "zone_nasolabial_desc": "(líneas entre nariz y boca)",
+    "zone_marionette": "Líneas de marioneta",
+    "zone_marionette_desc": "(desde las comisuras hacia el mentón)",
+    "zone_lips": "Labios",
+    "zone_lips_desc": "(aumento de volumen, definición del contorno, hidratación)",
+    "zone_dark_circles": "Ojeras",
+    "zone_dark_circles_desc": "(mejora del hundimiento y pigmentación)",
+    "zone_cheekbones": "Pómulos y mejillas",
+    "zone_cheekbones_desc": "(volumen y definición)",
+    "zone_chin": "Mentón y mandíbula",
+    "zone_chin_desc": "(armonización del perfil facial)",
+    "zone_rhinomodeling": "Rinomodelación no quirúrgica",
+    "zone_rhinomodeling_desc": "(mejorar la forma de la nariz sin cirugía)",
+    "zone_perioral": "Líneas peribucales",
+    "zone_perioral_desc": "(código de barras)",
+    "technique_title": "Técnica de aplicación del Dr. Pérez",
+    "technique_intro": "El Dr. Pérez realiza una evaluación facial integral para definir el mejor plan de tratamiento de acuerdo con las necesidades de cada paciente. Su enfoque se basa en obtener resultados sutiles, armónicos y naturales, preservando la expresión facial.",
+    "technique_features_title": "Características de su técnica:",
+    "technique_feature_1": "Utiliza productos de máxima calidad y prestigio internacional",
+    "technique_feature_2": "Aplica anestesia local tópica para mayor confort",
+    "technique_feature_3": "Emplea microcánulas o agujas finas, según el área a tratar",
+    "technique_feature_4": "Planifica cada sesión de forma individualizada, enfocándose en la simetría facial y la naturalidad",
+    "duration_title": "¿Cuánto duran los efectos?",
+    "duration_intro": "El efecto del Ácido Hialurónico es temporal pero prolongado, y puede durar entre 8 y 18 meses, dependiendo de:",
+    "duration_factor_1": "El tipo de producto utilizado",
+    "duration_factor_2": "El área tratada",
+    "duration_factor_3": "El metabolismo del paciente",
+    "duration_factor_4": "Los hábitos y el estilo de vida (exposición al sol, tabaco, ejercicio intenso)",
+    "duration_conclusion": "Tras ese período, el producto se reabsorbe de forma natural, y puede repetirse el tratamiento sin inconvenientes.",
+    "side_effects_title": "¿Existen efectos secundarios?",
+    "side_effects_intro": "Los efectos secundarios son mínimos y transitorios, como:",
+    "side_effect_1": "Enrojecimiento leve o hinchazón en el sitio de aplicación",
+    "side_effect_2": "Sensibilidad o pequeños hematomas que desaparecen en pocos días",
+    "side_effects_conclusion": "En manos expertas, el Ácido Hialurónico es un tratamiento altamente seguro y efectivo.",
+    "meta_title": "Ácido Hialurónico en Bogotá | Rellenos Faciales | Dr. Andrés Pérez",
+    "meta_description": "Rejuvenecimiento facial sin cirugía con Ácido Hialurónico. Relleno de arrugas, aumento de labios y rinomodelación. Resultados inmediatos."
+  },
+  "elevacion_cola_cejas": {
+    "title": "Elevación cola de cejas",
+    "subtitle": "Restaurando la forma natural y atractiva del marco superior del rostro",
+    "description_p1": "Así como otras áreas del rostro, las cejas también sufren un descenso progresivo como parte del proceso natural de envejecimiento. Este cambio altera su posición original y afecta significativamente la expresión facial.",
+    "description_p2": "En las mujeres, una de las transformaciones más notorias es la pérdida de la curvatura alargada que otorga feminidad y juventud al rostro. Con el tiempo, las cejas tienden a volverse más horizontales e incluso a inclinarse hacia abajo en los casos más marcados, otorgando una apariencia de cansancio o tristeza.",
+    "vision_title": "La visión estética del Dr. Pérez",
+    "vision_p1": "El Dr. Pérez considera que la posición y forma de las cejas son elementos clave en cualquier procedimiento de rejuvenecimiento facial. A lo largo de su trayectoria ha estudiado cuidadosamente los rasgos que hacen unas cejas visualmente atractivas y armónicas, integrando este conocimiento en sus técnicas quirúrgicas para lograr resultados refinados y naturales.",
+    "vision_p2": "A diferencia de técnicas tradicionales que elevan las cejas de forma generalizada —especialmente aquellas que realizan suspensiones desde el centro de la frente—, el Dr. Pérez evita abordajes que puedan generar una expresión artificial o un aspecto de asombro permanente.",
+    "technique_title": "Detalles de la Técnica del Dr. Pérez",
+    "technique_subtitle": "Una técnica sutil para una mirada más armónica y rejuvenecida",
+    "technique_desc": "El Dr. Pérez considera que la elevación selectiva de la cola de las cejas es una de las intervenciones más efectivas y estéticamente agradables para mejorar la expresión facial. A diferencia de las técnicas que elevan la ceja en su totalidad, su enfoque se centra en reposicionar únicamente la parte externa, preservando la naturalidad del rostro y evitando expresiones artificiales o exageradas.",
+    "benefits_title": "Beneficios de la elevación de la cola de las cejas:",
+    "benefit_1": "Restablece la forma natural y armónica de la ceja, logrando que la cola se ubique ligeramente más alta que su cabeza, lo que suaviza y estiliza la mirada.",
+    "benefit_2": "Reduce el exceso de piel en los párpados superiores, aportando una apariencia más descansada y juvenil.",
+    "benefit_3": "Mejora de forma notable y duradera las líneas de expresión en la zona lateral de los ojos, conocidas como \"patas de gallina\".",
+    "custom_techniques_title": "Técnicas personalizadas según el caso",
+    "custom_techniques_intro": "El Dr. Pérez utiliza variantes quirúrgicas para la elevación de la cola de las cejas, seleccionando la más adecuada según la anatomía y expectativas del paciente. Una de las más frecuentemente empleadas es:",
+    "short_temporal_title": "Elevación Temporal<br />Corta",
+    "short_temporal_desc": "Esta técnica se realiza mediante una pequeña incisión dentro del cuero cabelludo, en la región de las sienes, lo que permite que la cicatriz quede completamente oculta. A través de esta apertura, se lleva a cabo un cuidadoso despegamiento de los tejidos alrededor de las cejas, seguido de su elevación y fijación mediante suturas quirúrgicas de alta precisión.",
+    "short_temporal_point_1": "Cicatriz invisible al quedar completamente dentro del cabello.",
+    "short_temporal_point_2": "Recuperación rápida y mínimamente invasiva.",
+    "short_temporal_point_3": "Resultado natural y armonioso, sin alterar la expresión facial.",
+    "extended_temporal_title": "Elevación Temporal<br />Extendida",
+    "extended_temporal_desc": "La intervención se realiza a través de una incisión discretamente ubicada en la línea del cabello, justo por encima de las patillas. Esta ubicación estratégica permite que la cicatriz quede completamente oculta y sin evidencias visibles tras la recuperación.",
+    "extended_temporal_point_1": "Resección precisa del exceso de piel en la región lateral del ojo, mejorando de forma notable las líneas de expresión o patas de gallina.",
+    "extended_temporal_point_2": "Elevación natural del músculo orbicular (alrededor de los párpados) y de las cejas, logrando una mirada más abierta, armónica y juvenil.",
+    "extended_temporal_point_3": "Mejora el contorno del tercio superior del rostro de manera simultánea.",
+    "extended_temporal_point_4": "Técnica que se combina con otros procedimientos como lifting facial o blefaroplastia.",
+    "extended_temporal_point_5": "Recuperación rápida y sin cambios artificiales en la expresión facial.",
+    "candidates_title": "Candidatos para la elevación de cola de cejas",
+    "candidate_1": "Pacientes que presenten descenso y pérdida de la forma y posición normal de las cejas.",
+    "candidate_2": "Pacientes que consultan para realizarse una blefaroplastia, y que durante su evaluación el Dr. Pérez recomienda la elevación de cola de cejas simultáneamente, con el fin de lograr una mejor definición de los párpados superiores.",
+    "candidate_3": "Aquellos pacientes que presenten líneas de expresión pronunciadas en el área de las patas de gallina.",
+    "results_title": "Nuestros excelentes resultados",
+    "view_more_cases": "Ver más casos de Elevación de Cejas",
+    "faq_title": "Preguntas frecuentes",
+    "meta_title": "Elevación Cola de Cejas en Bogotá | Lifting de Cejas | Dr. Andrés Pérez",
+    "meta_description": "Rejuvenece tu mirada con la elevación de cola de cejas. Procedimiento mínimamente invasivo para una expresión más fresca y juvenil.",
+    "faqs": {
+      "q1": {
+        "question": "Anestesia",
+        "answer": "El procedimiento de elevación de cola de cejas se lleva a cabo por lo general simultáneamente con la blefaroplastia, razón por la cual su anestesia es local y sedación."
+      },
+      "q2": {
+        "question": "¿Qué esperar luego de la cirugía?",
+        "answer": "Es normal la presencia de inflamación leve que compromete el área de las sienes. Los morados aparecen muy rara vez, sin embargo en algunos casos producto de la inflamación, se pueden observar las áreas de los ojos un poco elevados de lo normal, lo cual desaparece por completo en pocos días."
+      },
+      "q3": {
+        "question": "Recomendaciones postoperatorias",
+        "answer": "Se recomienda mantener una posición semissentada a 45 grados, con el fin de facilitar un mejor drenaje de la inflamación y la cicatrización del sitio operado y aplicar una compresa para evitar que se formen costras que se adhieran al cabello."
+      },
+      "q4": {
+        "question": "¿Se puede realizar el procedimiento si se ha aplicado botox previamente?",
+        "answer": "Sí se puede realizar e incluso al haber aplicado botox con anterioridad, los músculos están más relajados y por ende son más fáciles de trabajar."
+      }
+    }
+  },
+  "explantacion_mamaria": {
+    "title": "Explantación Mamaria",
+    "subtitle": "Retiro de implantes mamarios con o sin reconstrucción del tejido",
+    "intro_p1": "Cada vez más mujeres en el mundo están considerando la explantación mamaria como una alternativa para recuperar el bienestar físico, emocional y estético, ya sea por motivos personales, médicos o simplemente porque sienten que sus implantes ya no forman parte de su identidad.",
+    "intro_p2": "El Dr. Pérez cuenta con amplia experiencia en cirugía de retiro de implantes mamarios, ofreciendo un enfoque individualizado que prioriza la seguridad, la estética y las expectativas de cada paciente.",
+    "when_to_consider_title": "¿Cuándo considerar una explantación mamaria?",
+    "when_to_consider_intro": "Existen múltiples razones por las que una paciente puede optar por retirar sus implantes mamarios:",
+    "reason_1": "Cambios en las prioridades estéticas o estilo de vida",
+    "reason_2": "Complicaciones como contractura capsular, ruptura o desplazamiento del implante",
+    "reason_3": "Síntomas relacionados con el Síndrome de ASIA o malestar físico asociado a los implantes",
+    "reason_4": "Incomodidad o sensación de peso en el pecho",
+    "reason_5": "Deseo de recuperar una imagen corporal más natural",
+    "types_title": "Tipos de Explantación que realiza el Dr. Pérez",
+    "types_intro": "Dependiendo del caso particular, el Dr. Pérez puede optar por diferentes técnicas quirúrgicas:",
+    "simple_explantation_title": "Explantación simple",
+    "simple_explantation_desc": "Retiro de los implantes mamarios a través de la misma incisión por donde fueron colocados. Es indicada cuando no hay contractura capsular ni alteraciones del tejido circundante.",
+    "capsulectomy_title": "Explantación con capsulectomía parcial o total",
+    "capsulectomy_desc": "En pacientes que presentan contractura capsular u otros síntomas, se procede al retiro completo o parcial de la cápsula que se ha formado alrededor del implante, además de extraer la prótesis.",
+    "pexia_title": "Explantación con pexia (levantamiento de senos)",
+    "pexia_desc": "Cuando el tejido mamario ha perdido firmeza o presenta caída importante, se realiza simultáneamente una pexia para levantar y redefinir el seno de forma estética y armónica.",
+    "technique_title": "Detalles de la Técnica del Dr. Pérez",
+    "technique_point_1": "• Cada intervención es cuidadosamente planeada en consulta, teniendo en cuenta la anatomía del tórax, la cantidad de tejido residual y los objetivos de la paciente.",
+    "technique_point_2": "• En casos de contractura capsular o sospecha de ruptura, se realiza capsulectomía total en bloque, retirando el implante y la cápsula de una sola pieza.",
+    "technique_point_3": "• Cuando es necesario, se combinan técnicas de reconstrucción natural del seno usando el propio tejido mamario, logrando una forma agradable y proporcional.",
+    "technique_point_4": "• Las cicatrices se diseñan con criterio estético, buscando que sean poco visibles y fáciles de disimular.",
+    "results_title": "Nuestros excelentes resultados",
+    "view_more_cases": "Ver más casos de Explantación Mamaria",
+    "faq_title": "Preguntas frecuentes",
+    "meta_title": "Explantación Mamaria en Bogotá | Retiro de Implantes | Dr. Andrés Pérez",
+    "meta_description": "Cirugía segura para el retiro de implantes mamarios (explantación). Recupera tu bienestar y estética natural con el Dr. Andrés Pérez.",
+    "faqs": {
+      "q1": {
+        "question": "Anestesia y duración del procedimiento",
+        "answer": "La explantación mamaria se realiza bajo anestesia general.<br />La duración de la cirugía depende del tipo de procedimiento, oscilando entre 1.5 a 3 horas."
+      },
+      "q2": {
+        "question": "¿Qué esperar después de la cirugía?",
+        "answer": "• Inflamación y sensibilidad: Es normal experimentar hinchazón y sensación de presión durante los primeros días.<br />• Reposo y cuidado postoperatorio: Se recomienda reposo relativo y uso permanente del brassiere postoperatorio para dar soporte al tejido.<br />• Drenes quirúrgicos: En algunos casos, se dejan drenajes durante 2 a 5 días para evitar acumulación de líquidos.<br />• Incapacidad: La mayoría de las pacientes pueden retomar actividades livianas después del 4° o 5° día.<br />• Resultado final: La forma del seno se estabiliza gradualmente, alcanzando su apariencia definitiva entre 4 a 6 semanas postcirugía."
+      },
+      "q3": {
+        "question": "¿Mis senos volverán a la forma que tenían antes del aumento?",
+        "answer": "No exactamente. La forma final dependerá del volumen de tejido mamario natural, la elasticidad de la piel y el tiempo que se hayan llevado los implantes. El Dr. Pérez explica claramente los posibles resultados durante la consulta."
+      },
+      "q4": {
+        "question": "¿Siempre es necesario un levantamiento?",
+        "answer": "No. En algunos casos, si hay buen tono de piel y volumen adecuado, el tejido se acomoda de manera natural sin necesidad de pexia. Sin embargo, si hay caída marcada, es recomendable realizar el levantamiento en el mismo acto quirúrgico para lograr un resultado más estético."
+      },
+      "q5": {
+        "question": "¿Qué pasa con la cicatriz?",
+        "answer": "Las cicatrices varían según el tipo de técnica utilizada. El Dr. Pérez emplea métodos de cierre y ubicación estratégica para que sean lo menos visibles posible. Con un buen cuidado, estas cicatrices tienden a atenuarse con el tiempo."
+      },
+      "q6": {
+        "question": "¿Puedo colocarme nuevos implantes en el futuro?",
+        "answer": "Sí. En caso de que la paciente lo desee más adelante, es posible realizar una recolocación de implantes, ajustando la técnica a las nuevas condiciones del tejido mamario."
+      }
+    }
+  },
+  "liposuccion": {
+    "title": "Liposucción",
+    "subtitle": "Lipoescultura Corporal",
+    "description": "La lipoescultura corporal se ha consolidado como uno de los procedimientos quirúrgicos más populares y solicitados a nivel mundial, tanto en mujeres como en hombres. A lo largo de la vida, es común desarrollar acumulaciones de grasa en distintas zonas del cuerpo, influenciadas por factores como:",
+    "factor_1": "Cambios de peso",
+    "factor_2": "Embarazos",
+    "factor_3": "Envejecimiento",
+    "factor_4": "Estilo de vida sedentario",
+    "intro_conclusion": "Muchos de los pacientes que consultan al Dr. Pérez ya han intentado soluciones no quirúrgicas como dietas, ejercicio o tratamientos estéticos sin obtener una mejora notable en su contorno corporal. Es aquí donde la liposucción ofrece una solución definitiva y efectiva.",
+    "types_title": "Tipos de Liposucción Utilizados por el Dr. Pérez",
+    "types_intro": "En la actualidad, existen diversas tecnologías que facilitan la extracción de grasa y optimizan los resultados del procedimiento. Las más destacadas incluyen:",
+    "type_1_title": "Liposucción Tumescente Tradicional",
+    "type_1_desc": "Es la técnica más utilizada. Consiste en infiltrar una solución que contiene anestésico local, adrenalina y suero salino en las áreas objetivo. Esto permite que los tejidos se hinchen, facilitando la extracción de grasa y minimizando el sangrado.",
+    "video_1_title": "Liposucción tradicional",
+    "type_2_title": "Técnica VASER",
+    "type_2_desc": "Utiliza ultrasonido para descomponer la grasa y convertirla en un estado líquido antes de ser extraída. Esta tecnología es especialmente útil para pacientes que se han sometido a liposucciones previas y presentan tejidos más fibrosos.",
+    "video_2_title": "Lipolisis vaser",
+    "type_3_title": "Técnica LÁSER",
+    "type_3_desc": "Similar a la técnica VASER, pero emplea energía láser en lugar de ultrasonido para licuar la grasa, logrando mejores resultados en términos de la piel en algunas zonas.",
+    "technique_title": "Técnica Personalizada del Dr. Pérez",
+    "technique_desc": "El Dr. Andrés Pérez utiliza técnicas avanzadas de liposucción para el Dr. Pérez tienen base en planificación personal del paciente y sus expectativas. Entre los objetivos técnicos se destaca:",
+    "technique_point_1": "• Precisión efectiva al limitar la grasa en 3 o más, que permiten un moldeamiento más preciso y armónico.",
+    "technique_point_2": "• Tecnología superearl y mantenimiento único, como se da el Capaces más características específicas de la liposucción láser y la mezcla ultrasonida que permite modificar procedimientos de seguridad de la.",
+    "technique_point_3": "• Cuidadosos con la piel, procedimientos de alta precisión centrados en principios necesarios físicos necesarios para seguridad al contorno facial natural más efectivo en comparación funcional de una gran.",
+    "hd_title": "Liposucción de Alta Definición (HD)",
+    "hd_desc_1": "Esta técnica avanzada busca realzar la musculatura y definir zonas específicas del cuerpo utilizando el efecto de una liposucción híbrida con ejercicio. Se mejora significativamente la definición muscular especialmente en el abdomen.",
+    "hd_desc_2": "• El Dr. Pérez emplea esta técnica en un alto porcentaje de sus pacientes, logrando resultados dinámicos, estéticos y altamente funcionales durante el caso paciente.",
+    "results_title": "Nuestros excelentes resultados",
+    "view_more_cases": "Ver más casos de lipoescultura",
+    "faq_title": "Preguntas frecuentes",
+    "meta_title": "Liposucción en Bogotá | Lipoescultura | Dr. Andrés Pérez",
+    "meta_description": "Moldea tu cuerpo con Liposucción. Elimina grasa localizada y define tu silueta. Técnicas VASER y Láser disponibles.",
+    "faqs": {
+      "q1": {
+        "question": "Anestesia y duración",
+        "answer": "La liposucción se puede realizar bajo anestesia general, y su duración habitual es de 2 a 3 horas, dependiendo del número de zonas tratadas y si se combina con otros procedimientos como la abdominoplastia o la transferencia de grasa."
+      },
+      "q2": {
+        "question": "¿Qué esperar después de la cirugía?",
+        "answer": "Es importante que durante las primeras semanas mantenga unas actividades físicas sanas y evitar cualquier tipo se ejerciciamiento. La desinflamación temprana desde el primer día postoperatorio es fundamental para obtener mejores resultados."
+      },
+      "q3": {
+        "question": "¿Con necesidades los tratgos postoperatorios?",
+        "answer": "Es importante utilizar medidas sencillas, se sugiere del Dr. Pérez ha clasificado en 3 a 4 técnica combinada Del Dr. Pérez:<br />Que hemos la inflamación. Dispositivos en función de la asociación individual. Las pacientes se puede recomendar durante además se deva término entre que manera de seguir.<br />De base usar de forma continua, de a medida, si menos durante 6 semanas, para ayudar a controlar la inflamación y acelerar la figura y optimizar las resultados."
+      },
+      "q4": {
+        "question": "¿Se mantienen los resultados en el tiempo?",
+        "answer": "Sí, siempre y cuando el paciente mantenga un peso corporal y una rutina saludable. La liposucción elimina correctamente como:<br />• Alimentación balanceada<br />• Actividad física regular<br />• Peso estable<br />Es De los indicadores socio híbridos, es posible que ocurran acumulaciones depósito de grasa con el tiempo."
+      }
+    }
+  },
+  "mamoplastia_reduccion": {
+    "title": "Mamoplastia de Reducción:",
+    "subtitle": "Senos grandes y descendidos: una condición que afecta la calidad de vida",
+    "description_p1": "Para muchas mujeres, tener senos de gran tamaño y con caída (ptosis mamaria) no solo representa una preocupación estética, sino también un problema que impacta significativamente su calidad de vida. Esta condición puede dificultar la realización de actividades físicas, limitar el uso de ciertas prendas de vestir y generar incomodidad en el día a día.",
+    "description_p2": "Además de las molestias funcionales, el peso excesivo del busto puede ocasionar una serie de problemas de salud, entre los que se incluyen:",
+    "problem_1": "• Dolores crónicos de espalda, cuello y cabeza.",
+    "problem_2": "• Desviaciones progresivas de la columna vertebral.",
+    "problem_3": "• Irritaciones e infecciones en la piel debajo de los senos, debido a la fricción y la humedad constante.",
+    "description_p3": "Ante esta situación, muchas pacientes consideran procedimientos médicos o quirúrgicos que les permitan recuperar comodidad, movilidad y bienestar.",
+    "technique_title": "Detalles de la Técnica del Dr. Pérez",
+    "technique_intro": "Existen diversas técnicas quirúrgicas para realizar una reducción mamaria, y su elección depende de múltiples factores individuales que el Dr. Pérez evalúa cuidadosamente en cada paciente. Entre estos factores se encuentran el tamaño y la forma de los senos, la calidad de la piel, el grado de caída (ptosis) y las expectativas estéticas de la paciente. En términos generales, estas técnicas se clasifican según el tipo de incisiones que se utilizan para llevarlas a cabo.",
+    "technique_subtitle": "Técnica Vertical: la más utilizada por el Dr. Pérez",
+    "technique_desc": "Ofrece importantes ventajas tanto estéticas como funcionales:",
+    "vertical_tech_title": "Incisión discreta y mínimamente invasiva:",
+    "vertical_tech_desc": "La técnica se realiza a través de una incisión vertical que se extiende desde la parte inferior de la areola hacia el pliegue submamario. Esta incisión se mantiene lo más corta posible y, por lo general, cicatriza muy bien con el tiempo. Solo en casos de senos extremadamente grandes, puede ser necesario agregar una incisión horizontal corta en el surco inframammario para lograr un mejor resultado.",
+    "aesthetic_results_title": "Resultados estéticos superiores:",
+    "aesthetic_results_desc": "Esta técnica permite remodelar el tejido mamario logrando una forma natural, armónica y con buena proyección. A diferencia de otras técnicas que pueden dejar un resultado más plano o sin contorno definido, la técnica vertical favorece un resultado firme y juvenil.",
+    "candidates_title": "¿Quiénes son candidatas para una mamoplastia de reducción?",
+    "candidates_intro_1": "La mamoplastia de reducción está indicada para mujeres que presentan molestias físicas o incomodidad estética debido al tamaño excesivo de sus senos. Este procedimiento no solo busca mejorar la apariencia del busto, sino también aliviar síntomas asociados y mejorar la calidad de vida.",
+    "candidates_intro_2": "Son candidatas ideales aquellas pacientes que presentan uno o más de los siguientes signos o síntomas:",
+    "candidate_1": "• Senos grandes y caídos, desproporcionados en relación con el resto del cuerpo.",
+    "candidate_2": "• Dolor crónico de cuello, hombros o espalda, provocado por el peso excesivo del busto.",
+    "candidate_3": "• Cefaleas frecuentes asociadas a la tensión muscular generada por la carga mamaria.",
+    "candidate_4": "• Limitaciones para realizar actividad física o deportiva por incomodidad o dolor.",
+    "candidate_5": "• Irritación, erupciones o infecciones en la piel debajo de los senos.",
+    "candidate_6": "• Dificultad para encontrar ropa adecuada o brasieres que brinden soporte y comodidad.",
+    "video_title": "¿Quiénes son candidatas?",
+    "results_title": "Nuestros excelentes resultados",
+    "view_more_cases": "Ver más casos de Mamoplastia de Reducción",
+    "faq_title": "Preguntas frecuentes",
+    "meta_title": "Mamoplastia de Reducción en Bogotá | Cirugía de Senos | Dr. Andrés Pérez",
+    "meta_description": "Alivia el dolor de espalda y mejora tu figura con una reducción de senos. Procedimiento seguro y efectivo. Dr. Andrés Pérez.",
+    "faqs": {
+      "q1": {
+        "question": "Anestesia",
+        "answer": "La mamoplastia de reducción se lleva a cabo bajo anestesia general y el procedimiento tiene una duración entre 2 y 3 horas."
+      },
+      "q2": {
+        "question": "¿Qué se puede esperar después de la cirugía?",
+        "answer": "• Es normal que se presente inflamación moderada durante los primeros 7 días posteriores al procedimiento.<br />• Es fundamental el uso constante de un brassiere postoperatorio, diseñado para brindar soporte y confort, favoreciendo una adecuada recuperación.<br />• Se recomienda evitar actividades deportivas y esfuerzos físicos intensos durante al menos los primeros 10 días, siguiendo siempre las indicaciones médicas personalizadas."
+      },
+      "q3": {
+        "question": "¿Pueden volver a aumentar de tamaño los senos?",
+        "answer": "Después de una mamoplastia de reducción, el tamaño de los senos suele mantenerse estable a largo plazo. Sin embargo, es importante tener en cuenta que factores como aumentos significativos de peso o embarazos posteriores pueden modificar el volumen y la forma del busto."
+      },
+      "q4": {
+        "question": "¿Se preserva la sensibilidad de los pezones?",
+        "answer": "Las técnicas quirúrgicas que utiliza el Dr. Pérez están diseñadas para preservar la sensibilidad de los pezones. Durante el procedimiento se respeta al máximo la integridad de los nervios responsables de la sensibilidad mamaria, por lo que el riesgo de pérdida permanente es bajo."
+      },
+      "q5": {
+        "question": "¿Es posible lactar después de una mamoplastia de reducción?",
+        "answer": "Sí. En la mayoría de los casos, la capacidad de lactar se conserva, ya que las técnicas empleadas preservan los conductos galactóforos (los que transportan la leche desde la glándula mamaria hasta el pezón). No obstante, cada caso es único, y se evaluará individualmente durante la consulta."
+      }
+    }
+  },
+  "pexia": {
+    "title": "Pexia Mamaria:",
+    "subtitle": "Elevación y Reafirmación del Busto",
+    "description_p1": "Con el paso del tiempo, factores como el embarazo, la lactancia, los cambios de peso y la gravedad pueden hacer que los senos pierdan su firmeza y desciendan. La pexia mamaria, o levantamiento de senos, es el procedimiento quirúrgico diseñado para corregir esta caída (ptosis), reubicando el tejido mamario en una posición más alta y estética.",
+    "description_p2": "Este procedimiento no solo mejora la altura del busto, sino que también permite remodelar su contorno y devolverle una apariencia más juvenil y firme.",
+    "when_to_consider_title": "¿Cuándo considerar una pexia mamaria?",
+    "when_to_consider_intro": "La pexia mamaria está indicada para mujeres que presentan:",
+    "candidate_1": "Senos caídos o flácidos, donde el pezón se encuentra por debajo del pliegue inframamario.",
+    "candidate_2": "Pérdida de volumen y firmeza, dando una apariencia de senos \"vacíos\" en la parte superior.",
+    "candidate_3": "Piel estirada y areolas agrandadas debido al peso del tejido mamario.",
+    "candidate_4": "Asimetría mamaria, donde uno de los senos está más bajo que el otro.",
+    "types_title": "Tipos de Pexia Mamaria",
+    "types_intro": "Dependiendo de las necesidades de cada paciente, el Dr. Pérez puede realizar diferentes tipos de pexia:",
+    "pexia_with_implants_title": "Pexia con implantes",
+    "pexia_with_implants_desc": "Ideal para pacientes que, además de levantar el busto, desean aumentar su tamaño o recuperar el volumen perdido.",
+    "pexia_without_implants_title": "Pexia sin implantes",
+    "pexia_without_implants_desc": "Utiliza el propio tejido mamario para remodelar y levantar el seno, logrando un resultado natural sin necesidad de prótesis.",
+    "technique_title": "Detalles de la Técnica del Dr. Pérez",
+    "technique_intro": "El Dr. Pérez emplea técnicas avanzadas que minimizan las cicatrices y aseguran resultados duraderos. Las incisiones se planifican cuidadosamente según el grado de caída:",
+    "technique_point_1": "• Periareolar: Alrededor de la areola, para caídas leves.",
+    "technique_point_2": "• Vertical: Alrededor de la areola y verticalmente hacia abajo, para caídas moderadas.",
+    "technique_point_3": "• En T invertida: Para caídas severas o cuando se requiere retirar una cantidad significativa de piel.",
+    "results_title": "Nuestros excelentes resultados",
+    "view_more_cases": "Ver más casos de Pexia Mamaria",
+    "faq_title": "Preguntas frecuentes",
+    "meta_title": "Pexia Mamaria en Bogotá | Levantamiento de Senos | Dr. Andrés Pérez",
+    "meta_description": "Recupera la firmeza y posición de tus senos con una Pexia Mamaria. Procedimiento seguro con o sin implantes. Dr. Andrés Pérez.",
+    "faqs": {
+      "q1": {
+        "question": "Anestesia",
+        "answer": "La pexia mamaria se realiza bajo anestesia general y tiene una duración aproximada de 2 a 3 horas."
+      },
+      "q2": {
+        "question": "¿Qué esperar después de la cirugía?",
+        "answer": "• Es normal experimentar inflamación y sensibilidad durante los primeros días.<br />• Se debe utilizar un brassiere postoperatorio día y noche durante el primer mes.<br />• La mayoría de las pacientes pueden retomar sus actividades cotidianas (sin esfuerzo físico) después de 5 a 7 días."
+      },
+      "q3": {
+        "question": "¿Las cicatrices son visibles?",
+        "answer": "Las cicatrices son una parte inevitable de la cirugía, pero el Dr. Pérez utiliza técnicas de sutura intradérmica para que sean lo más finas y discretas posible. Con el tiempo, tienden a desvanecerse significativamente."
+      },
+      "q4": {
+        "question": "¿Afecta la lactancia futura?",
+        "answer": "En la mayoría de los casos, la capacidad de lactar se conserva, ya que se preservan los conductos galactóforos. Sin embargo, esto puede variar dependiendo de la técnica específica utilizada."
+      }
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Consejos, novedades y artículos sobre cirugía plástica y estética",
+    "loading": "Cargando artículos...",
+    "read_more": "Leer artículo completo",
+    "meta_title": "Blog de Cirugía Plástica | Dr. Andrés Pérez",
+    "meta_description": "Artículos sobre cirugía plástica, consejos postoperatorios y tendencias estéticas. Mantente informado con el Dr. Andrés Pérez.",
+    "posts": {
+      "p1_title": "Cuidados post-operatorios en cirugía facial",
+      "p1_content": "<p>Los cuidados posteriores a una cirugía facial son fundamentales para obtener los mejores resultados. En este artículo te explicamos paso a paso qué hacer durante las primeras semanas de recuperación...</p>",
+      "p2_title": "Tendencias en cirugía plástica facial 2025",
+      "p2_content": "<p>Las técnicas de cirugía facial han evolucionado significativamente. Este año las tendencias se centran en procedimientos menos invasivos que ofrecen resultados naturales...</p>",
+      "p3_title": "Rinoplastia: Todo lo que debes saber",
+      "p3_content": "<p>La rinoplastia es uno de los procedimientos más solicitados en cirugía estética. No solo mejora la apariencia nasal, sino que también puede corregir problemas funcionales...</p>",
+      "p4_title": "Lifting facial: Técnicas modernas",
+      "p4_content": "<p>El lifting facial ha evolucionado hacia técnicas menos invasivas pero igualmente efectivas. Las nuevas metodologías permiten resultados más naturales...</p>",
+      "p5_title": "Blefaroplastia: Rejuvenece tu mirada",
+      "p5_content": "<p>La blefaroplastia es el procedimiento ideal para rejuvenecer la mirada eliminando el exceso de piel y grasa en los párpados...</p>",
+      "p6_title": "Ácido hialurónico: Rellenos naturales",
+      "p6_content": "<p>Los rellenos con ácido hialurónico ofrecen una alternativa no quirúrgica para rejuvenecer el rostro. Son seguros, efectivos y reversibles...</p>"
+    }
+  },
+  "galeria": {
+    "title": "Categorías de Galería",
+    "subtitle": "Explora Nuestros Resultados",
+    "facial_procedures": "Procedimientos Faciales",
+    "body_procedures": "Procedimientos Corporales",
+    "testimonials": "Testimonios",
+    "meta_title": "Galería de Resultados | Dr. Andrés Pérez",
+    "meta_description": "Mira los resultados antes y después de nuestros procedimientos. Cirugía plástica facial y corporal en Bogotá."
+  },
+  "galeria_faciales": {
+    "title": "Procedimientos Faciales",
+    "subtitle": "Transformaciones naturales que realzan tu belleza",
+    "back_to_gallery": "Volver a Galería",
+    "available_cases": "casos disponibles",
+    "view_clinical_cases": "Ver casos clínicos",
+    "blefaroplastia_title": "Blefaroplastia",
+    "blefaroplastia_desc": "Rejuvenecimiento de párpados",
+    "rinoplastia_title": "Rinoplastia",
+    "rinoplastia_desc": "Armonización nasal",
+    "lifting_hamaca_title": "Lifting Hamaca",
+    "lifting_hamaca_desc": "Rejuvenecimiento facial integral",
+    "lipofilling_title": "Lipofilling con Células Madre",
+    "lipofilling_desc": "Rejuvenecimiento natural",
+    "lip_lift_title": "Lip Lift",
+    "lip_lift_desc": "Elevación del labio",
+    "elevacion_cejas_title": "Elevación Cola de Cejas",
+    "elevacion_cejas_desc": "Rejuvenecimiento de cejas",
+    "mentoplastia_title": "Mentoplastia",
+    "mentoplastia_desc": "Rejuvenecimiento de mentón",
+    "otoplastia_title": "Otoplastia",
+    "otoplastia_desc": "Corrección de orejas prominentes",
+    "meta_title": "Galería Facial | Dr. Andrés Pérez",
+    "meta_description": "Resultados de procedimientos faciales: Rinoplastia, Blefaroplastia, Lifting y más."
+  },
+  "galeria_corporales": {
+    "title": "Procedimientos Corporales",
+    "subtitle": "Transformaciones corporales con resultados excepcionales",
+    "back_to_gallery": "Volver a Galería",
+    "cases_label": "casos",
+    "results_label": "resultados",
+    "view_clinical_cases": "Ver casos clínicos",
+    "abdominoplastia_title": "Abdominoplastia",
+    "abdominoplastia_desc": "Contorno abdominal de alta definición",
+    "lipoescultura_title": "Lipoescultura",
+    "lipoescultura_desc": "Remodelación corporal integral",
+    "mamoplastia_aumento_title": "Mamoplastia de Aumento",
+    "mamoplastia_aumento_desc": "Aumento mamario con implantes",
+    "mamoplastia_reduccion_title": "Mamoplastia de Reducción",
+    "mamoplastia_reduccion_desc": "Reducción mamaria para mayor comodidad",
+    "explantacion_mamaria_title": "Explantación mamaria",
+    "explantacion_mamaria_desc": "Retiro de implantes mamarios con o sin reconstrucción del tejido",
+    "pexia_title": "Pexia - Elevación de Senos",
+    "pexia_desc": "Levantamiento mamario sin implantes",
+    "meta_title": "Galería Corporal | Dr. Andrés Pérez",
+    "meta_description": "Resultados de procedimientos corporales: Lipoescultura, Abdominoplastia, Mamoplastia y más."
+  },
+  "contact_page": {
+    "meta_title": "Contacto | Dr. Andrés Pérez Nieto",
+    "meta_description": "Contáctanos para agendar tu consulta. Cirugía plástica facial y corporal en Bogotá, Colombia.",
+    "hero_title": "Estamos aquí para ti",
+    "hero_subtitle": "Agenda tu consulta personalizada y descubre cómo podemos ayudarte a alcanzar tus objetivos",
+    "form_title": "Envíanos un mensaje",
+    "form_subtitle": "Nos pondremos en contacto contigo en menos de 24 horas",
+    "form_name": "Nombre completo",
+    "form_name_placeholder": "Ej: María González",
+    "form_email": "Correo electrónico",
+    "form_email_placeholder": "tu@email.com",
+    "form_phone": "Teléfono (opcional)",
+    "form_phone_placeholder": "+57 300 123 4567",
+    "form_subject": "Asunto",
+    "form_subject_placeholder": "Selecciona un motivo",
+    "form_message": "Mensaje",
+    "form_message_placeholder": "Cuéntanos en qué podemos ayudarte...",
+    "subject_consultation": "Consulta de procedimiento",
+    "subject_appointment": "Agendar cita",
+    "subject_followup": "Seguimiento post-operatorio",
+    "subject_international": "Paciente internacional",
+    "subject_other": "Otro",
+    "submit_button": "Enviar mensaje",
+    "submitting": "Enviando...",
+    "success_title": "¡Mensaje enviado!",
+    "success_message": "Gracias por contactarnos. Te responderemos pronto.",
+    "error_title": "Error al enviar",
+    "error_message": "Por favor intenta nuevamente o contáctanos por WhatsApp.",
+    "info_title": "Información de contacto",
+    "office_hours": "Horario de atención",
+    "hours_weekdays": "Lunes a Viernes: 8:00 AM - 6:00 PM",
+    "hours_saturday": "Sábados: 9:00 AM - 1:00 PM",
+    "hours_sunday": "Domingos: Cerrado",
+    "phone_label": "Teléfonos",
+    "email_label": "Correo electrónico",
+    "address_label": "Dirección",
+    "whatsapp_label": "WhatsApp",
+    "social_title": "Síguenos en redes",
+    "map_title": "Encuéntranos",
+    "cta_title": "¿Prefieres hablar directamente?",
+    "cta_subtitle": "Chatea con nosotros por WhatsApp ahora",
+    "cta_button": "Abrir WhatsApp",
+    "validation_name_required": "El nombre es requerido",
+    "validation_email_required": "El correo electrónico es requerido",
+    "validation_email_invalid": "Por favor ingresa un correo válido",
+    "validation_message_required": "El mensaje es requerido",
+    "validation_message_min": "El mensaje debe tener al menos 10 caracteres"
+  },
+  "ui": {
+    "loading": "Cargando...",
+    "loading_procedures": "Cargando procedimientos...",
+    "loading_gallery": "Cargando galería...",
+    "loading_testimonials": "Cargando testimonios...",
+    "loading_accreditations": "Cargando acreditaciones...",
+    "loading_services": "Cargando servicios...",
+    "menu_title": "Menú",
+    "logo_alt": "Dr. Andrés Pérez Nieto - Logo"
+  },
+  "metadata": {
+    "title": "Dr. Andrés Pérez Nieto | Cirujano Plástico en Bogotá, Colombia | Lifting Facial Deep Plane",
+    "description": "Cirujano plástico certificado en Bogotá, Colombia. Especialista en lifting facial en hamaca (Deep Plane), rinoplastia y rejuvenecimiento facial. +30 años de experiencia. Resultados naturales. Agenda tu cita."
+  },
+  "testimonios_page": {
+    "title": "Testimonios",
+    "description": "Escucha las experiencias reales de nuestros pacientes y descubre cómo el Dr. Pérez ha transformado sus vidas con resultados naturales y excepcionales.",
+    "procedures_title": "Procedimientos",
+    "facial_procedures_title": "Procedimientos Faciales",
+    "real_testimonials_subtitle": "Testimonios reales de pacientes del Dr. Pérez",
+    "patient_verified": "Paciente verificado",
+    "watch_on_youtube": "Ver en YouTube",
+    "testimonio_label": "Testimonio",
+    "categories": {
+      "rinoplastia": "Rinoplastia",
+      "lipofilling": "Lipofilling Facial con Células Madre",
+      "lifting": "Lifting Facial en Hamaca",
+      "blefaroplastia": "Blefaroplastia"
+    }
+  },
+  "videoteca": {
+    "header_tag": "Videoteca del Dr. Andrés Pérez Nieto",
+    "title_main": "Aprende de cirugía plástica,",
+    "title_accent": " en un minuto",
+    "subtitle": "Los videos que el Dr. Andrés publica en Instagram, organizados por procedimiento. Toca una tarjeta para ver el video sin salir de la página.",
+    "view_on_instagram": "Ver en Instagram",
+    "load_video": "Cargar video de Instagram",
+    "close_video": "Cerrar video",
+    "placeholder_note": "(En el demo el ID es de ejemplo; con el ID real del reel, el video se reproduce aquí)",
+    "transcription_note": "En la versión final, aquí va la transcripción del video: texto real que Google y los motores de IA sí pueden leer y citar, a diferencia del video embebido.",
+    "know_more_procedure": "Conoce el procedimiento de ",
+    "book_appointment": "Agenda tu valoración con el Dr. Andrés",
+    "categories": {
+      "all": "Todos",
+      "lifting": "Lifting facial",
+      "explantacion": "Explantación mamaria",
+      "parpados": "Párpados",
+      "rinoplastia": "Rinoplastia",
+      "celulas": "Células madre",
+      "consejos": "Consejos del Dr."
+    }
+  }
+}
