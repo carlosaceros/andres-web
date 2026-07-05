@@ -54,6 +54,12 @@ package.json.bak
 
 # heavy media folders
 /public/images/videos/
+!/public/images/videos/Consulta-Virtual.mp4
+!/public/images/videos/Consulta-Virtual.webm
+!/public/images/videos/fotografias-consulta-virtual.mp4
+!/public/images/videos/fotografias-consulta-virtual.webm
+!/public/images/videos/Tomafotografiasconsultavirtual.mp4
+!/public/images/videos/Tomafotografiasconsultavirtual.webm
 /public/images/blefaroplastia/
 /public/images/lifting-hamaca/
 /public/images/todos/Mamoplastiareduccion/

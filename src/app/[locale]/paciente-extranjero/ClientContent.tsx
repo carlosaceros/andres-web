@@ -254,8 +254,8 @@ export default function ClientContent() {
                     if (fallback) (fallback as HTMLElement).style.display = 'flex';
                   }}
                 >
-                  <source src="https://media.drandrespereznieto.com/images/videos/Consulta Virtual 2023.mp4" type="video/mp4" />
-                  <source src="https://media.drandrespereznieto.com/images/videos/Consulta-Virtual.webm" type="video/webm" />
+                  <source src="/images/videos/Consulta-Virtual.mp4" type="video/mp4" />
+                  <source src="/images/videos/Consulta-Virtual.webm" type="video/webm" />
                   {/* Fallback msg could be translated too but skipping for brevity as most browsers support video */}
                   Tu navegador no soporta el elemento video.
                 </video>
@@ -276,7 +276,7 @@ export default function ClientContent() {
               <div className="relative rounded-lg overflow-hidden aspect-video" style={{ backgroundColor: '#1d3c5d' }}>
                 <video playsInline
                   className="w-full h-full object-cover"
-                  poster="https://media.drandrespereznieto.com/images/todos/toma.webp"
+                  poster="/images/todos/toma.webp"
                   controls
                   preload="metadata"
                   onError={(e: React.SyntheticEvent<HTMLVideoElement>) => {
@@ -285,8 +285,8 @@ export default function ClientContent() {
                     if (fallback) (fallback as HTMLElement).style.display = 'flex';
                   }}
                 >
-                  <source src="https://media.drandrespereznieto.com/images/videos/Toma de fotografia consulta virtual.mp4" type="video/mp4" />
-                  <source src="https://media.drandrespereznieto.com/images/videos/fotografias-consulta-virtual.webm" type="video/webm" />
+                  <source src="/images/videos/fotografias-consulta-virtual.mp4" type="video/mp4" />
+                  <source src="/images/videos/fotografias-consulta-virtual.webm" type="video/webm" />
                   Tu navegador no soporta el elemento video.
                 </video>
 
