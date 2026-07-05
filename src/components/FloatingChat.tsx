@@ -56,8 +56,6 @@ export default function FloatingChat() {
   const [isLoading, setIsLoading] = useState(false);
   
   const messagesEndRef = useRef<HTMLDivElement>(null);
-  
-  const API_KEY = 'AIzaSyCqFDX747_Nt42tn0c9F1pfnkwHyX_zn5g';
 
   useEffect(() => {
     // Welcome message
@@ -117,7 +115,7 @@ export default function FloatingChat() {
       `;
 
       const response = await fetch(
-        `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${API_KEY}`,
+        '/api/chat',
         {
           method: 'POST',
           headers: {
