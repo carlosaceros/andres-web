@@ -241,8 +241,21 @@ export default function ClientContent() {
             {/* Contenido de texto - Responsive */}
             <div className="space-y-6 md:space-y-8">
               <h1 className="font-prototype font-normal text-2xl md:text-3xl lg:text-4xl xl:text-5xl mb-6 md:mb-8" style={{ color: '#1d3c5d' }}>
-                {t('title')} {locale === 'es' ? 'en Bogotá' : 'in Bogota'}
+                {t('title')} {locale === 'es' ? 'en Bogotá' : 'in Colombia'}
               </h1>
+
+              {/* EEAT & FOMO Badge */}
+              <div className="inline-flex flex-wrap items-center gap-x-3 gap-y-1.5 px-4 py-2.5 rounded-2xl bg-white/80 backdrop-blur-md border border-gray-200/80 shadow-sm max-w-xl">
+                <span className="inline-flex items-center gap-1.5 text-xs font-bold text-[#1d3c5d]">
+                  <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                  {locale === 'es' ? '30+ Años de Experiencia | Miembro SCCP & ISAPS' : '30+ Years of Experience | SCCP & ISAPS Member'}
+                </span>
+                <span className="text-gray-300">|</span>
+                <span className="text-xs font-semibold text-amber-700 animate-pulse">
+                  {locale === 'es' ? '⚠️ Cupos Quirúrgicos Limitados' : '⚠️ Limited Surgical Slots'}
+                </span>
+              </div>
+
               <div className="space-y-4 md:space-y-6 text-sm md:text-base lg:text-lg leading-relaxed font-sansation font-normal" style={{ color: '#1d3c5d' }}>
                 <p>{t('p1')}</p>
                 <p>{t('p2')}</p>

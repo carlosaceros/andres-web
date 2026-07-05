@@ -101,12 +101,24 @@ export default function ClientContent() {
             <div className="space-y-4 sm:space-y-6 md:space-y-8">
               <div className="mb-6 sm:mb-10 md:mb-14 lg:mb-12 mt-6 sm:mt-10 md:mt-14 lg:mt-12">
                 <h1 className="font-prototype text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-normal mb-3 sm:mb-4 md:mb-5 lg:mb-4 leading-tight" style={{ color: '#1d3c5d' }}>
-                  {t('title')} {locale === 'es' ? 'en Bogotá' : 'in Bogota'}
+                  {t('title')} {locale === 'es' ? 'en Bogotá' : 'in Colombia'}
                 </h1>
                 <div className="w-16 sm:w-24 md:w-40 lg:w-48 xl:w-73 h-1 mb-4 sm:mb-6 md:mb-7 lg:mb-8" style={{ backgroundColor: '#1d3c5d' }}></div>
                 <h2 className="font-sansation text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl mb-4 sm:mb-6 md:mb-7 lg:mb-8 font-medium leading-tight max-w-4xl" style={{ color: '#1d3c5d' }}>
                   {t('subtitle')}
                 </h2>
+
+                {/* EEAT & FOMO Badge */}
+                <div className="inline-flex flex-wrap items-center gap-x-3 gap-y-1.5 px-4 py-2.5 rounded-2xl bg-white/80 backdrop-blur-md border border-gray-200/80 shadow-sm max-w-xl mb-6 md:mb-8">
+                  <span className="inline-flex items-center gap-1.5 text-xs font-bold text-[#1d3c5d]">
+                    <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                    {locale === 'es' ? '30+ Años de Experiencia | Miembro SCCP & ISAPS' : '30+ Years of Experience | SCCP & ISAPS Member'}
+                  </span>
+                  <span className="text-gray-300">|</span>
+                  <span className="text-xs font-semibold text-amber-700 animate-pulse">
+                    {locale === 'es' ? '⚠️ Cupos Quirúrgicos Limitados' : '⚠️ Limited Surgical Slots'}
+                  </span>
+                </div>
                 <div className="font-sansation space-y-3 sm:space-y-4 md:space-y-5 lg:space-y-6 text-xs sm:text-sm md:text-base lg:text-lg leading-relaxed max-w-4xl" style={{ color: '#1d3c5d' }}>
                   <p>{t('description_p1')}</p>
                   <p>{t('description_p2')}</p>

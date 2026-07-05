@@ -109,9 +109,21 @@ export default function ClientContent() {
                   {t('title_part1')}
                 </h1>
                 <h2 className="font-prototype font-normal text-3xl md:text-4xl lg:text-5xl mb-4 md:mb-6" style={{ color: '#1d3c5d' }}>
-                  {t('title_part2')} {locale === 'es' ? 'en Bogotá' : 'in Bogota'}
+                  {t('title_part2')} {locale === 'es' ? 'en Bogotá' : 'in Colombia'}
                 </h2>
                 <div className="w-48 md:w-60 h-1 mb-6 md:mb-8" style={{ backgroundColor: '#1d3c5d' }}></div>
+
+                {/* EEAT & FOMO Badge */}
+                <div className="inline-flex flex-wrap items-center gap-x-3 gap-y-1.5 px-4 py-2.5 rounded-2xl bg-white/80 backdrop-blur-md border border-gray-200/80 shadow-sm max-w-xl mb-6 md:mb-8">
+                  <span className="inline-flex items-center gap-1.5 text-xs font-bold text-[#1d3c5d]">
+                    <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                    {locale === 'es' ? '30+ Años de Experiencia | Miembro SCCP & ISAPS' : '30+ Years of Experience | SCCP & ISAPS Member'}
+                  </span>
+                  <span className="text-gray-300">|</span>
+                  <span className="text-xs font-semibold text-amber-700 animate-pulse">
+                    {locale === 'es' ? '⚠️ Cupos Quirúrgicos Limitados' : '⚠️ Limited Surgical Slots'}
+                  </span>
+                </div>
               </div>
             </div>
           </div>
