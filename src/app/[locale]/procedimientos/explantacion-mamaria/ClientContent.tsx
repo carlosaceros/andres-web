@@ -6,7 +6,8 @@ import { useTranslations } from 'next-intl';
 import { useParams } from 'next/navigation';
 
 export default function ClientContent() {
-  const { locale } = useParams();
+  const { locale } = useParams() as { locale: 'es' | 'en' };
+  const activeLocale = locale === 'en' ? 'en' : 'es';
   const t = useTranslations('explantacion_mamaria');
   const t_testimonials = useTranslations('results_gallery');
   const [openFaq, setOpenFaq] = useState<number | null>(null);
@@ -17,9 +18,70 @@ export default function ClientContent() {
 
   const faqKeys = ['q1', 'q2', 'q3', 'q4', 'q5', 'q6'];
 
+  const LOCAL_EXPLANATION = {
+    es: {
+      problem_title: "¿Por qué cada vez más mujeres deciden retirar sus implantes?",
+      problem_text: "La decisión de retirar los implantes mamarios va más allá de un cambio estético. Muchas mujeres experimentan un conjunto de síntomas inflamatorios y autoinmunes agrupados bajo el término de Enfermedad de Implantes Mamarios (BII, por sus siglas en inglés) o el Síndrome de ASIA. El dolor muscular constante, la fatiga crónica inexplicable, la niebla mental y la caída del cabello son señales de alerta de que el organismo podría estar reaccionando negativamente a un cuerpo extraño.",
+      eeat_title: "Cirugía de Autor con Respaldo de Especialista",
+      eeat_text: "El Dr. Andrés Pérez Nieto es cirujano plástico reconstructivo con 30 años de trayectoria. Miembro de número de la Sociedad Colombiana de Cirugía Plástica (SCCP) y de la ISAPS, ha perfeccionado la técnica En Bloc para garantizar la extracción total de la cápsula inflamatoria, disminuyendo riesgos y favoreciendo la depuración biológica del cuerpo. Todas las cirugías se llevan a cabo en quirófanos certificados de alta complejidad en el Santa Ana Medical Center de Bogotá.",
+      videos_title: "Videos Explicativos del Dr. Andrés Pérez Nieto",
+      videos_subtitle: "Aprende de la mano del doctor sobre la seguridad, protocolos de anestesia y lo que debes verificar antes de operarte.",
+      faq_extra_title: "Preguntas Clave sobre Duración y Recuperación",
+    },
+    en: {
+      problem_title: "Why are more women choosing to remove their breast implants?",
+      problem_text: "The decision to remove breast implants goes far beyond an aesthetic choice. Many women experience a cluster of inflammatory and autoimmune symptoms grouped under Breast Implant Illness (BII) or ASIA Syndrome. Constant muscle pain, unexplained chronic fatigue, brain fog, and hair loss are warning signs that the body might be reacting negatively to a foreign object.",
+      eeat_title: "Signature Surgery backed by Board Certification",
+      eeat_text: "Dr. Andres Perez Nieto is a reconstructive plastic surgeon with 30 years of experience. As a certified member of the Colombian Society of Plastic Surgery (SCCP) and ISAPS, he has perfected the En Bloc technique to guarantee the total removal of the inflammatory capsule, reducing risks and supporting the body's natural detoxification. All surgeries are performed in certified high-complexity operating rooms at the Santa Ana Medical Center in Bogota.",
+      videos_title: "Educational Videos by Dr. Andres Perez Nieto",
+      videos_subtitle: "Learn directly from the doctor about safety protocols, anesthesia choices, and what you must verify before surgery.",
+      faq_extra_title: "Key Questions on Duration and Recovery",
+    }
+  };
+
+  const localFaqs = {
+    es: [
+      {
+        question: "¿Qué es la Enfermedad de Implantes Mamarios (BII) y cuáles son sus síntomas?",
+        answer: "La Enfermedad de Implantes Mamarios (BII) es un término utilizado por pacientes y médicos para describir una amplia gama de síntomas sistémicos que se desarrollan tras la colocación de implantes mamarios. Los síntomas más comunes incluyen fatiga crónica, dolores articulares y musculares, niebla mental, problemas respiratorios, trastornos del sueño, sequedad ocular y bucal, erupciones cutáneas, problemas digestivos y caída del cabello. Muchas pacientes reportan una mejoría significativa de estos síntomas tras una explantación completa En Bloc."
+      },
+      {
+        question: "¿Qué significa retirar los implantes con la técnica 'En Bloc'?",
+        answer: "La técnica 'En Bloc' (en bloque) consiste en retirar el implante mamario y la cápsula de tejido cicatricial que lo rodea en una sola pieza intacta, como si fuera una bolsa cerrada. Esto es crucial si el implante está roto o si se sospecha de Enfermedad de Implantes Mamarios (BII), ya que evita que cualquier residuo de silicona, gel cohesivo, bacterias o restos inflamatorios entren en contacto directo con los tejidos sanos del tórax durante la cirugía."
+      },
+      {
+        question: "¿Cómo quedan los senos después de retirar los implantes?",
+        answer: "El aspecto final depende del tamaño de los implantes retirados, la elasticidad de la piel y el volumen de tejido mamario natural. En implantes pequeños o medianos, el tejido suele recuperar volumen y adaptarse gradualmente en los primeros meses. Para casos con flacidez notable o implantes muy grandes, se recomienda realizar simultáneamente una mastopexia (levantamiento de senos) para eliminar el exceso de piel, reposicionar la areola y el pezón, y esculpir una silueta más joven y natural."
+      }
+    ],
+    en: [
+      {
+        question: "What is Breast Implant Illness (BII) and what are its symptoms?",
+        answer: "Breast Implant Illness (BII) is a term used by patients and doctors to describe a broad spectrum of systemic symptoms that develop after receiving breast implants. The most common symptoms include chronic fatigue, joint and muscle pain, brain fog, breathing difficulties, sleep disturbances, dry eyes/mouth, skin rashes, digestive issues, and hair loss. Many patients report a significant improvement in these symptoms after a complete En Bloc explantation."
+      },
+      {
+        question: "What does it mean to remove implants using the 'En Bloc' technique?",
+        answer: "The 'En Bloc' technique consists of removing both the breast implant and the surrounding scar tissue capsule in one single, intact piece, like a sealed bag. This is critical if the implant is ruptured or if Breast Implant Illness (BII) is suspected, as it prevents any silicone residue, cohesive gel, bacteria, or inflammatory debris from contacting healthy chest tissues during the surgery."
+      },
+      {
+        question: "How will my breasts look after removing the implants?",
+        answer: "The final appearance depends on the size of the removed implants, skin elasticity, and your natural breast tissue volume. For small or medium implants, tissues often recover volume and adapt gradually within the first few months. In cases with noticeable sagging or very large implants, performing a simultaneous mastopexia (breast lift) is highly recommended to remove excess skin, reposition the areola and nipple, and sculpt a younger, natural contour."
+      }
+    ]
+  };
+
+  const copy = LOCAL_EXPLANATION[activeLocale];
+  const mergedFaqs = [
+    ...faqKeys.map((key) => ({
+      question: t(`faqs.${key}.question`),
+      answer: t.raw(`faqs.${key}.answer`)
+    })),
+    ...localFaqs[activeLocale]
+  ];
+
   return (
     <div>
-      {/* Hero Section - Banner funcional */}
+      {/* Hero Section */}
       <section className="relative min-h-[500px] flex items-center">
         <Image
           src="/images/Explantacionbanner.webp"
@@ -29,13 +91,12 @@ export default function ClientContent() {
           className="object-cover"
           quality={90}
         />
-
+        <div className="absolute inset-0 bg-black/10"></div>
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl">
             <h1 className="font-prototype font-normal text-4xl lg:text-5xl mb-6" style={{ color: '#1d3c5d' }}>
               {t('title')}
             </h1>
-
             <h2 className="font-sansation font-bold text-xl lg:text-2xl" style={{ color: '#1d3c5d' }}>
               {t('subtitle')}
             </h2>
@@ -45,10 +106,24 @@ export default function ClientContent() {
 
       {/* Introducción */}
       <section className="py-16 bg-white">
-        <div className="container mx-auto px-12">
-          <div className="max-w-5xl mx-auto space-y-6 font-sansation font-normal text-xl leading-relaxed" style={{ color: '#1d3c5d' }}>
+        <div className="container mx-auto px-6 md:px-12">
+          <div className="max-w-5xl mx-auto space-y-6 font-sansation font-normal text-xl leading-relaxed text-[#1d3c5d]">
             <p>{t('intro_p1')}</p>
             <p>{t('intro_p2')}</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Eugene Schwartz - Problem Aware Section */}
+      <section className="py-16 bg-gray-50 border-t border-b border-gray-100">
+        <div className="container mx-auto px-6 md:px-12">
+          <div className="max-w-4xl mx-auto text-center md:text-left">
+            <h2 className="font-prototype text-2xl md:text-3xl lg:text-4xl mb-6" style={{ color: '#1d3c5d' }}>
+              {copy.problem_title}
+            </h2>
+            <p className="font-sansation text-lg leading-relaxed text-[#1d3c5d] opacity-90">
+              {copy.problem_text}
+            </p>
           </div>
         </div>
       </section>
@@ -67,50 +142,16 @@ export default function ClientContent() {
 
           <div className="bg-white p-8 rounded-lg max-w-4xl mx-auto" style={{ color: '#1d3c5d' }}>
             <div className="space-y-4">
-              <div className="flex items-start gap-4">
-                <svg className="w-6 h-6 flex-shrink-0 mt-1" style={{ color: '#1d3c5d' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
-                </svg>
-                <p className="font-sansation font-normal text-lg leading-relaxed">
-                  {t('reason_1')}
-                </p>
-              </div>
-
-              <div className="flex items-start gap-4">
-                <svg className="w-6 h-6 flex-shrink-0 mt-1" style={{ color: '#1d3c5d' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
-                </svg>
-                <p className="font-sansation font-normal text-lg leading-relaxed">
-                  {t('reason_2')}
-                </p>
-              </div>
-
-              <div className="flex items-start gap-4">
-                <svg className="w-6 h-6 flex-shrink-0 mt-1" style={{ color: '#1d3c5d' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
-                </svg>
-                <p className="font-sansation font-normal text-lg leading-relaxed">
-                  {t('reason_3')}
-                </p>
-              </div>
-
-              <div className="flex items-start gap-4">
-                <svg className="w-6 h-6 flex-shrink-0 mt-1" style={{ color: '#1d3c5d' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
-                </svg>
-                <p className="font-sansation font-normal text-lg leading-relaxed">
-                  {t('reason_4')}
-                </p>
-              </div>
-
-              <div className="flex items-start gap-4">
-                <svg className="w-6 h-6 flex-shrink-0 mt-1" style={{ color: '#1d3c5d' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
-                </svg>
-                <p className="font-sansation font-normal text-lg leading-relaxed">
-                  {t('reason_5')}
-                </p>
-              </div>
+              {['reason_1', 'reason_2', 'reason_3', 'reason_4', 'reason_5'].map((key, i) => (
+                <div key={i} className="flex items-start gap-4">
+                  <svg className="w-6 h-6 flex-shrink-0 mt-1" style={{ color: '#1d3c5d' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                  </svg>
+                  <p className="font-sansation font-normal text-lg leading-relaxed">
+                    {t(key)}
+                  </p>
+                </div>
+              ))}
             </div>
           </div>
         </div>
@@ -181,6 +222,83 @@ export default function ClientContent() {
           </div>
         </div>
       </section>
+
+      {/* Eugene Schwartz - E-E-A-T Acreditation Section */}
+      <section className="py-16 bg-white border-b border-gray-100">
+        <div className="container mx-auto px-6 md:px-12">
+          <div className="max-w-4xl mx-auto grid md:grid-cols-[180px_1fr] gap-8 items-center text-center md:text-left">
+            <div className="relative w-36 h-36 rounded-full overflow-hidden mx-auto border-4 border-gray-100 shadow-lg">
+              <Image
+                src="/images/dr-perez.webp"
+                alt="Dr. Andrés Pérez Nieto"
+                fill
+                className="object-cover object-top"
+                unoptimized
+              />
+            </div>
+            <div>
+              <h2 className="font-prototype text-2xl md:text-3xl mb-4" style={{ color: '#1d3c5d' }}>
+                {copy.eeat_title}
+              </h2>
+              <p className="font-sansation text-base leading-relaxed text-[#1d3c5d] opacity-90">
+                {copy.eeat_text}
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Instagram Video Reels Section */}
+      <section className="py-16 bg-gray-50 border-b border-gray-100">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="font-prototype font-normal text-3xl lg:text-4xl mb-3" style={{ color: '#1d3c5d' }}>
+              {copy.videos_title}
+            </h2>
+            <p className="font-sansation text-sm text-gray-500 max-w-xl mx-auto">
+              {copy.videos_subtitle}
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
+            <div className="bg-white rounded-3xl p-6 border border-gray-100 shadow-md flex flex-col justify-between max-w-[320px] mx-auto w-full">
+              <div className="aspect-[9/16] rounded-2xl overflow-hidden bg-black relative shadow-inner">
+                <iframe
+                  src="https://www.instagram.com/reel/DYtA-jQsXKe/embed/"
+                  className="w-full h-full"
+                  frameBorder="0"
+                  scrolling="no"
+                  allow="encrypted-media"
+                />
+              </div>
+              <div className="mt-4 text-center">
+                <h4 className="font-sansation font-bold text-[#1d3c5d]">
+                  {activeLocale === 'es' ? '¿Cómo verificar a tu cirujano?' : 'How to verify your surgeon?'}
+                </h4>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-3xl p-6 border border-gray-100 shadow-md flex flex-col justify-between max-w-[320px] mx-auto w-full">
+              <div className="aspect-[9/16] rounded-2xl overflow-hidden bg-black relative shadow-inner">
+                <iframe
+                  src="https://www.instagram.com/reel/DUYHTyLETVF/embed/"
+                  className="w-full h-full"
+                  frameBorder="0"
+                  scrolling="no"
+                  allow="encrypted-media"
+                />
+              </div>
+              <div className="mt-4 text-center">
+                <h4 className="font-sansation font-bold text-[#1d3c5d]">
+                  {activeLocale === 'es' ? 'Protocolo de Anestesia Seguro' : 'Safe Anesthesia Protocol'}
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Resultados Gallery */}
       <section className="py-12 sm:py-16 lg:py-20 bg-white">
         <div className="container mx-auto px-4 sm:px-6">
           <div className="max-w-6xl mx-auto">
@@ -223,7 +341,6 @@ export default function ClientContent() {
               ))}
             </div>
 
-            {/* Botón Ver más */}
             <div className="text-center mt-8">
               <Link
                 href={`/${locale}/galeria/procedimientos-corporales/explantacion-mamaria`}
@@ -261,14 +378,14 @@ export default function ClientContent() {
           </div>
 
           <div className="max-w-4xl mx-auto space-y-4">
-            {faqKeys.map((key, index) => (
+            {mergedFaqs.map((faq, index) => (
               <div key={index} className="bg-white rounded-lg shadow-sm overflow-hidden">
                 <div
                   className="flex justify-between items-center cursor-pointer p-6 hover:bg-gray-50 transition-colors"
                   onClick={() => toggleFaq(index)}
                 >
                   <h3 className="font-sansation font-bold text-lg text-left flex-1 pr-4" style={{ color: '#1d3c5d' }}>
-                    {t(`faqs.${key}.question`)}
+                    {faq.question}
                   </h3>
                   <svg
                     className={`w-6 h-6 transition-transform flex-shrink-0 ${openFaq === index ? 'rotate-180' : ''}`}
@@ -281,17 +398,15 @@ export default function ClientContent() {
                   </svg>
                 </div>
                 {openFaq === index && (
-                  <div className="px-6 pb-6">
-                    <div className="font-sansation font-normal leading-relaxed text-left" style={{ color: '#1d3c5d' }} dangerouslySetInnerHTML={{ __html: t.raw(`faqs.${key}.answer`) }} />
+                  <div className="px-6 pb-6 border-t border-gray-50 pt-4">
+                    <div className="font-sansation font-normal leading-relaxed text-left text-gray-700 text-base" dangerouslySetInnerHTML={{ __html: faq.answer }} />
                   </div>
                 )}
               </div>
             ))}
           </div>
-
-
         </div>
-      </section >
-    </div >
+      </section>
+    </div>
   );
 }

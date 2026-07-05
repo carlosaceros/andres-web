@@ -6,12 +6,72 @@ import { useTranslations } from 'next-intl';
 import { useParams } from 'next/navigation';
 
 export default function ClientContent() {
-  const { locale } = useParams();
+  const { locale } = useParams() as { locale: 'es' | 'en' };
+  const activeLocale = locale === 'en' ? 'en' : 'es';
   const t = useTranslations('elevacion_cola_cejas');
   const t_testimonials = useTranslations('results_gallery');
-  const [openQuestion, setOpenQuestion] = useState(null);
+  const [openQuestion, setOpenQuestion] = useState<number | null>(null);
 
   const faqKeys = ['q1', 'q2', 'q3', 'q4'];
+
+  const LOCAL_EXPLANATION = {
+    es: {
+      problem_title: "¿Es el párpado o es la ceja? El origen de la mirada cansada",
+      problem_text: "Muchas personas consultan buscando una blefaroplastia porque sienten peso en sus párpados superiores, sin darse cuenta de que la verdadera causa es el descenso (ptosis) de las cejas. Cuando la cola de la ceja cae por debajo del borde óseo orbital, empuja la piel del párpado hacia abajo, creando una mirada triste, cansada o envejecida que no se corrige únicamente operando los párpados.",
+      eeat_title: "Cirugía de Autor con Respaldo de Especialista",
+      eeat_text: "La elevación de cola de cejas requiere un conocimiento profundo de la anatomía facial para evitar la expresión de 'sorpresa constante'. El Dr. Andrés Pérez Nieto tiene 30 años de experiencia internacional. Formado en The University of Illinois y Manhattan Eye and Ear Hospital, diseña cada elevación de cejas de forma artística para reabrir la mirada de manera natural y segura en el Santa Ana Medical Center.",
+      videos_title: "Casos Reales y Explicaciones del Dr. Andrés Pérez",
+      videos_subtitle: "Mira cómo la elevación de cejas combinada con blefaroplastia rejuvenece la mirada por completo.",
+    },
+    en: {
+      problem_title: "Is it the eyelid or the eyebrow? The source of a tired gaze",
+      problem_text: "Many patients consult for a blepharoplasty because they feel heaviness in their upper eyelids, unaware that the actual cause is the drooping (ptosis) of their eyebrows. When the tail of the eyebrow falls below the orbital bone edge, it pushes the eyelid skin downward, creating a sad, tired, or aged look that cannot be corrected by eyelid surgery alone.",
+      eeat_title: "Signature Surgery backed by Board Certification",
+      eeat_text: "Elevating the eyebrow tail requires a deep understanding of facial anatomy to avoid a constant 'surprised' expression. Dr. Andres Perez Nieto has 30 years of international experience. Trained at The University of Illinois and Manhattan Eye and Ear Hospital, he artistically designs each brow lift to open up the eyes naturally and safely at the Santa Ana Medical Center.",
+      videos_title: "Real Cases and Explanations by Dr. Andres Perez",
+      videos_subtitle: "See how combining a brow lift with blepharoplasty completely rejuvenates the eyes.",
+    }
+  };
+
+  const localFaqs = {
+    es: [
+      {
+        question: "¿Cuánto dura el resultado de la elevación de cola de cejas?",
+        answer: "La duración de los resultados varía según la técnica. En la elevación temporal de cejas (quirúrgica, con incisiones ocultas en el cabello), los resultados suelen durar entre 8 y 12 años, retrasando significativamente el envejecimiento de la mirada. En técnicas directas o de fijación, los resultados son sumamente estables a largo plazo."
+      },
+      {
+        question: "¿Cómo es el proceso de recuperación y los cuidados postoperatorios?",
+        answer: "La recuperación es muy tolerable. Es normal presentar algo de inflamación o tensión leve en la zona de las sienes y la frente durante los primeros 7 a 10 días. Se recomienda aplicar compresas frías, dormir con la cabeza elevada y evitar expresiones faciales exageradas o masajes en la frente. Los puntos se retiran a los 7-10 días."
+      },
+      {
+        question: "¿Quedan cicatrices visibles tras una elevación de cejas?",
+        answer: "No. En la técnica de elevación temporal, las incisiones se realizan dentro del cuero cabelludo (detrás de la línea del cabello), por lo que las cicatrices quedan completamente ocultas bajo el pelo. En la elevación directa, la incisión se realiza justo en el borde superior de los pelos de la ceja, camuflándose de forma invisible a medida que cicatriza."
+      }
+    ],
+    en: [
+      {
+        question: "How long does a brow tail lift result last?",
+        answer: "The duration of results depends on the technique used. For a surgical temporal brow lift (with incisions hidden inside the hairline), the results typically last 8 to 12 years, significantly setting back the aging clock. Direct brow lifts are highly stable and permanent, though natural aging continues."
+      },
+      {
+        question: "What is the recovery process and post-op care like?",
+        answer: "Recovery is very manageable. It is normal to feel some mild swelling or tension around the temples and forehead for the first 7 to 10 days. Applying cold compresses, sleeping with your head elevated, and avoiding exaggerated facial expressions or forehead massages is advised. Sutures are removed after 7-10 days."
+      },
+      {
+        question: "Will there be visible scars after a brow lift?",
+        answer: "No. In the temporal brow lift technique, incisions are made inside the scalp (behind the hairline), leaving scars completely hidden under your hair. In a direct lift, the incision is placed right along the top border of the eyebrow hairs, camouflaging invisibly as it heals."
+      }
+    ]
+  };
+
+  const copy = LOCAL_EXPLANATION[activeLocale];
+  const mergedFaqs = [
+    ...faqKeys.map((key) => ({
+      question: t(`faqs.${key}.question`),
+      answer: t(`faqs.${key}.answer`)
+    })),
+    ...localFaqs[activeLocale]
+  ];
 
   return (
     <div>
@@ -83,6 +143,45 @@ export default function ClientContent() {
                   </video>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Eugene Schwartz - Problem Aware Section */}
+      <section className="py-16 bg-gray-50 border-t border-b border-gray-100">
+        <div className="container mx-auto px-6 md:px-12 text-[#1d3c5d]">
+          <div className="max-w-4xl mx-auto text-center md:text-left">
+            <h2 className="font-prototype text-2xl md:text-3xl lg:text-4xl mb-6">
+              {copy.problem_title}
+            </h2>
+            <p className="font-sansation text-lg leading-relaxed opacity-90">
+              {copy.problem_text}
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Eugene Schwartz - E-E-A-T Acreditation Section */}
+      <section className="py-16 bg-white border-b border-gray-100">
+        <div className="container mx-auto px-6 md:px-12 text-[#1d3c5d]">
+          <div className="max-w-4xl mx-auto grid md:grid-cols-[180px_1fr] gap-8 items-center text-center md:text-left">
+            <div className="relative w-36 h-36 rounded-full overflow-hidden mx-auto border-4 border-gray-100 shadow-lg">
+              <Image
+                src="/images/dr-perez.webp"
+                alt="Dr. Andrés Pérez Nieto"
+                fill
+                className="object-cover object-top"
+                unoptimized
+              />
+            </div>
+            <div>
+              <h2 className="font-prototype text-2xl md:text-3xl mb-4">
+                {copy.eeat_title}
+              </h2>
+              <p className="font-sansation text-base leading-relaxed opacity-90">
+                {copy.eeat_text}
+              </p>
             </div>
           </div>
         </div>
@@ -335,6 +434,56 @@ export default function ClientContent() {
         </div>
       </section >
 
+      {/* Instagram Video Reels Section */}
+      <section className="py-16 bg-gray-50 border-t border-b border-gray-100">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="font-prototype font-normal text-3xl lg:text-4xl mb-3" style={{ color: '#1d3c5d' }}>
+              {copy.videos_title}
+            </h2>
+            <p className="font-sansation text-sm text-gray-500 max-w-xl mx-auto">
+              {copy.videos_subtitle}
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
+            <div className="bg-white rounded-3xl p-6 border border-gray-100 shadow-md flex flex-col justify-between max-w-[320px] mx-auto w-full">
+              <div className="aspect-[9/16] rounded-2xl overflow-hidden bg-black relative shadow-inner">
+                <iframe
+                  src="https://www.instagram.com/reel/DYQmqzmMQVC/embed/"
+                  className="w-full h-full"
+                  frameBorder="0"
+                  scrolling="no"
+                  allow="encrypted-media"
+                />
+              </div>
+              <div className="mt-4 text-center">
+                <h4 className="font-sansation font-bold text-[#1d3c5d]">
+                  {activeLocale === 'es' ? 'Elevación Directa de Cejas' : 'Direct Brow Lift'}
+                </h4>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-3xl p-6 border border-gray-100 shadow-md flex flex-col justify-between max-w-[320px] mx-auto w-full">
+              <div className="aspect-[9/16] rounded-2xl overflow-hidden bg-black relative shadow-inner">
+                <iframe
+                  src="https://www.instagram.com/reel/DXEnnl9iRR6/embed/"
+                  className="w-full h-full"
+                  frameBorder="0"
+                  scrolling="no"
+                  allow="encrypted-media"
+                />
+              </div>
+              <div className="mt-4 text-center">
+                <h4 className="font-sansation font-bold text-[#1d3c5d]">
+                  {activeLocale === 'es' ? 'Blefaroplastia & Mirada' : 'Blepharoplasty & Gaze'}
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ */}
       < section className="py-12 sm:py-16 lg:py-20" style={{ backgroundColor: '#babdb3' }}>
         <div className="container mx-auto px-4 sm:px-6">
@@ -344,14 +493,14 @@ export default function ClientContent() {
             </h2>
             <div className="w-20 sm:w-32 md:w-48 lg:w-114 h-1 mb-8 sm:mb-12" style={{ backgroundColor: '#1d3c5d' }}></div>
             <div className="space-y-3 sm:space-y-4">
-              {faqKeys.map((key, index) => (
+              {mergedFaqs.map((faq, index) => (
                 <div key={index} className="bg-white rounded-lg shadow-md">
                   <button
                     className="w-full px-4 sm:px-6 py-3 sm:py-4 text-left flex justify-between items-center focus:outline-none hover:bg-gray-50 transition-colors"
                     onClick={() => setOpenQuestion(openQuestion === index ? null : index)}
                   >
                     <span className="font-sansation text-base sm:text-lg font-semibold pr-4" style={{ color: '#1d3c5d' }}>
-                      {t(`faqs.${key}.question`)}
+                      {faq.question}
                     </span>
                     <svg
                       className={`w-4 h-4 sm:w-5 sm:h-5 transform transition-transform ${openQuestion === index ? 'rotate-180' : ''}`}
@@ -365,8 +514,8 @@ export default function ClientContent() {
                   </button>
                   {openQuestion === index && (
                     <div className="px-4 sm:px-6 pb-3 sm:pb-4 border-t border-gray-100">
-                      <p className="font-sansation leading-relaxed pt-3 sm:pt-4 text-sm sm:text-base" style={{ color: '#1d3c5d' }}>
-                        {t(`faqs.${key}.answer`)}
+                      <p className="font-sansation leading-relaxed pt-3 sm:pt-4 text-sm sm:text-base text-gray-700" style={{ color: '#1d3c5d' }}>
+                        {faq.answer}
                       </p>
                     </div>
                   )}

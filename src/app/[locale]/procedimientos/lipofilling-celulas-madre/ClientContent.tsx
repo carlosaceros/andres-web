@@ -7,7 +7,8 @@ import { useTranslations } from 'next-intl';
 import { useParams } from 'next/navigation';
 
 export default function ClientContent() {
-  const { locale } = useParams();
+  const { locale } = useParams() as { locale: 'es' | 'en' };
+  const activeLocale = locale === 'en' ? 'en' : 'es';
   const t = useTranslations('lipofilling_celulas_madre');
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
@@ -17,6 +18,65 @@ export default function ClientContent() {
 
   const faqKeys = ['q1', 'q2', 'q3', 'q4', 'q5', 'q6'];
   const comparisonKeys = ['item_1', 'item_2', 'item_3', 'item_4', 'item_5', 'item_6', 'item_7', 'item_8', 'item_9'];
+
+  const LOCAL_EXPLANATION = {
+    es: {
+      problem_title: "¿Por qué el rostro pierde volumen, definición y luminosidad con el tiempo?",
+      problem_text: "A partir de los 30 años, el rostro comienza a perder de forma natural sus compartimentos grasos estructurales. Esto provoca que los pómulos se aplanen, las mejillas se hundan y aparezca un surco profundo bajo la ojera. Además, la renovación celular de la piel se ralentiza, haciéndola lucir opaca y deshidratada. Los rellenos sintéticos tradicionales a menudo se limitan a inflar el rostro de agua temporalmente, sin regenerar verdaderamente el tejido celular.",
+      eeat_title: "Biocirugía Regenerativa Avanzada en Bogotá",
+      eeat_text: "El Dr. Andrés Pérez Nieto es pionero en la aplicación de células madre derivadas de tejido graso (ADSCs) con técnicas de ultra-purificación en Colombia. Con 30 años de experiencia internacional y miembro activo de la SCCP y la ISAPS, el Dr. Pérez Nieto realiza transferencias celulares personalizadas en instalaciones médicas de primer nivel (Santa Ana Medical Center), garantizando la máxima viabilidad de las células y un resultado duradero que rejuvenece desde adentro.",
+      videos_title: "Instagram Reels y Casos Clínicos",
+      videos_subtitle: "Mira cómo aplicamos las células madre purificadas en quirófano y conoce la diferencia entre las técnicas explicadas por el Dr. Pérez Nieto.",
+    },
+    en: {
+      problem_title: "Why does the face lose volume, definition, and glow over time?",
+      problem_text: "Starting in our 30s, the face naturally begins to lose its structural fat compartments. This causes cheekbones to flatten, cheeks to hollow out, and deep grooves to appear beneath the dark circles. Additionally, skin cell turnover slows down, making it look dull and dehydrated. Traditional synthetic fillers often only inflate the face with water temporarily, without truly regenerating cell tissue.",
+      eeat_title: "Advanced Regenerative Bio-Surgery in Bogota",
+      eeat_text: "Dr. Andres Perez Nieto is a pioneer in the application of adipose-derived stem cells (ADSCs) with ultra-purification techniques in Colombia. With 30 years of international experience and active membership in SCCP and ISAPS, Dr. Perez Nieto performs custom cellular transfers in first-class medical facilities (Santa Ana Medical Center), guaranteeing maximum cell viability and a long-lasting rejuvenation from within.",
+      videos_title: "Instagram Reels and Clinical Cases",
+      videos_subtitle: "Watch how we apply purified stem cells in the operating room and understand the technical differences explained by Dr. Perez Nieto.",
+    }
+  };
+
+  const localFaqs = {
+    es: [
+      {
+        question: "¿Cuánto tiempo duran los resultados del lipofilling con células madre?",
+        answer: "Los resultados del lipofilling facial son permanentes. Durante las primeras semanas posteriores al procedimiento, el cuerpo reabsorbe aproximadamente entre un 20% y un 30% de la grasa transferida. Sin embargo, las células grasas y células madre que se integran con éxito y reciben flujo sanguíneo sobreviven para siempre, convirtiéndose en tejido vivo y permanente que responderá de manera natural al envejecimiento y cambios de peso."
+      },
+      {
+        question: "¿Cuál es la diferencia real entre MicroFat y NanoFat?",
+        answer: "MicroFat consiste en micro-injertos de grasa que conservan su estructura celular, utilizados principalmente para restaurar volúmenes perdidos en pómulos, mejillas, sienes o mandíbula. Por otro lado, NanoFat es una emulsión líquida ultra-filtrada que no contiene adipocitos grandes (no genera volumen), sino que concentra una alta cantidad de células madre y factores de crecimiento, ideal para regenerar la calidad de la piel, eliminar ojeras oscuras y atenuar líneas finas."
+      },
+      {
+        question: "¿Cómo es el postoperatorio de una transferencia de grasa facial?",
+        answer: "El postoperatorio es muy noble. Se experimenta una leve inflamación tanto en el rostro como en las zonas donantes (generalmente abdomen o muslos) durante los primeros 5 a 7 días. Se recomienda evitar masajes fuertes en el rostro para no desplazar las células grasas transferidas, no dormir boca abajo y utilizar protección solar estricta. Podrás retomar tus actividades cotidianas no deportivas en una semana."
+      }
+    ],
+    en: [
+      {
+        question: "How long do the results of stem cell lipofilling last?",
+        answer: "Facial lipofilling results are permanent. During the first few weeks following the procedure, the body reabsorbs approximately 20% to 30% of the transferred fat. However, the fat cells and stem cells that successfully integrate and establish blood flow survive forever, becoming permanent living tissue that ages naturally with your face."
+      },
+      {
+        question: "What is the real difference between MicroFat and NanoFat?",
+        answer: "MicroFat consists of fat micro-grafts that preserve their cellular structure, used mainly to restore lost volumes in cheekbones, cheeks, temples, or jawlines. On the other hand, NanoFat is an ultra-filtered liquid emulsion that does not contain large fat cells (meaning it does not add volume), but rather concentrates stem cells and growth factors, perfect for skin regeneration, smoothing dark circles, and fading fine lines."
+      },
+      {
+        question: "What is the recovery process like after facial fat transfer?",
+        answer: "Post-operative recovery is highly manageable. Mild swelling is expected in both the face and donor areas (typically abdomen or thighs) for the first 5 to 7 days. You should avoid rubbing or massaging your face to keep the transferred cells in place, avoid sleeping face down, and use strict solar protection. Most patients resume non-sporting daily activities within a week."
+      }
+    ]
+  };
+
+  const copy = LOCAL_EXPLANATION[activeLocale];
+  const mergedFaqs = [
+    ...faqKeys.map((key) => ({
+      question: t(`faqs.${key}.question`),
+      answer: t(`faqs.${key}.answer`)
+    })),
+    ...localFaqs[activeLocale]
+  ];
 
   return (
     <div className="min-h-screen">
@@ -112,6 +172,45 @@ export default function ClientContent() {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Eugene Schwartz - Problem Aware Section */}
+      <section className="py-16 bg-gray-50 border-t border-b border-gray-100">
+        <div className="container mx-auto px-6 md:px-12 text-[#1d3c5d]">
+          <div className="max-w-4xl mx-auto text-center md:text-left">
+            <h2 className="font-prototype text-2xl md:text-3xl lg:text-4xl mb-6">
+              {copy.problem_title}
+            </h2>
+            <p className="font-sansation text-lg leading-relaxed opacity-90">
+              {copy.problem_text}
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Eugene Schwartz - E-E-A-T Acreditation Section */}
+      <section className="py-16 bg-white border-b border-gray-100">
+        <div className="container mx-auto px-6 md:px-12 text-[#1d3c5d]">
+          <div className="max-w-4xl mx-auto grid md:grid-cols-[180px_1fr] gap-8 items-center text-center md:text-left">
+            <div className="relative w-36 h-36 rounded-full overflow-hidden mx-auto border-4 border-gray-100 shadow-lg">
+              <Image
+                src="/images/dr-perez.webp"
+                alt="Dr. Andrés Pérez Nieto"
+                fill
+                className="object-cover object-top"
+                unoptimized
+              />
+            </div>
+            <div>
+              <h2 className="font-prototype text-2xl md:text-3xl mb-4">
+                {copy.eeat_title}
+              </h2>
+              <p className="font-sansation text-base leading-relaxed opacity-90">
+                {copy.eeat_text}
+              </p>
             </div>
           </div>
         </div>
@@ -551,6 +650,56 @@ export default function ClientContent() {
         </div>
       </section>
 
+      {/* Instagram Video Reels Section */}
+      <section className="py-16 bg-gray-50 border-t border-b border-gray-100">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="font-prototype font-normal text-3xl lg:text-4xl mb-3" style={{ color: '#1d3c5d' }}>
+              {copy.videos_title}
+            </h2>
+            <p className="font-sansation text-sm text-gray-500 max-w-xl mx-auto">
+              {copy.videos_subtitle}
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
+            <div className="bg-white rounded-3xl p-6 border border-gray-100 shadow-md flex flex-col justify-between max-w-[320px] mx-auto w-full">
+              <div className="aspect-[9/16] rounded-2xl overflow-hidden bg-black relative shadow-inner">
+                <iframe
+                  src="https://www.instagram.com/reel/DY6E1bsphct/embed/"
+                  className="w-full h-full"
+                  frameBorder="0"
+                  scrolling="no"
+                  allow="encrypted-media"
+                />
+              </div>
+              <div className="mt-4 text-center">
+                <h4 className="font-sansation font-bold text-[#1d3c5d]">
+                  {activeLocale === 'es' ? 'Lipofilling vs. Lifting' : 'Lipofilling vs. Facelift'}
+                </h4>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-3xl p-6 border border-gray-100 shadow-md flex flex-col justify-between max-w-[320px] mx-auto w-full">
+              <div className="aspect-[9/16] rounded-2xl overflow-hidden bg-black relative shadow-inner">
+                <iframe
+                  src="https://www.instagram.com/reel/DYljFiupPUA/embed/"
+                  className="w-full h-full"
+                  frameBorder="0"
+                  scrolling="no"
+                  allow="encrypted-media"
+                />
+              </div>
+              <div className="mt-4 text-center">
+                <h4 className="font-sansation font-bold text-[#1d3c5d]">
+                  {activeLocale === 'es' ? 'Células Madre y Elasticidad' : 'Stem Cells & Elasticity'}
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section - Responsive */}
       <section className="py-8 md:py-12 lg:py-16" style={{ backgroundColor: '#babdb3' }}>
         <div className="container mx-auto px-4">
@@ -562,13 +711,13 @@ export default function ClientContent() {
           </div>
 
           <div className="max-w-4xl mx-auto space-y-3 md:space-y-4">
-            {faqKeys.map((key, index) => (
+            {mergedFaqs.map((faq, index) => (
               <div key={index} className="rounded-lg shadow-sm overflow-hidden" style={{ backgroundColor: '#ffffff' }}>
                 <div
                   className="flex justify-between items-center cursor-pointer p-4 md:p-6 hover:bg-gray-50 transition-colors"
                   onClick={() => toggleFaq(index)}
                 >
-                  <h3 className="font-sansation font-bold text-sm md:text-lg pr-4" style={{ color: '#1d3c5d' }}>{t(`faqs.${key}.question`)}</h3>
+                  <h3 className="font-sansation font-bold text-sm md:text-lg pr-4" style={{ color: '#1d3c5d' }}>{faq.question}</h3>
                   <svg
                     className={`w-5 h-5 md:w-6 md:h-6 transition-transform flex-shrink-0 ${openFaq === index ? 'rotate-180' : ''}`}
                     style={{ color: '#1d3c5d' }}
@@ -580,9 +729,9 @@ export default function ClientContent() {
                   </svg>
                 </div>
                 {openFaq === index && (
-                  <div className="px-4 md:px-6 pb-4 md:pb-6">
-                    <div className="font-sansation font-normal text-sm md:text-base leading-relaxed" style={{ color: '#1d3c5d' }}>
-                      {t(`faqs.${key}.answer`)}
+                  <div className="px-4 md:px-6 pb-4 md:pb-6 border-t border-gray-50 pt-4">
+                    <div className="font-sansation font-normal text-sm md:text-base leading-relaxed text-gray-700">
+                      {faq.answer}
                     </div>
                   </div>
                 )}

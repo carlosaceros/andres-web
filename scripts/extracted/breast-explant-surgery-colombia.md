@@ -1,0 +1,20 @@
+* HOME TECHNIQUES RESULTS FAQS VIRTUAL CONSULTATION Home Surgical Techniques Clinical Results FAQ & Travel #1 Medical Tourism Choice in Colombia Breast Explant Surgery Reclaim your health and natural beauty. World-class Breast Implant Illness (BII) treatment and En Bloc Capsulectomy by Colombia's top board-certified plastic surgeon. Get a Free Virtual Quote Explore Techniques A Life-Changing Decision Rediscover your natural body and vitality Thousands of women worldwide, especially in the US and Canada, are choosing breast explant surgery as a vital step towards reclaiming their physical and emotional well-being. Whether it's to overcome Breast Implant Illness (BII), prevent complications, or simply embrace a more natural lifestyle. Dr. Pérez Nieto offers a compassionate, expert evaluation, guiding international patients through a seamless medical tourism experience in Colombia, ensuring safe removal and beautiful, natural reconstruction. Why are women choosing explantation? There are several critical medical and lifestyle reasons driving this decision today. 🛡️ Breast Implant Illness (BII) Autoimmune symptoms such as chronic fatigue, joint pain, or "brain fog" directly linked to implants. ⚠️ Surgical Complications Development of severe capsular contracture, chronic pain, implant rupture, or displacement. 🏋️‍♀️ Lifestyle Changes Discomfort with breast weight, restrictions during exercise, or a constant feeling of heaviness. ✨ Aesthetic Desires A strong desire to return to a more natural size, perfectly proportioned to your current body shape. World-Class Explant Techniques Depending on your anatomy and the state of your implants, Dr. Pérez uses distinct surgical approaches to ensure optimal health and aesthetic results. 01 Simple Explantation Removal of the breast implant with or without the surrounding capsule. Ideal for patients with great skin retraction, no BII symptoms, and sufficient natural breast volume. Faster Recovery Time BII Gold Standard 02 En Bloc Capsulectomy The implant is removed meticulously along with the entire scar tissue capsule intact. Absolute necessity for patients suffering from BII, severe capsular contracture, or silicone ruptures. Maximum Detoxification 03 Explant + Mastopexy (Breast Lift). If removing the implant leaves significant skin laxity, the natural breast tissue is reshaped and lifted to achieve a firm, youthful, and naturally projecting contour. Complete Aesthetic Restoration Surgical Excellence & International Care ✓ All procedures are performed in internationally accredited clinics in Colombia, adhering to the highest global safety and sterilization protocols.
+* ✓ For BII patients, Dr. Pérez prioritizes an En Bloc Capsulectomy, ensuring the capsule is removed perfectly intact to prevent silicone or toxin spillage.
+* ✓ We provide an exclusive VIP Medical Tourism experience, including bilingual assistance, virtual pre-op planning, and continuous post-op care before you fly back to the US.
+
+## Our Clinical Results
+
+Hover (or tap) to reveal the transformative and natural results after explant surgery.
+Explant + Capsulectomy
+Immediate relief from inflammatory symptoms and heaviness.
+Explant with Mastopexy
+Tissue reconstruction for a youthful, lifted, and natural shape.
+* Results vary based on individual anatomy. Photos published with patient consent.
+
+## Frequently Asked Questions
+
+We resolve the most common concerns for our international patients.
+Art, science, and experience dedicated to your physical and emotional well-being. Colombia's premier choice for reconstructive breast surgery and medical tourism.
+"Reclaiming your health and natural harmony"
+* Welcoming patients from:United States, Canada & Europe.Main Clinic: Bucaramanga, Colombia (Also operating in Bogotá & Medellín)
+* Intl. WhatsApp: (+57) 316 495 3755
