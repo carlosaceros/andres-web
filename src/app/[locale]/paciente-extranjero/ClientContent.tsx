@@ -7,6 +7,8 @@ import { useTranslations } from 'next-intl'
 export default function ClientContent() {
   const t = useTranslations('international_patients')
   const [openFaq, setOpenFaq] = useState<number | null>(null)
+  const [playVideo1, setPlayVideo1] = useState(false)
+  const [playVideo2, setPlayVideo2] = useState(false)
 
   const toggleFaq = (index: number) => {
     setOpenFaq(openFaq === index ? null : index)
@@ -242,65 +244,65 @@ export default function ClientContent() {
 
             {/* Dos videos lado a lado */}
             <div className="grid md:grid-cols-2 gap-8 mb-16">
-              <div className="relative rounded-lg overflow-hidden aspect-video" style={{ backgroundColor: '#1d3c5d' }}>
-                <video playsInline
-                  className="w-full h-full object-cover"
-                  poster=""
-                  controls
-                  preload="metadata"
-                  onError={(e: React.SyntheticEvent<HTMLVideoElement>) => {
-                    e.currentTarget.style.display = 'none';
-                    const fallback = e.currentTarget.nextElementSibling;
-                    if (fallback) (fallback as HTMLElement).style.display = 'flex';
-                  }}
-                >
-                  <source src="/images/videos/Consulta-Virtual.mp4" type="video/mp4" />
-                  <source src="/images/videos/Consulta-Virtual.webm" type="video/webm" />
-                  {/* Fallback msg could be translated too but skipping for brevity as most browsers support video */}
-                  Tu navegador no soporta el elemento video.
-                </video>
-
-                <div className="absolute inset-0 flex items-center justify-center" style={{ display: 'none', backgroundColor: '#1d3c5d' }}>
-                  <div className="text-center text-white">
-                    <div className="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-6">
-                      <svg className="w-10 h-10" fill="currentColor" viewBox="0 0 24 24">
+              <div className="relative rounded-lg overflow-hidden aspect-video bg-[#1d3c5d] shadow-lg">
+                {playVideo1 ? (
+                  <video playsInline
+                    className="w-full h-full object-cover"
+                    controls
+                    autoPlay
+                    preload="metadata"
+                  >
+                    <source src="/images/videos/Consulta-Virtual.mp4" type="video/mp4" />
+                    <source src="/images/videos/Consulta-Virtual.webm" type="video/webm" />
+                    Tu navegador no soporta el elemento video.
+                  </video>
+                ) : (
+                  <div 
+                    onClick={() => setPlayVideo1(true)}
+                    className="absolute inset-0 flex flex-col items-center justify-center cursor-pointer transition-all duration-300 hover:bg-[#152e4a] group p-6 text-center select-none"
+                  >
+                    <div className="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 group-hover:bg-white/30 transition-all duration-300">
+                      <svg className="w-10 h-10 text-white fill-current translate-x-[2px]" viewBox="0 0 24 24">
                         <path d="M8 5v14l11-7z" />
                       </svg>
                     </div>
-                    <div className="font-prototype text-xl font-normal mb-2">{t('video_consultation_label')}</div>
-                    <div className="font-sansation text-sm">Dr. Andrés Pérez</div>
+                    <div className="font-prototype text-xl font-normal mb-2 text-white">{t('video_consultation_label')}</div>
+                    <div className="font-sansation text-sm text-white/80">Dr. Andrés Pérez</div>
                   </div>
-                </div>
+                )}
               </div>
 
-              <div className="relative rounded-lg overflow-hidden aspect-video" style={{ backgroundColor: '#1d3c5d' }}>
-                <video playsInline
-                  className="w-full h-full object-cover"
-                  poster="/images/todos/toma.webp"
-                  controls
-                  preload="metadata"
-                  onError={(e: React.SyntheticEvent<HTMLVideoElement>) => {
-                    e.currentTarget.style.display = 'none';
-                    const fallback = e.currentTarget.nextElementSibling;
-                    if (fallback) (fallback as HTMLElement).style.display = 'flex';
-                  }}
-                >
-                  <source src="/images/videos/fotografias-consulta-virtual.mp4" type="video/mp4" />
-                  <source src="/images/videos/fotografias-consulta-virtual.webm" type="video/webm" />
-                  Tu navegador no soporta el elemento video.
-                </video>
-
-                <div className="absolute inset-0 flex items-center justify-center" style={{ display: 'none', backgroundColor: '#1d3c5d' }}>
-                  <div className="text-center text-white">
-                    <div className="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-6">
-                      <svg className="w-10 h-10" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M8 5v14l11-7z" />
-                      </svg>
+              <div className="relative rounded-lg overflow-hidden aspect-video bg-[#1d3c5d] shadow-lg">
+                {playVideo2 ? (
+                  <video playsInline
+                    className="w-full h-full object-cover"
+                    controls
+                    autoPlay
+                    preload="metadata"
+                  >
+                    <source src="/images/videos/fotografias-consulta-virtual.mp4" type="video/mp4" />
+                    <source src="/images/videos/fotografias-consulta-virtual.webm" type="video/webm" />
+                    Tu navegador no soporta el elemento video.
+                  </video>
+                ) : (
+                  <div 
+                    onClick={() => setPlayVideo2(true)}
+                    className="absolute inset-0 flex flex-col items-center justify-center cursor-pointer transition-all duration-300 hover:bg-[#152e4a] group p-6 text-center select-none"
+                  >
+                    {/* Background image cover */}
+                    <div className="absolute inset-0 opacity-20 bg-cover bg-center transition-transform duration-500 group-hover:scale-105" style={{ backgroundImage: "url('/images/todos/toma.webp')" }}></div>
+                    
+                    <div className="relative z-10">
+                      <div className="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 group-hover:bg-white/30 transition-all duration-300">
+                        <svg className="w-10 h-10 text-white fill-current translate-x-[2px]" viewBox="0 0 24 24">
+                          <path d="M8 5v14l11-7z" />
+                        </svg>
+                      </div>
+                      <div className="font-prototype text-xl font-normal mb-2 text-white" dangerouslySetInnerHTML={{ __html: t.raw('video_photos_label') }} />
+                      <div className="font-sansation text-sm text-white/80">Dr. Andrés Pérez</div>
                     </div>
-                    <div className="font-prototype text-xl font-normal mb-2" dangerouslySetInnerHTML={{ __html: t.raw('video_photos_label') }} />
-                    <div className="font-sansation text-sm">Dr. Andrés Pérez</div>
                   </div>
-                </div>
+                )}
               </div>
             </div>
           </div>
