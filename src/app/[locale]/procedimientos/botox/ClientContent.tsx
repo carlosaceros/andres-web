@@ -1,4 +1,5 @@
-"use client";
+"use client"
+import { useParams } from 'next/navigation';
 import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -29,6 +30,7 @@ interface FAQ {
 }
 
 export default function ClientContent() {
+  const { locale } = useParams();
   const t = useTranslations('botox');
   const [openFAQ, setOpenFAQ] = useState<number | null>(null);
 
@@ -79,8 +81,21 @@ export default function ClientContent() {
             <div className="grid lg:grid-cols-2 gap-12 items-center h-full">
               <div className="max-w-lg">
                 <h1 className="text-4xl lg:text-5xl font-bold mb-6 text-blue-900">
-                  {t('title')}
+                  {t('title')} {locale === 'es' ? 'en Bogotá' : 'in Colombia'}
                 </h1>
+
+              {/* EEAT & FOMO Badge */}
+              <div className="inline-flex flex-wrap items-center gap-x-3 gap-y-1.5 px-4 py-2.5 rounded-2xl bg-white/80 backdrop-blur-md border border-gray-200/80 shadow-sm max-w-xl my-6">
+                <span className="inline-flex items-center gap-1.5 text-xs font-bold text-[#1d3c5d]">
+                  <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                  {locale === 'es' ? '30+ Años de Experiencia | Miembro SCCP & ISAPS' : '30+ Years of Experience | SCCP & ISAPS Member'}
+                </span>
+                <span className="text-gray-300">|</span>
+                <span className="text-xs font-semibold text-amber-700 animate-pulse">
+                  {locale === 'es' ? '⚠️ Cupos Quirúrgicos Limitados' : '⚠️ Limited Surgical Slots'}
+                </span>
+              </div>
+
                 <div className="w-64 h-1 bg-blue-900 mb-8"></div>
                 <p className="text-lg leading-relaxed mb-6 text-gray-700">
                   {t('main_description_1')}{' '}

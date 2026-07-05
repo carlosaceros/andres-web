@@ -39,8 +39,21 @@ export default function ClientContent() {
             <div className="space-y-8">
               <div>
                 <h1 className="font-prototype font-normal text-5xl lg:text-6xl mb-2" style={{ color: '#1d3c5d' }}>
-                  {t('title')}
+                  {t('title')} {locale === 'es' ? 'en Bogotá' : 'in Colombia'}
                 </h1>
+
+              {/* EEAT & FOMO Badge */}
+              <div className="inline-flex flex-wrap items-center gap-x-3 gap-y-1.5 px-4 py-2.5 rounded-2xl bg-white/80 backdrop-blur-md border border-gray-200/80 shadow-sm max-w-xl my-6">
+                <span className="inline-flex items-center gap-1.5 text-xs font-bold text-[#1d3c5d]">
+                  <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                  {locale === 'es' ? '30+ Años de Experiencia | Miembro SCCP & ISAPS' : '30+ Years of Experience | SCCP & ISAPS Member'}
+                </span>
+                <span className="text-gray-300">|</span>
+                <span className="text-xs font-semibold text-amber-700 animate-pulse">
+                  {locale === 'es' ? '⚠️ Cupos Quirúrgicos Limitados' : '⚠️ Limited Surgical Slots'}
+                </span>
+              </div>
+
 
               </div>
             </div>
