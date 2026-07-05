@@ -15,7 +15,7 @@ export default function ProcedimientosFacialesClientContent() {
             title: t('blefaroplastia_title'),
             description: t('blefaroplastia_desc'),
             casos: 25,
-            image: "/images/blefaroplastia/galeria/fotonicialgaleria.webp",
+            image: "https://media.drandrespereznieto.com/images/blefaroplastia/galeria/fotonicialgaleria.webp",
             href: `/${locale}/galeria/procedimientos-faciales/blefaroplastia`
         },
         {

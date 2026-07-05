@@ -25,13 +25,13 @@ export default function ClientContent() {
     const [currentPatientImages, setCurrentPatientImages] = useState([]);
 
     const procedureImages = [
-        { before: "/images/todos/Mamoplastiaaumento/Paciente1Antes.webp", after: "/images/todos/Mamoplastiaaumento/Paciente1Despues.webp", view: "Paciente 1 - Frontal", patient: "Paciente 1" },
-        { before: "/images/todos/Mamoplastiaaumento/Paciente2Antes.webp", after: "/images/todos/Mamoplastiaaumento/Paciente2Despues.webp", view: "Paciente 2 - Frontal", patient: "Paciente 2" },
-        { before: "/images/todos/Mamoplastiaaumento/Paciente3Antes.webp", after: "/images/todos/Mamoplastiaaumento/Paciente3Despues.webp", view: "Paciente 3 - Frontal", patient: "Paciente 3" },
-        { before: "/images/todos/Mamoplastiaaumento/Paciente4Antes.webp", after: "/images/todos/Mamoplastiaaumento/Paciente4Despues.webp", view: "Paciente 4 - Frontal", patient: "Paciente 4" },
-        { before: "/images/todos/Mamoplastiaaumento/Paciente6Antes.webp", after: "/images/todos/Mamoplastiaaumento/Paciente6Despues.webp", view: "Paciente 6 - Frontal", patient: "Paciente 6" },
-        { before: "/images/todos/Mamoplastiaaumento/Paciente7Antes.webp", after: "/images/todos/Mamoplastiaaumento/Paciente7Despues.webp", view: "Paciente 7 - Frontal", patient: "Paciente 7" },
-        { before: "/images/todos/Mamoplastiaaumento/Paciente8Antes.webp", after: "/images/todos/Mamoplastiaaumento/Paciente8Despues.webp", view: "Paciente 8 - Frontal", patient: "Paciente 8" }
+        { before: "https://media.drandrespereznieto.com/images/todos/Mamoplastiaaumento/Paciente1Antes.webp", after: "https://media.drandrespereznieto.com/images/todos/Mamoplastiaaumento/Paciente1Despues.webp", view: "Paciente 1 - Frontal", patient: "Paciente 1" },
+        { before: "https://media.drandrespereznieto.com/images/todos/Mamoplastiaaumento/Paciente2Antes.webp", after: "https://media.drandrespereznieto.com/images/todos/Mamoplastiaaumento/Paciente2Despues.webp", view: "Paciente 2 - Frontal", patient: "Paciente 2" },
+        { before: "https://media.drandrespereznieto.com/images/todos/Mamoplastiaaumento/Paciente3Antes.webp", after: "https://media.drandrespereznieto.com/images/todos/Mamoplastiaaumento/Paciente3Despues.webp", view: "Paciente 3 - Frontal", patient: "Paciente 3" },
+        { before: "https://media.drandrespereznieto.com/images/todos/Mamoplastiaaumento/Paciente4Antes.webp", after: "https://media.drandrespereznieto.com/images/todos/Mamoplastiaaumento/Paciente4Despues.webp", view: "Paciente 4 - Frontal", patient: "Paciente 4" },
+        { before: "https://media.drandrespereznieto.com/images/todos/Mamoplastiaaumento/Paciente6Antes.webp", after: "https://media.drandrespereznieto.com/images/todos/Mamoplastiaaumento/Paciente6Despues.webp", view: "Paciente 6 - Frontal", patient: "Paciente 6" },
+        { before: "https://media.drandrespereznieto.com/images/todos/Mamoplastiaaumento/Paciente7Antes.webp", after: "https://media.drandrespereznieto.com/images/todos/Mamoplastiaaumento/Paciente7Despues.webp", view: "Paciente 7 - Frontal", patient: "Paciente 7" },
+        { before: "https://media.drandrespereznieto.com/images/todos/Mamoplastiaaumento/Paciente8Antes.webp", after: "https://media.drandrespereznieto.com/images/todos/Mamoplastiaaumento/Paciente8Despues.webp", view: "Paciente 8 - Frontal", patient: "Paciente 8" }
     ];
 
     const groupedByPatient = procedureImages.reduce((acc, image, index) => {

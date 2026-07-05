@@ -55,8 +55,8 @@ export default function ClientContent() {
   ];
 
   const gallery4 = [
-    { src: "/images/blefaroplastia/Ruby-antes.webp", label: t_testimonials('before_label'), procedure: t('gallery_procedure') },
-    { src: "/images/blefaroplastia/Ruby-despues.webp", label: t_testimonials('after_label'), procedure: t('gallery_procedure') }
+    { src: "https://media.drandrespereznieto.com/images/blefaroplastia/Ruby-antes.webp", label: t_testimonials('before_label'), procedure: t('gallery_procedure') },
+    { src: "https://media.drandrespereznieto.com/images/blefaroplastia/Ruby-despues.webp", label: t_testimonials('after_label'), procedure: t('gallery_procedure') }
   ];
 
   const gallery5 = [

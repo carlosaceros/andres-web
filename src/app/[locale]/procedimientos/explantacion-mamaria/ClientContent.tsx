@@ -192,10 +192,10 @@ export default function ClientContent() {
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
               {[
-                { src: "/images/todos/mamaria/Paciente1lateralAntes.webp", label: t_testimonials('before_label'), procedure: t('title') },
-                { src: "/images/todos/mamaria/Paciente1lateralDespues.webp", label: t_testimonials('after_label'), procedure: t('title') },
-                { src: "/images/todos/mamaria/Paciente4lateralAntes.webp", label: t_testimonials('before_label'), procedure: t('title') },
-                { src: "/images/todos/mamaria/Paciente4lateralDespues.webp", label: t_testimonials('after_label'), procedure: t('title') }
+                { src: "https://media.drandrespereznieto.com/images/todos/mamaria/Paciente1lateralAntes.webp", label: t_testimonials('before_label'), procedure: t('title') },
+                { src: "https://media.drandrespereznieto.com/images/todos/mamaria/Paciente1lateralDespues.webp", label: t_testimonials('after_label'), procedure: t('title') },
+                { src: "https://media.drandrespereznieto.com/images/todos/mamaria/Paciente4lateralAntes.webp", label: t_testimonials('before_label'), procedure: t('title') },
+                { src: "https://media.drandrespereznieto.com/images/todos/mamaria/Paciente4lateralDespues.webp", label: t_testimonials('after_label'), procedure: t('title') }
               ].map((item, index) => (
                 <div key={index} className="relative group">
                   <div className="aspect-[4/6] bg-gray-200 rounded-lg overflow-hidden">

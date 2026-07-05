@@ -171,7 +171,7 @@ export default function ClientContent() {
                 <div className="relative aspect-video">
                   <video playsInline
                     className="w-full h-full object-cover"
-                    poster="/images/todos/img-lipolisis.webp"
+                    poster="https://media.drandrespereznieto.com/images/todos/img-lipolisis.webp"
                     controls
                     preload="metadata"
                     onError={(e: React.SyntheticEvent<HTMLVideoElement>) => {

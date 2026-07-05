@@ -276,7 +276,7 @@ export default function ClientContent() {
               <div className="relative rounded-lg overflow-hidden aspect-video" style={{ backgroundColor: '#1d3c5d' }}>
                 <video playsInline
                   className="w-full h-full object-cover"
-                  poster="/images/todos/toma.webp"
+                  poster="https://media.drandrespereznieto.com/images/todos/toma.webp"
                   controls
                   preload="metadata"
                   onError={(e: React.SyntheticEvent<HTMLVideoElement>) => {

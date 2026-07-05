@@ -25,13 +25,13 @@ export default function ClientContent() {
     const [currentPatientImages, setCurrentPatientImages] = useState([]);
 
     const procedureImages = [
-        { before: "/images/todos/Mamoplastiareduccion/Paciente1Antes.webp", after: "/images/todos/Mamoplastiareduccion/Paciente1Despues.webp", view: "Paciente 1 - Frontal", patient: "Paciente 1" },
-        { before: "/images/todos/Mamoplastiareduccion/Paciente2Antes.webp", after: "/images/todos/Mamoplastiareduccion/Paciente2Despues.webp", view: "Paciente 2 - Frontal", patient: "Paciente 2" },
-        { before: "/images/todos/Mamoplastiareduccion/Paciente3Antes.webp", after: "/images/todos/Mamoplastiareduccion/Paciente3Despues.webp", view: "Paciente 3 - Frontal", patient: "Paciente 3" },
-        { before: "/images/todos/Mamoplastiareduccion/Paciente4Antes.webp", after: "/images/todos/Mamoplastiareduccion/Paciente4Despues.webp", view: "Paciente 4 - Frontal", patient: "Paciente 4" },
-        { before: "/images/todos/Mamoplastiareduccion/Paciente4Antes.webp", after: "/images/todos/Mamoplastiareduccion/Paciente4Despues.webp", view: "Paciente 5 - Frontal", patient: "Paciente 5" },
-        { before: "/images/todos/Mamoplastiareduccion/Paciente5FrenteAntes.webp", after: "/images/todos/Mamoplastiareduccion/Paciente5FrenteDespues.webp", view: "Paciente 5 - Frontal", patient: "Paciente 5" },
-        { before: "/images/todos/Mamoplastiareduccion/Paciente6Antes.webp", after: "/images/todos/Mamoplastiareduccion/Paciente6Despues.webp", view: "Paciente 6 - Frontal", patient: "Paciente 6" }
+        { before: "https://media.drandrespereznieto.com/images/todos/Mamoplastiareduccion/Paciente1Antes.webp", after: "https://media.drandrespereznieto.com/images/todos/Mamoplastiareduccion/Paciente1Despues.webp", view: "Paciente 1 - Frontal", patient: "Paciente 1" },
+        { before: "https://media.drandrespereznieto.com/images/todos/Mamoplastiareduccion/Paciente2Antes.webp", after: "https://media.drandrespereznieto.com/images/todos/Mamoplastiareduccion/Paciente2Despues.webp", view: "Paciente 2 - Frontal", patient: "Paciente 2" },
+        { before: "https://media.drandrespereznieto.com/images/todos/Mamoplastiareduccion/Paciente3Antes.webp", after: "https://media.drandrespereznieto.com/images/todos/Mamoplastiareduccion/Paciente3Despues.webp", view: "Paciente 3 - Frontal", patient: "Paciente 3" },
+        { before: "https://media.drandrespereznieto.com/images/todos/Mamoplastiareduccion/Paciente4Antes.webp", after: "https://media.drandrespereznieto.com/images/todos/Mamoplastiareduccion/Paciente4Despues.webp", view: "Paciente 4 - Frontal", patient: "Paciente 4" },
+        { before: "https://media.drandrespereznieto.com/images/todos/Mamoplastiareduccion/Paciente4Antes.webp", after: "https://media.drandrespereznieto.com/images/todos/Mamoplastiareduccion/Paciente4Despues.webp", view: "Paciente 5 - Frontal", patient: "Paciente 5" },
+        { before: "https://media.drandrespereznieto.com/images/todos/Mamoplastiareduccion/Paciente5FrenteAntes.webp", after: "https://media.drandrespereznieto.com/images/todos/Mamoplastiareduccion/Paciente5FrenteDespues.webp", view: "Paciente 5 - Frontal", patient: "Paciente 5" },
+        { before: "https://media.drandrespereznieto.com/images/todos/Mamoplastiareduccion/Paciente6Antes.webp", after: "https://media.drandrespereznieto.com/images/todos/Mamoplastiareduccion/Paciente6Despues.webp", view: "Paciente 6 - Frontal", patient: "Paciente 6" }
     ];
 
     const groupedByPatient = procedureImages.reduce((acc, image, index) => {

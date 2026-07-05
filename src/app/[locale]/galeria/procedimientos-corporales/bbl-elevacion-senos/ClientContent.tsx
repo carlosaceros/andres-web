@@ -26,39 +26,39 @@ export default function ClientContent() {
 
     const procedureImages: ProcedureImage[] = [
         {
-            before: "/images/todos/Pexia/Paciente2Antes.webp",
-            after: "/images/todos/Pexia/Paciente2Antes.webp",
+            before: "https://media.drandrespereznieto.com/images/todos/Pexia/Paciente2Antes.webp",
+            after: "https://media.drandrespereznieto.com/images/todos/Pexia/Paciente2Antes.webp",
             view: "Paciente 1 - Frontal",
             patient: "Paciente 1",
         },
         {
-            before: "/images/todos/Pexia/Paciente3Antes.webp",
-            after: "/images/todos/Pexia/Paciente3Despues.webp",
+            before: "https://media.drandrespereznieto.com/images/todos/Pexia/Paciente3Antes.webp",
+            after: "https://media.drandrespereznieto.com/images/todos/Pexia/Paciente3Despues.webp",
             view: "Paciente 2 - Frontal",
             patient: "Paciente 2",
         },
         {
-            before: "/images/todos/Pexia/Paciente4ANtes.webp",
-            after: "/images/todos/Pexia/Paciente4Despues.webp",
+            before: "https://media.drandrespereznieto.com/images/todos/Pexia/Paciente4ANtes.webp",
+            after: "https://media.drandrespereznieto.com/images/todos/Pexia/Paciente4Despues.webp",
             view: "Paciente 3 - Frontal",
             patient: "Paciente 3",
             description: "Retiro de implantes con técnica avanzada"
         },
         {
-            before: "/images/todos/Pexia/Paciente5Antes.webp",
-            after: "/images/todos/Pexia/Paciente5Despues.webp",
+            before: "https://media.drandrespereznieto.com/images/todos/Pexia/Paciente5Antes.webp",
+            after: "https://media.drandrespereznieto.com/images/todos/Pexia/Paciente5Despues.webp",
             view: "Paciente 4 - Frontal",
             patient: "Paciente 4",
         },
         {
-            before: "/images/todos/Pexia/Paciente6Antes.webp",
-            after: "/images/todos/Pexia/Paciente6Despues.webp",
+            before: "https://media.drandrespereznieto.com/images/todos/Pexia/Paciente6Antes.webp",
+            after: "https://media.drandrespereznieto.com/images/todos/Pexia/Paciente6Despues.webp",
             view: "Paciente 5 - Frontal",
             patient: "Paciente 5",
         },
         {
-            before: "/images/todos/Pexia/Paciente7Antes.webp",
-            after: "/images/todos/Pexia/Paciente7Despues.webp",
+            before: "https://media.drandrespereznieto.com/images/todos/Pexia/Paciente7Antes.webp",
+            after: "https://media.drandrespereznieto.com/images/todos/Pexia/Paciente7Despues.webp",
             view: "Paciente 6 - Frontal",
             patient: "Paciente 6",
         }

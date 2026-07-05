@@ -112,10 +112,10 @@ export default async function DrFacePage({ params }: { params: Promise<{ locale:
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               {pillarKeys.map(key => {
                 const imageMap: { [key: string]: string } = {
-                  security: '/images/todos/escudo.png',
-                  natural_results: '/images/todos/mujer.png',
-                  lasting_changes: '/images/todos/reloj.png',
-                  support: '/images/todos/medico.png'
+                  security: 'https://media.drandrespereznieto.com/images/todos/escudo.png',
+                  natural_results: 'https://media.drandrespereznieto.com/images/todos/mujer.png',
+                  lasting_changes: 'https://media.drandrespereznieto.com/images/todos/reloj.png',
+                  support: 'https://media.drandrespereznieto.com/images/todos/medico.png'
                 };
                 return (
                   <div key={key} className="bg-white rounded-xl p-6 shadow-lg text-center">

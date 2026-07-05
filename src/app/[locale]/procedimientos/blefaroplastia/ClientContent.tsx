@@ -10,17 +10,17 @@ export default function ClientContent() {
   const t = useTranslations('blefaroplastia');
 
   const galleryItems = [
-    { src: "/images/blefaroplastia/Aponte-antes.webp", label: t('gallery_before'), procedure: t('gallery_procedure') },
-    { src: "/images/blefaroplastia/Aponte-despues.webp", label: t('gallery_after'), procedure: t('gallery_procedure') },
-    { src: "/images/blefaroplastia/Astrid-antes.webp", label: t('gallery_before'), procedure: t('gallery_procedure') },
-    { src: "/images/blefaroplastia/Astrid-despues.webp", label: t('gallery_after'), procedure: t('gallery_procedure') }
+    { src: "https://media.drandrespereznieto.com/images/blefaroplastia/Aponte-antes.webp", label: t('gallery_before'), procedure: t('gallery_procedure') },
+    { src: "https://media.drandrespereznieto.com/images/blefaroplastia/Aponte-despues.webp", label: t('gallery_after'), procedure: t('gallery_procedure') },
+    { src: "https://media.drandrespereznieto.com/images/blefaroplastia/Astrid-antes.webp", label: t('gallery_before'), procedure: t('gallery_procedure') },
+    { src: "https://media.drandrespereznieto.com/images/blefaroplastia/Astrid-despues.webp", label: t('gallery_after'), procedure: t('gallery_procedure') }
   ];
 
   const resultsGalleryItems = [
-      { src: "/images/blefaroplastia/Sonia-antes.webp", label: t('gallery_before').toUpperCase(), type: t('gallery_before'), procedure: t('gallery_procedure') },
-      { src: "/images/blefaroplastia/sonia-despues.webp", label: t('gallery_after').toUpperCase(), type: t('gallery_after'), procedure: t('gallery_procedure') },
-      { src: "/images/blefaroplastia/img3.webp", label: t('gallery_before').toUpperCase(), type: t('gallery_before'), procedure: t('gallery_procedure') },
-      { src: "/images/blefaroplastia/img4.webp", label: t('gallery_after').toUpperCase(), type: t('gallery_after'), procedure: t('gallery_procedure') }
+      { src: "https://media.drandrespereznieto.com/images/blefaroplastia/Sonia-antes.webp", label: t('gallery_before').toUpperCase(), type: t('gallery_before'), procedure: t('gallery_procedure') },
+      { src: "https://media.drandrespereznieto.com/images/blefaroplastia/sonia-despues.webp", label: t('gallery_after').toUpperCase(), type: t('gallery_after'), procedure: t('gallery_procedure') },
+      { src: "https://media.drandrespereznieto.com/images/blefaroplastia/img3.webp", label: t('gallery_before').toUpperCase(), type: t('gallery_before'), procedure: t('gallery_procedure') },
+      { src: "https://media.drandrespereznieto.com/images/blefaroplastia/img4.webp", label: t('gallery_after').toUpperCase(), type: t('gallery_after'), procedure: t('gallery_procedure') }
   ];
 
   return (
@@ -99,7 +99,7 @@ export default function ClientContent() {
               <div className="relative rounded-lg overflow-hidden aspect-video">
                 <video playsInline
                   className="w-full h-full object-cover"
-                  poster="/images/blefaroplastia/imgvideo1.webp"
+                  poster="https://media.drandrespereznieto.com/images/blefaroplastia/imgvideo1.webp"
                   controls
                 >
                   <source src="https://media.drandrespereznieto.com/images/videos/cirugia-parpados.webm" type="video/webm" />
@@ -109,7 +109,7 @@ export default function ClientContent() {
               <div className="relative rounded-lg overflow-hidden aspect-video">
                 <video playsInline
                   className="w-full h-full object-cover"
-                  poster="/images/blefaroplastia/video2.webp"
+                  poster="https://media.drandrespereznieto.com/images/blefaroplastia/video2.webp"
                   controls
                 >
                   <source src="https://media.drandrespereznieto.com/images/videos/Como-realizo-blefaroplastia.webm" type="video/webm" />
@@ -151,7 +151,7 @@ export default function ClientContent() {
               <div className="relative rounded-lg overflow-hidden aspect-video">
                 <video playsInline
                   className="w-full h-full object-cover"
-                  poster="/images/blefaroplastia/cortina.webp"
+                  poster="https://media.drandrespereznieto.com/images/blefaroplastia/cortina.webp"
                   controls
                 >
                   <source src="https://media.drandrespereznieto.com/images/videos/Efecto-cortina-efecto-ojera.webm" type="video/webm" />
@@ -178,7 +178,7 @@ export default function ClientContent() {
               <div className="relative rounded-lg overflow-hidden aspect-video">
                 <video playsInline
                   className="w-full h-full object-cover"
-                  poster="/images/blefaroplastia/fat-sliding.webp"
+                  poster="https://media.drandrespereznieto.com/images/blefaroplastia/fat-sliding.webp"
                   controls
                 >
                   <source src="https://media.drandrespereznieto.com/images/videos/Blepharoplasty-Fat Slide.webm" type="video/webm" />
@@ -271,7 +271,7 @@ export default function ClientContent() {
               <div className="relative rounded-lg overflow-hidden aspect-video bg-white shadow-lg">
                 <video playsInline
                   className="w-full h-full object-cover"
-                  poster="/images/blefaroplastia/testimonio1a.webp"
+                  poster="https://media.drandrespereznieto.com/images/blefaroplastia/testimonio1a.webp"
                   controls
                 >
                   <source src="https://media.drandrespereznieto.com/images/videos/Blefaroplastia-resultados.webm" type="video/webm" />
@@ -281,7 +281,7 @@ export default function ClientContent() {
               <div className="relative rounded-lg overflow-hidden aspect-video bg-white shadow-lg">
                 <video playsInline
                   className="w-full h-full object-cover"
-                  poster="/images/blefaroplastia/testimonio1.webp"
+                  poster="https://media.drandrespereznieto.com/images/blefaroplastia/testimonio1.webp"
                   controls
                 >
                   <source src="https://media.drandrespereznieto.com/images/videos/Blefaroplastialipofillingfacialcelulasmadre.webm" type="video/webm" />

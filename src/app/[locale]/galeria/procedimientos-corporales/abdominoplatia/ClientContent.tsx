@@ -22,8 +22,8 @@ export default function ClientContent() {
 
     const procedureImages: ProcedureImage[] = [
         {
-            before: "/images/todos/Abdominoplastia/Paciente2FrenteDespues.webp",
-            after: "/images/todos/Abdominoplastia/Paciente2FrenteDespues.webp",
+            before: "https://media.drandrespereznieto.com/images/todos/Abdominoplastia/Paciente2FrenteDespues.webp",
+            after: "https://media.drandrespereznieto.com/images/todos/Abdominoplastia/Paciente2FrenteDespues.webp",
             view: "Paciente 2 - Frontal",
             patient: "Paciente 2",
             description: (
@@ -38,8 +38,8 @@ export default function ClientContent() {
             )
         },
         {
-            before: "/images/todos/Abdominoplastia/Paciente2LadoAntes.webp",
-            after: "/images/todos/Abdominoplastia/Paciente2LadoDespues.webp",
+            before: "https://media.drandrespereznieto.com/images/todos/Abdominoplastia/Paciente2LadoAntes.webp",
+            after: "https://media.drandrespereznieto.com/images/todos/Abdominoplastia/Paciente2LadoDespues.webp",
             view: "Paciente 2 - Perfil",
             patient: "Paciente 2",
             description: (
@@ -54,8 +54,8 @@ export default function ClientContent() {
             )
         },
         {
-            before: "/images/todos/Abdominoplastia/Paciente3Antes.webp",
-            after: "/images/todos/Abdominoplastia/Paciente3Despues.webp",
+            before: "https://media.drandrespereznieto.com/images/todos/Abdominoplastia/Paciente3Antes.webp",
+            after: "https://media.drandrespereznieto.com/images/todos/Abdominoplastia/Paciente3Despues.webp",
             view: "Paciente 3 - Frontal",
             patient: "Paciente 3",
             description: (
@@ -71,8 +71,8 @@ export default function ClientContent() {
             )
         },
         {
-            before: "/images/todos/Abdominoplastia/Paciente3LadoAntes.webp",
-            after: "/images/todos/Abdominoplastia/Paciente3LadoDespues.webp",
+            before: "https://media.drandrespereznieto.com/images/todos/Abdominoplastia/Paciente3LadoAntes.webp",
+            after: "https://media.drandrespereznieto.com/images/todos/Abdominoplastia/Paciente3LadoDespues.webp",
             view: "Paciente 3 - Perfil",
             patient: "Paciente 3",
             description: (
@@ -88,8 +88,8 @@ export default function ClientContent() {
             )
         },
         {
-            before: "/images/todos/Abdominoplastia/prepost1a.webp",
-            after: "/images/todos/Abdominoplastia/prepost1b.webp",
+            before: "https://media.drandrespereznieto.com/images/todos/Abdominoplastia/prepost1a.webp",
+            after: "https://media.drandrespereznieto.com/images/todos/Abdominoplastia/prepost1b.webp",
             view: "Paciente 4 - Frontal",
             patient: "Paciente 4",
             description: (
@@ -103,8 +103,8 @@ export default function ClientContent() {
             )
         },
         {
-            before: "/images/todos/Abdominoplastia/prepost2a.webp",
-            after: "/images/todos/Abdominoplastia/prepost2b.webp",
+            before: "https://media.drandrespereznieto.com/images/todos/Abdominoplastia/prepost2a.webp",
+            after: "https://media.drandrespereznieto.com/images/todos/Abdominoplastia/prepost2b.webp",
             view: "Paciente 4 - Lado",
             patient: "Paciente 4",
             description: (
@@ -118,8 +118,8 @@ export default function ClientContent() {
             )
         },
         {
-            before: "/images/todos/Abdominoplastia/prepost3a.webp",
-            after: "/images/todos/Abdominoplastia/prepost3b.webp",
+            before: "https://media.drandrespereznieto.com/images/todos/Abdominoplastia/prepost3a.webp",
+            after: "https://media.drandrespereznieto.com/images/todos/Abdominoplastia/prepost3b.webp",
             view: "Paciente 4 - Lado",
             patient: "Paciente 4",
             description: (
@@ -133,8 +133,8 @@ export default function ClientContent() {
             )
         },
         {
-            before: "/images/todos/Abdominoplastia/Paciente5Antes.webp",
-            after: "/images/todos/Abdominoplastia/Paciente5Despues.webp",
+            before: "https://media.drandrespereznieto.com/images/todos/Abdominoplastia/Paciente5Antes.webp",
+            after: "https://media.drandrespereznieto.com/images/todos/Abdominoplastia/Paciente5Despues.webp",
             view: "Paciente 5 - Frontal",
             patient: "Paciente 5",
             description: (
@@ -149,8 +149,8 @@ export default function ClientContent() {
             )
         },
         {
-            before: "/images/todos/Abdominoplastia/Paciente5LadoAntes.webp",
-            after: "/images/todos/Abdominoplastia/Paciente5Despues.webp",
+            before: "https://media.drandrespereznieto.com/images/todos/Abdominoplastia/Paciente5LadoAntes.webp",
+            after: "https://media.drandrespereznieto.com/images/todos/Abdominoplastia/Paciente5Despues.webp",
             view: "Paciente 5 - Lado",
             patient: "Paciente 5",
             description: (
@@ -165,8 +165,8 @@ export default function ClientContent() {
             )
         },
         {
-            before: "/images/todos/Abdominoplastia/Paciente6Antes.webp",
-            after: "/images/todos/Abdominoplastia/Paciente6Despues.webp",
+            before: "https://media.drandrespereznieto.com/images/todos/Abdominoplastia/Paciente6Antes.webp",
+            after: "https://media.drandrespereznieto.com/images/todos/Abdominoplastia/Paciente6Despues.webp",
             view: "Paciente 6 - Frontal",
             patient: "Paciente 6",
             description: (
@@ -182,8 +182,8 @@ export default function ClientContent() {
             )
         },
         {
-            before: "/images/todos/Abdominoplastia/Paciente6frenteantes.webp",
-            after: "/images/todos/Abdominoplastia/Paciente6LadoAntes.webp",
+            before: "https://media.drandrespereznieto.com/images/todos/Abdominoplastia/Paciente6frenteantes.webp",
+            after: "https://media.drandrespereznieto.com/images/todos/Abdominoplastia/Paciente6LadoAntes.webp",
             view: "Paciente 6 - Frontal",
             patient: "Paciente 6",
             description: (
@@ -199,8 +199,8 @@ export default function ClientContent() {
             )
         },
         {
-            before: "/images/todos/Abdominoplastia/Paciente7FrenteAntes.webp",
-            after: "/images/todos/Abdominoplastia/Paciente7FrenteDespues.webp",
+            before: "https://media.drandrespereznieto.com/images/todos/Abdominoplastia/Paciente7FrenteAntes.webp",
+            after: "https://media.drandrespereznieto.com/images/todos/Abdominoplastia/Paciente7FrenteDespues.webp",
             view: "Paciente 7 - Frontal",
             patient: "Paciente 7",
             description: (
@@ -215,8 +215,8 @@ export default function ClientContent() {
             )
         },
         {
-            before: "/images/todos/Abdominoplastia/Paciente7Antes.webp",
-            after: "/images/todos/Abdominoplastia/Paciente7Despues.webp",
+            before: "https://media.drandrespereznieto.com/images/todos/Abdominoplastia/Paciente7Antes.webp",
+            after: "https://media.drandrespereznieto.com/images/todos/Abdominoplastia/Paciente7Despues.webp",
             view: "Paciente 7 - Frontal",
             patient: "Paciente 7",
             description: (
@@ -231,8 +231,8 @@ export default function ClientContent() {
             )
         },
         {
-            before: "/images/todos/Abdominoplastia/Paciente7LadoAntes.webp",
-            after: "/images/todos/Abdominoplastia/Paciente7LadoDespues.webp",
+            before: "https://media.drandrespereznieto.com/images/todos/Abdominoplastia/Paciente7LadoAntes.webp",
+            after: "https://media.drandrespereznieto.com/images/todos/Abdominoplastia/Paciente7LadoDespues.webp",
             view: "Paciente 7 - Frontal",
             patient: "Paciente 7",
             description: (
@@ -247,8 +247,8 @@ export default function ClientContent() {
             )
         },
         {
-            before: "/images/todos/Abdominoplastia/Paciente8FrenteAntes.webp",
-            after: "/images/todos/Abdominoplastia/Paciente8FrenteDespues.webp",
+            before: "https://media.drandrespereznieto.com/images/todos/Abdominoplastia/Paciente8FrenteAntes.webp",
+            after: "https://media.drandrespereznieto.com/images/todos/Abdominoplastia/Paciente8FrenteDespues.webp",
             view: "Paciente 8 - Frontal",
             patient: "Paciente 8",
             description: (
@@ -262,8 +262,8 @@ export default function ClientContent() {
             )
         },
         {
-            before: "/images/todos/Abdominoplastia/Paciente8LadoAntes.webp",
-            after: "/images/todos/Abdominoplastia/Paciente8LadoDespues.webp",
+            before: "https://media.drandrespereznieto.com/images/todos/Abdominoplastia/Paciente8LadoAntes.webp",
+            after: "https://media.drandrespereznieto.com/images/todos/Abdominoplastia/Paciente8LadoDespues.webp",
             view: "Paciente 8 - Frontal",
             patient: "Paciente 8",
             description: (

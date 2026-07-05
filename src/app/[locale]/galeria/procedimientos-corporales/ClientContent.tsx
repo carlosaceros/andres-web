@@ -16,42 +16,42 @@ export default function ProcedimientosCorporalesClientContent() {
             title: t('abdominoplastia_title'),
             description: t('abdominoplastia_desc'),
             casos: 18,
-            image: "/images/todos/Abdominoplastia/fotoinicial.webp",
+            image: "https://media.drandrespereznieto.com/images/todos/Abdominoplastia/fotoinicial.webp",
             href: `/${locale}/galeria/procedimientos-corporales/abdominoplatia`
         },
         {
             title: t('lipoescultura_title'),
             description: t('lipoescultura_desc'),
             casos: 20,
-            image: "/images/todos/Lipoescultura/fotoinicial.webp",
+            image: "https://media.drandrespereznieto.com/images/todos/Lipoescultura/fotoinicial.webp",
             href: `/${locale}/galeria/procedimientos-corporales/lipoescultura`
         },
         {
             title: t('mamoplastia_aumento_title'),
             description: t('mamoplastia_aumento_desc'),
             casos: 25,
-            image: "/images/todos/Mamoplastiaaumento/fotoinicial.webp",
+            image: "https://media.drandrespereznieto.com/images/todos/Mamoplastiaaumento/fotoinicial.webp",
             href: `/${locale}/galeria/procedimientos-corporales/mamoplastia-aumento`
         },
         {
             title: t('mamoplastia_reduccion_title'),
             description: t('mamoplastia_reduccion_desc'),
             casos: 15,
-            image: "/images/todos/Mamoplastiareduccion/fotoinicial.webp",
+            image: "https://media.drandrespereznieto.com/images/todos/Mamoplastiareduccion/fotoinicial.webp",
             href: `/${locale}/galeria/procedimientos-corporales/mamoplastia-reduccion`
         },
         {
             title: t('explantacion_mamaria_title'),
             description: t('explantacion_mamaria_desc'),
             casos: 15,
-            image: "/images/todos/Pexia/fotoinicial.webp",
+            image: "https://media.drandrespereznieto.com/images/todos/Pexia/fotoinicial.webp",
             href: `/${locale}/galeria/procedimientos-corporales/explantacion-mamaria`
         },
         {
             title: t('pexia_title'),
             description: t('pexia_desc'),
             casos: 10,
-            image: "/images/todos/Pexia/fotoinicial.webp",
+            image: "https://media.drandrespereznieto.com/images/todos/Pexia/fotoinicial.webp",
             href: `/${locale}/galeria/procedimientos-corporales/bbl-elevacion-senos`
         }
     ];

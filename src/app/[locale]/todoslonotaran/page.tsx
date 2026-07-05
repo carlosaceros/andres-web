@@ -205,10 +205,10 @@ export default async function TodosLoNotaranPage({ params }: { params: Promise<{
           <div className="grid md:grid-cols-4 gap-8">
             {pillarKeys.map(key => {
               const imageMap: { [key: string]: string } = {
-                security: '/images/todos/escudo.png',
-                natural_results: '/images/todos/mujer.png',
-                lasting_changes: '/images/todos/reloj.png',
-                support: '/images/todos/medico.png'
+                security: 'https://media.drandrespereznieto.com/images/todos/escudo.png',
+                natural_results: 'https://media.drandrespereznieto.com/images/todos/mujer.png',
+                lasting_changes: 'https://media.drandrespereznieto.com/images/todos/reloj.png',
+                support: 'https://media.drandrespereznieto.com/images/todos/medico.png'
               };
               const fallbackSvgPaths: { [key: string]: string } = {
                 security: "M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z",
