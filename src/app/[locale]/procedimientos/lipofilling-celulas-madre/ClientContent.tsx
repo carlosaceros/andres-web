@@ -41,22 +41,8 @@ export default function ClientContent() {
   const localFaqs = {
     es: [
       {
-        question: "¿Cuánto tiempo duran los resultados del lipofilling con células madre?",
-        answer: "Los resultados del lipofilling facial son permanentes. Durante las primeras semanas posteriores al procedimiento, el cuerpo reabsorbe aproximadamente entre un 20% y un 30% de la grasa transferida. Sin embargo, las células grasas y células madre que se integran con éxito y reciben flujo sanguíneo sobreviven para siempre, convirtiéndose en tejido vivo y permanente que responderá de manera natural al envejecimiento y cambios de peso."
-      },
-      {
-        question: "¿Cuál es la diferencia real entre MicroFat y NanoFat?",
-        answer: "MicroFat consiste en micro-injertos de grasa que conservan su estructura celular, utilizados principalmente para restaurar volúmenes perdidos en pómulos, mejillas, sienes o mandíbula. Por otro lado, NanoFat es una emulsión líquida ultra-filtrada que no contiene adipocitos grandes (no genera volumen), sino que concentra una alta cantidad de células madre y factores de crecimiento, ideal para regenerar la calidad de la piel, eliminar ojeras oscuras y atenuar líneas finas."
-      },
-      {
-        question: "¿Cómo es el postoperatorio de una transferencia de grasa facial?",
-        answer: "El postoperatorio es muy noble. Se experimenta una leve inflamación tanto en el rostro como en las zonas donantes (generalmente abdomen o muslos) durante los primeros 5 a 7 días. Se recomienda evitar masajes fuertes en el rostro para no desplazar las células grasas transferidas, no dormir boca abajo y utilizar protección solar estricta. Podrás retomar tus actividades cotidianas no deportivas en una semana."
-      }
-    ],
-    en: [
-      {
-        question: "How long do the results of stem cell lipofilling last?",
-        answer: "Facial lipofilling results are permanent. During the first few weeks following the procedure, the body reabsorbs approximately 20% to 30% of the transferred fat. However, the fat cells and stem cells that successfully integrate and establish blood flow survive forever, becoming permanent living tissue that ages naturally with your face."
+        question: "¿El lipofilling facial con células madre ofrece resultados permanentes?",
+        answer: "Sí, a diferencia de los rellenos de ácido hialurónico que el cuerpo reabsorbe en 12 a 18 meses, la grasa transferida que sobrevive al proceso inicial de integración (típicamente entre el 60% y el 70%) permanece de forma definitiva en su nueva ubicación. Esta grasa se comporta exactamente como el resto del tejido adiposo del cuerpo, envejeciendo de forma natural y respondiendo a los cambios de peso del paciente."
       },
       {
         question: "What is the real difference between MicroFat and NanoFat?",
@@ -65,7 +51,45 @@ export default function ClientContent() {
       {
         question: "What is the recovery process like after facial fat transfer?",
         answer: "Post-operative recovery is highly manageable. Mild swelling is expected in both the face and donor areas (typically abdomen or thighs) for the first 5 to 7 days. You should avoid rubbing or massaging your face to keep the transferred cells in place, avoid sleeping face down, and use strict solar protection. Most patients resume non-sporting daily activities within a week."
-      }
+      },
+      {
+      "question": "¿Cuánto tiempo debo permanecer en Colombia para mi recuperación antes de poder viajar en avión?",
+      "answer": "El tiempo recomendado de estadía para una recuperación segura depende del procedimiento. Para cirugías mayores como el lifting facial (Deep Plane), se requiere una permanencia mínima de 10 a 14 días. Para procedimientos de menor complejidad como blefaroplastia, elevación de cejas, transferencia de grasa o explantación mamaria, el tiempo mínimo sugerido es de 7 a 10 días. Esto permite retirar suturas, realizar controles presenciales indispensables y garantizar que estés en condiciones óptimas para viajar de regreso."
+},
+      {
+      "question": "¿Qué apoyo logístico y de acompañamiento ofrecen para pacientes internacionales?",
+      "answer": "Nuestro consultorio brinda un acompañamiento integral para pacientes que viajan desde el extranjero. Te asistimos recomendándote hoteles y casas de recuperación aliadas con tarifas especiales en Bogotá, coordinamos transporte privado bilingüe seguro desde y hacia el aeropuerto, y te conectamos con enfermeras profesionales especializadas en cuidados postquirúrgicos domiciliarios en caso de que viajes sin acompañante."
+},
+      {
+      "question": "¿Cuáles son los métodos de pago aceptados y ofrecen financiación?",
+      "answer": "Aceptamos diversos medios de pago para tu comodidad, incluyendo tarjetas de crédito internacionales (Visa, Mastercard, Amex), transferencias bancarias internacionales registradas (Swift), pagos locales electrónicos mediante PSE, y transferencias o tarjetas de débito/crédito nacionales. Es importante aclarar que no manejamos opciones de financiación local directa; toda la inversión del procedimiento debe quedar cubierta en su totalidad antes del día programado de la cirugía."
+}
+    ],
+    en: [
+      {
+        question: "Is facial fat transfer with stem cells permanent?",
+        answer: "Yes. Unlike synthetic fillers like hyaluronic acid which are absorbed by the body within 12 to 18 months, the fat cells that successfully integrate and survive the initial healing phase (typically 60% to 70%) remain permanently in their new location. These cells behave like any other fat tissue in your body, responding naturally to weight fluctuations and the aging process."
+      },
+      {
+        question: "What is the real difference between MicroFat and NanoFat?",
+        answer: "MicroFat consists of fat micro-grafts that preserve their cellular structure, used mainly to restore lost volumes in cheekbones, cheeks, temples, or jawlines. On the other hand, NanoFat is an ultra-filtered liquid emulsion that does not contain large fat cells (meaning it does not add volume), but rather concentrates stem cells and growth factors, perfect for skin regeneration, smoothing dark circles, and fading fine lines."
+      },
+      {
+        question: "What is the recovery process like after facial fat transfer?",
+        answer: "Post-operative recovery is highly manageable. Mild swelling is expected in both the face and donor areas (typically abdomen or thighs) for the first 5 to 7 days. You should avoid rubbing or massaging your face to keep the transferred cells in place, avoid sleeping face down, and use strict solar protection. Most patients resume non-sporting daily activities within a week."
+      },
+      {
+      "question": "How long do I need to stay in Colombia for my recovery before flying back?",
+      "answer": "The recommended stay for a safe recovery depends on the procedure. For major surgeries like the Deep Plane Facelift, a minimum stay of 10 to 14 days in Bogota is required. For less complex procedures like blepharoplasty, brow lifts, fat transfer, or breast explant, the suggested stay is 7 to 10 days. This allows for suture removal, essential in-person checkups, and guarantees you are in optimal health to travel home."
+},
+      {
+      "question": "What logistical support and post-op accompaniment do you offer for international patients?",
+      "answer": "We provide comprehensive guidance for patients traveling from abroad. We assist you with accommodation recommendations at trusted hotels or recovery houses in Bogota with special partner rates, coordinate safe private bilingual transportation to and from the airport, and connect you with certified private nursing care services for your hotel stay if you are traveling alone."
+},
+      {
+      "question": "What payment methods do you accept, and do you offer financing?",
+      "answer": "We accept multiple secure payment methods for your convenience, including international credit cards (Visa, Mastercard, Amex), international bank wire transfers (Swift), local Colombian PSE transfers, and national debit/credit cards. Please note that we do not offer local financing options; all fees must be fully settled prior to the scheduled date of your procedure."
+}
     ]
   };
 
@@ -712,6 +736,57 @@ export default function ClientContent() {
         </div>
       </section>
 
+      
+      {/* Testimonios Transcritos en Texto */}
+      <section className="py-16 bg-white border-t border-b border-gray-100">
+        <div className="container mx-auto px-4 max-w-5xl">
+          <div className="text-center mb-12">
+            <h2 className="font-prototype text-3xl lg:text-4xl mb-4" style={{ color: '#1d3c5d' }}>
+              {activeLocale === 'es' ? 'Testimonios Reales Transcritos' : 'Transcribed Patient Testimonials'}
+            </h2>
+            <p className="font-sansation text-sm text-gray-500 max-w-xl mx-auto">
+              {activeLocale === 'es' 
+                ? 'Opiniones y vivencias de pacientes reales tomadas directamente de sus testimonios en video.' 
+                : 'Real patient experiences transcribed directly from their video testimonials.'}
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 shadow-sm relative text-[#1d3c5d]">
+              <span className="text-6xl text-[#1d3c5d] opacity-10 absolute top-4 left-4 font-serif">“</span>
+              <p className="font-sansation text-gray-700 text-base italic mb-6 leading-relaxed relative z-10">
+                {activeLocale === 'es' ? "La mejor decisión que he tomado con mi cara fue haber venido con el doctor Face. Las células madre de verdad es algo que tienen que probar, cuando sientan que el rostro se ve cansado o le falta vitalidad. Le da un aspecto natural y no es un relleno sintético, la piel lo agradece." : "The best decision I made for my face was coming to Dr. Face. Stem cells are truly something you have to try when your face starts looking tired or lacking vitality. It gives a natural look, not a synthetic filler, and the skin is grateful."}
+              </p>
+              <div className="flex items-center gap-3">
+                <div className="w-10 h-10 rounded-full bg-[#1d3c5d] flex items-center justify-center text-white font-bold text-sm">
+                  {activeLocale === 'es' ? "P" : "P"}
+                </div>
+                <div>
+                  <h4 className="font-sansation font-bold text-[#1d3c5d] text-sm">{activeLocale === 'es' ? "Paciente de Orlando" : "Patient from Orlando"}</h4>
+                  <p className="font-sansation text-xs text-gray-400">{activeLocale === 'es' ? "Paciente de Florida" : "Patient from Florida"}</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 shadow-sm relative text-[#1d3c5d]">
+              <span className="text-6xl text-[#1d3c5d] opacity-10 absolute top-4 left-4 font-serif">“</span>
+              <p className="font-sansation text-gray-700 text-base italic mb-6 leading-relaxed relative z-10">
+                {activeLocale === 'es' ? "Me apliqué células madre de la cual me ha dado bastante elasticidad, color, y brillo a la piel. Muy contenta, recomendar al doctor es lo mejor. Se ve el rostro más brillante, irradiante y con un contorno natural." : "I had stem cells injected, which gave my skin incredible elasticity, color, and shine. I am very happy, recommending the doctor is the best. My face looks brighter, radiant, and with a natural contour."}
+              </p>
+              <div className="flex items-center gap-3">
+                <div className="w-10 h-10 rounded-full bg-[#1d3c5d] flex items-center justify-center text-white font-bold text-sm">
+                  {activeLocale === 'es' ? "P" : "P"}
+                </div>
+                <div>
+                  <h4 className="font-sansation font-bold text-[#1d3c5d] text-sm">{activeLocale === 'es' ? "Paciente de Miami" : "Patient from Miami"}</h4>
+                  <p className="font-sansation text-xs text-gray-400">{activeLocale === 'es' ? "Miami, FL" : "Miami, FL"}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
       {/* FAQ Section - Responsive */}
       <section className="py-8 md:py-12 lg:py-16" style={{ backgroundColor: '#babdb3' }}>
         <div className="container mx-auto px-4">

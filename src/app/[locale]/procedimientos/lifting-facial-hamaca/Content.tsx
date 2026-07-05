@@ -101,6 +101,19 @@ export default function ClientContent() {
       {
         question: "El Dr. Andrés Pérez Nieto interviene quirúrgicamente en las mejores clínicas de Bogotá, avaladas y certificadas por los entes de salud, tales como el Santa Ana Medical Center. Esto asegura que cuentes con quirófanos de última tecnología y atención de emergencia integral."
       }
+    ,
+      {
+      "question": "¿Cuánto tiempo debo permanecer en Colombia para mi recuperación antes de poder viajar en avión?",
+      "answer": "El tiempo recomendado de estadía para una recuperación segura depende del procedimiento. Para cirugías mayores como el lifting facial (Deep Plane), se requiere una permanencia mínima de 10 a 14 días. Para procedimientos de menor complejidad como blefaroplastia, elevación de cejas, transferencia de grasa o explantación mamaria, el tiempo mínimo sugerido es de 7 a 10 días. Esto permite retirar suturas, realizar controles presenciales indispensables y garantizar que estés en condiciones óptimas para viajar de regreso."
+},
+      {
+      "question": "¿Qué apoyo logístico y de acompañamiento ofrecen para pacientes internacionales?",
+      "answer": "Nuestro consultorio brinda un acompañamiento integral para pacientes que viajan desde el extranjero. Te asistimos recomendándote hoteles y casas de recuperación aliadas con tarifas especiales en Bogotá, coordinamos transporte privado bilingüe seguro desde y hacia el aeropuerto, y te conectamos con enfermeras profesionales especializadas en cuidados postquirúrgicos domiciliarios en caso de que viajes sin acompañante."
+},
+      {
+      "question": "¿Cuáles son los métodos de pago aceptados y ofrecen financiación?",
+      "answer": "Aceptamos diversos medios de pago para tu comodidad, incluyendo tarjetas de crédito internacionales (Visa, Mastercard, Amex), transferencias bancarias internacionales registradas (Swift), pagos locales electrónicos mediante PSE, y transferencias o tarjetas de débito/crédito nacionales. Es importante aclarar que no manejamos opciones de financiación local directa; toda la inversión del procedimiento debe quedar cubierta en su totalidad antes del día programado de la cirugía."
+}
     ],
     en: [
       {
@@ -167,6 +180,19 @@ export default function ClientContent() {
         question: "Which clinics does Dr. Andres Perez Nieto operate in?",
         answer: "Dr. Andres Perez Nieto performs all surgeries in the finest certified clinics in Bogota that meet all standards and technology required by the Ministry of Health, such as the Santa Ana Medical Center. This ensures the highest level of hospital safety and emergency care."
       }
+    ,
+      {
+      "question": "How long do I need to stay in Colombia for my recovery before flying back?",
+      "answer": "The recommended stay for a safe recovery depends on the procedure. For major surgeries like the Deep Plane Facelift, a minimum stay of 10 to 14 days in Bogota is required. For less complex procedures like blepharoplasty, brow lifts, fat transfer, or breast explant, the suggested stay is 7 to 10 days. This allows for suture removal, essential in-person checkups, and guarantees you are in optimal health to travel home."
+},
+      {
+      "question": "What logistical support and post-op accompaniment do you offer for international patients?",
+      "answer": "We provide comprehensive guidance for patients traveling from abroad. We assist you with accommodation recommendations at trusted hotels or recovery houses in Bogota with special partner rates, coordinate safe private bilingual transportation to and from the airport, and connect you with certified private nursing care services for your hotel stay if you are traveling alone."
+},
+      {
+      "question": "What payment methods do you accept, and do you offer financing?",
+      "answer": "We accept multiple secure payment methods for your convenience, including international credit cards (Visa, Mastercard, Amex), international bank wire transfers (Swift), local Colombian PSE transfers, and national debit/credit cards. Please note that we do not offer local financing options; all fees must be fully settled prior to the scheduled date of your procedure."
+}
     ]
   };
 
@@ -976,6 +1002,57 @@ export default function ClientContent() {
         </div>
       </section>
 
+      
+      {/* Testimonios Transcritos en Texto */}
+      <section className="py-16 bg-white border-t border-b border-gray-100">
+        <div className="container mx-auto px-4 max-w-5xl">
+          <div className="text-center mb-12">
+            <h2 className="font-prototype text-3xl lg:text-4xl mb-4" style={{ color: '#1d3c5d' }}>
+              {activeLocale === 'es' ? 'Testimonios Reales Transcritos' : 'Transcribed Patient Testimonials'}
+            </h2>
+            <p className="font-sansation text-sm text-gray-500 max-w-xl mx-auto">
+              {activeLocale === 'es' 
+                ? 'Opiniones y vivencias de pacientes reales tomadas directamente de sus testimonios en video.' 
+                : 'Real patient experiences transcribed directly from their video testimonials.'}
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 shadow-sm relative text-[#1d3c5d]">
+              <span className="text-6xl text-[#1d3c5d] opacity-10 absolute top-4 left-4 font-serif">“</span>
+              <p className="font-sansation text-gray-700 text-base italic mb-6 leading-relaxed relative z-10">
+                {activeLocale === 'es' ? "Definitivamente me siento fantástica, mucho más bonita. Me quité por lo menos 10 años de encima, me veo más fresca y menos cansada. Al cuarto y quinto día sentí mucha inflamación y me asusté, pero hoy que han pasado cinco semanas digo que vuelvo a amar el resultado. Quedé preciosa y no sufrí ningún cambio en mi fisionomía original." : "I feel fantastic, much more beautiful. I look at least 10 years younger, fresher, and less tired. On the 4th and 5th day after surgery I was very swollen and got scared, but now that 5 weeks have passed, I love the result. I look beautiful and my facial structure remains natural."}
+              </p>
+              <div className="flex items-center gap-3">
+                <div className="w-10 h-10 rounded-full bg-[#1d3c5d] flex items-center justify-center text-white font-bold text-sm">
+                  {activeLocale === 'es' ? "C" : "C"}
+                </div>
+                <div>
+                  <h4 className="font-sansation font-bold text-[#1d3c5d] text-sm">{activeLocale === 'es' ? "Carolina" : "Carolina"}</h4>
+                  <p className="font-sansation text-xs text-gray-400">{activeLocale === 'es' ? "Paciente de Miami, FL" : "Patient from Miami, FL"}</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 shadow-sm relative text-[#1d3c5d]">
+              <span className="text-6xl text-[#1d3c5d] opacity-10 absolute top-4 left-4 font-serif">“</span>
+              <p className="font-sansation text-gray-700 text-base italic mb-6 leading-relaxed relative z-10">
+                {activeLocale === 'es' ? "Averigüé y me dieron muchas recomendaciones a nivel nacional e internacional, lo que me permite tener total confiabilidad. Mi hija confiesa: 'Al principio estaba nerviosa, pero empezamos a ver los videos del doctor, nos llegaron muy buenas referencias y conocerlo me dio absoluta tranquilidad. Sé que mi mamá está con un cirujano profesional y certificado'." : "I researched and received many recommendations nationally and internationally, which gave me total confidence. My daughter confesses: 'At first I was nervous, but we started watching the doctor's videos and got great references. Meeting him gave me absolute peace of mind. I knew my mother was in the hands of a certified, professional surgeon'."}
+              </p>
+              <div className="flex items-center gap-3">
+                <div className="w-10 h-10 rounded-full bg-[#1d3c5d] flex items-center justify-center text-white font-bold text-sm">
+                  {activeLocale === 'es' ? "L" : "L"}
+                </div>
+                <div>
+                  <h4 className="font-sansation font-bold text-[#1d3c5d] text-sm">{activeLocale === 'es' ? "Lucy & Hija" : "Lucy & Daughter"}</h4>
+                  <p className="font-sansation text-xs text-gray-400">{activeLocale === 'es' ? "Paciente de Chicago, IL" : "Patient from Chicago, IL"}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
       {/* Preguntas Frecuentes - Responsive */}
       <section className="py-8 md:py-12 lg:py-20" style={{ backgroundColor: '#babdb3' }}>
         <div className="max-w-7xl mx-auto px-4">

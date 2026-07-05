@@ -29,7 +29,19 @@ export default function FaqSection() {
       {
         question: "¿Quedan cicatrices visibles tras la cirugía de párpados?",
         answer: "Las cicatrices son prácticamente imperceptibles. En la blefaroplastia superior, la incisión se realiza estratégicamente sobre el pliegue natural del párpado, ocultándose por completo al abrir los ojos. En la blefaroplastia inferior, si se utiliza el abordaje transconjuntival (por dentro del párpado), no queda ninguna cicatriz externa. Si se requiere retirar exceso de piel inferior, la incisión se realiza justo debajo de la línea de las pestañas, camuflándose de forma excelente con el tiempo."
-      }
+      },
+      {
+      "question": "¿Cuánto tiempo debo permanecer en Colombia para mi recuperación antes de poder viajar en avión?",
+      "answer": "El tiempo recomendado de estadía para una recuperación segura depende del procedimiento. Para cirugías mayores como el lifting facial (Deep Plane), se requiere una permanencia mínima de 10 a 14 días. Para procedimientos de menor complejidad como blefaroplastia, elevación de cejas, transferencia de grasa o explantación mamaria, el tiempo mínimo sugerido es de 7 a 10 días. Esto permite retirar suturas, realizar controles presenciales indispensables y garantizar que estés en condiciones óptimas para viajar de regreso."
+},
+      {
+      "question": "¿Qué apoyo logístico y de acompañamiento ofrecen para pacientes internacionales?",
+      "answer": "Nuestro consultorio brinda un acompañamiento integral para pacientes que viajan desde el extranjero. Te asistimos recomendándote hoteles y casas de recuperación aliadas con tarifas especiales en Bogotá, coordinamos transporte privado bilingüe seguro desde y hacia el aeropuerto, y te conectamos con enfermeras profesionales especializadas en cuidados postquirúrgicos domiciliarios en caso de que viajes sin acompañante."
+},
+      {
+      "question": "¿Cuáles son los métodos de pago aceptados y ofrecen financiación?",
+      "answer": "Aceptamos diversos medios de pago para tu comodidad, incluyendo tarjetas de crédito internacionales (Visa, Mastercard, Amex), transferencias bancarias internacionales registradas (Swift), pagos locales electrónicos mediante PSE, y transferencias o tarjetas de débito/crédito nacionales. Es importante aclarar que no manejamos opciones de financiación local directa; toda la inversión del procedimiento debe quedar cubierta en su totalidad antes del día programado de la cirugía."
+}
     ],
     en: [
       {
@@ -43,7 +55,19 @@ export default function FaqSection() {
       {
         question: "Will there be visible scars after eyelid surgery?",
         answer: "Scars are virtually invisible. In upper blepharoplasty, the incision is strategically placed along the natural crease of the eyelid, hiding completely when the eyes are open. In lower blepharoplasty, if a transconjunctival approach (inside the eyelid) is used, there is no external scar. If lower skin removal is required, the incision is placed right below the lash line, camouflaging beautifully over time."
-      }
+      },
+      {
+      "question": "How long do I need to stay in Colombia for my recovery before flying back?",
+      "answer": "The recommended stay for a safe recovery depends on the procedure. For major surgeries like the Deep Plane Facelift, a minimum stay of 10 to 14 days in Bogota is required. For less complex procedures like blepharoplasty, brow lifts, fat transfer, or breast explant, the suggested stay is 7 to 10 days. This allows for suture removal, essential in-person checkups, and guarantees you are in optimal health to travel home."
+},
+      {
+      "question": "What logistical support and post-op accompaniment do you offer for international patients?",
+      "answer": "We provide comprehensive guidance for patients traveling from abroad. We assist you with accommodation recommendations at trusted hotels or recovery houses in Bogota with special partner rates, coordinate safe private bilingual transportation to and from the airport, and connect you with certified private nursing care services for your hotel stay if you are traveling alone."
+},
+      {
+      "question": "What payment methods do you accept, and do you offer financing?",
+      "answer": "We accept multiple secure payment methods for your convenience, including international credit cards (Visa, Mastercard, Amex), international bank wire transfers (Swift), local Colombian PSE transfers, and national debit/credit cards. Please note that we do not offer local financing options; all fees must be fully settled prior to the scheduled date of your procedure."
+}
     ]
   };
 

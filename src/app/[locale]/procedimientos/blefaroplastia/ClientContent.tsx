@@ -433,6 +433,57 @@ export default function ClientContent() {
       </section>
 
       {/* FAQs */}
+      
+      {/* Testimonios Transcritos en Texto */}
+      <section className="py-16 bg-white border-t border-b border-gray-100">
+        <div className="container mx-auto px-4 max-w-5xl">
+          <div className="text-center mb-12">
+            <h2 className="font-prototype text-3xl lg:text-4xl mb-4" style={{ color: '#1d3c5d' }}>
+              {activeLocale === 'es' ? 'Testimonios Reales Transcritos' : 'Transcribed Patient Testimonials'}
+            </h2>
+            <p className="font-sansation text-sm text-gray-500 max-w-xl mx-auto">
+              {activeLocale === 'es' 
+                ? 'Opiniones y vivencias de pacientes reales tomadas directamente de sus testimonios en video.' 
+                : 'Real patient experiences transcribed directly from their video testimonials.'}
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 shadow-sm relative text-[#1d3c5d]">
+              <span className="text-6xl text-[#1d3c5d] opacity-10 absolute top-4 left-4 font-serif">“</span>
+              <p className="font-sansation text-gray-700 text-base italic mb-6 leading-relaxed relative z-10">
+                {activeLocale === 'es' ? "Vengo desde la Florida súper emocionada al ver al doctor Andrés, el arte que tiene con esas manos es espectacular... Me realicé la cirugía que consta de blefaroplastia superior, inferior, y aplicación de células madre. Estoy muy contenta, me ha dado bastante elasticidad, color y brillo a la piel. Lo recomiendo, es lo mejor." : "I came from Florida super excited to see Dr. Andres. The art he does with his hands is spectacular... I underwent upper and lower blepharoplasty combined with stem cells. I am extremely happy, my skin has gained so much elasticity, color, and brightness. I highly recommend him."}
+              </p>
+              <div className="flex items-center gap-3">
+                <div className="w-10 h-10 rounded-full bg-[#1d3c5d] flex items-center justify-center text-white font-bold text-sm">
+                  {activeLocale === 'es' ? "P" : "P"}
+                </div>
+                <div>
+                  <h4 className="font-sansation font-bold text-[#1d3c5d] text-sm">{activeLocale === 'es' ? "Paciente de Florida" : "Patient from Florida"}</h4>
+                  <p className="font-sansation text-xs text-gray-400">{activeLocale === 'es' ? "Orlando, FL" : "Orlando, FL"}</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 shadow-sm relative text-[#1d3c5d]">
+              <span className="text-6xl text-[#1d3c5d] opacity-10 absolute top-4 left-4 font-serif">“</span>
+              <p className="font-sansation text-gray-700 text-base italic mb-6 leading-relaxed relative z-10">
+                {activeLocale === 'es' ? "Como estilista de toda la vida, al principio era el detractor número uno y no quería que se operara. Pero quedé sorprendido: el doctor hizo algo súper natural, el mentón perfecto, las cicatrices son un hilo fino, los ojos no quedaron deformes, el parpadeo quedó idéntico y las cejas perfectas. Una recuperación excelente." : "As a long-time hair stylist, I was initially the number one skeptic. But I was amazed: the doctor did something super natural, the chin is perfect, the scars are like a fine thread, the eyes are not distorted, blink movement is natural, and brows are perfect. Excellent recovery."}
+              </p>
+              <div className="flex items-center gap-3">
+                <div className="w-10 h-10 rounded-full bg-[#1d3c5d] flex items-center justify-center text-white font-bold text-sm">
+                  {activeLocale === 'es' ? "V" : "V"}
+                </div>
+                <div>
+                  <h4 className="font-sansation font-bold text-[#1d3c5d] text-sm">{activeLocale === 'es' ? "Víctor" : "Victor"}</h4>
+                  <p className="font-sansation text-xs text-gray-400">{activeLocale === 'es' ? "Estilista Profesional - Bogotá" : "Professional Hair Stylist - Bogota"}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
       <FaqSection />
     </div>
   )

@@ -36,31 +36,55 @@ export default function ClientContent() {
   const localFaqs = {
     es: [
       {
-        question: "¿Cuánto dura el resultado de la elevación de cola de cejas?",
-        answer: "La duración de los resultados varía según la técnica. En la elevación temporal de cejas (quirúrgica, con incisiones ocultas en el cabello), los resultados suelen durar entre 8 y 12 años, retrasando significativamente el envejecimiento de la mirada. En técnicas directas o de fijación, los resultados son sumamente estables a largo plazo."
+        question: "¿Qué diferencia hay entre la elevación de cejas directa y un lifting de cejas temporal?",
+        answer: "La elevación de cejas directa (resección de un arco de piel justo encima del límite del vello de la ceja) es la técnica más potente y precisa para corregir la caída del tercio lateral de la ceja (ptosis lateral). Permite al Dr. Andrés Pérez Nieto esculpir de manera milimétrica la altura y arco deseados. Por otro lado, un lifting temporal se realiza mediante incisiones en las sienes dentro del cuero cabelludo, ofreciendo una tracción más difusa pero ocultando la cicatriz por completo dentro del pelo."
       },
       {
-        question: "¿Cómo es el proceso de recuperación y los cuidados postoperatorios?",
-        answer: "La recuperación es muy tolerable. Es normal presentar algo de inflamación o tensión leve en la zona de las sienes y la frente durante los primeros 7 a 10 días. Se recomienda aplicar compresas frías, dormir con la cabeza elevada y evitar expresiones faciales exageradas o masajes en la frente. Los puntos se retiran a los 7-10 días."
+        question: "What is the recovery period and when are sutures removed?",
+        answer: "Recovery is fast and requires very little downtime. Swelling and mild bruising around the outer eye area are normal during the first 5 to 7 days. Sutures are meticulously removed on day 7. Most patients return to their social and professional activities within a week, using makeup to conceal any temporary redness."
       },
       {
-        question: "¿Quedan cicatrices visibles tras una elevación de cejas?",
-        answer: "No. En la técnica de elevación temporal, las incisiones se realizan dentro del cuero cabelludo (detrás de la línea del cabello), por lo que las cicatrices quedan completamente ocultas bajo el pelo. En la elevación directa, la incisión se realiza justo en el borde superior de los pelos de la ceja, camuflándose de forma invisible a medida que cicatriza."
-      }
+        question: "Will the scars from a direct brow lift be noticeable?",
+        answer: "The scar from a direct brow lift is designed to be exceptionally discreet. By placing the incision precisely along the upper edge of the eyebrow hair, it blends with the natural transition of the skin and hair. Over a period of 2 to 3 months, the scar fades, turning into a fine, flat line that can be easily concealed with makeup or the brow hair itself."
+      },
+      {
+      "question": "¿Cuánto tiempo debo permanecer en Colombia para mi recuperación antes de poder viajar en avión?",
+      "answer": "El tiempo recomendado de estadía para una recuperación segura depende del procedimiento. Para cirugías mayores como el lifting facial (Deep Plane), se requiere una permanencia mínima de 10 a 14 días. Para procedimientos de menor complejidad como blefaroplastia, elevación de cejas, transferencia de grasa o explantación mamaria, el tiempo mínimo sugerido es de 7 a 10 días. Esto permite retirar suturas, realizar controles presenciales indispensables y garantizar que estés en condiciones óptimas para viajar de regreso."
+},
+      {
+      "question": "¿Qué apoyo logístico y de acompañamiento ofrecen para pacientes internacionales?",
+      "answer": "Nuestro consultorio brinda un acompañamiento integral para pacientes que viajan desde el extranjero. Te asistimos recomendándote hoteles y casas de recuperación aliadas con tarifas especiales en Bogotá, coordinamos transporte privado bilingüe seguro desde y hacia el aeropuerto, y te conectamos con enfermeras profesionales especializadas en cuidados postquirúrgicos domiciliarios en caso de que viajes sin acompañante."
+},
+      {
+      "question": "¿Cuáles son los métodos de pago aceptados y ofrecen financiación?",
+      "answer": "Aceptamos diversos medios de pago para tu comodidad, incluyendo tarjetas de crédito internacionales (Visa, Mastercard, Amex), transferencias bancarias internacionales registradas (Swift), pagos locales electrónicos mediante PSE, y transferencias o tarjetas de débito/crédito nacionales. Es importante aclarar que no manejamos opciones de financiación local directa; toda la inversión del procedimiento debe quedar cubierta en su totalidad antes del día programado de la cirugía."
+}
     ],
     en: [
       {
-        question: "How long does a brow tail lift result last?",
-        answer: "The duration of results depends on the technique used. For a surgical temporal brow lift (with incisions hidden inside the hairline), the results typically last 8 to 12 years, significantly setting back the aging clock. Direct brow lifts are highly stable and permanent, though natural aging continues."
+        question: "What is the difference between a direct brow lift and a temporal brow lift?",
+        answer: "A direct brow lift involves removing a precise strip of skin right above the eyebrow hair. It is the most powerful technique to customize and correct sagging of the outer brow. A temporal brow lift uses small incisions hidden inside the hairline at the temples, providing a lifting effect that pulls diagonally and hides the scar completely within the hair."
       },
       {
-        question: "What is the recovery process and post-op care like?",
-        answer: "Recovery is very manageable. It is normal to feel some mild swelling or tension around the temples and forehead for the first 7 to 10 days. Applying cold compresses, sleeping with your head elevated, and avoiding exaggerated facial expressions or forehead massages is advised. Sutures are removed after 7-10 days."
+        question: "What is the recovery period and when are sutures removed?",
+        answer: "Recovery is fast and requires very little downtime. Swelling and mild bruising around the outer eye area are normal during the first 5 to 7 days. Sutures are meticulously removed on day 7. Most patients return to their social and professional activities within a week, using makeup to conceal any temporary redness."
       },
       {
-        question: "Will there be visible scars after a brow lift?",
-        answer: "No. In the temporal brow lift technique, incisions are made inside the scalp (behind the hairline), leaving scars completely hidden under your hair. In a direct lift, the incision is placed right along the top border of the eyebrow hairs, camouflaging invisibly as it heals."
-      }
+        question: "Will the scars from a direct brow lift be noticeable?",
+        answer: "The scar from a direct brow lift is designed to be exceptionally discreet. By placing the incision precisely along the upper edge of the eyebrow hair, it blends with the natural transition of the skin and hair. Over a period of 2 to 3 months, the scar fades, turning into a fine, flat line that can be easily concealed with makeup or the brow hair itself."
+      },
+      {
+      "question": "How long do I need to stay in Colombia for my recovery before flying back?",
+      "answer": "The recommended stay for a safe recovery depends on the procedure. For major surgeries like the Deep Plane Facelift, a minimum stay of 10 to 14 days in Bogota is required. For less complex procedures like blepharoplasty, brow lifts, fat transfer, or breast explant, the suggested stay is 7 to 10 days. This allows for suture removal, essential in-person checkups, and guarantees you are in optimal health to travel home."
+},
+      {
+      "question": "What logistical support and post-op accompaniment do you offer for international patients?",
+      "answer": "We provide comprehensive guidance for patients traveling from abroad. We assist you with accommodation recommendations at trusted hotels or recovery houses in Bogota with special partner rates, coordinate safe private bilingual transportation to and from the airport, and connect you with certified private nursing care services for your hotel stay if you are traveling alone."
+},
+      {
+      "question": "What payment methods do you accept, and do you offer financing?",
+      "answer": "We accept multiple secure payment methods for your convenience, including international credit cards (Visa, Mastercard, Amex), international bank wire transfers (Swift), local Colombian PSE transfers, and national debit/credit cards. Please note that we do not offer local financing options; all fees must be fully settled prior to the scheduled date of your procedure."
+}
     ]
   };
 
@@ -496,6 +520,57 @@ export default function ClientContent() {
         </div>
       </section>
 
+      
+      {/* Testimonios Transcritos en Texto */}
+      <section className="py-16 bg-white border-t border-b border-gray-100">
+        <div className="container mx-auto px-4 max-w-5xl">
+          <div className="text-center mb-12">
+            <h2 className="font-prototype text-3xl lg:text-4xl mb-4" style={{ color: '#1d3c5d' }}>
+              {activeLocale === 'es' ? 'Testimonios Reales Transcritos' : 'Transcribed Patient Testimonials'}
+            </h2>
+            <p className="font-sansation text-sm text-gray-500 max-w-xl mx-auto">
+              {activeLocale === 'es' 
+                ? 'Opiniones y vivencias de pacientes reales tomadas directamente de sus testimonios en video.' 
+                : 'Real patient experiences transcribed directly from their video testimonials.'}
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 shadow-sm relative text-[#1d3c5d]">
+              <span className="text-6xl text-[#1d3c5d] opacity-10 absolute top-4 left-4 font-serif">“</span>
+              <p className="font-sansation text-gray-700 text-base italic mb-6 leading-relaxed relative z-10">
+                {activeLocale === 'es' ? "Sorprendido, el doctor hizo algo súper natural. Las cejas quedaron perfectas, en una mejor ubicación, despejando la mirada y haciéndola ver más luminosa sin ningún rasgo artificial." : "Amazed, the doctor did something super natural. The eyebrows look perfect, in a better position, opening up the eyes and making them look brighter without any artificial look."}
+              </p>
+              <div className="flex items-center gap-3">
+                <div className="w-10 h-10 rounded-full bg-[#1d3c5d] flex items-center justify-center text-white font-bold text-sm">
+                  {activeLocale === 'es' ? "V" : "V"}
+                </div>
+                <div>
+                  <h4 className="font-sansation font-bold text-[#1d3c5d] text-sm">{activeLocale === 'es' ? "Víctor" : "Victor"}</h4>
+                  <p className="font-sansation text-xs text-gray-400">{activeLocale === 'es' ? "Estilista - Bogotá" : "Hair Stylist - Bogota"}</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 shadow-sm relative text-[#1d3c5d]">
+              <span className="text-6xl text-[#1d3c5d] opacity-10 absolute top-4 left-4 font-serif">“</span>
+              <p className="font-sansation text-gray-700 text-base italic mb-6 leading-relaxed relative z-10">
+                {activeLocale === 'es' ? "Optamos por realizar elevación de cejas y blefaroplastia. El cambio en la mirada es inmediato: los párpados lucen despejados, el arco de las cejas está ubicado de forma muy precisa y la cicatriz quedó completamente camuflada en el borde del pelo, siendo invisible." : "We opted for a brow lift and blepharoplasty. The change in the eyes is immediate: the eyelids look open, the brow arch is precisely located, and the scar is completely camouflaged at the hairline, making it invisible."}
+              </p>
+              <div className="flex items-center gap-3">
+                <div className="w-10 h-10 rounded-full bg-[#1d3c5d] flex items-center justify-center text-white font-bold text-sm">
+                  {activeLocale === 'es' ? "T" : "C"}
+                </div>
+                <div>
+                  <h4 className="font-sansation font-bold text-[#1d3c5d] text-sm">{activeLocale === 'es' ? "Testimonio Clínico" : "Clinical Testimony"}</h4>
+                  <p className="font-sansation text-xs text-gray-400">{activeLocale === 'es' ? "Paciente de Bogotá" : "Patient from Bogota"}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
       {/* FAQ */}
       < section className="py-12 sm:py-16 lg:py-20" style={{ backgroundColor: '#babdb3' }}>
         <div className="container mx-auto px-4 sm:px-6">

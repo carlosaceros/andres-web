@@ -42,31 +42,55 @@ export default function ClientContent() {
   const localFaqs = {
     es: [
       {
-        question: "¿Qué es la Enfermedad de Implantes Mamarios (BII) y cuáles son sus síntomas?",
-        answer: "La Enfermedad de Implantes Mamarios (BII) es un término utilizado por pacientes y médicos para describir una amplia gama de síntomas sistémicos que se desarrollan tras la colocación de implantes mamarios. Los síntomas más comunes incluyen fatiga crónica, dolores articulares y musculares, niebla mental, problemas respiratorios, trastornos del sueño, sequedad ocular y bucal, erupciones cutáneas, problemas digestivos y caída del cabello. Muchas pacientes reportan una mejoría significativa de estos síntomas tras una explantación completa En Bloc."
+        question: "¿Qué síntomas alivia la explantación mamaria?",
+        answer: "La explantación mamaria con capsulectomía en bloc está altamente asociada con la mejoría drástica o desaparición completa de los síntomas sistémicos del Síndrome de Asia o Enfermedad de Implantes Mamarios (BII). Pacientes reportan alivio inmediato en la fatiga crónica, dolores articulares, niebla mental, problemas dermatológicos y migrañas."
       },
       {
-        question: "¿Qué significa retirar los implantes con la técnica 'En Bloc'?",
-        answer: "La técnica 'En Bloc' (en bloque) consiste en retirar el implante mamario y la cápsula de tejido cicatricial que lo rodea en una sola pieza intacta, como si fuera una bolsa cerrada. Esto es crucial si el implante está roto o si se sospecha de Enfermedad de Implantes Mamarios (BII), ya que evita que cualquier residuo de silicona, gel cohesivo, bacterias o restos inflamatorios entren en contacto directo con los tejidos sanos del tórax durante la cirugía."
+        question: "¿Cómo queda el pecho estéticamente tras retirar los implantes?",
+        answer: "La apariencia final depende del volumen previo, calidad de piel y si se realiza mastopexia (elevación) simultánea. El Dr. Andrés Pérez Nieto realiza una reconstrucción anatómica detallada utilizando tus propios tejidos grasos y glandulares para restaurar un contorno mamario armónico, redondeado y sumamente natural, evitando el aspecto de pecho vacío."
       },
       {
-        question: "¿Cómo quedan los senos después de retirar los implantes?",
-        answer: "El aspecto final depende del tamaño de los implantes retirados, la elasticidad de la piel y el volumen de tejido mamario natural. En implantes pequeños o medianos, el tejido suele recuperar volumen y adaptarse gradualmente en los primeros meses. Para casos con flacidez notable o implantes muy grandes, se recomienda realizar simultáneamente una mastopexia (levantamiento de senos) para eliminar el exceso de piel, reposicionar la areola y el pezón, y esculpir una silueta más joven y natural."
-      }
+        question: "¿Qué tipo de anestesia y medidas de seguridad se utilizan?",
+        answer: "Para tu total tranquilidad, la cirugía se realiza bajo anestesia general controlada y monitorización anestésica continua en clínicas certificadas como el Santa Ana Medical Center. Esto nos permite un control quirúrgico absoluto y máxima seguridad para la paciente durante el procedimiento."
+      },
+      {
+      "question": "¿Cuánto tiempo debo permanecer en Colombia para mi recuperación antes de poder viajar en avión?",
+      "answer": "El tiempo recomendado de estadía para una recuperación segura depende del procedimiento. Para cirugías mayores como el lifting facial (Deep Plane), se requiere una permanencia mínima de 10 a 14 días. Para procedimientos de menor complejidad como blefaroplastia, elevación de cejas, transferencia de grasa o explantación mamaria, el tiempo mínimo sugerido es de 7 a 10 días. Esto permite retirar suturas, realizar controles presenciales indispensables y garantizar que estés en condiciones óptimas para viajar de regreso."
+},
+      {
+      "question": "¿Qué apoyo logístico y de acompañamiento ofrecen para pacientes internacionales?",
+      "answer": "Nuestro consultorio brinda un acompañamiento integral para pacientes que viajan desde el extranjero. Te asistimos recomendándote hoteles y casas de recuperación aliadas con tarifas especiales en Bogotá, coordinamos transporte privado bilingüe seguro desde y hacia el aeropuerto, y te conectamos con enfermeras profesionales especializadas en cuidados postquirúrgicos domiciliarios en caso de que viajes sin acompañante."
+},
+      {
+      "question": "¿Cuáles son los métodos de pago aceptados y ofrecen financiación?",
+      "answer": "Aceptamos diversos medios de pago para tu comodidad, incluyendo tarjetas de crédito internacionales (Visa, Mastercard, Amex), transferencias bancarias internacionales registradas (Swift), pagos locales electrónicos mediante PSE, y transferencias o tarjetas de débito/crédito nacionales. Es importante aclarar que no manejamos opciones de financiación local directa; toda la inversión del procedimiento debe quedar cubierta en su totalidad antes del día programado de la cirugía."
+}
     ],
     en: [
       {
-        question: "What is Breast Implant Illness (BII) and what are its symptoms?",
-        answer: "Breast Implant Illness (BII) is a term used by patients and doctors to describe a broad spectrum of systemic symptoms that develop after receiving breast implants. The most common symptoms include chronic fatigue, joint and muscle pain, brain fog, breathing difficulties, sleep disturbances, dry eyes/mouth, skin rashes, digestive issues, and hair loss. Many patients report a significant improvement in these symptoms after a complete En Bloc explantation."
+        question: "What symptoms does breast explant surgery relieve?",
+        answer: "Breast explant surgery with en bloc capsulectomy is highly associated with the drastic improvement or complete resolution of systemic symptoms related to Breast Implant Illness (BII) or ASIA syndrome. Patients report immediate relief from chronic fatigue, joint pain, brain fog, skin issues, and headaches."
       },
       {
-        question: "What does it mean to remove implants using the 'En Bloc' technique?",
-        answer: "The 'En Bloc' technique consists of removing both the breast implant and the surrounding scar tissue capsule in one single, intact piece, like a sealed bag. This is critical if the implant is ruptured or if Breast Implant Illness (BII) is suspected, as it prevents any silicone residue, cohesive gel, bacteria, or inflammatory debris from contacting healthy chest tissues during the surgery."
+        question: "How will my breasts look aesthetically after removing the implants?",
+        answer: "The final appearance depends on your initial tissue volume, skin elasticity, and whether a simultaneous mastopexy (lift) is performed. Dr. Andres Perez Nieto performs a detailed anatomical reconstruction using your own glandular and fat tissues to restore a harmonious, rounded, and natural breast contour, avoiding a hollowed look."
       },
       {
-        question: "How will my breasts look after removing the implants?",
-        answer: "The final appearance depends on the size of the removed implants, skin elasticity, and your natural breast tissue volume. For small or medium implants, tissues often recover volume and adapt gradually within the first few months. In cases with noticeable sagging or very large implants, performing a simultaneous mastopexia (breast lift) is highly recommended to remove excess skin, reposition the areola and nipple, and sculpt a younger, natural contour."
-      }
+        question: "What type of anesthesia and safety protocols are used?",
+        answer: "For your complete peace of mind, the surgery is performed under controlled general anesthesia with continuous monitoring by a certified anesthesiologist in authorized clinics like the Santa Ana Medical Center. This ensures absolute surgical control and maximum patient safety."
+      },
+      {
+      "question": "How long do I need to stay in Colombia for my recovery before flying back?",
+      "answer": "The recommended stay for a safe recovery depends on the procedure. For major surgeries like the Deep Plane Facelift, a minimum stay of 10 to 14 days in Bogota is required. For less complex procedures like blepharoplasty, brow lifts, fat transfer, or breast explant, the suggested stay is 7 to 10 days. This allows for suture removal, essential in-person checkups, and guarantees you are in optimal health to travel home."
+},
+      {
+      "question": "What logistical support and post-op accompaniment do you offer for international patients?",
+      "answer": "We provide comprehensive guidance for patients traveling from abroad. We assist you with accommodation recommendations at trusted hotels or recovery houses in Bogota with special partner rates, coordinate safe private bilingual transportation to and from the airport, and connect you with certified private nursing care services for your hotel stay if you are traveling alone."
+},
+      {
+      "question": "What payment methods do you accept, and do you offer financing?",
+      "answer": "We accept multiple secure payment methods for your convenience, including international credit cards (Visa, Mastercard, Amex), international bank wire transfers (Swift), local Colombian PSE transfers, and national debit/credit cards. Please note that we do not offer local financing options; all fees must be fully settled prior to the scheduled date of your procedure."
+}
     ]
   };
 
@@ -379,6 +403,57 @@ export default function ClientContent() {
         </div>
       </section>
 
+      
+      {/* Testimonios Transcritos en Texto */}
+      <section className="py-16 bg-white border-t border-b border-gray-100">
+        <div className="container mx-auto px-4 max-w-5xl">
+          <div className="text-center mb-12">
+            <h2 className="font-prototype text-3xl lg:text-4xl mb-4" style={{ color: '#1d3c5d' }}>
+              {activeLocale === 'es' ? 'Testimonios Reales Transcritos' : 'Transcribed Patient Testimonials'}
+            </h2>
+            <p className="font-sansation text-sm text-gray-500 max-w-xl mx-auto">
+              {activeLocale === 'es' 
+                ? 'Opiniones y vivencias de pacientes reales tomadas directamente de sus testimonios en video.' 
+                : 'Real patient experiences transcribed directly from their video testimonials.'}
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 shadow-sm relative text-[#1d3c5d]">
+              <span className="text-6xl text-[#1d3c5d] opacity-10 absolute top-4 left-4 font-serif">“</span>
+              <p className="font-sansation text-gray-700 text-base italic mb-6 leading-relaxed relative z-10">
+                {activeLocale === 'es' ? "Decidir explantarme con el Dr. Andrés Pérez Nieto fue la mejor decisión para mi salud. Desde la primera consulta me explicó detalladamente la técnica de Capsulectomía En Bloc y la reconstrucción. Hoy me siento libre de los síntomas de BII, con una recuperación maravillosa y un pecho con forma muy bonita y natural." : "Choosing Dr. Andres Perez Nieto for my explant surgery was the best decision for my health. From the first consultation, he explained the En Bloc Capsulectomy and reconstruction. Today I am free of BII symptoms, had a wonderful recovery, and my breasts look very natural and beautiful."}
+              </p>
+              <div className="flex items-center gap-3">
+                <div className="w-10 h-10 rounded-full bg-[#1d3c5d] flex items-center justify-center text-white font-bold text-sm">
+                  {activeLocale === 'es' ? "P" : "P"}
+                </div>
+                <div>
+                  <h4 className="font-sansation font-bold text-[#1d3c5d] text-sm">{activeLocale === 'es' ? "Paciente de Chicago" : "Patient from Chicago"}</h4>
+                  <p className="font-sansation text-xs text-gray-400">{activeLocale === 'es' ? "Chicago, IL" : "Chicago, IL"}</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-gray-50 p-8 rounded-3xl border border-gray-100 shadow-sm relative text-[#1d3c5d]">
+              <span className="text-6xl text-[#1d3c5d] opacity-10 absolute top-4 left-4 font-serif">“</span>
+              <p className="font-sansation text-gray-700 text-base italic mb-6 leading-relaxed relative z-10">
+                {activeLocale === 'es' ? "El doctor estuvo absolutamente pendiente después del procedimiento. La asesoría que brinda es de un profesional íntegro: tiene la capacidad de decirte qué te queda bien y qué no de manera honesta. El acompañamiento y el cuidado de cada detalle postquirúrgico es excepcional." : "The doctor was absolutely attentive after the procedure. The advice he provides is highly professional: he has the integrity to tell you what looks good on you and what doesn't. The follow-up care and attention to post-op details are exceptional."}
+              </p>
+              <div className="flex items-center gap-3">
+                <div className="w-10 h-10 rounded-full bg-[#1d3c5d] flex items-center justify-center text-white font-bold text-sm">
+                  {activeLocale === 'es' ? "P" : "A"}
+                </div>
+                <div>
+                  <h4 className="font-sansation font-bold text-[#1d3c5d] text-sm">{activeLocale === 'es' ? "Paciente Anónima" : "Anonymous Patient"}</h4>
+                  <p className="font-sansation text-xs text-gray-400">{activeLocale === 'es' ? "Paciente de Bogotá" : "Patient from Bogota"}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
       {/* FAQ Section */}
       <section className="py-16" style={{ backgroundColor: '#babdb3' }}>
         <div className="container mx-auto px-4">
