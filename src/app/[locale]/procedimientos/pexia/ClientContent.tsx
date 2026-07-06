@@ -22,7 +22,7 @@ export default function ClientContent() {
       <section className="relative h-[600px]">
         <div className="absolute inset-0">
           <Image
-            src="https://media.drandrespereznieto.com/images/videos/Banner-Mamoplastia-reduccion.webp"
+            src="/images/videos/Banner-Mamoplastia-reduccion.webp"
             alt={t('title')}
             fill
             className="object-cover"

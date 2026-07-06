@@ -37,7 +37,7 @@ export default function ClientContent() {
           <div className="grid lg:grid-cols-2 gap-16 items-center w-full">
             <div className="space-y-8">
               <div>
-                <h1 className="font-prototype font-normal text-5xl lg:text-4xl mb-4" style={{ color: '#1d3c5d' }}>{t('title')} {locale === 'es' ? 'en Bogotá' : 'in Colombia'}</h1>
+                <h1 className="font-prototype font-normal text-5xl lg:text-4xl mb-4" style={{ color: '#1d3c5d' }} dangerouslySetInnerHTML={{ __html: t.raw('title') + ' ' + (locale === 'es' ? 'en Bogotá' : 'in Colombia') }} />
 
               {/* EEAT & FOMO Badge */}
               <div className="inline-flex flex-wrap items-center gap-x-3 gap-y-1.5 px-4 py-2.5 rounded-2xl bg-white/80 backdrop-blur-md border border-gray-200/80 shadow-sm max-w-xl my-6">

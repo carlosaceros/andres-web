@@ -104,19 +104,19 @@ export default function ClientContent() {
         <div
           className="absolute inset-0 block sm:hidden"
           style={{
-            background: `linear-gradient(to right, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.2) 50%, rgba(0,0,0,0.4) 100%), url('/images/Elevacion-Cola-cejas-movil.webp') center/cover no-repeat`
+            background: `linear-gradient(to bottom, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.75) 60%, rgba(255,255,255,0.2) 100%), url('/images/Elevacion-Cola-cejas-movil.webp') center/cover no-repeat`
           }}
         ></div>
         <div
           className="absolute inset-0 hidden sm:block lg:hidden"
           style={{
-            background: `linear-gradient(to right, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.1) 50%, rgba(0,0,0,0.3) 100%), url('/images/Elevacion-Cola-cejas-tablet.webp') center/cover no-repeat`
+            background: `linear-gradient(to right, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.7) 50%, rgba(255,255,255,0.15) 100%), url('/images/Elevacion-Cola-cejas-tablet.webp') center/cover no-repeat`
           }}
         ></div>
         <div
           className="absolute inset-0 hidden lg:block"
           style={{
-            background: `linear-gradient(to right, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.1) 50%, rgba(0,0,0,0.3) 100%), url('/images/Elevacion-Cola-cejas-banner.webp') center/cover no-repeat`
+            background: `linear-gradient(to right, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.7) 50%, rgba(255,255,255,0.15) 100%), url('/images/Elevacion-Cola-cejas-banner.webp') center/cover no-repeat`
           }}
         ></div>
 
