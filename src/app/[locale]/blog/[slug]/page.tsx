@@ -47,6 +47,8 @@ import PapelSmasRejuvenecimientoPost from '@/components/blog/es/PapelSmasRejuven
 import LigamentosFacialesOlvidadosPost from '@/components/blog/es/LigamentosFacialesOlvidadosPost';
 import CompartimentosGrasosFacialPost from '@/components/blog/es/CompartimentosGrasosFacialPost';
 import EnvejecimientoMandibulaPost from '@/components/blog/es/EnvejecimientoMandibulaPost';
+import EnvejecimientoCuelloPost from '@/components/blog/es/EnvejecimientoCuelloPost';
+import LiftingDespuesRellenosPost from '@/components/blog/es/LiftingDespuesRellenosPost';
 
 // en components
 import FaceliftCostEnPost from '@/components/blog/en/FaceliftCostEnPost';
@@ -97,6 +99,8 @@ const componentMap: Record<string, React.ComponentType> = {
   LigamentosFacialesOlvidadosPost,
   CompartimentosGrasosFacialPost,
   EnvejecimientoMandibulaPost,
+  EnvejecimientoCuelloPost,
+  LiftingDespuesRellenosPost,
 
   // 3 new en mappings
   DeepPlaneFaceliftColEnPost,
@@ -380,6 +384,18 @@ const headingsMap: Record<string, HeadingItem[]> = {
     { id: 'que-es', text: 'Envejecimiento óseo' },
     { id: 'beneficios', text: 'Papada y jowls' },
     { id: 'candidatos', text: 'Método Hamaca®' }
+  ],
+  'envejecimiento-cuello-bandas-platismales': [
+    { id: 'introduccion', text: 'Introducción' },
+    { id: 'que-es', text: '¿Por qué se forman?' },
+    { id: 'beneficios', text: 'El Hamaca Lift' },
+    { id: 'candidatos', text: 'Transección del platisma' }
+  ],
+  'lifting-facial-despues-rellenos-complicaciones': [
+    { id: 'introduccion', text: 'Introducción' },
+    { id: 'anatomia-rellenos', text: 'Impacto de los Rellenos' },
+    { id: 'complicaciones-tecnicas', text: 'Complicaciones Técnicas' },
+    { id: 'preparacion-hialuronidasa', text: 'Uso de Hialuronidasa' }
   ]
 };
 

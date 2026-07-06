@@ -1065,6 +1065,56 @@ export const blogPosts: BlogPostMetadata[] = [
         answer: 'Avoid clinics operating in private apartments or offices, extremely cheap prices, and doctors who promise risk-free results or refuse to show board certifications.'
       }
     ]
+  },
+  {
+    slug: 'envejecimiento-cuello-bandas-platismales',
+    locale: 'es',
+    title: 'El cuello también envejece: bandas, papada y laxitud',
+    subtitle: 'La importancia de tratar la anatomía muscular y grasa profunda en el rejuvenecimiento cervical.',
+    metaDescription: 'Descubre por qué envejece el cuello y cómo tratar las bandas platismales, la papada y la laxitud profunda mediante la técnica de Hamaca Lift en Bogotá.',
+    category: 'Lifting Hamaca',
+    date: '2026-07-06',
+    readingTime: '6 min',
+    quickAnswer: 'El envejecimiento del cuello combina flacidez cutánea, bandas musculares platismales y acumulación de grasa submental y subplatismal. Para lograr un cuello terso y natural, es fundamental suspender estas estructuras profundas con técnicas de plano profundo como el Hamaca Lift en lugar de solo estirar la piel.',
+    relatedProcedure: '/procedimientos/lifting-facial-hamaca',
+    cluster: 'lifting-facial',
+    componentName: 'EnvejecimientoCuelloPost',
+    featuredImage: '/images/blog/lifting-facial.jpg',
+    faqs: [
+      {
+        question: '¿Qué son las bandas platismales?',
+        answer: 'Son cuerdas musculares verticales causadas por la flacidez e hiperactividad del borde anterior del músculo platisma.'
+      },
+      {
+        question: '¿Cómo se trata el exceso de grasa profunda bajo el mentón?',
+        answer: 'Mediante la disección del plano subplatismal para resecar o reposicionar la grasa profunda en combinación con la platismoplastia.'
+      }
+    ]
+  },
+  {
+    slug: 'lifting-facial-despues-rellenos-complicaciones',
+    locale: 'es',
+    title: 'Lifting facial después de rellenos (ácido hialurónico)',
+    subtitle: 'Complicaciones y consideraciones técnicas del lifting de plano profundo ante inyectables previos.',
+    metaDescription: '¿Es seguro hacerse un lifting facial tras haber usado rellenos de ácido hialurónico? Conoce la fibrosis, distorsión de planos y el uso de hialuronidasa en Bogotá.',
+    category: 'Lifting Hamaca',
+    date: '2026-07-06',
+    readingTime: '6 min',
+    quickAnswer: 'Realizar un lifting facial tras el uso de ácido hialurónico presenta desafíos técnicos como la fibrosis, migración de producto y distorsión de los planos anatómicos. Se recomienda aplicar hialuronidasa semanas antes del procedimiento para disolver el relleno y asegurar un plano de disección limpio y seguro.',
+    relatedProcedure: '/procedimientos/lifting-facial-hamaca',
+    cluster: 'lifting-facial',
+    componentName: 'LiftingDespuesRellenosPost',
+    featuredImage: '/images/blog/lifting-facial.jpg',
+    faqs: [
+      {
+        question: '¿Se puede hacer un lifting si tengo rellenos?',
+        answer: 'Sí, pero requiere disolver previamente el ácido hialurónico con hialuronidasa y tener especial precaución con la fibrosis intraoperatoria.'
+      },
+      {
+        question: '¿Cuánto tiempo antes de la cirugía debo retirar los rellenos?',
+        answer: 'Se aconseja infiltrar hialuronidasa de dos a cuatro semanas antes del lifting para desinflamar y regularizar los tejidos.'
+      }
+    ]
   }
 ];
 
