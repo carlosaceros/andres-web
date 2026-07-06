@@ -9,8 +9,20 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-
-
+  async redirects() {
+    return [
+      {
+        source: '/aprende/:slug*/',
+        destination: '/es/blog/:slug*/',
+        permanent: true,
+      },
+      {
+        source: '/aprende/:slug*',
+        destination: '/es/blog/:slug*/',
+        permanent: true,
+      },
+    ];
+  },
   typescript: {
     ignoreBuildErrors: true,
   }
