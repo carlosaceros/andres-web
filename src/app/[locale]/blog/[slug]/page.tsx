@@ -51,6 +51,8 @@ import EnvejecimientoCuelloPost from '@/components/blog/es/EnvejecimientoCuelloP
 import LiftingDespuesRellenosPost from '@/components/blog/es/LiftingDespuesRellenosPost';
 import LiftingDespuesHilosPost from '@/components/blog/es/LiftingDespuesHilosPost';
 import LiftingHombresPost from '@/components/blog/es/LiftingHombresPost';
+import EnvejecimientoOjosPost from '@/components/blog/es/EnvejecimientoOjosPost';
+import QuitarPielParpadosPost from '@/components/blog/es/QuitarPielParpadosPost';
 
 // en components
 import FaceliftCostEnPost from '@/components/blog/en/FaceliftCostEnPost';
@@ -105,6 +107,8 @@ const componentMap: Record<string, React.ComponentType> = {
   LiftingDespuesRellenosPost,
   LiftingDespuesHilosPost,
   LiftingHombresPost,
+  EnvejecimientoOjosPost,
+  QuitarPielParpadosPost,
 
   // 3 new en mappings
   DeepPlaneFaceliftColEnPost,
@@ -412,6 +416,18 @@ const headingsMap: Record<string, HeadingItem[]> = {
     { id: 'cicatrices-hombres', text: 'Cicatrices en Hombres' },
     { id: 'redistribucion-folicular', text: 'Redistribución Folicular' },
     { id: 'riesgo-hematoma', text: 'Riesgo de Hematoma' }
+  ],
+  'envejecimiento-ojos-mirada-cansada': [
+    { id: 'introduccion', text: 'Introducción' },
+    { id: 'primeros-signos', text: 'Primeros Signos' },
+    { id: 'ptosis-vs-dermatocalasis', text: 'Ptosis vs Dermatocalasis' },
+    { id: 'perdida-volumen', text: 'Pérdida de Volumen' }
+  ],
+  'quitar-piel-parpados-error-blefaroplastia': [
+    { id: 'introduccion', text: 'Introducción' },
+    { id: 'reseccion-excesiva', text: 'Resección Excesiva' },
+    { id: 'piel-vs-estructuras', text: 'Piel vs Estructuras' },
+    { id: 'posicion-natural', text: 'Posición Natural' }
   ]
 };
 

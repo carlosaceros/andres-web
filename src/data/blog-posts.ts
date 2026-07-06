@@ -1165,6 +1165,56 @@ export const blogPosts: BlogPostMetadata[] = [
         answer: 'La piel masculina es más gruesa y tiene mayor vascularización para nutrir los folículos pilosos de la barba, lo que eleva el riesgo de hematoma.'
       }
     ]
+  },
+  {
+    slug: 'envejecimiento-ojos-mirada-cansada',
+    locale: 'es',
+    title: 'El envejecimiento de los ojos comienza antes de lo que imaginas',
+    subtitle: 'La ciencia detrás de la mirada cansada, pérdida de volumen periocular y arrugas dinámicas.',
+    metaDescription: 'Entiende cómo envejece la mirada de forma temprana. Analizamos la mirada cansada, arrugas dinámicas y la diferencia entre ptosis y dermatocalasis en Bogotá.',
+    category: 'Blefaroplastia',
+    date: '2026-07-06',
+    readingTime: '6 min',
+    quickAnswer: 'El envejecimiento periocular empieza temprano con la atrofia grasa y pérdida de volumen periorbital. Distinguir entre dermatocalasis (exceso de piel) y ptosis (debilidad del músculo elevador) es vital para tratar la mirada de forma adecuada y no solo retirar piel.',
+    relatedProcedure: '/procedimientos/blefaroplastia',
+    cluster: 'blefaroplastia',
+    componentName: 'EnvejecimientoOjosPost',
+    featuredImage: '/images/blog/blefaroplastia.jpg',
+    faqs: [
+      {
+        question: '¿Por qué se ve cansada la mirada a una edad temprana?',
+        answer: 'Se debe principalmente a la reabsorción ósea de la órbita y a la atrofia de la grasa periorbital, lo que forma surcos y sombras oscuras.'
+      },
+      {
+        question: '¿Cuál es la diferencia entre ptosis y dermatocalasis?',
+        answer: 'La dermatocalasis es exceso de piel flácida en el párpado, mientras que la ptosis es la caída física del párpado por debilidad muscular.'
+      }
+    ]
+  },
+  {
+    slug: 'quitar-piel-parpados-error-blefaroplastia',
+    locale: 'es',
+    title: 'Por qué quitar piel no siempre rejuvenece la mirada',
+    subtitle: 'El peligro de la resección excesiva y la importancia de la blefaroplastia de preservación.',
+    metaDescription: 'Descubre por qué quitar demasiada piel en los párpados es un grave error de la blefaroplastia tradicional. La importancia del volumen en Bogotá.',
+    category: 'Blefaroplastia',
+    date: '2026-07-06',
+    readingTime: '6 min',
+    quickAnswer: 'La blefaroplastia clásica a menudo cometía el error de retirar demasiada piel y grasa, lo que daba un aspecto de ojo seco, esclera expuesta o mirada asustada. La blefaroplastia moderna preserva y redistribuye los tejidos para mantener la forma natural del ojo.',
+    relatedProcedure: '/procedimientos/blefaroplastia',
+    cluster: 'blefaroplastia',
+    componentName: 'QuitarPielParpadosPost',
+    featuredImage: '/images/blog/blefaroplastia.jpg',
+    faqs: [
+      {
+        question: '¿Qué pasa si se quita demasiada piel en una blefaroplastia?',
+        answer: 'Puede causar lagoftalmos (incapacidad de cerrar el ojo), ectropión (eversión del párpado inferior) y resequedad ocular severa.'
+      },
+      {
+        question: '¿Cómo se evitan los ojos redondos postoperatorios?',
+        answer: 'Mediante cantopexia para dar soporte al párpado inferior y reposicionando la grasa en lugar de extirparla indiscriminadamente.'
+      }
+    ]
   }
 ];
 
