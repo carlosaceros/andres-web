@@ -22,6 +22,156 @@ export interface BlogPostMetadata {
 
 export const blogPosts: BlogPostMetadata[] = [
   {
+    slug: 'compartimentos-grasos-facial-deslizamiento',
+    locale: 'es',
+    title: 'Compartimentos grasos de la cara: por qué el rostro desciende con los años',
+    subtitle: 'La anatomía de las bolsas y surcos faciales explicada de forma sencilla y científica.',
+    metaDescription: '¿Por qué desciende la grasa facial con la edad? Conoce los compartimentos grasos superficiales y profundos del rostro y su rol en las ojeras y surcos en Bogotá.',
+    category: 'Lifting Hamaca',
+    date: '2026-07-06',
+    readingTime: '6 min',
+    quickAnswer: 'Los compartimentos grasos faciales son bolsas individuales de tejido adiposo que dan soporte al rostro. Con el envejecimiento, los ligamentos que las sostienen se estiran y debilitan, causando el deslizamiento de la grasa hacia abajo, lo que forma las ojeras, el surco nasogeniano y los jowls mandibulares.',
+    relatedProcedure: '/procedimientos/lifting-facial-hamaca',
+    cluster: 'lifting-facial',
+    componentName: 'CompartimentosGrasosFacialPost',
+    featuredImage: '/images/blog/lifting-facial.jpg',
+    faqs: [
+      {
+        question: '¿Qué causa la pérdida de volumen graso?',
+        answer: 'La atrofia de los compartimentos grasos profundos con la edad, lo que le resta proyección tridimensional al rostro.'
+      },
+      {
+        question: '¿Cómo se restaura el volumen de la grasa?',
+        answer: 'Reposicionando los compartimentos caídos con el lifting y rellenando los vacíos mediante lipofilling enriquecido con células madre.'
+      }
+    ]
+  },
+  {
+    slug: 'envejecimiento-mandibula-ovalo-facial',
+    locale: 'es',
+    title: 'El envejecimiento de la mandíbula y la pérdida de la línea mandibular',
+    subtitle: 'Cómo afecta la reabsorción ósea al cuello, papada y definición del perfil facial.',
+    metaDescription: 'La ciencia del envejecimiento mandibular y la reabsorción ósea facial. Entiende por qué se pierde la línea mandibular y cómo tratarlo con el Dr. Andrés Pérez en Bogotá.',
+    category: 'Lifting Hamaca',
+    date: '2026-07-06',
+    readingTime: '6 min',
+    quickAnswer: 'El envejecimiento de la mandíbula se caracteriza por la reabsorción progresiva de su tejido óseo. Esto acorta el mentón y aplana su ángulo posterior, reduciendo la base de apoyo que mantiene estirados los tejidos del cuello y las mejillas, propiciando la aparición de papada y jowls.',
+    relatedProcedure: '/procedimientos/lifting-facial-hamaca',
+    cluster: 'lifting-facial',
+    componentName: 'EnvejecimientoMandibulaPost',
+    featuredImage: '/images/blog/lifting-facial.jpg',
+    faqs: [
+      {
+        question: '¿Por qué se produce la reabsorción ósea?',
+        answer: 'Es un proceso natural del envejecimiento esquelético facial, acelerado por factores genéticos, pérdida de dientes o cambios hormonales.'
+      },
+      {
+        question: '¿Cómo se recupera la proyección de la mandíbula?',
+        answer: 'Reposicionando los músculos del cuello con el Método Hamaca® y restaurando el marco rígido mediante mentoplastia de aumento o lipofilling celular.'
+      }
+    ]
+  },
+  {
+    slug: 'papel-del-smas-rejuvenecimiento-facial',
+    locale: 'es',
+    title: 'El papel del SMAS en el rejuvenecimiento facial',
+    subtitle: 'La clave anatómica para reposicionar los tejidos del rostro de forma natural y duradera.',
+    metaDescription: '¿Qué es el SMAS y por qué es clave en el rejuvenecimiento facial en Bogotá? Analizamos la anatomía fibromuscular del rostro y cómo evitar un aspecto operado.',
+    category: 'Lifting Hamaca',
+    date: '2026-07-06',
+    readingTime: '6 min',
+    quickAnswer: 'El SMAS (Sistema Músculo-Aponeurótico Superficial) es la capa fibromuscular profunda que sostiene el rostro. Trabajar sobre esta estructura en lugar de estirar la piel permite levantar los volúmenes faciales con vectores verticales naturales, logrando resultados sumamente estéticos y duraderos.',
+    relatedProcedure: '/procedimientos/lifting-facial-hamaca',
+    cluster: 'lifting-facial',
+    componentName: 'PapelSmasRejuvenecimientoPost',
+    featuredImage: '/images/blog/lifting-facial.jpg',
+    faqs: [
+      {
+        question: '¿Por qué es superior el trabajo sobre el SMAS?',
+        answer: 'Porque el SMAS es inelástico y resistente, lo que le permite sostener el peso del rostro de forma duradera sin estirar ni deformar la piel.'
+      },
+      {
+        question: '¿Qué relación tiene el SMAS con el platisma?',
+        answer: 'El SMAS es la continuación superior del músculo platisma del cuello, por lo que tratarlos en conjunto brinda un rejuvenecimiento facial y cervical armonioso.'
+      }
+    ]
+  },
+  {
+    slug: 'ligamentos-faciales-grandes-olvidados-envejecimiento',
+    locale: 'es',
+    title: 'Ligamentos faciales: los grandes olvidados del envejecimiento',
+    subtitle: 'Por qué el rejuvenecimiento natural requiere liberar y reposicionar los anclajes de colágeno del rostro.',
+    metaDescription: 'Descubre qué son los ligamentos de retención faciales cigomáticos y masetéricos y su rol fundamental en la ptosis y flacidez facial en Bogotá con el Dr. Andrés Pérez.',
+    category: 'Lifting Hamaca',
+    date: '2026-07-06',
+    readingTime: '6 min',
+    quickAnswer: 'Los ligamentos de retención faciales son pilares rígidos de colágeno que conectan el hueso con la piel. Con los años, estos anclajes se estiran, provocando el descenso de la grasa y el músculo, por lo que liberarlos quirúrgicamente en plano profundo es clave para poder reposicionar la cara sin tensión facial.',
+    relatedProcedure: '/procedimientos/lifting-facial-hamaca',
+    cluster: 'lifting-facial',
+    componentName: 'LigamentosFacialesOlvidadosPost',
+    featuredImage: '/images/blog/lifting-facial.jpg',
+    faqs: [
+      {
+        question: '¿Qué pasa si no se liberan los ligamentos?',
+        answer: 'Los tejidos caídos encontrarán resistencia física y no se elevarán de manera natural, obligando a traccionar la piel de forma exagerada.'
+      },
+      {
+        question: '¿Cuáles son los ligamentos más importantes de la cara?',
+        answer: 'El cigomático (en el pómulo) y el masetérico (en la mejilla), los cuales sostienen las estructuras del tercio medio e inferior facial.'
+      }
+    ]
+  },
+  {
+    slug: 'que-es-realmente-un-deep-plane-facelift',
+    locale: 'es',
+    title: '¿Qué es realmente un Deep Plane Facelift?',
+    subtitle: 'La disección sub-SMAS y la liberación de ligamentos explicadas de forma sencilla y científica.',
+    metaDescription: '¿Qué es un Deep Plane Facelift o lifting de plano profundo? Conoce la anatomía sub-SMAS, liberación de ligamentos y por qué supera al lifting tradicional en Bogotá.',
+    category: 'Lifting Hamaca',
+    date: '2026-07-06',
+    readingTime: '6 min',
+    quickAnswer: 'Un Deep Plane Facelift es la técnica quirúrgica que trabaja por debajo del Sistema Músculo-Aponeurótico Superficial (SMAS). Consiste en liberar los ligamentos de retención caídos y elevar verticalmente toda la estructura facial en bloque, logrando un contorno mandibular y un cuello rejuvenecidos de forma sumamente natural y duradera.',
+    relatedProcedure: '/procedimientos/lifting-facial-hamaca',
+    cluster: 'lifting-facial',
+    componentName: 'QueEsRealmenteDeepPlanePost',
+    featuredImage: '/images/blog/lifting-facial.jpg',
+    faqs: [
+      {
+        question: '¿Por qué no se estira la piel en el Deep Plane?',
+        answer: 'Porque al reposicionar la capa muscular profunda (SMAS) de forma vertical, la piel acompaña el movimiento sin ninguna tensión horizontal, eliminando el aspecto jalado.'
+      },
+      {
+        question: '¿Qué ligamentos se liberan en la cirugía?',
+        answer: 'Se liberan de forma minuciosa los ligamentos cigomático y masetérico, permitiendo un reposicionamiento libre de tensión de las mejillas.'
+      }
+    ]
+  },
+  {
+    slug: 'sistema-soporte-facial-metodo-hamaca',
+    locale: 'es',
+    title: 'El sistema de soporte facial: la ciencia detrás del Método Hamaca®',
+    subtitle: 'Entiende cómo interactúan huesos, ligamentos, SMAS y grasa en el envejecimiento del rostro.',
+    metaDescription: 'La ciencia del sistema de soporte facial y el Método Hamaca® del Dr. Andrés Pérez en Bogotá. Cómo la analogía de la hamaca reestructura cuello y mejillas.',
+    category: 'Lifting Hamaca',
+    date: '2026-07-06',
+    readingTime: '7 min',
+    quickAnswer: 'El sistema de soporte facial es la red biológica que suspende los tejidos contra la gravedad, integrada por huesos, ligamentos, compartimentos grasos y el SMAS. El Método Hamaca® actúa mediante vectores de tensión cruzados y estratégicos sobre el músculo platisma y el SMAS profundo para restaurar este sistema y rejuvenecer cuello y óvalo facial.',
+    relatedProcedure: '/procedimientos/lifting-facial-hamaca',
+    cluster: 'lifting-facial',
+    componentName: 'SistemaSoporteFacialPost',
+    featuredImage: '/images/blog/lifting-facial.jpg',
+    faqs: [
+      {
+        question: '¿Qué es el Método Hamaca®?',
+        answer: 'Es una variación avanzada del Deep Plane donde cruzamos fibras musculares del platisma y las anclamos a puntos rígidos fijos, actuando como una hamaca de soporte.'
+      },
+      {
+        question: '¿Cómo afecta la reabsorción ósea al rostro?',
+        answer: 'Reduce la base rígida de apoyo óseo facial, provocando que los ligamentos se estiren y la grasa y la piel se deslicen verticalmente.'
+      }
+    ]
+  },
+  {
     slug: 'lifting-hamaca-deep-plane-soporte-facial',
     locale: 'es',
     title: 'Lifting Facial Hamaca Deep Plane®: El Arte de la Restauración Estructural',

@@ -41,6 +41,12 @@ import LiftingHamacaDeepPlanePost from '@/components/blog/es/LiftingHamacaDeepPl
 import EnvejecimientoTempranoPost from '@/components/blog/es/EnvejecimientoTempranoPost';
 import PorQueEnvejeceRostroPost from '@/components/blog/es/PorQueEnvejeceRostroPost';
 import LaPielNoSostieneRostroPost from '@/components/blog/es/LaPielNoSostieneRostroPost';
+import QueEsRealmenteDeepPlanePost from '@/components/blog/es/QueEsRealmenteDeepPlanePost';
+import SistemaSoporteFacialPost from '@/components/blog/es/SistemaSoporteFacialPost';
+import PapelSmasRejuvenecimientoPost from '@/components/blog/es/PapelSmasRejuvenecimientoPost';
+import LigamentosFacialesOlvidadosPost from '@/components/blog/es/LigamentosFacialesOlvidadosPost';
+import CompartimentosGrasosFacialPost from '@/components/blog/es/CompartimentosGrasosFacialPost';
+import EnvejecimientoMandibulaPost from '@/components/blog/es/EnvejecimientoMandibulaPost';
 
 // en components
 import FaceliftCostEnPost from '@/components/blog/en/FaceliftCostEnPost';
@@ -85,6 +91,12 @@ const componentMap: Record<string, React.ComponentType> = {
   EnvejecimientoTempranoPost,
   PorQueEnvejeceRostroPost,
   LaPielNoSostieneRostroPost,
+  QueEsRealmenteDeepPlanePost,
+  SistemaSoporteFacialPost,
+  PapelSmasRejuvenecimientoPost,
+  LigamentosFacialesOlvidadosPost,
+  CompartimentosGrasosFacialPost,
+  EnvejecimientoMandibulaPost,
 
   // 3 new en mappings
   DeepPlaneFaceliftColEnPost,
@@ -332,6 +344,42 @@ const headingsMap: Record<string, HeadingItem[]> = {
     { id: 'con-pexia', text: 'Envejecimiento profundo' },
     { id: 'sin-pexia', text: 'Ligamentos de retención' },
     { id: 'lipofilling', text: 'El papel del SMAS' }
+  ],
+  'que-es-realmente-un-deep-plane-facelift': [
+    { id: 'introduccion', text: 'Introducción' },
+    { id: 'que-es', text: 'El plano profundo' },
+    { id: 'beneficios', text: 'Deep Plane vs Clásico' },
+    { id: 'candidatos', text: 'Resultados duraderos' }
+  ],
+  'sistema-soporte-facial-metodo-hamaca': [
+    { id: 'introduccion', text: 'Introducción' },
+    { id: 'que-es', text: 'El sistema de soporte' },
+    { id: 'beneficios', text: 'La analogía de la hamaca' },
+    { id: 'candidatos', text: 'Compartimentos grasos' }
+  ],
+  'papel-del-smas-rejuvenecimiento-facial': [
+    { id: 'introduccion', text: 'Introducción' },
+    { id: 'que-es', text: 'El SMAS y su función' },
+    { id: 'beneficios', text: 'Evitar cara operada' },
+    { id: 'candidatos', text: 'Rejuvenecimiento moderno' }
+  ],
+  'ligamentos-faciales-grandes-olvidados-envejecimiento': [
+    { id: 'introduccion', text: 'Introducción' },
+    { id: 'que-es', text: 'Ligamentos de retención' },
+    { id: 'con-pexia', text: 'El descolgamiento' },
+    { id: 'sin-pexia', text: 'Liberación sub-SMAS' }
+  ],
+  'compartimentos-grasos-facial-deslizamiento': [
+    { id: 'introduccion', text: 'Introducción' },
+    { id: 'que-es', text: 'Compartimentos grasos' },
+    { id: 'beneficios', text: 'Bolsas y surcos' },
+    { id: 'candidatos', text: 'Lifting y volumen' }
+  ],
+  'envejecimiento-mandibula-ovalo-facial': [
+    { id: 'introduccion', text: 'Introducción' },
+    { id: 'que-es', text: 'Envejecimiento óseo' },
+    { id: 'beneficios', text: 'Papada y jowls' },
+    { id: 'candidatos', text: 'Método Hamaca®' }
   ]
 };
 
