@@ -1265,6 +1265,56 @@ export const blogPosts: BlogPostMetadata[] = [
         answer: 'Son anclajes fibrosos rígidos que unen la piel y el músculo al reborde del hueso de la órbita, causando la depresión física de la ojera.'
       }
     ]
+  },
+  {
+    slug: 'lipofilling-periocular-grasa-ojos',
+    locale: 'es',
+    title: 'Lipofilling periocular: restaurando el volumen de los párpados',
+    subtitle: 'Rejuvenecimiento celular de la mirada mediante microinjertos grasos y nanofat.',
+    metaDescription: 'Descubre cómo rejuvenecer la mirada y eliminar ojeras oscuras con el lipofilling periocular. Analizamos microfat y nanofat en Bogotá.',
+    category: 'Blefaroplastia',
+    date: '2026-07-06',
+    readingTime: '6 min',
+    quickAnswer: 'El lipofilling periocular consiste en inyectar microinjertos de grasa purificada del propio paciente en el área suborbital para restaurar el volumen perdido. Se complementa con nanofat (grasa emulsionada rica en células madre) para regenerar y mejorar la calidad cutánea.',
+    relatedProcedure: '/procedimientos/lipofilling-celulas-madre',
+    cluster: 'celulas',
+    componentName: 'LipofillingPeriocularPost',
+    featuredImage: '/images/blog/inyectables.jpg',
+    faqs: [
+      {
+        question: '¿Cuál es la diferencia entre microfat y nanofat?',
+        answer: 'El microfat rellena surcos profundos periorbitales y da soporte estructural. El nanofat es superficial, rico en células madre, y mejora la calidad y tono de la piel sin dar volumen.'
+      },
+      {
+        question: '¿La grasa inyectada en los párpados se absorbe?',
+        answer: 'Una parte (aproximadamente 30-40%) se reabsorbe las primeras semanas. La grasa que sobrevive y se vasculariza permanece de forma definitiva.'
+      }
+    ]
+  },
+  {
+    slug: 'resultados-naturales-blefaroplastia-evitar-mirada-operada',
+    locale: 'es',
+    title: 'Resultados naturales en blefaroplastia: cómo evitar ojos redondos',
+    subtitle: 'Cómo prevenir la mirada asustada y el ectropión mediante soporte cantal y vectores oblicuos.',
+    metaDescription: 'Aprende a evitar la mirada operada u ojo redondo tras una blefaroplastia inferior. La importancia de la cantopexia y vectores de soporte en Bogotá.',
+    category: 'Blefaroplastia',
+    date: '2026-07-06',
+    readingTime: '6 min',
+    quickAnswer: 'El ojo redondo o de asombro tras la blefaroplastia se evita combinando una resección conservadora de piel con la suspensión del tendón cantal externo mediante cantopexia. Esto da soporte al párpado inferior, previniendo el ectropión y manteniendo la forma almendrada.',
+    relatedProcedure: '/procedimientos/blefaroplastia',
+    cluster: 'blefaroplastia',
+    componentName: 'ResultadosNaturalesBlefaroPost',
+    featuredImage: '/images/blog/blefaroplastia.jpg',
+    faqs: [
+      {
+        question: '¿Qué es el ectropión y cómo ocurre?',
+        answer: 'Es la eversión o caída hacia afuera del párpado inferior, exponiendo la mucosa conjuntival. Ocurre por extirpar demasiada piel o por falta de soporte lateral del párpado.'
+      },
+      {
+        question: '¿Qué diferencia hay entre cantopexia y cantoplastia?',
+        answer: 'La cantopexia refuerza y eleva el tendón cantal sin cortarlo. La cantoplastia implica seccionar y acortar el tendón, indicada para laxitudes severas.'
+      }
+    ]
   }
 ];
 

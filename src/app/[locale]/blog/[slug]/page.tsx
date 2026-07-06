@@ -55,6 +55,8 @@ import EnvejecimientoOjosPost from '@/components/blog/es/EnvejecimientoOjosPost'
 import QuitarPielParpadosPost from '@/components/blog/es/QuitarPielParpadosPost';
 import ConservarGrasaParpadosPost from '@/components/blog/es/ConservarGrasaParpadosPost';
 import BlefaroplastiaDeepPlanePost from '@/components/blog/es/BlefaroplastiaDeepPlanePost';
+import LipofillingPeriocularPost from '@/components/blog/es/LipofillingPeriocularPost';
+import ResultadosNaturalesBlefaroPost from '@/components/blog/es/ResultadosNaturalesBlefaroPost';
 
 // en components
 import FaceliftCostEnPost from '@/components/blog/en/FaceliftCostEnPost';
@@ -113,6 +115,8 @@ const componentMap: Record<string, React.ComponentType> = {
   QuitarPielParpadosPost,
   ConservarGrasaParpadosPost,
   BlefaroplastiaDeepPlanePost,
+  LipofillingPeriocularPost,
+  ResultadosNaturalesBlefaroPost,
 
   // 3 new en mappings
   DeepPlaneFaceliftColEnPost,
@@ -444,6 +448,18 @@ const headingsMap: Record<string, HeadingItem[]> = {
     { id: 'abordaje-deep-plane', text: 'Abordaje Deep Plane' },
     { id: 'transposicion-submuscular', text: 'Transposición Submuscular' },
     { id: 'rol-ligamentos', text: 'Rol de los Ligamentos' }
+  ],
+  'lipofilling-periocular-grasa-ojos': [
+    { id: 'introduccion', text: 'Introducción' },
+    { id: 'volumen-perdido', text: 'Volumen Perdido' },
+    { id: 'microfat-vs-nanofat', text: 'Microfat vs Nanofat' },
+    { id: 'regeneracion-cutanea', text: 'Regeneración Cutánea' }
+  ],
+  'resultados-naturales-blefaroplastia-evitar-mirada-operada': [
+    { id: 'introduccion', text: 'Introducción' },
+    { id: 'ojo-redondo', text: 'Evitar Ojo Redondo' },
+    { id: 'cantopexia-soporte', text: 'Soporte y Cantopexia' },
+    { id: 'vector-elevacion', text: 'Vector de Elevación' }
   ]
 };
 
