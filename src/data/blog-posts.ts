@@ -1115,6 +1115,56 @@ export const blogPosts: BlogPostMetadata[] = [
         answer: 'Se aconseja infiltrar hialuronidasa de dos a cuatro semanas antes del lifting para desinflamar y regularizar los tejidos.'
       }
     ]
+  },
+  {
+    slug: 'lifting-facial-despues-hilos-tensores-fibrosis',
+    locale: 'es',
+    title: 'Lifting facial después de hilos tensores',
+    subtitle: 'Fibrosis, retención de fragmentos y retos anatómicos en la cirugía secundaria.',
+    metaDescription: 'Analizamos las complicaciones y retos técnicos de realizar un lifting facial después de hilos tensores en Bogotá. Entiende la fibrosis y cómo superarla.',
+    category: 'Lifting Hamaca',
+    date: '2026-07-06',
+    readingTime: '6 min',
+    quickAnswer: 'El lifting facial posterior a hilos tensores es complejo debido a la fibrosis densa, la reacción de cuerpo extraño y los fragmentos retenidos que borran los planos anatómicos. Requiere una disección cortante minuciosa en plano profundo para reposicionar el SMAS sin dañar las estructuras faciales.',
+    relatedProcedure: '/procedimientos/lifting-facial-hamaca',
+    cluster: 'lifting-facial',
+    componentName: 'LiftingDespuesHilosPost',
+    featuredImage: '/images/blog/lifting-facial.jpg',
+    faqs: [
+      {
+        question: '¿Los hilos tensores dificultan un lifting posterior?',
+        answer: 'Sí. La fibrosis generada por los hilos borra los planos de disección y aumenta la adherencia del SMAS a la piel.'
+      },
+      {
+        question: '¿Es posible retirar los hilos anteriores durante la cirugía?',
+        answer: 'Sí, el cirujano retira de forma minuciosa todos los fragmentos visibles y accesibles de hilos durante la disección del plano profundo.'
+      }
+    ]
+  },
+  {
+    slug: 'lifting-facial-hombres-cicatriz-patilla',
+    locale: 'es',
+    title: 'Hombres y lifting facial: consideraciones especiales',
+    subtitle: 'Cómo planificar cicatrices, conservar la patilla y reducir el riesgo de hematoma en el rostro masculino.',
+    metaDescription: 'Guía sobre lifting facial para hombres en Bogotá. Conoce la planificación de cicatrices en la patilla, manejo de la barba y prevención de hematomas.',
+    category: 'Lifting Hamaca',
+    date: '2026-07-06',
+    readingTime: '6 min',
+    quickAnswer: 'El lifting facial masculino requiere consideraciones anatómicas especiales como evitar cicatrices detrás del trago para impedir el crecimiento de vello de la barba en el oído, preservar la posición de la patilla y realizar una hemostasia exhaustiva debido al doble riesgo de hematoma en hombres.',
+    relatedProcedure: '/procedimientos/lifting-facial-hamaca',
+    cluster: 'lifting-facial',
+    componentName: 'LiftingHombresPost',
+    featuredImage: '/images/blog/lifting-facial.jpg',
+    faqs: [
+      {
+        question: '¿Cómo quedan las cicatrices del lifting en un hombre?',
+        answer: 'Se diseñan pre-auriculares siguiendo arrugas naturales y rodeando la patilla para evitar deformar la línea del pelo o de la barba.'
+      },
+      {
+        question: '¿Por qué sangran más los hombres en esta cirugía?',
+        answer: 'La piel masculina es más gruesa y tiene mayor vascularización para nutrir los folículos pilosos de la barba, lo que eleva el riesgo de hematoma.'
+      }
+    ]
   }
 ];
 

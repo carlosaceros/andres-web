@@ -49,6 +49,8 @@ import CompartimentosGrasosFacialPost from '@/components/blog/es/CompartimentosG
 import EnvejecimientoMandibulaPost from '@/components/blog/es/EnvejecimientoMandibulaPost';
 import EnvejecimientoCuelloPost from '@/components/blog/es/EnvejecimientoCuelloPost';
 import LiftingDespuesRellenosPost from '@/components/blog/es/LiftingDespuesRellenosPost';
+import LiftingDespuesHilosPost from '@/components/blog/es/LiftingDespuesHilosPost';
+import LiftingHombresPost from '@/components/blog/es/LiftingHombresPost';
 
 // en components
 import FaceliftCostEnPost from '@/components/blog/en/FaceliftCostEnPost';
@@ -101,6 +103,8 @@ const componentMap: Record<string, React.ComponentType> = {
   EnvejecimientoMandibulaPost,
   EnvejecimientoCuelloPost,
   LiftingDespuesRellenosPost,
+  LiftingDespuesHilosPost,
+  LiftingHombresPost,
 
   // 3 new en mappings
   DeepPlaneFaceliftColEnPost,
@@ -396,6 +400,18 @@ const headingsMap: Record<string, HeadingItem[]> = {
     { id: 'anatomia-rellenos', text: 'Impacto de los Rellenos' },
     { id: 'complicaciones-tecnicas', text: 'Complicaciones Técnicas' },
     { id: 'preparacion-hialuronidasa', text: 'Uso de Hialuronidasa' }
+  ],
+  'lifting-facial-despues-hilos-tensores-fibrosis': [
+    { id: 'introduccion', text: 'Introducción' },
+    { id: 'efectos-biologicos', text: 'Efectos Biológicos' },
+    { id: 'retos-quirurgicos', text: 'Retos Quirúrgicos' },
+    { id: 'recuperacion-tejidos', text: 'Recuperación de Tejidos' }
+  ],
+  'lifting-facial-hombres-cicatriz-patilla': [
+    { id: 'introduccion', text: 'Introducción' },
+    { id: 'cicatrices-hombres', text: 'Cicatrices en Hombres' },
+    { id: 'redistribucion-folicular', text: 'Redistribución Folicular' },
+    { id: 'riesgo-hematoma', text: 'Riesgo de Hematoma' }
   ]
 };
 
