@@ -39,6 +39,8 @@ import RecuperacionRinoplastiaPost from '@/components/blog/es/RecuperacionRinopl
 import MentoplastiaAumentoPost from '@/components/blog/es/MentoplastiaAumentoPost';
 import LiftingHamacaDeepPlanePost from '@/components/blog/es/LiftingHamacaDeepPlanePost';
 import EnvejecimientoTempranoPost from '@/components/blog/es/EnvejecimientoTempranoPost';
+import PorQueEnvejeceRostroPost from '@/components/blog/es/PorQueEnvejeceRostroPost';
+import LaPielNoSostieneRostroPost from '@/components/blog/es/LaPielNoSostieneRostroPost';
 
 // en components
 import FaceliftCostEnPost from '@/components/blog/en/FaceliftCostEnPost';
@@ -81,6 +83,8 @@ const componentMap: Record<string, React.ComponentType> = {
   MentoplastiaAumentoPost,
   LiftingHamacaDeepPlanePost,
   EnvejecimientoTempranoPost,
+  PorQueEnvejeceRostroPost,
+  LaPielNoSostieneRostroPost,
 
   // 3 new en mappings
   DeepPlaneFaceliftColEnPost,
@@ -315,6 +319,19 @@ const headingsMap: Record<string, HeadingItem[]> = {
     { id: 'sintomas', text: 'Signos de alerta' },
     { id: 'lifting-preventivo', text: '¿Por qué actuar a tiempo?' },
     { id: 'rejuvenecimiento-tardio', text: 'La naturalidad primero' }
+  ],
+  'por-que-envejece-realmente-el-rostro': [
+    { id: 'introduccion', text: 'Introducción' },
+    { id: 'que-es', text: 'Envejecimiento tridimensional' },
+    { id: 'sintomas', text: 'Cambios óseos y musculares' },
+    { id: 'lifting-preventivo', text: 'Compartimentos grasos' },
+    { id: 'rejuvenecimiento-tardio', text: 'Soporte vs Piel' }
+  ],
+  'la-piel-no-sostiene-el-rostro-verdadero-origen-envejecimiento': [
+    { id: 'introduccion', text: 'Introducción' },
+    { id: 'con-pexia', text: 'Envejecimiento profundo' },
+    { id: 'sin-pexia', text: 'Ligamentos de retención' },
+    { id: 'lipofilling', text: 'El papel del SMAS' }
   ]
 };
 
