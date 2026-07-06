@@ -22,6 +22,56 @@ export interface BlogPostMetadata {
 
 export const blogPosts: BlogPostMetadata[] = [
   {
+    slug: 'lifting-hamaca-deep-plane-soporte-facial',
+    locale: 'es',
+    title: 'Lifting Facial Hamaca Deep Plane®: El Arte de la Restauración Estructural',
+    subtitle: 'Descubre por qué la clave de un rejuvenecimiento duradero está en levantar la musculatura profunda y no en estirar la piel.',
+    metaDescription: 'Guía sobre el Lifting Facial Hamaca Deep Plane® en Bogotá con el Dr. Andrés Pérez. Entiende el concepto de soporte profundo y cómo lograr resultados naturales.',
+    category: 'Cirugía Facial',
+    date: '2026-07-06',
+    readingTime: '7 min',
+    quickAnswer: 'El Lifting Facial Hamaca Deep Plane® reposiciona los ligamentos y el músculo SMAS caídos en las capas profundas del rostro en lugar de traccionar la piel de forma superficial. Esto actúa como una hamaca interna de soporte, brindando resultados ultra naturales de rejuvenecimiento en mandíbula y cuello.',
+    relatedProcedure: '/procedimientos/lifting-facial-hamaca',
+    cluster: 'lifting-facial',
+    componentName: 'LiftingHamacaDeepPlanePost',
+    featuredImage: '/images/blog/lifting-facial.jpg',
+    faqs: [
+      {
+        question: '¿Qué es el plano profundo o Deep Plane?',
+        answer: 'Es la capa anatómica que se encuentra por debajo de los músculos faciales de la expresión. Trabajar en este plano permite liberar los ligamentos de fijación y reposicionar todo el contorno facial sin tensión superficial en la piel.'
+      },
+      {
+        question: '¿Por qué se asocia con el concepto de una hamaca?',
+        answer: 'Porque al suspender y fijar la musculatura del cuello (platisma) a estructuras estables detrás del oído, se crea una red interna de suspensión cruzada idéntica a una hamaca que sostiene el peso del cuello y la papada permanentemente.'
+      }
+    ]
+  },
+  {
+    slug: 'envejecimiento-facial-temprano-sintomas-lifting',
+    locale: 'es',
+    title: '¿Envejecimiento Facial Temprano? Por qué es el mejor momento para actuar',
+    subtitle: 'Aprende a reconocer las señales iniciales del paso del tiempo y las ventajas de preservar el soporte profundo de tu rostro.',
+    metaDescription: 'Descubre las ventajas del rejuvenecimiento preventivo con el Lifting Facial Hamaca Deep Plane® en Bogotá. Identifica los signos antes de que aparezcan arrugas profundas.',
+    category: 'Cirugía Facial',
+    date: '2026-07-06',
+    readingTime: '6 min',
+    quickAnswer: 'El envejecimiento del rostro comienza en las estructuras profundas (hueso, compartimentos grasos y ligamentos) mucho antes de que la piel muestre arrugas evidentes. Intervenir tempranamente mediante técnicas Deep Plane permite preservar la elasticidad natural de los tejidos, logrando una recuperación rápida y resultados más prolongados.',
+    relatedProcedure: '/procedimientos/lifting-facial-hamaca',
+    cluster: 'lifting-facial',
+    componentName: 'EnvejecimientoTempranoPost',
+    featuredImage: '/images/blog/lifting-facial.jpg',
+    faqs: [
+      {
+        question: '¿Cuáles son los primeros signos de envejecimiento profundo?',
+        answer: 'Suelen incluir el descenso de la cola de la ceja, pérdida de volumen en las mejillas, inicio de pérdida de definición en la mandíbula (aparición de jowls) y expresión de cansancio constante.'
+      },
+      {
+        question: '¿Actuar temprano significa operarse antes de tiempo?',
+        answer: 'No. Significa realizar procedimientos conservadores de reposicionamiento profundo para preservar y mantener la arquitectura facial natural de tu rostro en lugar de reconstruir daños anatómicos severos más adelante.'
+      }
+    ]
+  },
+  {
     slug: 'explantacion-mamaria-bogota-colombia',
     locale: 'es',
     title: 'Explantación mamaria en Bogotá: Salud, seguridad y un regreso a lo natural',

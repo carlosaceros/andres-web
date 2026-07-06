@@ -448,6 +448,10 @@
     "read_more": "Read more",
     "meta_title": "Plastic Surgery Blog | Dr. Andrés Pérez",
     "meta_description": "Articles on plastic surgery, post-operative tips, and aesthetic trends. Stay informed with Dr. Andrés Pérez.",
+    "search_placeholder": "Search articles...",
+    "category_label": "Categories",
+    "no_results": "No articles found matching your search.",
+    "clear_filters": "Clear filters",
     "posts": {
       "p1_title": "How to choose your plastic surgeon?",
       "p1_content": "Choosing a plastic surgeon is a crucial decision based on trust, experience, and results.",

@@ -1919,6 +1919,10 @@
     "read_more": "Leer artículo completo",
     "meta_title": "Blog de Cirugía Plástica | Dr. Andrés Pérez",
     "meta_description": "Artículos sobre cirugía plástica, consejos postoperatorios y tendencias estéticas. Mantente informado con el Dr. Andrés Pérez.",
+    "search_placeholder": "Buscar artículos...",
+    "category_label": "Categorías",
+    "no_results": "No se encontraron artículos que coincidan con tu búsqueda.",
+    "clear_filters": "Limpiar filtros",
     "posts": {
       "p1_title": "Cuidados post-operatorios en cirugía facial",
       "p1_content": "<p>Los cuidados posteriores a una cirugía facial son fundamentales para obtener los mejores resultados. En este artículo te explicamos paso a paso qué hacer durante las primeras semanas de recuperación...</p>",

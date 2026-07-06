@@ -37,6 +37,8 @@ import RinoUltrasonicaVsTradicionalPost from '@/components/blog/es/RinoUltrasoni
 import CombinacionProcedimientosPost from '@/components/blog/es/CombinacionProcedimientosPost';
 import RecuperacionRinoplastiaPost from '@/components/blog/es/RecuperacionRinoplastiaPost';
 import MentoplastiaAumentoPost from '@/components/blog/es/MentoplastiaAumentoPost';
+import LiftingHamacaDeepPlanePost from '@/components/blog/es/LiftingHamacaDeepPlanePost';
+import EnvejecimientoTempranoPost from '@/components/blog/es/EnvejecimientoTempranoPost';
 
 // en components
 import FaceliftCostEnPost from '@/components/blog/en/FaceliftCostEnPost';
@@ -77,6 +79,8 @@ const componentMap: Record<string, React.ComponentType> = {
   CombinacionProcedimientosPost,
   RecuperacionRinoplastiaPost,
   MentoplastiaAumentoPost,
+  LiftingHamacaDeepPlanePost,
+  EnvejecimientoTempranoPost,
 
   // 3 new en mappings
   DeepPlaneFaceliftColEnPost,
@@ -299,6 +303,18 @@ const headingsMap: Record<string, HeadingItem[]> = {
     { id: 'accreditation', text: 'Board Certification' },
     { id: 'facilities', text: 'Accredited Clinics' },
     { id: 'risks', text: 'Risk Details' }
+  ],
+  'lifting-hamaca-deep-plane-soporte-facial': [
+    { id: 'introduccion', text: 'Introducción' },
+    { id: 'que-es', text: 'La analogía de la Hamaca' },
+    { id: 'beneficios', text: 'Beneficios estructurales' },
+    { id: 'candidatos', text: '¿Quién es candidato?' }
+  ],
+  'envejecimiento-facial-temprano-sintomas-lifting': [
+    { id: 'introduccion', text: 'Introducción' },
+    { id: 'sintomas', text: 'Signos de alerta' },
+    { id: 'lifting-preventivo', text: '¿Por qué actuar a tiempo?' },
+    { id: 'rejuvenecimiento-tardio', text: 'La naturalidad primero' }
   ]
 };
 
