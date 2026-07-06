@@ -1215,6 +1215,56 @@ export const blogPosts: BlogPostMetadata[] = [
         answer: 'Mediante cantopexia para dar soporte al párpado inferior y reposicionando la grasa en lugar de extirparla indiscriminadamente.'
       }
     ]
+  },
+  {
+    slug: 'conservar-grasa-parpados-ojo-hundido',
+    locale: 'es',
+    title: 'La importancia de conservar grasa en la blefaroplastia',
+    subtitle: 'Cómo evitar el ojo hundido y esqueletizado mediante la preservación y transposición de grasa orbital.',
+    metaDescription: 'Descubre por qué la blefaroplastia moderna conserva la grasa de los párpados. Evita el ojo hundido o esqueletizado y trata la ojera profunda en Bogotá.',
+    category: 'Blefaroplastia',
+    date: '2026-07-06',
+    readingTime: '6 min',
+    quickAnswer: 'La blefaroplastia moderna prioriza conservar la grasa orbitaria en lugar de extirparla. Esto evita el estigma de ojos hundidos o esqueletizados y permite transponer la propia grasa del párpado para rellenar de forma permanente la ojera y el surco lagrimal.',
+    relatedProcedure: '/procedimientos/blefaroplastia',
+    cluster: 'blefaroplastia',
+    componentName: 'ConservarGrasaParpadosPost',
+    featuredImage: '/images/blog/blefaroplastia.jpg',
+    faqs: [
+      {
+        question: '¿Por qué no se debe quitar toda la grasa de los párpados?',
+        answer: 'Porque al envejecer se pierde grasa facial de forma natural. Extirparla quirúrgicamente genera una cuenca ocular vacía, oscura y envejecida.'
+      },
+      {
+        question: '¿Cómo se trata el surco lagrimal profundo en la cirugía?',
+        answer: 'Liberando el ligamento de retención sub-orbicular y deslizando la grasa sobrante del párpado hacia ese espacio para rellenarlo permanentemente.'
+      }
+    ]
+  },
+  {
+    slug: 'blefaroplastia-deep-plane-grasa-orbital',
+    locale: 'es',
+    title: 'Blefaroplastia Deep Plane: reposicionamiento de la grasa orbital',
+    subtitle: 'Disección submuscular y transposición sub-orbicular para un rejuvenecimiento ocular avanzado.',
+    metaDescription: 'Entiende la Blefaroplastia Deep Plane o de plano profundo. Cómo reposicionar la grasa por debajo del músculo orbicular para rellenar ojeras en Bogotá.',
+    category: 'Blefaroplastia',
+    date: '2026-07-06',
+    readingTime: '6 min',
+    quickAnswer: 'La Blefaroplastia Deep Plane ingresa por el plano submuscular, debajo del músculo orbicular. Esto facilita liberar los ligamentos de retención del párpado inferior y transponer la grasa en el plano sub-orbicular, logrando una transición tersa hacia el pómulo.',
+    relatedProcedure: '/procedimientos/blefaroplastia',
+    cluster: 'blefaroplastia',
+    componentName: 'BlefaroplastiaDeepPlanePost',
+    featuredImage: '/images/blog/blefaroplastia.jpg',
+    faqs: [
+      {
+        question: '¿Qué ventaja tiene el abordaje submuscular o Deep Plane?',
+        answer: 'Conserva la tonicidad del músculo orbicular y da un acceso seguro y directo a los ligamentos y a la grasa sin traccionar la piel.'
+      },
+      {
+        question: '¿Qué son los ligamentos de retención en el párpado?',
+        answer: 'Son anclajes fibrosos rígidos que unen la piel y el músculo al reborde del hueso de la órbita, causando la depresión física de la ojera.'
+      }
+    ]
   }
 ];
 

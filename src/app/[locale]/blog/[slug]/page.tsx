@@ -53,6 +53,8 @@ import LiftingDespuesHilosPost from '@/components/blog/es/LiftingDespuesHilosPos
 import LiftingHombresPost from '@/components/blog/es/LiftingHombresPost';
 import EnvejecimientoOjosPost from '@/components/blog/es/EnvejecimientoOjosPost';
 import QuitarPielParpadosPost from '@/components/blog/es/QuitarPielParpadosPost';
+import ConservarGrasaParpadosPost from '@/components/blog/es/ConservarGrasaParpadosPost';
+import BlefaroplastiaDeepPlanePost from '@/components/blog/es/BlefaroplastiaDeepPlanePost';
 
 // en components
 import FaceliftCostEnPost from '@/components/blog/en/FaceliftCostEnPost';
@@ -109,6 +111,8 @@ const componentMap: Record<string, React.ComponentType> = {
   LiftingHombresPost,
   EnvejecimientoOjosPost,
   QuitarPielParpadosPost,
+  ConservarGrasaParpadosPost,
+  BlefaroplastiaDeepPlanePost,
 
   // 3 new en mappings
   DeepPlaneFaceliftColEnPost,
@@ -428,6 +432,18 @@ const headingsMap: Record<string, HeadingItem[]> = {
     { id: 'reseccion-excesiva', text: 'Resección Excesiva' },
     { id: 'piel-vs-estructuras', text: 'Piel vs Estructuras' },
     { id: 'posicion-natural', text: 'Posición Natural' }
+  ],
+  'conservar-grasa-parpados-ojo-hundido': [
+    { id: 'introduccion', text: 'Introducción' },
+    { id: 'tradicional-obsoleta', text: 'Técnica Tradicional Obsoleta' },
+    { id: 'surco-lagrimal', text: 'Surco Lagrimal' },
+    { id: 'transposicion-grasa', text: 'Transposición de Grasa' }
+  ],
+  'blefaroplastia-deep-plane-grasa-orbital': [
+    { id: 'introduccion', text: 'Introducción' },
+    { id: 'abordaje-deep-plane', text: 'Abordaje Deep Plane' },
+    { id: 'transposicion-submuscular', text: 'Transposición Submuscular' },
+    { id: 'rol-ligamentos', text: 'Rol de los Ligamentos' }
   ]
 };
 
