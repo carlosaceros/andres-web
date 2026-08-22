@@ -55,8 +55,16 @@ export default function FloatingChat() {
   const [messages, setMessages] = useState<Message[]>([]);
   const [inputValue, setInputValue] = useState('');
   const [isLoading, setIsLoading] = useState(false);
+  const sessionIdRef = useRef<string>('');
   
   const messagesEndRef = useRef<HTMLDivElement>(null);
+
+  // Initialize unique session ID
+  useEffect(() => {
+    if (!sessionIdRef.current) {
+      sessionIdRef.current = 'session_' + Math.random().toString(36).substring(2, 9) + '_' + Date.now().toString(36);
+    }
+  }, []);
 
   const handleOpenChat = () => {
     setIsOpen(true);
@@ -139,13 +147,21 @@ export default function FloatingChat() {
             'Content-Type': 'application/json',
           },
           body: JSON.stringify({
-            contents: formattedContents,
-            systemInstruction: {
-              parts: [{ text: systemPrompt }]
+            geminiPayload: {
+              contents: formattedContents,
+              systemInstruction: {
+                parts: [{ text: systemPrompt }]
+              },
+              generationConfig: {
+                temperature: 0.7,
+                maxOutputTokens: 1500,
+              }
             },
-            generationConfig: {
-              temperature: 0.7,
-              maxOutputTokens: 1500,
+            metadata: {
+              sessionId: sessionIdRef.current,
+              pageUrl: typeof window !== 'undefined' ? window.location.pathname : '/',
+              userMessage: userText,
+              locale: 'es',
             }
           }),
         }
@@ -265,6 +281,18 @@ export default function FloatingChat() {
                   source: 'chat_bottom_cta_button',
                   label: 'Agendar en WhatsApp',
                 });
+                // Log WhatsApp conversion to backend for Google Sheets
+                fetch('/api/chat/log', {
+                  method: 'POST',
+                  headers: { 'Content-Type': 'application/json' },
+                  body: JSON.stringify({
+                    sessionId: sessionIdRef.current,
+                    pageUrl: typeof window !== 'undefined' ? window.location.pathname : '/',
+                    userMessage: '🟢 [CONVERSIÓN]: Clic en botón de WhatsApp del Chat',
+                    botReply: 'Transferido al WhatsApp del Dr. Andrés (+57 316 495 3755)',
+                    locale: 'es',
+                  }),
+                }).catch(() => {});
               }}
               className="bg-emerald-50 hover:bg-emerald-100 text-emerald-800 text-xs px-3 py-1.5 rounded-full font-bold border border-emerald-200 transition-colors flex items-center gap-1.5"
             >

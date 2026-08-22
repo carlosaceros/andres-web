@@ -4,6 +4,7 @@ export async function POST(request: Request) {
   try {
     const body = await request.json();
     const apiKey = process.env.GEMINI_API_KEY;
+    const sheetsWebhookUrl = process.env.GOOGLE_SHEETS_WEBHOOK_URL;
 
     if (!apiKey) {
       return NextResponse.json(
@@ -11,6 +12,15 @@ export async function POST(request: Request) {
         { status: 500 }
       );
     }
+
+    // Extract gemini payload and metadata if provided
+    const geminiPayload = body.geminiPayload || {
+      contents: body.contents,
+      systemInstruction: body.systemInstruction,
+      generationConfig: body.generationConfig,
+    };
+
+    const metadata = body.metadata || {};
 
     // Proxy the request to the Google Gemini API securely from the backend
     const googleResponse = await fetch(
@@ -20,11 +30,39 @@ export async function POST(request: Request) {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify(body),
+        body: JSON.stringify(geminiPayload),
       }
     );
 
     const data = await googleResponse.json();
+    const botReply = data.candidates?.[0]?.content?.parts?.[0]?.text || '';
+
+    // Asynchronously log to Google Sheets if configured
+    if (sheetsWebhookUrl && metadata.userMessage) {
+      const now = new Date();
+      const bogotaTime = new Intl.DateTimeFormat('es-CO', {
+        dateStyle: 'short',
+        timeStyle: 'medium',
+        timeZone: 'America/Bogota',
+      }).format(now);
+
+      fetch(sheetsWebhookUrl, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          timestamp: bogotaTime,
+          sessionId: metadata.sessionId || 'N/A',
+          userMessage: metadata.userMessage || '',
+          botReply: botReply || '',
+          pageUrl: metadata.pageUrl || '/',
+          clickedWhatsApp: metadata.clickedWhatsApp || false,
+          locale: metadata.locale || 'es',
+        }),
+      }).catch((err) => {
+        console.error('Error sending chat log to Google Sheets:', err);
+      });
+    }
+
     return NextResponse.json(data);
   } catch (error: any) {
     console.error('Error in chat proxy API:', error);
@@ -34,3 +72,4 @@ export async function POST(request: Request) {
     );
   }
 }
+
