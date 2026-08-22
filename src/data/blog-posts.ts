@@ -122,27 +122,51 @@ export const blogPosts: BlogPostMetadata[] = [
     ]
   },
   {
-    slug: 'que-es-realmente-un-deep-plane-facelift',
+    slug: 'que-es-un-deep-plane-facelift',
     locale: 'es',
-    title: '¿Qué es realmente un Deep Plane Facelift?',
-    subtitle: 'La disección sub-SMAS y la liberación de ligamentos explicadas de forma sencilla y científica.',
-    metaDescription: '¿Qué es un Deep Plane Facelift o lifting de plano profundo? Conoce la anatomía sub-SMAS, liberación de ligamentos y por qué supera al lifting tradicional en Bogotá.',
+    title: '¿Qué es un Deep Plane Facelift? Guía completa del lifting de plano profundo',
+    subtitle: 'Anatomía sub-SMAS, liberación de ligamentos y por qué sus resultados duran 10–15 años explicados por el Dr. Andrés Pérez Nieto en Bogotá.',
+    metaDescription: '¿Qué es un Deep Plane Facelift? Guía completa del lifting de plano profundo en Bogotá: anatomía sub-SMAS, candidatos ideales, recuperación y resultados naturales de 10-15 años.',
     category: 'Lifting Hamaca',
-    date: '2026-07-06',
-    readingTime: '6 min',
-    quickAnswer: 'Un Deep Plane Facelift es la técnica quirúrgica que trabaja por debajo del Sistema Músculo-Aponeurótico Superficial (SMAS). Consiste en liberar los ligamentos de retención caídos y elevar verticalmente toda la estructura facial en bloque, logrando un contorno mandibular y un cuello rejuvenecidos de forma sumamente natural y duradera.',
+    date: '2026-08-22',
+    readingTime: '10 min',
+    quickAnswer: 'Un Deep Plane Facelift es la técnica quirúrgica que trabaja por debajo del Sistema Músculo-Aponeurótico Superficial (SMAS). Consiste en liberar los ligamentos de retención caídos y elevar verticalmente toda la estructura facial en bloque, logrando un contorno mandibular y un cuello rejuvenecidos de forma sumamente natural y duradera, con resultados que pueden extenderse de 10 a 15 años.',
     relatedProcedure: '/procedimientos/lifting-facial-hamaca',
     cluster: 'lifting-facial',
     componentName: 'QueEsRealmenteDeepPlanePost',
     featuredImage: '/images/blog/lifting-facial.jpg',
     faqs: [
       {
+        question: '¿Qué es un Deep Plane Facelift?',
+        answer: 'Es una técnica quirúrgica de rejuvenecimiento facial que trabaja por debajo del músculo SMAS y libera los ligamentos de retención para elevar toda la estructura facial en bloque, sin tensar la piel. Los resultados son naturales y pueden durar entre 10 y 15 años.'
+      },
+      {
+        question: '¿Cuál es la diferencia entre el Deep Plane y el lifting SMAS clásico?',
+        answer: 'El SMAS clásico tensa la capa muscular superficialmente sin liberar los ligamentos profundos. El Deep Plane entra por debajo del SMAS y libera los ligamentos cigomáticos y masetéricos, permitiendo elevar los tejidos sin ninguna tracción en la piel.'
+      },
+      {
         question: '¿Por qué no se estira la piel en el Deep Plane?',
-        answer: 'Porque al reposicionar la capa muscular profunda (SMAS) de forma vertical, la piel acompaña el movimiento sin ninguna tensión horizontal, eliminando el aspecto jalado.'
+        answer: 'Porque al reposicionar la capa muscular profunda (SMAS) de forma vertical, la piel acompaña el movimiento sin tensión horizontal. Esto elimina el aspecto jalado o de "máscara" que caracteriza a las técnicas superficiales.'
+      },
+      {
+        question: '¿Cuánto duran los resultados de un Deep Plane Facelift?',
+        answer: 'Al trabajar sobre estructuras musculares y ligamentosas en lugar de la piel, los resultados son significativamente más estables. La mayoría de los pacientes mantiene resultados visibles entre 10 y 15 años, dependiendo de su genética y estilo de vida.'
+      },
+      {
+        question: '¿Quién es candidato ideal para un Deep Plane Facelift?',
+        answer: 'Personas con flacidez moderada a severa en mejillas, pérdida de definición del óvalo facial, papada o bandas del cuello. También quienes buscan resultados naturales duraderos y no desean retocarse frecuentemente con rellenos o procedimientos superficiales.'
+      },
+      {
+        question: '¿Cuánto dura la recuperación del Deep Plane Facelift?',
+        answer: 'La fase aguda de inflamación dura de 10 a 14 días. La mayoría de los pacientes retoma sus actividades sociales y de oficina hacia el día 14. El resultado definitivo y la desinflamación completa se aprecian entre los 3 y 6 meses.'
       },
       {
         question: '¿Qué ligamentos se liberan en la cirugía?',
-        answer: 'Se liberan de forma minuciosa los ligamentos cigomático y masetérico, permitiendo un reposicionamiento libre de tensión de las mejillas.'
+        answer: 'Se liberan los ligamentos cigomático (en el área del pómulo) y masetérico (en la mejilla), que son los principales anclajes de colágeno que, al ceder con la edad, producen el descenso de los tejidos y los surcos profundos.'
+      },
+      {
+        question: '¿Cuánto cuesta un Deep Plane Facelift en Bogotá, Colombia?',
+        answer: 'El costo de un Deep Plane Facelift en Bogotá oscila entre USD 5,500 y USD 8,500, incluyendo honorarios quirúrgicos, anestesia y controles postoperatorios. Esto representa un ahorro del 60–70% frente a los precios de Estados Unidos o Europa, con el mismo nivel de calidad y seguridad.'
       }
     ]
   },

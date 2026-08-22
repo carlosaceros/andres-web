@@ -44,6 +44,17 @@ const nextConfig = {
         destination: '/es/dr-face/',
         permanent: true,
       },
+      // Blog slug updates (SEO slug improvements)
+      {
+        source: '/es/blog/que-es-realmente-un-deep-plane-facelift/',
+        destination: '/es/blog/que-es-un-deep-plane-facelift/',
+        permanent: true,
+      },
+      {
+        source: '/es/blog/que-es-realmente-un-deep-plane-facelift',
+        destination: '/es/blog/que-es-un-deep-plane-facelift/',
+        permanent: true,
+      },
     ];
   },
   typescript: {

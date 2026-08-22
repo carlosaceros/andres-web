@@ -365,11 +365,15 @@ const headingsMap: Record<string, HeadingItem[]> = {
     { id: 'sin-pexia', text: 'Ligamentos de retención' },
     { id: 'lipofilling', text: 'El papel del SMAS' }
   ],
-  'que-es-realmente-un-deep-plane-facelift': [
+  'que-es-un-deep-plane-facelift': [
     { id: 'introduccion', text: 'Introducción' },
-    { id: 'que-es', text: 'El plano profundo' },
-    { id: 'beneficios', text: 'Deep Plane vs Clásico' },
-    { id: 'candidatos', text: 'Resultados duraderos' }
+    { id: 'que-es', text: 'Qué es el Deep Plane' },
+    { id: 'diferencias', text: 'Deep Plane vs Técnicas' },
+    { id: 'candidatos', text: 'Candidatos Ideales' },
+    { id: 'recuperacion', text: 'Recuperación Paso a Paso' },
+    { id: 'resultados', text: 'Duración de Resultados' },
+    { id: 'bogota', text: 'Deep Plane en Bogotá' },
+    { id: 'faq', text: 'Preguntas Frecuentes' }
   ],
   'sistema-soporte-facial-metodo-hamaca': [
     { id: 'introduccion', text: 'Introducción' },
