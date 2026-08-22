@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 
 interface PhilosophySectionProps {
   buttonUrl?: string;
@@ -9,11 +9,13 @@ interface PhilosophySectionProps {
 }
 
 const PhilosophySection: React.FC<PhilosophySectionProps> = ({
-  buttonUrl = "/dr-face",
-  buttonText, // Remove default here, set in component
+  buttonUrl,
+  buttonText,
   isExternalLink = false
 }) => {
   const t = useTranslations('home');
+  const locale = useLocale();
+  const finalButtonUrl = buttonUrl ?? `/${locale}/dr-face`;
   const finalButtonText = buttonText || t('more_information_btn');
 
   const ButtonComponent = () => (
@@ -90,11 +92,11 @@ const PhilosophySection: React.FC<PhilosophySectionProps> = ({
 
             <div className="pt-2 md:pt-4">
               {isExternalLink ? (
-                <a href={buttonUrl} target="_blank" rel="noopener noreferrer" className="cursor-pointer">
+                <a href={finalButtonUrl} target="_blank" rel="noopener noreferrer" className="cursor-pointer">
                   <ButtonComponent />
                 </a>
               ) : (
-                <Link href={buttonUrl} className="cursor-pointer">
+                <Link href={finalButtonUrl} className="cursor-pointer">
                   <ButtonComponent />
                 </Link>
               )}

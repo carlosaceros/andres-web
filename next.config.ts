@@ -33,6 +33,17 @@ const nextConfig = {
         destination: '/es/procedimientos/lipofilling-celulas-madre/',
         permanent: true,
       },
+      // Non-locale top-level routes → /es/ prefix
+      {
+        source: '/dr-face/',
+        destination: '/es/dr-face/',
+        permanent: true,
+      },
+      {
+        source: '/dr-face',
+        destination: '/es/dr-face/',
+        permanent: true,
+      },
     ];
   },
   typescript: {
