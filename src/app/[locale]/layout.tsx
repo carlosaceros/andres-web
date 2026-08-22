@@ -9,7 +9,8 @@ import StructuredData from '@/components/StructuredData'
 import FloatingContactButton from '@/components/FloatingContactButton'
 import '../globals.css'
 
-const GA_MEASUREMENT_ID = 'AW-18045573652'
+const GA_MEASUREMENT_ID = 'G-C6CGECM6ED';
+const GOOGLE_ADS_ID = 'AW-18045573652';
 
 const locales = ['es', 'en']
 const BASE_URL = 'https://www.drandrespereznieto.com';
@@ -126,7 +127,7 @@ export default async function LocaleLayout({
     return (
         <html lang={locale} suppressHydrationWarning>
             <head />
-            {/* Google Ads tag — loaded after page interactive to not block rendering */}
+            {/* Google Analytics 4 & Google Ads tag — loaded after page interactive */}
             <Script 
                 src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
                 strategy="afterInteractive"
@@ -136,7 +137,10 @@ export default async function LocaleLayout({
                     window.dataLayer = window.dataLayer || [];
                     function gtag(){dataLayer.push(arguments);}
                     gtag('js', new Date());
-                    gtag('config', '${GA_MEASUREMENT_ID}');
+                    gtag('config', '${GA_MEASUREMENT_ID}', {
+                        page_path: window.location.pathname,
+                    });
+                    gtag('config', '${GOOGLE_ADS_ID}');
                 `}
             </Script>
             <body

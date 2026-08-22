@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react'
 import { useTranslations } from 'next-intl';
+import { trackEvent } from '@/lib/analytics';
 
 const SimpleContactButton = () => {
   const t = useTranslations('header_nav');
@@ -18,19 +19,29 @@ const SimpleContactButton = () => {
   }, [])
 
   const handleWhatsApp = () => {
+    trackEvent('whatsapp_click', {
+      source: 'floating_doctor_bubble',
+      label: 'Burbuja de Contacto Flotante',
+    });
     const message = encodeURIComponent(t('whatsapp_message'))
     window.open(`https://wa.me/573164953755?text=${message}`, '_blank')
     setIsOpen(false)
   }
 
   const handleCall = () => {
+    trackEvent('phone_call_click', {
+      source: 'floating_doctor_bubble',
+      label: 'Llamada Telefónica',
+    });
     window.open('tel:+573164953755', '_self')
     setIsOpen(false)
   }
 
   const handleButtonClick = () => {
-    setIsOpen(!isOpen)
-    setShowTooltip(false)
+    const nextState = !isOpen;
+    setIsOpen(nextState);
+    setShowTooltip(false);
+    trackEvent('contact_bubble_toggle', { state: nextState ? 'opened' : 'closed' });
   }
 
   return (

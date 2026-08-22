@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import { MessageCircle, X, Send, Sparkles, User, ShieldAlert } from 'lucide-react';
+import { trackEvent } from '@/lib/analytics';
 
 interface Message {
   role: 'user' | 'model';
@@ -57,6 +58,16 @@ export default function FloatingChat() {
   
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
+  const handleOpenChat = () => {
+    setIsOpen(true);
+    trackEvent('chat_opened');
+  };
+
+  const handleCloseChat = () => {
+    setIsOpen(false);
+    trackEvent('chat_closed');
+  };
+
   useEffect(() => {
     // Welcome message
     setMessages([
@@ -81,6 +92,12 @@ export default function FloatingChat() {
     setInputValue('');
     setMessages(prev => [...prev, { role: 'user', text: userText }]);
     setIsLoading(true);
+
+    // Track user message in GA4
+    trackEvent('chat_message_sent', {
+      query_length: userText.length,
+      query_preview: userText.slice(0, 100),
+    });
 
     try {
       // Build the chat history for Gemini API
@@ -151,7 +168,7 @@ export default function FloatingChat() {
       {/* Floating Button */}
       {!isOpen && (
         <button
-          onClick={() => setIsOpen(true)}
+          onClick={handleOpenChat}
           className="relative group bg-gradient-to-tr from-blue-900 to-blue-950 text-white p-4 rounded-full shadow-2xl hover:scale-105 transition-transform duration-300 flex items-center justify-center border border-blue-800"
         >
           <MessageCircle className="w-6 h-6" />
@@ -184,7 +201,7 @@ export default function FloatingChat() {
               </div>
             </div>
             <button 
-              onClick={() => setIsOpen(false)}
+              onClick={handleCloseChat}
               className="text-white/80 hover:text-white hover:bg-white/10 p-1.5 rounded-full transition-colors"
             >
               <X className="w-5 h-5" />
@@ -240,16 +257,24 @@ export default function FloatingChat() {
           {/* Quick CTAs */}
           <div className="px-4 py-2 bg-white border-t border-gray-100 flex gap-2 overflow-x-auto scrollbar-none whitespace-nowrap">
             <a 
-              href="https://wa.me/573164953755?text=Hola,%20me%20gustaria%20agendar%20una%20cita%20de%20valoracion"
+              href="https://wa.me/573164953755?text=Hola,%20me%20gustaria%20agendar%20una%20cita%20de%20valoracion%20con%20el%20Dr.%20Andres%20Perez"
               target="_blank"
               rel="noopener noreferrer"
+              onClick={() => {
+                trackEvent('chat_whatsapp_click', {
+                  source: 'chat_bottom_cta_button',
+                  label: 'Agendar en WhatsApp',
+                });
+              }}
               className="bg-emerald-50 hover:bg-emerald-100 text-emerald-800 text-xs px-3 py-1.5 rounded-full font-bold border border-emerald-200 transition-colors flex items-center gap-1.5"
             >
               🟢 Agendar en WhatsApp
             </a>
             <button
               onClick={() => {
-                setInputValue('¿Cuál es la técnica del lifting en hamaca?');
+                const q = '¿Cuál es la técnica del lifting en hamaca?';
+                trackEvent('chat_quick_faq_click', { question: q });
+                setInputValue(q);
               }}
               className="bg-blue-50 hover:bg-blue-100 text-blue-900 text-xs px-3 py-1.5 rounded-full border border-blue-100 transition-colors"
             >
@@ -257,7 +282,9 @@ export default function FloatingChat() {
             </button>
             <button
               onClick={() => {
-                setInputValue('¿Cuáles son los síntomas del Síndrome de ASIA?');
+                const q = '¿Cuáles son los síntomas del Síndrome de ASIA?';
+                trackEvent('chat_quick_faq_click', { question: q });
+                setInputValue(q);
               }}
               className="bg-blue-50 hover:bg-blue-100 text-blue-900 text-xs px-3 py-1.5 rounded-full border border-blue-100 transition-colors"
             >
