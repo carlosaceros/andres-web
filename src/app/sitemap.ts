@@ -49,46 +49,47 @@ export default function sitemap(): MetadataRoute.Sitemap {
     routes.forEach((route) => {
         const isHome = route === ''
         const isProcedure = route.startsWith('/procedimientos/')
+        const urlSuffix = isHome ? '/' : `${route}/`
 
         // Spanish (primary locale)
         sitemapEntries.push({
-            url: `${BASE_URL}/es${route}`,
+            url: `${BASE_URL}/es${urlSuffix}`,
             lastModified: new Date(),
             changeFrequency: isProcedure ? 'monthly' : 'weekly',
             priority: isHome ? 1 : isProcedure ? 0.9 : 0.7,
             alternates: {
                 languages: {
-                    es: `${BASE_URL}/es${route}`,
-                    en: `${BASE_URL}/en${route}`,
+                    es: `${BASE_URL}/es${urlSuffix}`,
+                    en: `${BASE_URL}/en${urlSuffix}`,
                 }
             }
         })
 
         // English
         sitemapEntries.push({
-            url: `${BASE_URL}/en${route}`,
+            url: `${BASE_URL}/en${urlSuffix}`,
             lastModified: new Date(),
             changeFrequency: isProcedure ? 'monthly' : 'weekly',
             priority: isHome ? 0.9 : isProcedure ? 0.8 : 0.6,
             alternates: {
                 languages: {
-                    es: `${BASE_URL}/es${route}`,
-                    en: `${BASE_URL}/en${route}`,
+                    es: `${BASE_URL}/es${urlSuffix}`,
+                    en: `${BASE_URL}/en${urlSuffix}`,
                 }
             }
         })
     })
 
     blogPosts.forEach((post) => {
-        const route = `/blog/${post.slug}`
+        const fullUrl = `${BASE_URL}/${post.locale}/blog/${post.slug}/`
         sitemapEntries.push({
-            url: `${BASE_URL}/${post.locale}${route}`,
+            url: fullUrl,
             lastModified: new Date(post.date),
             changeFrequency: 'weekly',
             priority: 0.8,
             alternates: {
                 languages: {
-                    [post.locale]: `${BASE_URL}/${post.locale}${route}`,
+                    [post.locale]: fullUrl,
                 }
             }
         })

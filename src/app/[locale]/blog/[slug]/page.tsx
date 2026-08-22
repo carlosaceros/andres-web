@@ -513,9 +513,66 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
 
   const headings = headingsMap[post.slug] || [];
 
+  // Generate structured schemas
+  const schemas: any[] = [
+    {
+      '@type': 'MedicalWebPage',
+      '@id': `https://www.drandrespereznieto.com/${locale}/blog/${post.slug}/#webpage`,
+      'url': `https://www.drandrespereznieto.com/${locale}/blog/${post.slug}/`,
+      'name': `${post.title} | Dr. Andrés Pérez Nieto`,
+      'headline': post.title,
+      'description': post.metaDescription,
+      'datePublished': post.date,
+      'inLanguage': locale === 'es' ? 'es-CO' : 'en-US',
+      'author': {
+        '@type': 'Person',
+        'name': 'Dr. Andrés Pérez Nieto',
+        'jobTitle': 'Cirujano Plástico Estético y Reconstructivo',
+        'url': `https://www.drandrespereznieto.com/${locale}/conoce-doctor/`,
+        'memberOf': {
+          '@type': 'MedicalOrganization',
+          'name': 'Sociedad Colombiana de Cirugía Plástica (SCCP)'
+        },
+        'worksFor': {
+          '@type': 'MedicalOrganization',
+          'name': 'Santa Ana Medical Center',
+          'address': {
+            '@type': 'PostalAddress',
+            'addressLocality': 'Bogotá',
+            'addressCountry': 'CO'
+          }
+        }
+      }
+    }
+  ];
+
+  // If post has FAQs, inject FAQPage schema automatically
+  if (post.faqs && post.faqs.length > 0) {
+    schemas.push({
+      '@type': 'FAQPage',
+      'mainEntity': post.faqs.map(faq => ({
+        '@type': 'Question',
+        'name': faq.question,
+        'acceptedAnswer': {
+          '@type': 'Answer',
+          'text': faq.answer
+        }
+      }))
+    });
+  }
+
+  const jsonLdData = {
+    '@context': 'https://schema.org',
+    '@graph': schemas
+  };
+
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col justify-between">
       <Header />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdData) }}
+      />
       <main className="flex-grow">
         <BlogLayout post={post} headings={headings}>
           <PostBodyComponent />

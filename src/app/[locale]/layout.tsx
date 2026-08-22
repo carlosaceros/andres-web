@@ -58,7 +58,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
     const t = await getTranslations({ locale, namespace: 'metadata' });
     const isSpanish = locale === 'es'
-    const canonicalUrl = `${BASE_URL}/${locale}`;
+    const canonicalUrl = `${BASE_URL}/${locale}/`;
 
     return {
         metadataBase: new URL(BASE_URL),
@@ -67,9 +67,9 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
         alternates: {
             canonical: canonicalUrl,
             languages: {
-                'es-CO': `${BASE_URL}/es`,
-                'en-US': `${BASE_URL}/en`,
-                'x-default': `${BASE_URL}/es`
+                'es-CO': `${BASE_URL}/es/`,
+                'en-US': `${BASE_URL}/en/`,
+                'x-default': `${BASE_URL}/es/`
             }
         },
         openGraph: {
