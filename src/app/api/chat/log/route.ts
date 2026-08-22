@@ -3,7 +3,9 @@ import { NextResponse } from 'next/server';
 export async function POST(request: Request) {
   try {
     const body = await request.json();
-    const sheetsWebhookUrl = process.env.GOOGLE_SHEETS_WEBHOOK_URL;
+    const sheetsWebhookUrl =
+      process.env.GOOGLE_SHEETS_WEBHOOK_URL ||
+      'https://script.google.com/macros/s/AKfycbwtVSlG_Mh0ThlSk4QPgYtFgGiBbYPqHQUf1Gn0_lblS-DlEjuIOtod4cJWfWQhaCoPVQ/exec';
 
     if (sheetsWebhookUrl) {
       const now = new Date();
