@@ -10,44 +10,66 @@ interface Message {
 }
 
 function parseMarkdown(text: string) {
-  const lines = text.split('\n');
-  return lines.map((line, i) => {
-    let content = line;
+  if (!text) return null;
+  
+  // Split text by lines and clean empty trailing lines
+  const rawLines = text.split('\n');
+  const elements: React.ReactNode[] = [];
+  let currentList: React.ReactNode[] = [];
+
+  const renderFormattedText = (rawText: string) => {
+    // Process bold (**text**) and clean inline formatting
+    const segments = rawText.split('**');
+    return segments.map((seg, idx) => {
+      if (idx % 2 === 1) {
+        return <strong key={idx} className="font-bold text-blue-950">{seg}</strong>;
+      }
+      return seg;
+    });
+  };
+
+  const flushList = () => {
+    if (currentList.length > 0) {
+      elements.push(
+        <ul key={`ul-${elements.length}`} className="my-2 space-y-1.5 pl-5 list-disc text-gray-700">
+          {currentList}
+        </ul>
+      );
+      currentList = [];
+    }
+  };
+
+  rawLines.forEach((line, index) => {
     const trimmed = line.trim();
-    
-    // Check if bullet point
-    const isBullet = trimmed.startsWith('*') || trimmed.startsWith('-') || trimmed.startsWith('•');
-    if (isBullet) {
-      content = trimmed.replace(/^[\s*-•]+/, '');
+    if (!trimmed) {
+      flushList();
+      return;
     }
 
-    // Parse bold text
-    const parts = content.split('**');
-    const renderedParts = parts.map((part, index) => {
-      if (index % 2 === 1) {
-        return <strong key={index} className="font-bold text-blue-950">{part}</strong>;
-      }
-      return part;
-    });
+    // Check if line is a bullet item (*, -, •, or 1., 2.)
+    const isBullet = /^(\*|-|•|\d+\.)\s+/.test(trimmed);
 
     if (isBullet) {
-      return (
-        <li key={i} className="list-disc ml-4 my-1 pl-1 text-gray-700 font-sansation">
-          {renderedParts}
-        </li>
+      const cleanContent = trimmed.replace(/^(\*|-|•|\d+\.)\s+/, '').trim();
+      if (cleanContent) {
+        currentList.push(
+          <li key={`li-${index}`} className="text-gray-700 leading-snug pl-1">
+            {renderFormattedText(cleanContent)}
+          </li>
+        );
+      }
+    } else {
+      flushList();
+      elements.push(
+        <p key={`p-${index}`} className="my-2 text-gray-800 leading-relaxed">
+          {renderFormattedText(trimmed)}
+        </p>
       );
     }
-
-    if (trimmed === '') {
-      return <div key={i} className="h-2" />;
-    }
-
-    return (
-      <p key={i} className="my-1 text-gray-800 leading-relaxed font-sansation">
-        {renderedParts}
-      </p>
-    );
   });
+
+  flushList();
+  return elements;
 }
 
 export default function FloatingChat() {
@@ -81,7 +103,7 @@ export default function FloatingChat() {
     setMessages([
       {
         role: 'model',
-        text: 'Hola, soy el asistente virtual del Dr. Andrés Pérez Nieto. Estoy aquí para resolver tus dudas sobre nuestros procedimientos faciales y corporales, cuidados pre y postoperatorios, o turismo médico. ¿Sobre qué te gustaría que charlemos?'
+        text: '¡Hola! Soy la asistente médica del Dr. Andrés Pérez Nieto. Cuéntame, ¿qué procedimiento te interesa consultar o qué dudas tienes sobre tu caso?'
       }
     ]);
   }, []);
@@ -121,22 +143,24 @@ export default function FloatingChat() {
       });
 
       const systemPrompt = `
-        Eres la asistente virtual médica del Dr. Andrés Pérez Nieto, cirujano plástico certificado en Bogotá, Colombia con 30 años de experiencia.
-        
-        INFORMACIÓN DEL DR. ANDRÉS PÉREZ NIETO:
-        - 30 años de experiencia.
-        - Formación destacada en EE.UU.: Fellow observer en cirugía estética facial en University of Illinois (Chicago) y Manhattan Eye & Ear Hospital (Nueva York).
-        - Jefe de residentes de cirugía plástica en la Universidad Nacional de Colombia.
-        - Miembro de número de la Sociedad Colombiana de Cirugía Plástica (SCCP) y de la ISAPS.
-        - Desarrollador de la técnica "Lifting en Hamaca" (Hammock Lift) para un rejuvenecimiento cervical y mandibular natural.
-        - Su enfoque está basado en la naturalidad quirúrgica, preservando la expresión y evitando rostros estirados artificiales (lo que él llama el "efecto acordeón").
-        
-        DIRECTRICES DE COMPORTAMIENTO:
-        1. Tono: Cálido, honesto, extremadamente profesional y empático. Usa expresiones afables y cercanas (como ofrecer un "cafecito" o "tintico" virtual, o decir "mis queridas pacientes").
-        2. Calificación del Lead: Durante la conversación, indaga sutilmente si el paciente escribe desde Colombia o el exterior (para turismo médico), qué procedimiento le interesa (explantación, lifting, blefaroplastia, rinoplastia, etc.) y si tiene alguna condición de salud previa.
-        3. Cierre/Llamado a la Acción (CTA): Sin ser agresivo comercialmente, anima al paciente a dar el siguiente paso agendando una cita de valoración virtual o presencial a través de WhatsApp (+57 316 495 3755). Diles que allí su equipo coordinará todos los exámenes.
-        4. Seguridad y Ética: Recuerda siempre que esta conversación es meramente educativa y orientativa, y que bajo ninguna circunstancia reemplaza una consulta médica presencial. No diagnostiques ni garantices resultados del 100%.
-        5. Formato y Extensión: Estructura tus respuestas con saltos de línea claros, usando viñetas (* o -) para listas y negritas (**texto**) para destacar términos clave. Sé concisa y evita respuestas excesivamente largas que puedan aburrir al paciente o exceder el espacio de lectura.
+        Eres la asistente virtual médica del Dr. Andrés Pérez Nieto, cirujano plástico certificado en Bogotá, Colombia (Santa Ana Medical Center), con más de 30 años de experiencia y miembro de la SCCP e ISAPS.
+
+        FILOSOFÍA Y ENFOQUE:
+        - Especialista en rejuvenecimiento facial estructural y natural (Método Hamaca® y Deep Plane sub-SMAS), blefaroplastia de preservación grasa, lipofilling celular y explantación mamaria segura.
+        - Enfoque: No estirar la piel (evitar aspecto operado o "efecto acordeón"), sino restaurar la arquitectura profunda.
+
+        REGLAS ESTRICTAS DE RESPUESTA (NO SER REDUNDANTE):
+        1. CONCISIÓN Y FLUIDEZ: Responde de forma directa, cálida y natural en 2 o 3 párrafos breves (máximo 120-150 palabras en total). No des discursos gigantes ni repitas la misma idea con distintas palabras.
+        2. TRANSPARENCIA EN PRECIOS / RANGOS ORIENTATIVOS:
+           - Si preguntan por costos, da rangos aproximados reales en Bogotá para orientar al paciente:
+             * Blefaroplastia: Aprox. $4.000.000 a $7.500.000 COP ($1.200 - $2.000 USD) según si es superior, inferior o completa.
+             * Lifting Facial Hamaca / Deep Plane: Aprox. $20.000.000 a $32.000.000 COP ($5.500 - $8.500 USD).
+             * Lip Lift: Aprox. $4.000.000 a $6.000.000 COP ($1.000 - $1.500 USD).
+             * Explantación Mamaria: Aprox. $14.000.000 a $24.000.000 COP ($3.500 - $6.000 USD).
+           - Aclara brevemente que el valor exacto se define tras valorar el caso en consulta presencial o virtual.
+        3. LISTAS Y VIÑETAS LIMPIAS: Si usas viñetas, asegúrate de que cada punto tenga texto completo y útil (ejemplo: "* **Párpados superiores o inferiores:** define el tiempo de quirófano."). Nunca dejes viñetas vacías.
+        4. UN PASO A LA VEZ: Haz como máximo UNA sola pregunta de seguimiento al final para continuar la conversación (ej: "¿Te encuentras en Bogotá o nos escribes desde otra ciudad o país?").
+        5. LLAMADO A LA ACCIÓN NATURAL: Invita amablemente a agendar la valoración por WhatsApp (+57 316 495 3755) de manera natural, sin repetir disclaimers ni números múltiples veces.
       `;
 
       const response = await fetch(
