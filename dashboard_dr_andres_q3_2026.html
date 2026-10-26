@@ -634,9 +634,10 @@
     <!-- NAVIGATION TABS -->
     <div class="tabs-nav">
       <button class="tab-btn active" onclick="switchTab('tab-web')">🌐 1. Mejoras del Sitio Web</button>
-      <button class="tab-btn" onclick="switchTab('tab-seo')">📈 2. Comportamiento SEO</button>
-      <button class="tab-btn" onclick="switchTab('tab-rrss')">📱 3. Redes &amp; Campaña Meta</button>
-      <button class="tab-btn" onclick="switchTab('tab-insights')">💡 4. Insights &amp; Próximos Pasos</button>
+      <button class="tab-btn" onclick="switchTab('tab-seo')">📈 2. SEO &amp; Search Console</button>
+      <button class="tab-btn" onclick="switchTab('tab-ga4')">📊 3. Google Analytics 4 &amp; Chat IA</button>
+      <button class="tab-btn" onclick="switchTab('tab-rrss')">📱 4. Redes &amp; Campaña Meta</button>
+      <button class="tab-btn" onclick="switchTab('tab-insights')">💡 5. Insights &amp; Próximos Pasos</button>
     </div>
 
     <!-- TAB 1: MEJORAS DE LA WEB -->
@@ -1117,11 +1118,232 @@
 
     </div>
 
-    <!-- TAB 3: REDES SOCIALES Y META ADS --><!-- TAB 3: REDES SOCIALES Y META ADS -->
+        <!-- TAB GA4: GOOGLE ANALYTICS 4 & CHAT IA -->
+    <div id="tab-ga4" class="tab-pane">
+      
+      <div class="section-title">
+        <span>Comportamiento de Usuarios &amp; Conversiones en Vivo (Google Analytics 4)</span>
+        <span class="badge-num">Datos Oficiales GA4: 17 Ago – 24 Oct 2026</span>
+      </div>
+
+      <div class="quote-box">
+        "El informe panorámico de Google Analytics 4 (propiedad Dr. Andrés Pérez) certifica un <strong>tráfico calificado de 809 usuarios activos</strong> en las últimas 9 semanas, con una tasa de retención sobresaliente y un hito comercial clave: <strong>43 derivaciones directas a WhatsApp</strong>, con una efectividad del 100% de conversión en el Chat IA."
+      </div>
+
+      <div class="kpi-grid">
+        <div class="kpi-card">
+          <div class="kpi-title">Usuarios Activos (GA4)</div>
+          <div class="kpi-value">809 <span style="font-size:16px; font-weight:normal; color:#94a3b8;">Personas</span></div>
+          <div class="kpi-desc"><span class="tag-green">1.061 Sesiones registradas</span></div>
+        </div>
+
+        <div class="kpi-card">
+          <div class="kpi-title">Páginas Vistas Totales</div>
+          <div class="kpi-value">2.439</div>
+          <div class="kpi-desc">2.3 páginas promedio por sesión</div>
+        </div>
+
+        <div class="kpi-card">
+          <div class="kpi-title">Derivaciones a WhatsApp</div>
+          <div class="kpi-value">43 <span style="font-size:16px; font-weight:normal; color:#10b981;">Leads</span></div>
+          <div class="kpi-desc">🟢 24 desde Chat IA + 19 desde botón flotante</div>
+        </div>
+
+        <div class="kpi-card">
+          <div class="kpi-title">Tráfico desde Motores IA</div>
+          <div class="kpi-value">121 <span style="font-size:16px; font-weight:normal; color:#a855f7;">Usuarios</span></div>
+          <div class="kpi-desc">🤖 ChatGPT, Perplexity y Gemini citando la web</div>
+        </div>
+      </div>
+
+      <div class="card-grid-2">
+        
+        <!-- Canales de Adquisición -->
+        <div class="dashboard-box">
+          <h3>🚪 Canales de Entrada de los Pacientes</h3>
+          <p style="font-size:13px; color:var(--text-muted); margin-bottom:14px;">Distribución de sesiones y usuarios según el canal de origen en GA4:</p>
+          
+          <div class="table-container">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Canal de Adquisición</th>
+                  <th>Usuarios Nuevos</th>
+                  <th>Sesiones</th>
+                  <th>Participación</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>🔍 Búsqueda Orgánica (Google)</strong></td>
+                  <td><span class="pill pill-cyan">325</span></td>
+                  <td><strong>478</strong></td>
+                  <td><span class="tag-green">45.0% (Canal #1)</span></td>
+                </tr>
+                <tr>
+                  <td><strong>🔗 Tráfico Directo (Marca / URL)</strong></td>
+                  <td><span class="pill pill-cyan">264</span></td>
+                  <td><strong>314</strong></td>
+                  <td>29.6% (Alta fidelidad)</td>
+                </tr>
+                <tr style="background:rgba(168, 85, 247, 0.08);">
+                  <td><strong>🤖 Asistentes de IA (AEO / RAG)</strong></td>
+                  <td><span class="pill pill-purple">121</span></td>
+                  <td><strong>146</strong></td>
+                  <td><span class="tag-green">13.8% (Innovación)</span></td>
+                </tr>
+                <tr>
+                  <td><strong>🌐 Sitios de Referencia (Referral)</strong></td>
+                  <td><span class="pill pill-amber">58</span></td>
+                  <td><strong>72</strong></td>
+                  <td>6.8%</td>
+                </tr>
+                <tr>
+                  <td><strong>🎯 Pauta en Búsqueda (Google Ads)</strong></td>
+                  <td><span class="pill pill-green">25</span></td>
+                  <td><strong>26</strong></td>
+                  <td>2.5%</td>
+                </tr>
+                <tr>
+                  <td><strong>📱 Redes Sociales Orgánicas</strong></td>
+                  <td><span class="pill pill-cyan">14</span></td>
+                  <td><strong>14</strong></td>
+                  <td>1.3%</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div style="margin-top:16px; background:rgba(168, 85, 247, 0.1); padding:14px; border-radius:12px; border:1px solid rgba(168, 85, 247, 0.3);">
+            <strong style="color:var(--accent-purple); font-size:14px; display:block; margin-bottom:4px;">✨ Hito AEO: 121 Pacientes derivados por Inteligencia Artificial</strong>
+            <p style="font-size:13px; color:#cbd5e1; margin:0;">El 13.8% de las sesiones ya proviene de motores como ChatGPT, Perplexity y Gemini que recomiendan directamente al Dr. Andrés gracias a la estructura semántica y esquemas JSON-LD médicos de la web.</p>
+          </div>
+        </div>
+
+        <!-- Rendimiento del Chat Asistido por IA y WhatsApp -->
+        <div class="dashboard-box">
+          <h3>🤖 Rendimiento del Chat IA &amp; Embudo a WhatsApp</h3>
+          <p style="font-size:13px; color:var(--text-muted); margin-bottom:14px;">Métricas de eventos en tiempo real registradas en Google Analytics y Google Sheets:</p>
+          
+          <div class="table-container">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Evento de Interacción</th>
+                  <th>Ocurrencias</th>
+                  <th>Significado Clínico / Comercial</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Apertura del Chat IA (<code>chat_opened</code>)</strong></td>
+                  <td><span class="pill pill-cyan">58 veces</span></td>
+                  <td>Pacientes que abrieron el chat en busca de orientación.</td>
+                </tr>
+                <tr>
+                  <td><strong>Mensajes Enviados (<code>chat_message_sent</code>)</strong></td>
+                  <td><span class="pill pill-amber">24 conversaciones</span></td>
+                  <td>Consultas activas sobre lifting, párpados y costos.</td>
+                </tr>
+                <tr style="background:rgba(16, 185, 129, 0.08);">
+                  <td><strong>Clic a WhatsApp desde Chat (<code>chat_whatsapp_click</code>)</strong></td>
+                  <td><span class="pill pill-green">24 clics</span></td>
+                  <td><strong style="color:var(--accent-emerald);">100% de conversión</strong> (todos fueron a WhatsApp).</td>
+                </tr>
+                <tr>
+                  <td><strong>Clic Directo a WhatsApp (<code>whatsapp_click</code>)</strong></td>
+                  <td><span class="pill pill-green">19 clics</span></td>
+                  <td>Pacientes que saltaron de inmediato al chat de citas.</td>
+                </tr>
+                <tr>
+                  <td><strong>Total Pacientes Derivados a WhatsApp</strong></td>
+                  <td><span class="pill pill-green" style="font-size:14px;">43 pacientes</span></td>
+                  <td>Potencial comercial directo para el consultorio.</td>
+                </tr>
+                <tr>
+                  <td><strong>Vistas de Galería de Casos</strong></td>
+                  <td><span class="pill pill-purple">437 vistas</span></td>
+                  <td>Máximo interés en fotos de antes y después.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div style="margin-top:16px; background:rgba(16, 185, 129, 0.1); padding:14px; border-radius:12px; border:1px solid rgba(16, 185, 129, 0.3);">
+            <strong style="color:var(--accent-emerald); font-size:14px; display:block; margin-bottom:4px;">🎯 Eficacia Comercial Comprobada</strong>
+            <p style="font-size:13px; color:#cbd5e1; margin:0;">El 100% de los pacientes que interactuaron con el chatbot del Dr. Andrés terminaron haciendo clic en el botón de agendamiento por WhatsApp (+57 316 495 3755), guardándose en la hoja de Google Sheets en tiempo real.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Páginas Más Vistas y Compromiso en GA4 -->
+      <div class="dashboard-box" style="margin-top:28px;">
+        <h3>📄 Páginas y Secciones con Mayor Interés de Lectura (GA4)</h3>
+        <p style="font-size:13px; color:var(--text-muted); margin-bottom:14px;">Páginas con más tiempo de lectura y vistas registradas en las 9 semanas analizadas:</p>
+        
+        <div class="table-container">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Página Web / Título de Pantalla</th>
+                <th>Vistas Registradas</th>
+                <th>Comportamiento del Paciente</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Home Español: Dr. Andrés Pérez Nieto | Lifting Deep Plane</strong></td>
+                <td><span class="pill pill-cyan">798 vistas</span></td>
+                <td>Página principal de bienvenida y posicionamiento de marca.</td>
+              </tr>
+              <tr>
+                <td><strong>Home Inglés: Plastic Surgeon in Bogotá | Deep Plane Facelift</strong></td>
+                <td><span class="pill pill-purple">447 vistas</span></td>
+                <td>Volumen extraordinario de pacientes extranjeros explorando la técnica.</td>
+              </tr>
+              <tr>
+                <td><strong>Galerías de Resultados (Facial y Corporal combinadas)</strong></td>
+                <td><span class="pill pill-green">437 vistas</span></td>
+                <td>Factor crítico de decisión: los pacientes validan la naturalidad de los casos.</td>
+              </tr>
+              <tr>
+                <td><strong>Lifting Facial en Hamaca (Procedimiento)</strong></td>
+                <td><span class="pill pill-cyan">76 vistas</span></td>
+                <td>Lectura detallada del método exclusivo del Dr. Andrés.</td>
+              </tr>
+              <tr>
+                <td><strong>International Patients (Guía para Extranjeros)</strong></td>
+                <td><span class="pill pill-purple">43 vistas</span></td>
+                <td>Pacientes de EE.UU. y Canadá revisando logística y estadía en Bogotá.</td>
+              </tr>
+              <tr>
+                <td><strong>Blefaroplastia en Bogotá (Cirugía de Párpados)</strong></td>
+                <td><span class="pill pill-cyan">42 vistas</span></td>
+                <td>Alta intención de consulta para rejuvenecimiento de la mirada.</td>
+              </tr>
+              <tr>
+                <td><strong>Lipofilling Facial en Bogotá (Células Madre)</strong></td>
+                <td><span class="pill pill-amber">40 vistas</span></td>
+                <td>Interés en regeneración celular y volumen biológico sin rellenos sintéticos.</td>
+              </tr>
+              <tr>
+                <td><strong>Artículos de Costos (Precios de Lifting y Explantación)</strong></td>
+                <td><span class="pill pill-green">66 vistas</span></td>
+                <td>Páginas de alta conversión: pacientes listos para dar el paso quirúrgico.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+
+<!-- TAB 3: REDES SOCIALES Y META ADS --><!-- TAB 3: REDES SOCIALES Y META ADS -->
     <div id="tab-rrss" class="tab-pane">
       
       <div class="section-title">
-        <span>Rendimiento en Redes Sociales (Instagram) &amp; Campaña Meta Ads</span>
+        <span>4. Rendimiento en Redes Sociales (Instagram) &amp; Campaña Meta Ads</span>
         <span class="badge-num">116 Leads Generados</span>
       </div>
 
