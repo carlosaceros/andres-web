@@ -1339,8 +1339,609 @@ export const blogPosts: BlogPostMetadata[] = [
         answer: 'La cantopexia refuerza y eleva el tendón cantal sin cortarlo. La cantoplastia implica seccionar y acortar el tendón, indicada para laxitudes severas.'
       }
     ]
+  },
+  {
+    slug: 'rinoplastia-8-meses-postoperatorio-evolucion',
+    locale: 'es',
+    title: 'Rinoplastia a los 8 meses postoperatorio: desinflamación, cambios en la punta y resultado final',
+    subtitle: 'Guía médica sobre qué esperar en el octavo mes de recuperación y por qué la paciencia define el éxito de la cirugía de nariz.',
+    metaDescription: '¿Cómo evoluciona una rinoplastia a los 8 meses postoperatorio? Conoce el estado de la punta nasal, edema residual y cuidados con el Dr. Andrés Pérez Nieto en Bogotá.',
+    category: 'Rinoplastia',
+    date: '2026-09-02',
+    readingTime: '6 min',
+    quickAnswer: 'A los 8 meses de una rinoplastia se ha resuelto entre el 80% y 85% de la inflamación. El dorso ya luce definido, pero la punta nasal aún retiene edema y rigidez que tardan entre 12 y 18 meses en afinarse por completo, especialmente en pacientes de piel gruesa.',
+    relatedProcedure: '/procedimientos/rinoplastia',
+    cluster: 'rinoplastia',
+    componentName: 'Rinoplastia8MesesPost',
+    featuredImage: '/images/blog/rinoplastia-8-meses.jpg',
+    faqs: [
+        {
+                "question": "¿Es normal que la punta de la nariz siga dura a los 8 meses?",
+                "answer": "Sí, es completamente normal. La rigidez responde a los injertos cartilaginosos de soporte y a la fibrosis biológica que se reabsorbe lentamente hacia el año y medio."
+        },
+        {
+                "question": "¿Se puede realizar un retoque nasal a los 8 meses?",
+                "answer": "No es recomendable. Cualquier cirugía de revisión debe esperar al menos 12 a 14 meses para que los tejidos cicatriciales estén completamente desinflamados y estables."
+        }
+]
+  },
+  {
+    slug: 'blefaroplastia-bogota-guia-completa-tecnicas',
+    locale: 'es',
+    title: 'Blefaroplastia en Bogotá: guía médica completa para elegir la técnica correcta para tus ojos',
+    subtitle: 'Descubre las diferencias entre abordaje superior, inferior, transconjuntival y preservación de bolsas para una mirada fresca y natural.',
+    metaDescription: 'Guía definitiva de blefaroplastia en Bogotá con el Dr. Andrés Pérez Nieto. Compara técnicas superior, inferior y transconjuntival para rejuvenecer tu mirada en Santa Ana Medical Center.',
+    category: 'Blefaroplastia',
+    date: '2026-09-04',
+    readingTime: '7 min',
+    quickAnswer: 'La blefaroplastia en Bogotá debe seleccionarse según el envejecimiento individual: el párpado superior retira exceso de piel que pesa sobre las pestañas, mientras el inferior reposiciona las bolsas de grasa hacia las ojeras para evitar ojos hundidos.',
+    relatedProcedure: '/procedimientos/blefaroplastia',
+    cluster: 'blefaroplastia',
+    componentName: 'BlefaroplastiaBogotaGuiaPost',
+    featuredImage: '/images/blog/blefaroplastia-bogota-guia.jpg',
+    faqs: [
+        {
+                "question": "¿Cuánto tiempo dura la recuperación de una blefaroplastia en Bogotá?",
+                "answer": "La recuperación dura entre 7 y 10 días para reincorporarse al trabajo y vida social, mientras los puntos finos se retiran al quinto día."
+        },
+        {
+                "question": "¿Cómo se evita el efecto de ojo redondo tras operar los párpados?",
+                "answer": "Se asocia una cantopexia que suspende el tendón lateral del párpado y se evita cortar piel en exceso, preservando la forma de almendra."
+        }
+]
+  },
+  {
+    slug: 'retiro-implantes-mamarios-bogota-explantacion',
+    locale: 'es',
+    title: 'Retiro de implantes mamarios en Bogotá: por qué cada vez más mujeres eligen la explantación',
+    subtitle: 'Causas médicas, rotura silenciosa, contractura y deseo de libertad corporal: la cirugía de explantación explicada paso a paso.',
+    metaDescription: '¿Considerando el retiro de implantes mamarios en Bogotá? Conoce las razones médicas, técnicas de capsulectomía y reconstrucción estética con el Dr. Andrés Pérez Nieto.',
+    category: 'Explantación Mamaria',
+    date: '2026-09-07',
+    readingTime: '7 min',
+    quickAnswer: 'El retiro de implantes mamarios en Bogotá se realiza por contractura capsular, rotura de prótesis, síntomas inflamatorios o decisión de volver a un busto natural. El procedimiento debe incluir capsulectomía completa y mastopexia para remodelar la mama.',
+    relatedProcedure: '/procedimientos/explantacion-mamaria',
+    cluster: 'explantacion-mamaria',
+    componentName: 'RetiroImplantesBogotaPost',
+    featuredImage: '/images/blog/retiro-implantes-bogota.jpg',
+    faqs: [
+        {
+                "question": "¿Qué pasa con la piel del seno tras retirar las prótesis?",
+                "answer": "La piel se adapta mediante retracción natural y se remodela mediante mastopexia (pexia) con los propios tejidos glandulares de la paciente."
+        },
+        {
+                "question": "¿Es obligatorio retirar la cápsula periprotésica?",
+                "answer": "Sí, retirar la cápsula (capsulectomía total o en bloque) previene seromas, inflamación crónica y garantiza la salud del tejido mamario."
+        }
+]
+  },
+  {
+    slug: 'lifting-facial-colombia-deep-plane-bogota',
+    locale: 'es',
+    title: 'Lifting facial en Colombia: por qué Bogotá es el epicentro internacional del Deep Plane',
+    subtitle: 'Pacientes de Estados Unidos, Canadá y Latinoamérica eligen Bogotá para rejuvenecer su rostro con la técnica Hamaca y el plano profundo.',
+    metaDescription: '¿Por qué Bogotá, Colombia es líder en lifting facial Deep Plane? Conoce la técnica Hamaca del Dr. Andrés Pérez Nieto y la excelencia médica en Santa Ana Medical Center.',
+    category: 'Lifting Hamaca',
+    date: '2026-09-09',
+    readingTime: '8 min',
+    quickAnswer: 'Colombia y Bogotá se han convertido en el destino predilecto para el lifting facial Deep Plane gracias a cirujanos plásticos con entrenamiento de élite en EE.UU., tecnología hospitalaria acreditada internacionalmente y costos entre 60% y 70% más competitivos que en Norteamérica.',
+    relatedProcedure: '/procedimientos/lifting-facial-hamaca',
+    cluster: 'lifting-facial',
+    componentName: 'LiftingFacialColombiaPost',
+    featuredImage: '/images/blog/lifting-facial-colombia.jpg',
+    faqs: [
+        {
+                "question": "¿Por qué los pacientes viajan a Bogotá para un lifting facial?",
+                "answer": "Viajan por la experiencia médica de más de 30 años, la técnica Deep Plane Hamaca que no estira la piel, y clínicas de alta gama como Santa Ana Medical Center."
+        },
+        {
+                "question": "¿Cuántos días debe permanecer un paciente extranjero en Bogotá?",
+                "answer": "Se sugiere una estancia de 12 a 14 días para realizar valoración prequirúrgica, intervención, retiro de suturas y autorización de vuelo."
+        }
+]
+  },
+  {
+    slug: 'pexia-de-senos-levantamiento-sin-protesis',
+    locale: 'es',
+    title: 'Pexia de senos: cómo recuperar la firmeza, altura y proyección del busto sin implantes',
+    subtitle: 'La mastopexia autóloga transforma el tejido mamario caído en un busto lleno, firme y juvenil usando tu propia anatomía.',
+    metaDescription: '¿Busto caído tras la lactancia o pérdida de peso? Descubre cómo la pexia de senos sin prótesis remodela y eleva tus mamas con el Dr. Andrés Pérez Nieto en Bogotá.',
+    category: 'Explantación Mamaria',
+    date: '2026-09-12',
+    readingTime: '6 min',
+    quickAnswer: 'La pexia de senos o mastopexia sin prótesis es la cirugía que eleva la mama caída (ptosis mamaria) y retira la piel sobrante, redistribuyendo el propio tejido glandular como si fuera un implante natural para restaurar el escote.',
+    relatedProcedure: '/procedimientos/pexia',
+    cluster: 'explantacion-mamaria',
+    componentName: 'PexiaDeSenosPost',
+    featuredImage: '/images/blog/pexia-de-senos.jpg',
+    faqs: [
+        {
+                "question": "¿Se puede lograr un buen escote con pexia sin necesidad de prótesis?",
+                "answer": "Sí. Mediante técnicas de colgajo auto-protésico se dobla el polo inferior de la glándula para rellenar el polo superior del escote."
+        },
+        {
+                "question": "¿Cómo son las cicatrices de una mastopexia?",
+                "answer": "Según el grado de caída, puede ser alrededor de la areola (periareolar), vertical o en T invertida, diseñadas para quedar ocultas bajo el brasier o bikini."
+        }
+]
+  },
+  {
+    slug: 'cirugias-de-rejuvenecimiento-facial-guia-edad',
+    locale: 'es',
+    title: 'Cirugías de rejuvenecimiento facial: ¿cuál es el procedimiento indicado según tu edad?',
+    subtitle: 'A los 40, 50 y 60 años: cómo seleccionar entre blefaroplastia, lifting cervical, lipofilling o Deep Plane sin caer en excesos.',
+    metaDescription: '¿Cuál es la cirugía facial ideal para ti? Descubre los procedimientos recomendados a los 40, 50 y 60+ años con el Dr. Andrés Pérez Nieto en Bogotá.',
+    category: 'Lifting Hamaca',
+    date: '2026-09-15',
+    readingTime: '7 min',
+    quickAnswer: 'El rejuvenecimiento facial no depende de la edad cronológica sino del grado de envejecimiento anatómico: a los 40 destacan párpados y microinjertos grasos; a los 50 el lifting cervical y mandibular; y a partir de los 60 el Deep Plane completo con reposición del SMAS.',
+    relatedProcedure: '/procedimientos/lifting-facial-hamaca',
+    cluster: 'lifting-facial',
+    componentName: 'CirugiasRejuvenecimientoFacialPost',
+    featuredImage: '/images/blog/cirugias-rejuvenecimiento-facial.jpg',
+    faqs: [
+        {
+                "question": "¿A qué edad es conveniente hacerse el primer lifting facial?",
+                "answer": "La edad más frecuente oscila entre los 45 y 55 años, cuando los ligamentos comienzan a ceder pero la piel aún conserva excelente elasticidad biológica."
+        },
+        {
+                "question": "¿Se pueden realizar varios procedimientos faciales en la misma cirugía?",
+                "answer": "Sí, combinar lifting de tercio medio y cuello con blefaroplastia y lipofilling ofrece un resultado global armónico con un único tiempo de recuperación."
+        }
+]
+  },
+  {
+    slug: 'que-es-el-smas-cirugia-facial-natural',
+    locale: 'es',
+    title: 'Qué es el SMAS y por qué es el pilar secreto de un lifting facial duradero y natural',
+    subtitle: 'La capa anatómica que sostiene tus facciones: cómo se tensa, por qué no debe estirarse la piel y el método Hamaca.',
+    metaDescription: '¿Qué es el SMAS en cirugía plástica facial? Conoce el Sistema Músculo-Aponeurótico Superficial y su rol en el rejuvenecimiento con el Dr. Andrés Pérez Nieto.',
+    category: 'Lifting Hamaca',
+    date: '2026-09-18',
+    readingTime: '6 min',
+    quickAnswer: 'El SMAS (Sistema Músculo-Aponeurótico Superficial) es una red continua de músculo y tejido fibroso que conecta los músculos de la cara con la piel. Es la estructura que realmente sostiene el rostro y la única que debe tensarse en un lifting para no estirar la piel.',
+    relatedProcedure: '/procedimientos/lifting-facial-hamaca',
+    cluster: 'lifting-facial',
+    componentName: 'QueEsSmasPost',
+    featuredImage: '/images/blog/que-es-el-smas.jpg',
+    faqs: [
+        {
+                "question": "¿Por qué es un error estirar la piel en lugar del SMAS?",
+                "answer": "La piel es elástica y si se jala se estira rápidamente, ensancha las cicatrices y crea el aspecto artificial de 'cara operada'."
+        },
+        {
+                "question": "¿Cuánto tiempo dura un lifting que trabaja sobre el SMAS?",
+                "answer": "Un lifting de SMAS o Deep Plane reposiciona la estructura profunda y ofrece una durabilidad real de 10 a 15 años."
+        }
+]
+  },
+  {
+    slug: 'blefaroplastia-superior-bogota-parpados-pesados',
+    locale: 'es',
+    title: 'Blefaroplastia superior en Bogotá: adiós a los párpados pesados y la mirada cansada',
+    subtitle: 'Cómo despejar tus ojos, ampliar el campo visual y rejuvenecer la mirada con una intervención ambulatoria de 45 minutos.',
+    metaDescription: '¿Párpados superiores caídos y pesados? Conoce la blefaroplastia superior en Bogotá con el Dr. Andrés Pérez Nieto. Procedimiento ambulatorio y resultados naturales.',
+    category: 'Blefaroplastia',
+    date: '2026-09-20',
+    readingTime: '5 min',
+    quickAnswer: 'La blefaroplastia superior elimina el exceso de piel y grasa del párpado superior que causa pesadez ocular y cansa la vista. Es un procedimiento ambulatorio con anestesia local que se realiza en 45 minutos y recupera en 5 días.',
+    relatedProcedure: '/procedimientos/blefaroplastia',
+    cluster: 'blefaroplastia',
+    componentName: 'BlefaroplastiaSuperiorBogotaPost',
+    featuredImage: '/images/blog/blefaroplastia-superior-bogota.jpg',
+    faqs: [
+        {
+                "question": "¿La cicatriz de la blefaroplastia superior es visible?",
+                "answer": "No. La incisión queda perfectamente oculta dentro del pliegue natural del párpado y se vuelve prácticamente imperceptible al cabo de pocas semanas."
+        },
+        {
+                "question": "¿La blefaroplastia superior mejora la visión?",
+                "answer": "Sí, en casos donde la piel caída cubre el margen ciliar (pseudoptosis mecánica), retirarla despeja de inmediato el campo visual periférico superior."
+        }
+]
+  },
+  {
+    slug: 'otoplastia-bogota-cirugia-orejas-aladas',
+    locale: 'es',
+    title: 'Otoplastia en Bogotá: corrección definitiva de orejas aladas o prominentes',
+    subtitle: 'Armonía facial, técnica sin cicatrices visibles y recuperación rápida en niños, jóvenes y adultos con el Dr. Andrés Pérez Nieto.',
+    metaDescription: '¿Orejas prominentes o aladas? Conoce la otoplastia en Bogotá con el Dr. Andrés Pérez Nieto. Cirugía correctiva con cicatriz oculta en Santa Ana Medical Center.',
+    category: 'Lifting Hamaca',
+    date: '2026-09-23',
+    readingTime: '6 min',
+    quickAnswer: 'La otoplastia es la cirugía que reposiciona las orejas prominentes o \'en asa\', plegando el cartílago del antihélix y reduciendo la concha auricular para pegarlas armónicamente a la cabeza con cicatrices 100% ocultas detrás de la oreja.',
+    relatedProcedure: '/procedimientos/otoplastia',
+    cluster: 'procedimientos-faciales',
+    componentName: 'OtoplastiaBogotaPost',
+    featuredImage: '/images/blog/otoplastia-bogota.jpg',
+    faqs: [
+        {
+                "question": "¿A partir de qué edad se puede realizar una otoplastia?",
+                "answer": "Se puede realizar a partir de los 6 o 7 años de edad, cuando el cartílago auricular ha completado más del 90% de su crecimiento definitivo."
+        },
+        {
+                "question": "¿Las orejas pueden volver a abrirse tras la operación?",
+                "answer": "No. Al debilitar el cartílago y fijarlo con puntos permanentes no reabsorbibles, la nueva posición queda asegurada de por vida."
+        }
+]
+  },
+  {
+    slug: 'pexia-mamaria-bogota-tecnicas-mastopexia',
+    locale: 'es',
+    title: 'Pexia mamaria en Bogotá: técnicas de mastopexia con y sin prótesis explicadas por expertos',
+    subtitle: 'Conoce los patrones de incisión, la redistribución glandular y la selección del método perfecto para tu anatomía mamaria.',
+    metaDescription: '¿Pensando en una pexia mamaria en Bogotá? Compara las técnicas de mastopexia con o sin implantes y conoce los resultados con el Dr. Andrés Pérez Nieto.',
+    category: 'Explantación Mamaria',
+    date: '2026-09-25',
+    readingTime: '7 min',
+    quickAnswer: 'La pexia mamaria en Bogotá se planifica en función del grado de flacidez y volumen existente: en mamas con suficiente glándula se realiza mastopexia autóloga sin implantes, mientras que en mamas atróficas o vacías se asocian prótesis de perfil moderado.',
+    relatedProcedure: '/procedimientos/pexia',
+    cluster: 'explantacion-mamaria',
+    componentName: 'PexiaMamariaBogotaPost',
+    featuredImage: '/images/blog/pexia-mamaria-bogota.jpg',
+    faqs: [
+        {
+                "question": "¿Cuándo se necesita poner prótesis en una pexia mamaria?",
+                "answer": "Se aconseja implante solo cuando el tejido glandular propio de la paciente es muy escaso y se desea mayor proyección y volumen en el polo superior."
+        },
+        {
+                "question": "¿Se puede amamantar después de una mastopexia?",
+                "answer": "En la gran mayoría de casos sí, siempre que se conserve la continuidad del pedículo vascular y los conductos galactóforos hacia el pezón."
+        }
+]
+  },
+  {
+    slug: 'cirugia-de-nariz-bogota-rinoplastia-moderna',
+    locale: 'es',
+    title: 'Cirugía de nariz en Bogotá: mitos, verdades y avances de la rinoplastia moderna',
+    subtitle: 'Preservación dorsal, ultrasonido y funcionalidad respiratoria: cómo lograr una nariz bella que respire a la perfección.',
+    metaDescription: '¿Buscando cirugía de nariz en Bogotá? Conoce las técnicas de rinoplastia estructural y de preservación con el Dr. Andrés Pérez Nieto en Santa Ana Medical Center.',
+    category: 'Rinoplastia',
+    date: '2026-09-28',
+    readingTime: '7 min',
+    quickAnswer: 'La cirugía de nariz moderna en Bogotá combina la armonía estética del perfil con la conservación y mejora de la respiración (septoplastia funcional), empleando técnicas de preservación que evitan romper el dorso y previenen narices colapsadas o artificiales.',
+    relatedProcedure: '/procedimientos/rinoplastia',
+    cluster: 'rinoplastia',
+    componentName: 'CirugiaNarizBogotaPost',
+    featuredImage: '/images/blog/cirugia-nariz-bogota.jpg',
+    faqs: [
+        {
+                "question": "¿Se colocan tapones nasales molestos tras la cirugía?",
+                "answer": "No. En la técnica moderna ya no usamos tapones asfixiantes, sino férulas internas de silicona perforada que permiten respirar desde el primer día."
+        },
+        {
+                "question": "¿Se puede corregir la desviación del tabique en la misma cirugía?",
+                "answer": "Sí, realizamos rinoseptoplastia integral donde se alinea el tabique desviado y se reducen los cornetes hipertróficos al tiempo que se esculpe la estética."
+        }
+]
+  },
+  {
+    slug: 'deep-plane-facelift-colombia-dr-andres-perez',
+    locale: 'es',
+    title: 'Deep Plane Facelift en Colombia: la técnica definitiva explicada por el Dr. Andrés Pérez Nieto',
+    subtitle: 'La maestría del plano profundo sub-SMAS, liberación ligamentosa y reposición mandibular en el Santa Ana Medical Center.',
+    metaDescription: 'Conoce el Deep Plane Facelift en Colombia con el Dr. Andrés Pérez Nieto. Anatomía sub-SMAS, técnica Hamaca y rejuvenecimiento facial definitivo en Bogotá.',
+    category: 'Lifting Hamaca',
+    date: '2026-09-30',
+    readingTime: '8 min',
+    quickAnswer: 'El Deep Plane Facelift es la técnica quirúrgica más avanzada en rejuvenecimiento facial: ingresa por debajo del SMAS para soltar los ligamentos cigomáticos y maseterinos, recolocando los pómulos y la mandíbula sin jalar la piel y con duración de hasta 15 años.',
+    relatedProcedure: '/procedimientos/lifting-facial-hamaca',
+    cluster: 'lifting-facial',
+    componentName: 'DeepPlaneColombiaPost',
+    featuredImage: '/images/blog/deep-plane-colombia.jpg',
+    faqs: [
+        {
+                "question": "¿Cuál es la diferencia entre un lifting tradicional y un Deep Plane?",
+                "answer": "El lifting tradicional separa la piel del músculo y jala la dermis; el Deep Plane trabaja bajo el músculo y eleva los tejidos profundos en bloque sin tensar la piel."
+        },
+        {
+                "question": "¿El Deep Plane deja cicatrices visibles?",
+                "answer": "No. Al no existir tracción sobre la piel, las incisiones cierran sin tensión dentro del contorno de la oreja y se vuelven prácticamente invisibles."
+        }
+]
+  },
+  {
+    slug: 'explantacion-de-senos-bogota-sindrome-asia',
+    locale: 'es',
+    title: 'Explantación de senos en Bogotá: diagnóstico y manejo integral del Síndrome de ASIA',
+    subtitle: 'Síntomas autoinmunes, pruebas diagnósticas, capsulectomía en bloque y recuperación de la vitalidad.',
+    metaDescription: '¿Sufres de síntomas de Síndrome de ASIA o fatiga crónica por prótesis? Conoce el protocolo de explantación en bloque en Bogotá con el Dr. Andrés Pérez Nieto.',
+    category: 'Explantación Mamaria',
+    date: '2026-10-02',
+    readingTime: '8 min',
+    quickAnswer: 'El Síndrome de ASIA (Síndrome Autoinmune Inducido por Adyuvantes) es una reacción inflamatoria que pueden desarrollar algunas pacientes ante la silicona de los implantes. La explantación con capsulectomía total o en bloque alivia de forma significativa los síntomas en la gran mayoría de casos.',
+    relatedProcedure: '/procedimientos/explantacion-mamaria',
+    cluster: 'explantacion-mamaria',
+    componentName: 'ExplantacionSenosAsiaPost',
+    featuredImage: '/images/blog/explantacion-senos-asia.jpg',
+    faqs: [
+        {
+                "question": "¿Cuáles son los síntomas más habituales del Síndrome de ASIA?",
+                "answer": "Fatiga crónica inexplicable, dolor articular o muscular, caída severa del cabello, niebla mental, problemas de tiroides y alergias cutáneas."
+        },
+        {
+                "question": "¿Qué es la capsulectomía en bloque?",
+                "answer": "Es la técnica que extrae el implante y la cápsula cicatrizal juntos en una sola pieza cerrada, impidiendo que fluidos o silicona toquen los tejidos sanos."
+        }
+]
+  },
+  {
+    slug: 'blefaroplastia-transconjuntival-sin-cicatriz-bolsas',
+    locale: 'es',
+    title: 'Blefaroplastia transconjuntival: cómo eliminar bolsas en los ojos sin cicatriz visible en la piel',
+    subtitle: 'El abordaje interno por la conjuntiva que preserva el músculo orbicular y elimina el riesgo de ectropión.',
+    metaDescription: '¿Bolsas en los ojos sin exceso de piel? Conoce la blefaroplastia transconjuntival en Bogotá con el Dr. Andrés Pérez Nieto. Sin cortes externos ni cicatrices.',
+    category: 'Blefaroplastia',
+    date: '2026-10-05',
+    readingTime: '6 min',
+    quickAnswer: 'La blefaroplastia transconjuntival accede a las bolsas grasas del párpado inferior por la cara interna de la mucosa ocular (conjuntiva). No requiere cortes externos en la piel, no deja ninguna cicatriz visible y elimina el riesgo de que el párpado se deforme.',
+    relatedProcedure: '/procedimientos/blefaroplastia',
+    cluster: 'blefaroplastia',
+    componentName: 'BlefaroplastiaTransconjuntivalPost',
+    featuredImage: '/images/blog/blefaroplastia-transconjuntival.jpg',
+    faqs: [
+        {
+                "question": "¿Quién es el candidato ideal para una blefaroplastia transconjuntival?",
+                "answer": "Personas jóvenes o maduras con bolsas grasas prominentes bajo los ojos pero con piel firme y elástica sin exceso cutáneo severo."
+        },
+        {
+                "question": "¿Se pueden recolocar las bolsas de grasa por vía transconjuntival?",
+                "answer": "Sí, la grasa se libera y se transpone hacia el surco lagrimal para rellenar la ojera hundida por debajo del reborde óseo orbitario."
+        }
+]
+  },
+  {
+    slug: 'postoperatorio-rinoplastia-mes-a-mes-guia-completa',
+    locale: 'es',
+    title: 'Postoperatorio de rinoplastia mes a mes: qué esperar desde la primera semana hasta el año',
+    subtitle: 'La cronología biológica definitiva: desinflamación, retracción de piel, sensibilidad y consejos para cada fase.',
+    metaDescription: '¿Operado de la nariz o planeando tu cirugía? Conoce la evolución mes a mes de una rinoplastia con el Dr. Andrés Pérez Nieto en Bogotá. Tiempos reales y cuidados.',
+    category: 'Rinoplastia',
+    date: '2026-10-07',
+    readingTime: '8 min',
+    quickAnswer: 'La recuperación de la rinoplastia es un viaje biológico de un año: a la semana se retira la férula con 60% de hinchazón; al primer mes se aprecia el perfil; a los 6 meses el dorso luce firme; y entre los 12 y 18 meses la punta alcanza su máxima definición.',
+    relatedProcedure: '/procedimientos/rinoplastia',
+    cluster: 'rinoplastia',
+    componentName: 'PostoperatorioRinoplastiaMesAMesPost',
+    featuredImage: '/images/blog/postoperatorio-rinoplastia-mes-a-mes.jpg',
+    faqs: [
+        {
+                "question": "¿Cuándo se puede hacer ejercicio intenso tras una rinoplastia?",
+                "answer": "Caminatas suaves al décimo día; ejercicio cardiovascular moderado a las 4 semanas; y deportes de contacto o levantamiento pesado a los 2 meses."
+        },
+        {
+                "question": "¿Por qué la nariz amanece más inflamada por las mañanas?",
+                "answer": "Por la posición horizontal al dormir, que favorece la acumulación de líquido linfático en los tejidos blandos de la cara y la punta nasal."
+        }
+]
+  },
+  {
+    slug: 'lifting-cuello-papada-platismoplastia-bogota',
+    locale: 'es',
+    title: 'Lifting de cuello y papada: platismoplastia y redefinición del ángulo mandibular',
+    subtitle: 'Bandas platismales, grasa subplatismal y descolgamiento cervical: la solución quirúrgica definitiva para un cuello esbelto.',
+    metaDescription: '¿Papada resistente o bandas en el cuello? Conoce el lifting de cuello y platismoplastia en Bogotá con el Dr. Andrés Pérez Nieto en Santa Ana Medical Center.',
+    category: 'Lifting Hamaca',
+    date: '2026-10-09',
+    readingTime: '7 min',
+    quickAnswer: 'El lifting de cuello con platismoplastia une los bordes del músculo platisma en la línea media (corsé muscular), retira la grasa profunda subplatismal y suspende los tejidos hacia los lados, redefiniendo el ángulo cervicomandibular sin aspecto estirado.',
+    relatedProcedure: '/procedimientos/lifting-en-hamaca-de-mejilla-y-cuello',
+    cluster: 'lifting-facial',
+    componentName: 'LiftingCuelloPapadaPost',
+    featuredImage: '/images/blog/lifting-cuello-papada.jpg',
+    faqs: [
+        {
+                "question": "¿Por qué una liposucción simple de papada a menudo no es suficiente en adultos?",
+                "answer": "Porque la liposucción solo retira grasa superficial; si hay bandas musculares abiertas o grasa profunda bajo el platisma, se requiere platismoplastia directa."
+        },
+        {
+                "question": "¿Dónde quedan las cicatrices de un lifting de cuello?",
+                "answer": "Una pequeña incisión casi invisible bajo el mentón (en el pliegue submentoniano) y extensiones ocultas detrás de la oreja y en la línea del cabello."
+        }
+]
+  },
+  {
+    slug: 'cuanto-cuesta-retirar-implantes-senos-colombia',
+    locale: 'es',
+    title: 'Cuánto cuesta retirar implantes de senos en Colombia: factores, precios y desglose quirúrgico',
+    subtitle: 'Guía transparente de costos para la explantación mamaria, capsulectomía, mastopexia y seguridad hospitalaria en Bogotá.',
+    metaDescription: '¿Cuánto cuesta retirar implantes de senos en Colombia? Conoce el precio aproximado en Bogotá, qué incluye la cirugía y factores con el Dr. Andrés Pérez Nieto.',
+    category: 'Explantación Mamaria',
+    date: '2026-10-12',
+    readingTime: '6 min',
+    quickAnswer: 'El costo del retiro de implantes mamarios en Colombia oscila entre $14.000.000 y $24.000.000 COP (aprox. $3.500 a $6.000 USD), dependiendo de si requiere capsulectomía en bloque, mastopexia reconstructiva o lipofilling en el Santa Ana Medical Center.',
+    relatedProcedure: '/procedimientos/explantacion-mamaria',
+    cluster: 'explantacion-mamaria',
+    componentName: 'CuantoCuestaRetirarImplantesPost',
+    featuredImage: '/images/blog/cuanto-cuesta-retirar-implantes.jpg',
+    faqs: [
+        {
+                "question": "¿Por qué el retiro de implantes cuesta más que un aumento de senos simple?",
+                "answer": "Porque requiere disección meticulosa de la cápsula pegada a las costillas y remodelación compleja de la glándula para dejar un seno hermoso sin prótesis."
+        },
+        {
+                "question": "¿Qué incluye el valor total de una explantación en Bogotá?",
+                "answer": "Incluye derechos de sala de cirugía en clínica acreditada, anestesiología, honorarios quirúrgicos, patología de la cápsula y controles postoperatorios."
+        }
+]
+  },
+  {
+    slug: 'lipofilling-facial-celulas-madre-rejuvenecimiento',
+    locale: 'es',
+    title: 'Lipofilling facial con células madre: cómo restaurar el volumen perdido de forma biológica',
+    subtitle: 'Microfat, nanofat y células madre adultas: la alternativa natural y definitiva a los rellenos sintéticos repetitivos.',
+    metaDescription: '¿Pérdida de volumen o piel desvitalizada? Conoce el lipofilling facial enriquecido con células madre en Bogotá con el Dr. Andrés Pérez Nieto.',
+    category: 'Lipofilling Celular',
+    date: '2026-10-14',
+    readingTime: '7 min',
+    quickAnswer: 'El lipofilling facial extrae una pequeña cantidad de grasa propia del paciente, la purifica para concentrar células madre mesenquimales (SVF) y la injerta en capas micrométricas para recuperar volumen en pómulos, ojeras y surcos con resultados biológicos permanentes.',
+    relatedProcedure: '/procedimientos/lipofilling-celulas-madre',
+    cluster: 'procedimientos-faciales',
+    componentName: 'LipofillingCelulasMadrePost',
+    featuredImage: '/images/blog/lipofilling-celulas-madre.jpg',
+    faqs: [
+        {
+                "question": "¿El lipofilling facial es permanente o el cuerpo lo reabsorbe?",
+                "answer": "La grasa que logra vascularizarse en las primeras semanas (entre un 70% y 80%) se integra permanentemente a los tejidos del rostro de por vida."
+        },
+        {
+                "question": "¿Cuál es la diferencia entre el ácido hialurónico y la grasa autóloga?",
+                "answer": "El hialurónico es sintético y se degrada cada año; la grasa es tu propio tejido vivo con células madre que además mejora la calidad y luz de la piel."
+        }
+]
+  },
+  {
+    slug: 'lip-lift-bogota-rejuvenecimiento-labio-superior',
+    locale: 'es',
+    title: 'Lip Lift en Bogotá: rejuvenecer la sonrisa y acortar la distancia entre nariz y labio',
+    subtitle: 'La cirugía de acortamiento subnasal (Bullhorn) que proyecta el bermellón y muestra los dientes juveniles.',
+    metaDescription: '¿Espacio largo entre tu nariz y labio superior? Conoce el Lip Lift en Bogotá con el Dr. Andrés Pérez Nieto. Cicatriz invisible y sonrisa rejuvenecida.',
+    category: 'Lifting Hamaca',
+    date: '2026-10-16',
+    readingTime: '5 min',
+    quickAnswer: 'El Lip Lift o levantamiento de labio superior es una cirugía ambulatoria de 45 minutos que retira una pequeña franja de piel bajo la base de la nariz para acortar el labio blanco alargado, proyectar el bermellón rojo y mostrar los incisivos superiores al sonreír.',
+    relatedProcedure: '/procedimientos/lip-lift',
+    cluster: 'procedimientos-faciales',
+    componentName: 'LipLiftBogotaPost',
+    featuredImage: '/images/blog/lip-lift-bogota.jpg',
+    faqs: [
+        {
+                "question": "¿Dónde queda la cicatriz del Lip Lift?",
+                "answer": "La incisión tiene forma de cuerno de toro (Bullhorn) y queda perfectamente camuflada en el pliegue natural bajo las fosas nasales y la columela."
+        },
+        {
+                "question": "¿El Lip Lift reemplaza los rellenos de ácido hialurónico?",
+                "answer": "Sí, para pacientes con labio largo, el Lip Lift es la solución definitiva; rellenar un labio largo con ácido solo lo proyecta hacia adelante como 'pico de pato'."
+        }
+]
+  },
+  {
+    slug: 'cirugia-mamaria-secundaria-bogota-contractura-capsular',
+    locale: 'es',
+    title: 'Cirugía mamaria secundaria en Bogotá: corrección de asimetrías y contractura capsular',
+    subtitle: 'Cuando una mamoplastia previa falla: recambio de prótesis, bolsillos dual-plane, matrices dérmicas y rescate estético.',
+    metaDescription: '¿Dolor, asimetría o implantes duros tras una mamoplastia? Conoce la cirugía mamaria secundaria en Bogotá con el Dr. Andrés Pérez Nieto.',
+    category: 'Explantación Mamaria',
+    date: '2026-10-19',
+    readingTime: '8 min',
+    quickAnswer: 'La cirugía mamaria secundaria corrige complicaciones de operaciones anteriores: contractura capsular dolorosa (Baker III/IV), rippling, malposición o asimetrías severas mediante capsulectomía, cambio de bolsillo a plano retromuscular y recambio o retiro seguro.',
+    relatedProcedure: '/procedimientos/pexia',
+    cluster: 'explantacion-mamaria',
+    componentName: 'CirugiaMamariaSecundariaPost',
+    featuredImage: '/images/blog/cirugia-mamaria-secundaria.jpg',
+    faqs: [
+        {
+                "question": "¿Qué causa la contractura capsular y cómo se soluciona definitivamente?",
+                "answer": "La causan biopelículas bacterianas o sangrado previo que engruesan la cicatriz alrededor del implante. Se cura retirando la cápsula y cambiando el plano anatómico."
+        },
+        {
+                "question": "¿Es más compleja una cirugía mamaria secundaria que la primaria?",
+                "answer": "Sí, requiere mayor pericia quirúrgica para disecar sobre tejidos cicatriciales previos y respetar la vascularización mamaria."
+        }
+]
+  },
+  {
+    slug: 'bichectomia-vs-lifting-mejillas-afinar-rostro',
+    locale: 'es',
+    title: 'Bichectomía vs. Lifting de mejillas: qué procedimiento afina realmente tu rostro',
+    subtitle: 'Por qué retirar las bolsas de Bichat en exceso envejece prematuramente y cómo el reposicionamiento malar rejuvenece sin vaciar facciones.',
+    metaDescription: '¿Bichectomía o lifting de mejillas? Descubre cuál procedimiento afina tu rostro sin avejentarlo con el Dr. Andrés Pérez Nieto en Bogotá.',
+    category: 'Lifting Hamaca',
+    date: '2026-10-21',
+    readingTime: '6 min',
+    quickAnswer: 'La bichectomía extirpa la grasa profunda de la mejilla y está indicada solo en rostros muy redondos y jóvenes; en personas mayores de 35 años o con flacidez, el lifting de mejillas eleva los tejidos caídos sin vaciar el rostro, evitando el envejecimiento prematuro.',
+    relatedProcedure: '/procedimientos/bichectomia',
+    cluster: 'procedimientos-faciales',
+    componentName: 'BichectomiaVsLiftingMejillasPost',
+    featuredImage: '/images/blog/bichectomia-vs-lifting.jpg',
+    faqs: [
+        {
+                "question": "¿Por qué la bichectomía puede hacer que una persona luzca más vieja con los años?",
+                "answer": "Porque con la edad el rostro pierde grasa naturalmente; si se retiró la bolsa de Bichat en la juventud, la mejilla se esqueletiza y acelera la flacidez."
+        },
+        {
+                "question": "¿El lifting de mejillas afina el contorno facial?",
+                "answer": "Sí, al elevar la grasa caída hacia el pómulo, se estiliza la parte baja del rostro y se marca el ángulo mandibular sin quitar volumen necesario."
+        }
+]
+  },
+  {
+    slug: 'botox-vs-blefaroplastia-arrugas-parpados-diferencias',
+    locale: 'es',
+    title: 'Botox vs. Blefaroplastia: cuándo usar inyectables y cuándo se requiere cirugía de párpados',
+    subtitle: 'Arrugas dinámicas vs exceso de piel y bolsas grasas: la guía médica para no gastar de más en tratamientos equivocados.',
+    metaDescription: '¿Botox o blefaroplastia para tus ojos? Descubre qué procedimiento necesitas realmente con el Dr. Andrés Pérez Nieto en Bogotá. Diagnóstico médico claro.',
+    category: 'Blefaroplastia',
+    date: '2026-10-23',
+    readingTime: '6 min',
+    quickAnswer: 'El Botox relaja los músculos para atenuar arrugas de expresión (patas de gallo y entrecejo), pero no puede eliminar piel sobrante ni bolsas de grasa en los párpados; cuando hay piel caída o bolsas grasas, la blefaroplastia es el único tratamiento efectivo.',
+    relatedProcedure: '/procedimientos/blefaroplastia',
+    cluster: 'blefaroplastia',
+    componentName: 'BotoxVsBlefaroplastiaPost',
+    featuredImage: '/images/blog/botox-vs-blefaroplastia.jpg',
+    faqs: [
+        {
+                "question": "¿El Botox puede levantar los párpados caídos?",
+                "answer": "No. El Botox puede elevar levemente la cola de la ceja uno o dos milímetros, pero no retira la piel redundante que pesa sobre el párpado."
+        },
+        {
+                "question": "¿Se pueden combinar el Botox y la blefaroplastia?",
+                "answer": "Sí, es una combinación excelente: la blefaroplastia retira las bolsas y piel sobrante, y el Botox suaviza las patas de gallo a los lados de los ojos."
+        }
+]
+  },
+  {
+    slug: 'rejuvenecimiento-facial-hombres-bogota-dr-andres',
+    locale: 'es',
+    title: 'Rejuvenecimiento facial en hombres en Bogotá: naturalidad sin feminizar los rasgos',
+    subtitle: 'Lifting facial masculino, manejo de la patilla con vello, prevención de hematomas y respeto por la fuerza mandibular.',
+    metaDescription: '¿Lifting facial para hombres en Bogotá? Conoce las técnicas especializadas que respetan los rasgos masculinos con el Dr. Andrés Pérez Nieto en Santa Ana Medical Center.',
+    category: 'Lifting Hamaca',
+    date: '2026-10-25',
+    readingTime: '7 min',
+    quickAnswer: 'El rejuvenecimiento facial masculino requiere técnicas diferenciadas: cicatrices diseñadas para preservar la patilla con folículos pilosos, vectores de tracción oblicuos que respetan la mandíbula cuadrada y control riguroso de la presión para prevenir hematomas.',
+    relatedProcedure: '/procedimientos/lifting-facial-hamaca',
+    cluster: 'lifting-facial',
+    componentName: 'RejuvenecimientoFacialHombresPost',
+    featuredImage: '/images/blog/rejuvenecimiento-facial-hombres.jpg',
+    faqs: [
+        {
+                "question": "¿El lifting facial en hombres cambia las facciones masculinas?",
+                "answer": "No, si se planifica con vectores masculinos: se refuerza la línea de la mandíbula y se evitan pómulos exagerados que feminicen el rostro."
+        },
+        {
+                "question": "¿Qué pasa con la barba y la patilla después de la cirugía?",
+                "answer": "La incisión se realiza respetando la patilla para que el folículo piloso no se desplace dentro del canal del oído al afeitarse."
+        }
+]
+  },
+  {
+    slug: 'turismo-medico-cirugia-plastica-bogota-seguridad',
+    locale: 'es',
+    title: 'Turismo médico en cirugía plástica en Bogotá: guía de seguridad para pacientes internacionales',
+    subtitle: 'Cómo elegir cirujano certificado (SCCP / ISAPS), verificar clínicas acreditadas, tiempos de estadía y retorno seguro.',
+    metaDescription: '¿Planeas viajar a Colombia para tu cirugía plástica? Conoce la guía oficial de turismo médico seguro en Bogotá con el Dr. Andrés Pérez Nieto.',
+    category: 'Lifting Hamaca',
+    date: '2026-10-26',
+    readingTime: '8 min',
+    quickAnswer: 'Bogotá es uno de los destinos líderes en turismo médico del continente gracias a cirujanos plásticos miembros de SCCP e ISAPS, clínicas de cuarto nivel como Santa Ana Medical Center y protocolos internacionales de acompañamiento, con costos 60% más competitivos que en EE.UU.',
+    relatedProcedure: '/paciente-extranjero',
+    cluster: 'paciente-internacional',
+    componentName: 'TurismoMedicoBogotaPost',
+    featuredImage: '/images/blog/turismo-medico-bogota.jpg',
+    faqs: [
+        {
+                "question": "¿Cómo verificar que un cirujano plástico en Colombia está debidamente certificado?",
+                "answer": "Verificando en el registro RETHUS del Ministerio de Salud y en el directorio oficial de la Sociedad Colombiana de Cirugía Plástica (SCCP)."
+        },
+        {
+                "question": "¿Cuántos días se deben esperar antes de tomar el vuelo de regreso?",
+                "answer": "Para procedimientos faciales o mamarios se recomienda permanecer en Bogotá entre 12 y 14 días para asegurar el retiro de puntos y la autorización fit-to-fly."
+        }
+]
   }
 ];
+
 
 export function getPostBySlug(slug: string, locale: string): BlogPostMetadata | undefined {
   return blogPosts.find(post => post.slug === slug && post.locale === locale);

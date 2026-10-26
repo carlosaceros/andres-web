@@ -58,6 +58,33 @@ import BlefaroplastiaDeepPlanePost from '@/components/blog/es/BlefaroplastiaDeep
 import LipofillingPeriocularPost from '@/components/blog/es/LipofillingPeriocularPost';
 import ResultadosNaturalesBlefaroPost from '@/components/blog/es/ResultadosNaturalesBlefaroPost';
 
+
+// 24 new Sep/Oct 2026 components
+import Rinoplastia8MesesPost from '@/components/blog/es/Rinoplastia8MesesPost';
+import BlefaroplastiaBogotaGuiaPost from '@/components/blog/es/BlefaroplastiaBogotaGuiaPost';
+import RetiroImplantesBogotaPost from '@/components/blog/es/RetiroImplantesBogotaPost';
+import LiftingFacialColombiaPost from '@/components/blog/es/LiftingFacialColombiaPost';
+import PexiaDeSenosPost from '@/components/blog/es/PexiaDeSenosPost';
+import CirugiasRejuvenecimientoFacialPost from '@/components/blog/es/CirugiasRejuvenecimientoFacialPost';
+import QueEsSmasPost from '@/components/blog/es/QueEsSmasPost';
+import BlefaroplastiaSuperiorBogotaPost from '@/components/blog/es/BlefaroplastiaSuperiorBogotaPost';
+import OtoplastiaBogotaPost from '@/components/blog/es/OtoplastiaBogotaPost';
+import PexiaMamariaBogotaPost from '@/components/blog/es/PexiaMamariaBogotaPost';
+import CirugiaNarizBogotaPost from '@/components/blog/es/CirugiaNarizBogotaPost';
+import DeepPlaneColombiaPost from '@/components/blog/es/DeepPlaneColombiaPost';
+import ExplantacionSenosAsiaPost from '@/components/blog/es/ExplantacionSenosAsiaPost';
+import BlefaroplastiaTransconjuntivalPost from '@/components/blog/es/BlefaroplastiaTransconjuntivalPost';
+import PostoperatorioRinoplastiaMesAMesPost from '@/components/blog/es/PostoperatorioRinoplastiaMesAMesPost';
+import LiftingCuelloPapadaPost from '@/components/blog/es/LiftingCuelloPapadaPost';
+import CuantoCuestaRetirarImplantesPost from '@/components/blog/es/CuantoCuestaRetirarImplantesPost';
+import LipofillingCelulasMadrePost from '@/components/blog/es/LipofillingCelulasMadrePost';
+import LipLiftBogotaPost from '@/components/blog/es/LipLiftBogotaPost';
+import CirugiaMamariaSecundariaPost from '@/components/blog/es/CirugiaMamariaSecundariaPost';
+import BichectomiaVsLiftingMejillasPost from '@/components/blog/es/BichectomiaVsLiftingMejillasPost';
+import BotoxVsBlefaroplastiaPost from '@/components/blog/es/BotoxVsBlefaroplastiaPost';
+import RejuvenecimientoFacialHombresPost from '@/components/blog/es/RejuvenecimientoFacialHombresPost';
+import TurismoMedicoBogotaPost from '@/components/blog/es/TurismoMedicoBogotaPost';
+
 // en components
 import FaceliftCostEnPost from '@/components/blog/en/FaceliftCostEnPost';
 import DeepPlaneFaceliftColEnPost from '@/components/blog/en/DeepPlaneFaceliftColEnPost';
@@ -121,7 +148,33 @@ const componentMap: Record<string, React.ComponentType> = {
   // 3 new en mappings
   DeepPlaneFaceliftColEnPost,
   BreastExplantColEnPost,
-  IsSurgerySafeColEnPost
+  IsSurgerySafeColEnPost,
+
+  // Sep/Oct 2026 mappings
+  Rinoplastia8MesesPost,
+  BlefaroplastiaBogotaGuiaPost,
+  RetiroImplantesBogotaPost,
+  LiftingFacialColombiaPost,
+  PexiaDeSenosPost,
+  CirugiasRejuvenecimientoFacialPost,
+  QueEsSmasPost,
+  BlefaroplastiaSuperiorBogotaPost,
+  OtoplastiaBogotaPost,
+  PexiaMamariaBogotaPost,
+  CirugiaNarizBogotaPost,
+  DeepPlaneColombiaPost,
+  ExplantacionSenosAsiaPost,
+  BlefaroplastiaTransconjuntivalPost,
+  PostoperatorioRinoplastiaMesAMesPost,
+  LiftingCuelloPapadaPost,
+  CuantoCuestaRetirarImplantesPost,
+  LipofillingCelulasMadrePost,
+  LipLiftBogotaPost,
+  CirugiaMamariaSecundariaPost,
+  BichectomiaVsLiftingMejillasPost,
+  BotoxVsBlefaroplastiaPost,
+  RejuvenecimientoFacialHombresPost,
+  TurismoMedicoBogotaPost
 };
 
 // Define headings per post for the sticky Table of Contents
@@ -464,7 +517,440 @@ const headingsMap: Record<string, HeadingItem[]> = {
     { id: 'ojo-redondo', text: 'Evitar Ojo Redondo' },
     { id: 'cantopexia-soporte', text: 'Soporte y Cantopexia' },
     { id: 'vector-elevacion', text: 'Vector de Elevación' }
-  ]
+  ],
+  // Sep/Oct 2026 Headings
+  'rinoplastia-8-meses-postoperatorio-evolucion':   [
+      {
+          "id": "introduccion",
+          "text": "Introducción y Estado a los 8 Meses"
+      },
+      {
+          "id": "porcentaje-desinflamacion",
+          "text": "Porcentaje de Desinflamación y Edema"
+      },
+      {
+          "id": "rigidez-punta",
+          "text": "Rigidez y Asimetrías Temporales"
+      },
+      {
+          "id": "cuidados-seguimiento",
+          "text": "Cuidados y Criterios de Retoque"
+      }
+  ],
+  'blefaroplastia-bogota-guia-completa-tecnicas':   [
+      {
+          "id": "introduccion",
+          "text": "Introducción y Diagnóstico de la Mirada"
+      },
+      {
+          "id": "tecnicas-superior-inferior",
+          "text": "Blefaroplastia Superior vs Inferior"
+      },
+      {
+          "id": "prevencion-ojo-redondo",
+          "text": "Prevención de Mirada Asustada y Cantopexia"
+      },
+      {
+          "id": "recuperacion-bogota",
+          "text": "Tiempos de Recuperación y Cuidados en Bogotá"
+      }
+  ],
+  'retiro-implantes-mamarios-bogota-explantacion':   [
+      {
+          "id": "introduccion",
+          "text": "Introducción y Tendencia de la Explantación"
+      },
+      {
+          "id": "motivos-principales",
+          "text": "Motivos Médicos y Personales para el Retiro"
+      },
+      {
+          "id": "importancia-capsulectomia",
+          "text": "La Relevancia de la Capsulectomía Completa"
+      },
+      {
+          "id": "reconstruccion-estetica",
+          "text": "Reconstrucción Mamaria sin Prótesis"
+      }
+  ],
+  'lifting-facial-colombia-deep-plane-bogota':   [
+      {
+          "id": "introduccion",
+          "text": "Introducción y Posicionamiento de Colombia"
+      },
+      {
+          "id": "deep-plane-superioridad",
+          "text": "La Revolución del Plano Profundo vs SMAS Clásico"
+      },
+      {
+          "id": "seguridad-infraestructura",
+          "text": "Infraestructura Hospitalaria en Bogotá"
+      },
+      {
+          "id": "turismo-medico-experiencia",
+          "text": "Acompañamiento Integral al Paciente Internacional"
+      }
+  ],
+  'pexia-de-senos-levantamiento-sin-protesis':   [
+      {
+          "id": "introduccion",
+          "text": "Introducción y Grados de Ptosis Mamaria"
+      },
+      {
+          "id": "tecnica-autoprotensis",
+          "text": "El Colgajo Glandular Auto-Protésico"
+      },
+      {
+          "id": "cicatrices-evolucion",
+          "text": "Diseño y Evolución de las Cicatrices"
+      },
+      {
+          "id": "recuperacion-resultados",
+          "text": "Cuidados Postoperatorios y Durabilidad"
+      }
+  ],
+  'cirugias-de-rejuvenecimiento-facial-guia-edad':   [
+      {
+          "id": "introduccion",
+          "text": "Introducción: La Edad Biológica vs Cronológica"
+      },
+      {
+          "id": "decada-40",
+          "text": "A los 40 Años: Mirada y Reposición Celular"
+      },
+      {
+          "id": "decada-50",
+          "text": "A los 50 Años: Mandíbula, Cuello y Lifting Hamaca"
+      },
+      {
+          "id": "decada-60",
+          "text": "A los 60+ Años: Deep Plane y Rejuvenecimiento Estructural"
+      }
+  ],
+  'que-es-el-smas-cirugia-facial-natural':   [
+      {
+          "id": "introduccion",
+          "text": "Introducción y Definición Anatómica del SMAS"
+      },
+      {
+          "id": "piel-vs-smas",
+          "text": "La Piel no Sostiene: La Falacia del Estiramiento Cutáneo"
+      },
+      {
+          "id": "vectores-hamaca",
+          "text": "Vectores de Tracción y la Técnica Hamaca"
+      },
+      {
+          "id": "longevidad-resultados",
+          "text": "Durabilidad y Conservación de la Mímica Facial"
+      }
+  ],
+  'blefaroplastia-superior-bogota-parpados-pesados':   [
+      {
+          "id": "introduccion",
+          "text": "Introducción y Signos de Párpados Caídos"
+      },
+      {
+          "id": "procedimiento-paso-a-paso",
+          "text": "El Procedimiento Quirúrgico en 45 Minutos"
+      },
+      {
+          "id": "dermatocalasis-vs-ptosis",
+          "text": "Dermatocalasis vs Ptosis Palpebral Verdadera"
+      },
+      {
+          "id": "postoperatorio-inmediato",
+          "text": "Recuperación y Retiro de Puntos al 5° Día"
+      }
+  ],
+  'otoplastia-bogota-cirugia-orejas-aladas':   [
+      {
+          "id": "introduccion",
+          "text": "Introducción y Repercusión Emocional"
+      },
+      {
+          "id": "anatomia-defecto",
+          "text": "Anatomía de las Orejas en Asa o Prominentes"
+      },
+      {
+          "id": "tecnica-mustarde-furnas",
+          "text": "La Técnica Quirúrgica de Plegado y Fijación"
+      },
+      {
+          "id": "recuperacion-banda",
+          "text": "Postoperatorio y Uso de la Balaca Protectora"
+      }
+  ],
+  'pexia-mamaria-bogota-tecnicas-mastopexia':   [
+      {
+          "id": "introduccion",
+          "text": "Introducción y Valoración Clínica"
+      },
+      {
+          "id": "con-vs-sin-protesis",
+          "text": "¿Mastopexia con Implantes o con Tejido Propio?"
+      },
+      {
+          "id": "patrones-incisiones",
+          "text": "Patrones de Incisión: Periareolar, Vertical y T Invertida"
+      },
+      {
+          "id": "preservacion-lactancia",
+          "text": "Sensibilidad y Preservación de la Función Mamaria"
+      }
+  ],
+  'cirugia-de-nariz-bogota-rinoplastia-moderna':   [
+      {
+          "id": "introduccion",
+          "text": "Introducción y Filosofía de la Nariz Natural"
+      },
+      {
+          "id": "mitos-vs-verdades",
+          "text": "Mitos vs Verdades de la Rinoplastia Actual"
+      },
+      {
+          "id": "estetica-y-funcion",
+          "text": "Armonía Estética y Función Respiratoria Inseparable"
+      },
+      {
+          "id": "tecnologias-preservacion",
+          "text": "Preservación Dorsal e Instrumental de Precisión"
+      }
+  ],
+  'deep-plane-facelift-colombia-dr-andres-perez':   [
+      {
+          "id": "introduccion",
+          "text": "Introducción y Filosofía del Plano Profundo"
+      },
+      {
+          "id": "liberacion-ligamentos",
+          "text": "La Clave Médica: Liberación de los Ligamentos Retenedores"
+      },
+      {
+          "id": "metodo-hamaca-profundo",
+          "text": "El Método Hamaca y la Reconstrucción Cervical"
+      },
+      {
+          "id": "durabilidad-seguridad",
+          "text": "Durabilidad de 15 Años y Seguridad Anatómica"
+      }
+  ],
+  'explantacion-de-senos-bogota-sindrome-asia':   [
+      {
+          "id": "introduccion",
+          "text": "Introducción y Comprensión del Síndrome de ASIA"
+      },
+      {
+          "id": "sintomas-criterios",
+          "text": "Criterios Diagnósticos de Shoenfeld y Síntomas"
+      },
+      {
+          "id": "capsulectomia-en-bloque",
+          "text": "La Técnica Quirúrgica En-Bloc vs Total"
+      },
+      {
+          "id": "recuperacion-salud",
+          "text": "Evolución Clínica y Desintoxicación Biológica"
+      }
+  ],
+  'blefaroplastia-transconjuntival-sin-cicatriz-bolsas':   [
+      {
+          "id": "introduccion",
+          "text": "Introducción y Ventajas del Abordaje Interno"
+      },
+      {
+          "id": "candidato-ideal",
+          "text": "¿Quién es el Candidato Perfecto para esta Técnica?"
+      },
+      {
+          "id": "transposicion-grasa-ojera",
+          "text": "Transposición Grasa para Rellenar el Surco Lagrimal"
+      },
+      {
+          "id": "recuperacion-sin-marcas",
+          "text": "Postoperatorio Cómodo y Sin Cicatrices"
+      }
+  ],
+  'postoperatorio-rinoplastia-mes-a-mes-guia-completa':   [
+      {
+          "id": "introduccion",
+          "text": "Introducción y Fases de la Cicatrización Nasal"
+      },
+      {
+          "id": "semana-1-a-4",
+          "text": "Del Día 1 al Primer Mes: Retiro de Férula y Primeros Cambios"
+      },
+      {
+          "id": "mes-2-a-6",
+          "text": "De los 2 a los 6 Meses: Desinflamación del Dorso y Movilidad"
+      },
+      {
+          "id": "mes-8-a-12",
+          "text": "De los 8 a los 12 Meses: Afinamiento Definitivo de la Punta"
+      }
+  ],
+  'lifting-cuello-papada-platismoplastia-bogota':   [
+      {
+          "id": "introduccion",
+          "text": "Introducción y Anatomía del Envejecimiento Cervical"
+      },
+      {
+          "id": "grasa-superficial-vs-profunda",
+          "text": "Grasa Preplatismal vs Grasa Subplatismal Profunda"
+      },
+      {
+          "id": "corse-platismoplastia",
+          "text": "Platismoplastia en Corsé y Suspensión Lateral"
+      },
+      {
+          "id": "recuperacion-resultados",
+          "text": "Recuperación, Fajas Mentoneras y Resultados"
+      }
+  ],
+  'cuanto-cuesta-retirar-implantes-senos-colombia':   [
+      {
+          "id": "introduccion",
+          "text": "Introducción y Rangos de Precios en Colombia"
+      },
+      {
+          "id": "factores-costo",
+          "text": "¿Qué Factores Determinan el Costo de la Cirugía?"
+      },
+      {
+          "id": "que-incluye-presupuesto",
+          "text": "Desglose Transparente: Qué Debe Incluir el Presupuesto"
+      },
+      {
+          "id": "seguridad-ahorro",
+          "text": "La Seguridad del Paciente: Por Qué lo Barato Sale Caro"
+      }
+  ],
+  'lipofilling-facial-celulas-madre-rejuvenecimiento':   [
+      {
+          "id": "introduccion",
+          "text": "Introducción y Pérdida Volumétrica Facial"
+      },
+      {
+          "id": "ciencia-celulas-madre",
+          "text": "La Ciencia de las Células Madre Mesenquimales (SVF)"
+      },
+      {
+          "id": "microfat-vs-nanofat",
+          "text": "Microfat para Volumen vs Nanofat para la Calidad de Piel"
+      },
+      {
+          "id": "durabilidad-seguridad",
+          "text": "Integración Tisular y Durabilidad Permanente"
+      }
+  ],
+  'lip-lift-bogota-rejuvenecimiento-labio-superior':   [
+      {
+          "id": "introduccion",
+          "text": "Introducción y el Envejecimiento del Labio Superior"
+      },
+      {
+          "id": "tecnica-bullhorn",
+          "text": "La Técnica Subnasal Bullhorn y Cicatriz Oculta"
+      },
+      {
+          "id": "lip-lift-vs-rellenos",
+          "text": "Lip Lift vs Rellenos: Por Qué Menos es Más"
+      },
+      {
+          "id": "recuperacion-sonrisa",
+          "text": "Recuperación, Puntos y Exposición Dental Juvenil"
+      }
+  ],
+  'cirugia-mamaria-secundaria-bogota-contractura-capsular':   [
+      {
+          "id": "introduccion",
+          "text": "Introducción y Desafíos de la Cirugía Secundaria"
+      },
+      {
+          "id": "contractura-capsular-grados",
+          "text": "Grados de Contractura Capsular y Síntomas"
+      },
+      {
+          "id": "cambio-bolsillo-dual-plane",
+          "text": "Cambio de Bolsillo al Plano Dual-Plane"
+      },
+      {
+          "id": "matrices-injertos-rescate",
+          "text": "Refuerzo Tisular y Recuperación Exitosa"
+      }
+  ],
+  'bichectomia-vs-lifting-mejillas-afinar-rostro':   [
+      {
+          "id": "introduccion",
+          "text": "Introducción y el Auge de la Bichectomía"
+      },
+      {
+          "id": "anatomia-bolsa-bichat",
+          "text": "La Bolsa Grasa de Bichat y su Función de Soporte"
+      },
+      {
+          "id": "riesgos-envejecimiento",
+          "text": "El Peligro del 'Rostro Cadavérico' a Mediano Plazo"
+      },
+      {
+          "id": "lifting-mejillas-solucion",
+          "text": "El Lifting de Mejillas como Alternativa Fisiológica"
+      }
+  ],
+  'botox-vs-blefaroplastia-arrugas-parpados-diferencias':   [
+      {
+          "id": "introduccion",
+          "text": "Introducción y Confusiones Habituales"
+      },
+      {
+          "id": "arrugas-dinamicas-vs-estaticas",
+          "text": "Arrugas Dinámicas (Botox) vs Flacidez de Piel (Cirugía)"
+      },
+      {
+          "id": "peligro-sobreinyectar",
+          "text": "El Peligro de Sobreinyectar la Zona Periocular"
+      },
+      {
+          "id": "sinergia-tratamientos",
+          "text": "Cómo Combinar Ambos Métodos para una Mirada Radiante"
+      }
+  ],
+  'rejuvenecimiento-facial-hombres-bogota-dr-andres':   [
+      {
+          "id": "introduccion",
+          "text": "Introducción y el Auge de la Cirugía Masculina"
+      },
+      {
+          "id": "diferencias-anatomicas",
+          "text": "Diferencias Anatómicas Clave: Piel, Barba y Vascularización"
+      },
+      {
+          "id": "diseno-patilla-cicatrices",
+          "text": "Preservación de la Patilla y Cicatrices Camufladas"
+      },
+      {
+          "id": "vectores-masculinos",
+          "text": "Vectores de Tracción y Fuerza Mandibular"
+      }
+  ],
+  'turismo-medico-cirugia-plastica-bogota-seguridad':   [
+      {
+          "id": "introduccion",
+          "text": "Introducción y el Liderazgo Médico de Bogotá"
+      },
+      {
+          "id": "verificacion-credenciales",
+          "text": "Cómo Verificar Credenciales Médicas (RETHUS y SCCP)"
+      },
+      {
+          "id": "clinicas-acreditadas",
+          "text": "La Importancia de Clínicas de Cuarto Nivel"
+      },
+      {
+          "id": "cronograma-viaje-seguro",
+          "text": "Cronograma de Viaje, Estadía y Regreso Fit-to-Fly"
+      }
+  ],
 };
 
 export async function generateStaticParams() {
