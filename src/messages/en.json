@@ -450,6 +450,9 @@
     "meta_description": "Learn about the science of natural facial rejuvenation, the Hammock Lift, and deep plane surgery with Dr. Andrés Pérez Nieto.",
     "search_placeholder": "Search articles...",
     "category_label": "Categories",
+    "sort_label": "Sort by",
+    "sort_recent": "Most recent first",
+    "sort_oldest": "Oldest first",
     "no_results": "No articles found matching your search.",
     "clear_filters": "Clear filters",
     "posts": {

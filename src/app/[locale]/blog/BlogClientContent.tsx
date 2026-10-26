@@ -16,6 +16,7 @@ export default function BlogClientContent({ locale }: BlogClientContentProps) {
 
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState(locale === 'es' ? 'Todos' : 'All');
+  const [sortOrder, setSortOrder] = useState<'recent' | 'oldest'>('recent');
 
   // Extract unique categories dynamically
   const categories = useMemo(() => {
@@ -23,9 +24,9 @@ export default function BlogClientContent({ locale }: BlogClientContentProps) {
     return [locale === 'es' ? 'Todos' : 'All', ...uniqueCats];
   }, [posts, locale]);
 
-  // Filter posts based on search and category selections
+  // Filter and sort posts based on search, category selections, and date
   const filteredPosts = useMemo(() => {
-    return posts.filter(post => {
+    const filtered = posts.filter(post => {
       const matchesSearch = 
         post.title.toLowerCase().includes(searchQuery.toLowerCase()) || 
         post.subtitle.toLowerCase().includes(searchQuery.toLowerCase()) || 
@@ -38,7 +39,13 @@ export default function BlogClientContent({ locale }: BlogClientContentProps) {
       
       return matchesSearch && matchesCategory;
     });
-  }, [posts, searchQuery, selectedCategory]);
+
+    return [...filtered].sort((a, b) => {
+      const timeA = new Date(a.date).getTime();
+      const timeB = new Date(b.date).getTime();
+      return sortOrder === 'recent' ? timeB - timeA : timeA - timeB;
+    });
+  }, [posts, searchQuery, selectedCategory, sortOrder]);
 
   const formatDate = (dateString: string) => {
     return new Date(dateString).toLocaleDateString(locale === 'es' ? 'es-ES' : 'en-US', {
@@ -51,6 +58,7 @@ export default function BlogClientContent({ locale }: BlogClientContentProps) {
   const handleClearFilters = () => {
     setSearchQuery('');
     setSelectedCategory(locale === 'es' ? 'Todos' : 'All');
+    setSortOrder('recent');
   };
 
   return (
@@ -68,29 +76,60 @@ export default function BlogClientContent({ locale }: BlogClientContentProps) {
         </div>
       </section>
 
-      {/* Filter and Search controls */}
+      {/* Filter, Search and Sort controls */}
       <section className="bg-white border-b border-gray-100 py-8">
         <div className="container mx-auto px-6 max-w-7xl font-sansation">
-          <div className="flex flex-col md:flex-row gap-6 justify-between items-center">
-            {/* Search Bar */}
-            <div className="relative w-full md:max-w-md">
-              <input
-                type="text"
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                placeholder={t('search_placeholder')}
-                className="w-full pl-12 pr-4 py-3 bg-gray-50 border border-gray-200 rounded-2xl focus:outline-none focus:ring-2 focus:ring-blue-900/20 focus:border-blue-900 text-gray-800 placeholder-gray-400 transition-all shadow-sm"
-              />
-              <span className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400">
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                </svg>
-              </span>
+          <div className="flex flex-col lg:flex-row gap-6 justify-between items-stretch lg:items-center">
+            {/* Search and Sort Row */}
+            <div className="flex flex-col sm:flex-row gap-3 w-full lg:max-w-xl">
+              {/* Search Bar */}
+              <div className="relative flex-1">
+                <input
+                  type="text"
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                  placeholder={t('search_placeholder')}
+                  className="w-full pl-12 pr-4 py-3 bg-gray-50 border border-gray-200 rounded-2xl focus:outline-none focus:ring-2 focus:ring-blue-900/20 focus:border-blue-900 text-gray-800 placeholder-gray-400 transition-all shadow-sm text-sm"
+                />
+                <span className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400">
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                  </svg>
+                </span>
+              </div>
+
+              {/* Sort Order Selector */}
+              <div className="relative min-w-[210px]">
+                <label htmlFor="sort-order" className="sr-only">
+                  {t('sort_label')}
+                </label>
+                <div className="relative">
+                  <select
+                    id="sort-order"
+                    value={sortOrder}
+                    onChange={(e) => setSortOrder(e.target.value as 'recent' | 'oldest')}
+                    className="w-full py-3 pl-10 pr-9 bg-gray-50 border border-gray-200 rounded-2xl focus:outline-none focus:ring-2 focus:ring-blue-900/20 focus:border-blue-900 text-sm font-bold text-blue-950 cursor-pointer shadow-sm appearance-none transition-all"
+                  >
+                    <option value="recent">{t('sort_recent')}</option>
+                    <option value="oldest">{t('sort_oldest')}</option>
+                  </select>
+                  <span className="absolute left-3.5 top-1/2 -translate-y-1/2 pointer-events-none text-blue-900">
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 4h13M3 8h9m-9 4h6m4 0l4-4m0 0l4 4m-4-4v12" />
+                    </svg>
+                  </span>
+                  <span className="absolute right-3.5 top-1/2 -translate-y-1/2 pointer-events-none text-gray-400">
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </span>
+                </div>
+              </div>
             </div>
 
             {/* Category Filter Label & list */}
-            <div className="flex flex-wrap gap-2 justify-center md:justify-end items-center">
-              <span className="text-sm font-bold text-blue-950 mr-2 hidden lg:inline">
+            <div className="flex flex-wrap gap-2 justify-center lg:justify-end items-center">
+              <span className="text-sm font-bold text-blue-950 mr-2 hidden xl:inline">
                 {t('category_label')}:
               </span>
               {categories.map((cat) => (

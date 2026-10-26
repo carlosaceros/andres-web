@@ -1921,6 +1921,9 @@
     "meta_description": "Aprende sobre la ciencia del rejuvenecimiento facial natural, el Método Hamaca® y cirugía de plano profundo con el Dr. Andrés Pérez Nieto.",
     "search_placeholder": "Buscar artículos...",
     "category_label": "Categorías",
+    "sort_label": "Ordenar por",
+    "sort_recent": "Más recientes primero",
+    "sort_oldest": "Más antiguos primero",
     "no_results": "No se encontraron artículos que coincidan con tu búsqueda.",
     "clear_filters": "Limpiar filtros",
     "posts": {
